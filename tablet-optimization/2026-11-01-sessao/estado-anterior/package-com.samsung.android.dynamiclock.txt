@@ -1,0 +1,262 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      dynamic.intent.action.WALLPAPER_SERVICES_ACTIVITY:
+        ddc7220 com.samsung.android.dynamiclock/.presentation.settings.main.wallpaperservices.WallpaperServicesSettingsActivity filter 66287d9
+          Action: "dynamic.intent.action.WALLPAPER_SERVICES_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.DOWNLOAD_WALLPAPER:
+        82e259e com.samsung.android.dynamiclock/.presentation.settings.main.purchase.PurchaseWallpaperActivity filter 150587f
+          Action: "dynamic.intent.action.DOWNLOAD_WALLPAPER"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.FRESH_PACK_SETTINGS:
+        93b4a76 com.samsung.android.dynamiclock/.presentation.settings.dls.DlsSettingsActivity filter c32d877
+          Action: "dynamic.intent.action.FRESH_PACK_SETTINGS"
+          Action: "dynamic.intent.action.DLS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.DYNAMIC_LOCK_SETTINGS:
+        3926538 com.samsung.android.dynamiclock/.presentation.settings.main.SettingsActivity filter 17c5911
+          Action: "dynamic.intent.action.DYNAMIC_LOCK_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.ABOUT:
+        b66904c com.samsung.android.dynamiclock/.presentation.settings.about.AboutDynamicLockActivity filter 16ac895
+          Action: "dynamic.intent.action.ABOUT"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.SHOW_ABOUT_WEBVIEW:
+        bd2fdaa com.samsung.android.dynamiclock/.presentation.settings.about.AboutWebViewActivity filter d9bfd9b
+          Action: "dynamic.intent.action.SHOW_ABOUT_WEBVIEW"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.DLS_SHOW_TEST_MODE_MONITOR:
+        2a49ce4 com.samsung.android.dynamiclock/.presentation.testmode.dls.FreshPackStateMonitorActivity filter 43c754d
+          Action: "dynamic.intent.action.DLS_SHOW_TEST_MODE_MONITOR"
+          Category: "android.intent.category.DEFAULT"
+      dynamic.intent.action.DLS_SETTINGS:
+        93b4a76 com.samsung.android.dynamiclock/.presentation.settings.dls.DlsSettingsActivity filter c32d877
+          Action: "dynamic.intent.action.FRESH_PACK_SETTINGS"
+          Action: "dynamic.intent.action.DLS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        57d324e com.samsung.android.dynamiclock/.domain.interact.PackageRemoveReceiver filter 1f65f6f
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+          Ssp: "PatternMatcher{LITERAL: com.samsung.systemui.lockstar}"
+        57d324e com.samsung.android.dynamiclock/.domain.interact.PackageRemoveReceiver filter 5d4a47c
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Scheme: "package"
+          Ssp: "PatternMatcher{LITERAL: com.samsung.systemui.lockstar}"
+
+  Non-Data Actions:
+      com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE:
+        280a350 com.samsung.android.dynamiclock/.presentation.notifier.presenter.DeviceSetupCompletedReceiver filter 2681949
+          Action: "com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"
+      com.samsung.sea.rm.DEMO_RESET_STARTED:
+        9900105 com.samsung.android.dynamiclock/.domain.interact.RetailResetReceiver filter 17e255a
+          Action: "com.samsung.sea.rm.DEMO_RESET_STARTED"
+      dynamic.intent.action.SETUP_AGREED:
+        99802 com.samsung.android.dynamiclock/.presentation.notifier.presenter.SetupAgreedReceiver filter 3f28513
+          Action: "dynamic.intent.action.SETUP_AGREED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.samsung.systemui.action.PLUGIN_LOCK:
+        594a881 com.samsung.android.dynamiclock/.plugin.SggLockPluginImpl filter 693d26
+          Action: "com.samsung.systemui.action.PLUGIN_LOCK"
+        ed4cd67 com.samsung.android.dynamiclock/.plugin.DynamicLockPluginImpl filter bdb0714
+          Action: "com.samsung.systemui.action.PLUGIN_LOCK"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.intent.action.SCENE:
+        fb3838b com.samsung.android.dynamiclock/.domain.interact.SettingsEpisodeProvider filter a058c68
+          Action: "com.samsung.android.intent.action.SCENE"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.dynamiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (694e4a9):
+    sourcePackage=com.samsung.android.dynamiclock
+    uid=10103 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ec70a2e com.samsung.android.dynamiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.dynamiclock/com.sec.android.diagmonagent.log.provider.DiagMonProvider:
+    Provider{d6d89cf com.samsung.android.dynamiclock/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+  com.samsung.android.dynamiclock/androidx.startup.InitializationProvider:
+    Provider{cbaef5c com.samsung.android.dynamiclock/androidx.startup.InitializationProvider}
+  com.samsung.android.dynamiclock/.domain.interact.SettingsEpisodeProvider:
+    Provider{fb3838b com.samsung.android.dynamiclock/.domain.interact.SettingsEpisodeProvider}
+  com.samsung.android.dynamiclock/androidx.core.content.FileProvider:
+    Provider{dae2265 com.samsung.android.dynamiclock/androidx.core.content.FileProvider}
+  com.samsung.android.dynamiclock/.data.provider.DynamicLockProvider:
+    Provider{bd9b3a com.samsung.android.dynamiclock/.data.provider.DynamicLockProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.dynamiclock.androidx-startup]:
+    Provider{cbaef5c com.samsung.android.dynamiclock/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ee2f3eb com.samsung.android.dynamiclock}
+  [com.sec.android.log.4F5-399-564949]:
+    Provider{d6d89cf com.samsung.android.dynamiclock/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+      applicationInfo=ApplicationInfo{fb5a548 com.samsung.android.dynamiclock}
+  [com.samsung.android.dynamiclock.domain.interact.SettingsEpisodeProvider]:
+    Provider{fb3838b com.samsung.android.dynamiclock/.domain.interact.SettingsEpisodeProvider}
+      applicationInfo=ApplicationInfo{6637fe1 com.samsung.android.dynamiclock}
+  [com.samsung.android.dynamiclock.fileprovider]:
+    Provider{dae2265 com.samsung.android.dynamiclock/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{25a3106 com.samsung.android.dynamiclock}
+  [com.samsung.android.dynamiclock.provider]:
+    Provider{bd9b3a com.samsung.android.dynamiclock/.data.provider.DynamicLockProvider}
+      applicationInfo=ApplicationInfo{bfae3c7 com.samsung.android.dynamiclock}
+
+Key Set Manager:
+  [com.samsung.android.dynamiclock]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.dynamiclock] (e23cdf4):
+    appId=10103
+    pkg=Package{cb7391d com.samsung.android.dynamiclock}
+    codePath=/system/priv-app/DynamicLockscreen
+    resourcePath=/system/priv-app/DynamicLockscreen
+    legacyNativeLibraryDir=/system/priv-app/DynamicLockscreen/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=340147100 minSdk=30 targetSdk=33
+    minExtensionVersions=[]
+    versionName=3.4.01.47
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[SamsungUX.DW.FreshP01.wallpapermulti, SamsungUX.DW.FreshP02.wallpapermulti, SamsungUX.DW.FreshP03.wallpapermulti, SamsungUX.DW.FreshP04.wallpapermulti, SamsungUX.DW.FreshP05.wallpapermulti, SamsungUX.DW.FreshP06.wallpapermulti, SamsungUX.DW.FreshP07.wallpapermulti, SamsungUX.DW.FreshP08.wallpapermulti, SamsungUX.DW.FreshP09.wallpapermulti, SamsungUX.DW.FreshP10.wallpapermulti, SamsungUX.DW.FreshP11.wallpapermulti, SamsungUX.DW.FreshP12.wallpapermulti, SamsungUX.DW.FreshP13.wallpapermulti, SamsungUX.DW.FreshP14.wallpapermulti, SamsungUX.DW.FreshP15.wallpapermulti, com.android.systemui, com.samsung.sree, com.samsung.systemui.lockstar, com.samsung.android.themecenter, com.samsung.android.thememanager, com.samsung.android.app.dressroom, com.samsung.android.app.aodservice, com.samsung.android.app.clockpack, com.samsung.android.voc, com.samsung.android.deviceidservice, com.sec.android.app.samsungapps, com.sec.android.app.sbrowser, com.whatsapp]
+    dataDir=/data/user/0/com.samsung.android.dynamiclock
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesNativeLibraries:
+      libsmart_cropping.camera.samsung.so
+      libFacePreProcessing_jni.camera.samsung.so
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      libsmart_cropping.camera.samsung.so
+      libFacePreProcessing_jni.camera.samsung.so
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{6d85792 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.dynamiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.samsung.systemui.permission.SPLUGIN
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WAKE_LOCK
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.samsung.android.mfi.UPDATE_WIDGET
+      com.sec.spp.permission.TOKEN_cd71f9619078e323838a610ca090bed3b73f07a3de219d9ef87c57d31b85816f7a465527c5f07914182743c942b000bb86779706a293bef55f077d34b80971d340ed45edd2c30f85bf162dc2eea99e86b06e1e5ca7178ea1235e780d2c39ccd2424ae8abb5bd8d47df895896f549bf15922390e52c85aaf9526e86530efc79e6
+      com.samsung.android.permission.MODIFY_THEME
+      com.samsung.contacts.permission.THEME
+      com.sec.android.diagmonagent.permission.DIAGMON
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.samsung.systemui.permission.KEYGUARD_IMAGE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.INSTALL_SELF_UPDATES
+      android.permission.MANAGE_ACTIVITY_STACKS
+      com.samsung.sea.retailagent.permission.RETAILMODE
+      android.permission.VIBRATE
+      com.samsung.android.dynamiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.permission.MODIFY_THEME: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.samsung.android.dynamiclock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.INSTALL_SELF_UPDATES: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.MANAGE_ACTIVITY_STACKS: granted=true
+      com.samsung.systemui.permission.SPLUGIN: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.systemui.permission.KEYGUARD_IMAGE: granted=true
+    User 0: ceDataInode=4913 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.dynamiclock
+  queries via package name:
+    com.samsung.android.dynamiclock:
+      com.sec.android.app.samsungapps
+      com.sec.android.app.sbrowser
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.samsung.android.dynamiclock
+      com.samsung.android.dynamiclock:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+  queryable via uses-library:
+
+Dexopt state:
+  [com.samsung.android.dynamiclock]
+    path: /system/priv-app/DynamicLockscreen/DynamicLockscreen.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@priv-app@DynamicLockscreen@DynamicLockscreen.apk@classes.vdex]
+      used by other apps: [com.android.systemui (isa=arm64)]
+
+Compiler stats:
+  [com.samsung.android.dynamiclock]
+     DynamicLockscreen.apk - 1971
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

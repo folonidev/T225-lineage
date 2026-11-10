@@ -1,0 +1,2 @@
+Filesystem            Size Used Avail Use% Mounted on
+/dev/block/mmcblk0p51  22G 1.9G   20G   9% /system/product/overlay/TaskbarTranslucentIOS/TaskbarTranslucentIOS.apk

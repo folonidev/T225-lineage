@@ -1,0 +1,121 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        cec00d7 com.android.dreams.phototable/.PhotoTableDreamSettings filter 6080dc4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        f37c4ad com.android.dreams.phototable/.FlipperDreamSettings filter 379a3e2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_SCREEN_SAVER:
+        d85d373 com.android.dreams.phototable/.backuprestore.BackupRestoreReceiver filter 65a4230
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.RESPONSE_VERIFY_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_SCREEN_SAVER"
+      com.samsung.android.intent.action.RESPONSE_VERIFY_PHOTO_SCREEN_SAVER:
+        d85d373 com.android.dreams.phototable/.backuprestore.BackupRestoreReceiver filter 65a4230
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.RESPONSE_VERIFY_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_SCREEN_SAVER"
+      com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_SCREEN_SAVER:
+        d85d373 com.android.dreams.phototable/.backuprestore.BackupRestoreReceiver filter 65a4230
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.RESPONSE_VERIFY_PHOTO_SCREEN_SAVER"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_SCREEN_SAVER"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.dreams.DreamService:
+        5b8fea9 com.android.dreams.phototable/.PhotoTableDream filter d121c2e permission android.permission.BIND_DREAM_SERVICE
+          Action: "android.service.dreams.DreamService"
+          Category: "android.intent.category.DEFAULT"
+        ee033cf com.android.dreams.phototable/.FlipperDream filter 659515c permission android.permission.BIND_DREAM_SERVICE
+          Action: "android.service.dreams.DreamService"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.android.dreams.phototable]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.android.dreams.phototable] (9daead3):
+    appId=10166
+    pkg=Package{7f47610 com.android.dreams.phototable}
+    codePath=/system/app/PhotoTable
+    resourcePath=/system/app/PhotoTable
+    legacyNativeLibraryDir=/system/app/PhotoTable/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=34 minSdk=34 targetSdk=34
+    minExtensionVersions=[]
+    versionName=14
+    usesNonSdkApi=true
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.android.dreams.phototable
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{f6f5509 version:3, signatures:[1d7faccb], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.WAKE_LOCK
+      com.google.android.gallery3d.permission.PICASA_STORE
+    install permissions:
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=5096 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.READ_MEDIA_IMAGES: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.android.dreams.phototable]
+    path: /system/app/PhotoTable/PhotoTable.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@PhotoTable@PhotoTable.apk@classes.vdex]
+
+Compiler stats:
+  [com.android.dreams.phototable]
+     PhotoTable.apk - 898
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

@@ -1,0 +1,7 @@
+Starting: Intent { act=android.intent.action.VIEW dat=https://example.com/... pkg=org.lineageos.jelly }
+Status: ok
+LaunchState: COLD
+Activity: org.lineageos.jelly/.MainActivity
+TotalTime: 2208
+WaitTime: 2215
+Complete

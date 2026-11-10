@@ -1,0 +1,19 @@
+﻿Current WebView Update Service state
+  Multiprocess enabled: true
+  Current WebView package (name, version): (com.android.webview, 149.0.7827.114)
+  Minimum targetSdkVersion: 33
+  Minimum WebView version code: 782711401
+  Number of relros started: 2
+  Number of relros finished: 2
+  WebView package dirty: false
+  Any WebView package installed: true
+  Preferred WebView package (name, version): (com.android.webview, 149.0.7827.114)
+  WebView packages:
+    com.google.android.webview is NOT installed.
+    com.google.android.webview.beta is NOT installed.
+    com.google.android.webview.dev is NOT installed.
+    com.google.android.webview.canary is NOT installed.
+    com.google.android.webview.debug is NOT installed.
+    Valid package com.android.webview (versionName: 149.0.7827.114, versionCode: 782711401, targetSdkVersion: 36) is  installed/enabled for all users
+    org.bromite.webview is NOT installed.
+    us.spotco.mulch_wv is NOT installed.

@@ -1,0 +1,545 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/x-ogg:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/ogg:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/*:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      vnd.android.cursor.dir/artists:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+      vnd.android.cursor.dir/albums:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+      vnd.android.cursor.dir/playlist:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+      application/itunes:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+      application:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      audio:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      file:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      http:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      content:
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      org.lineageos.eleven.AUDIO_PLAYER:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter d1263b
+          Action: "org.lineageos.eleven.AUDIO_PLAYER"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter d9f5835
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MUSIC_PLAYER:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter d9f5835
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.MUSIC_PLAYER"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.APP_MUSIC"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        69b1a6c org.lineageos.eleven/.ui.activities.HomeActivity filter 7b6e4ca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/playlist"
+          StaticType: "vnd.android.cursor.dir/albums"
+          StaticType: "vnd.android.cursor.dir/artists"
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 1fa42b1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter dc68396
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        f557158 org.lineageos.eleven/.ui.activities.preview.AudioPreviewActivity filter 5a1eb17
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          StaticType: "audio"
+          StaticType: "application/ogg"
+          StaticType: "application/x-ogg"
+          StaticType: "application/itunes"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        c3a147a org.lineageos.eleven/androidx.profileinstaller.ProfileInstallReceiver filter 2b03a21
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.LOCALE_CHANGED:
+        2cff69c org.lineageos.eleven/.locale.LocaleChangeReceiver filter 857b8a5
+          Action: "android.intent.action.LOCALE_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        c3a147a org.lineageos.eleven/androidx.profileinstaller.ProfileInstallReceiver filter 754142b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        c3a147a org.lineageos.eleven/androidx.profileinstaller.ProfileInstallReceiver filter 133e088
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        c3a147a org.lineageos.eleven/androidx.profileinstaller.ProfileInstallReceiver filter d44fe46
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        65c4b04 org.lineageos.eleven/.appwidgets.AppWidgetSmall filter d3f58ed
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        55f4322 org.lineageos.eleven/.appwidgets.AppWidgetLarge filter e5021b3
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        5d51370 org.lineageos.eleven/.appwidgets.AppWidgetLargeAlternate filter 4596e9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MEDIA_BUTTON:
+        2d26f6e org.lineageos.eleven/.MediaButtonIntentReceiver filter ea1260f
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.media.browse.MediaBrowserService:
+        bfdc807 org.lineageos.eleven/.MusicPlaybackService filter a6a7d34
+          Action: "android.media.browse.MediaBrowserService"
+
+Domain verification status:
+
+Permissions:
+  Permission [org.lineageos.eleven.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (3cb5e44):
+    sourcePackage=org.lineageos.eleven
+    uid=10144 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e80b2d org.lineageos.eleven.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  org.lineageos.eleven/androidx.startup.InitializationProvider:
+    Provider{802a862 org.lineageos.eleven/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [org.lineageos.eleven.androidx-startup]:
+    Provider{802a862 org.lineageos.eleven/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{63bbdf3 org.lineageos.eleven}
+
+Key Set Manager:
+  [org.lineageos.eleven]
+      Signing KeySets: 1
+
+Packages:
+  Package [org.lineageos.eleven] (8421ab0):
+    appId=10144
+    pkg=Package{c672d29 org.lineageos.eleven}
+    codePath=/system/product/priv-app/Eleven
+    resourcePath=/system/product/priv-app/Eleven
+    legacyNativeLibraryDir=/system/product/priv-app/Eleven/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=420 minSdk=34 targetSdk=31
+    minExtensionVersions=[]
+    versionName=4.2.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_TASK_REPARENTING ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/org.lineageos.eleven
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 22:00:00
+    lastUpdateTime=2008-12-31 22:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{e66e8ae version:3, signatures:[50c45f70], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_TASK_REPARENTING ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      org.lineageos.eleven.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.WAKE_LOCK
+      android.permission.BROADCAST_STICKY
+      android.permission.READ_PHONE_STATE
+      android.permission.WRITE_SETTINGS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_MEDIA_STORAGE
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      org.lineageos.eleven.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.POST_NOTIFICATIONS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      org.lineageos.eleven.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=2355 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 22:00:00
+      uninstallReason=0
+      overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /data/resource-cache/com.android.systemui-neutral-46cI.frro
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+        /data/resource-cache/com.android.systemui-accent-DORc.frro
+        /data/resource-cache/com.android.systemui-dynamic-sJUS.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.android.settings.intelligence:
+      org.lineageos.eleven
+  queryable via interaction:
+    User 0:
+      [com.android.localtransport,com.android.inputdevices,com.google.android.iwlan,lineageos.platform,org.lineageos.lineagesettings,com.android.providers.settings,android,com.android.dynsystem,com.android.keychain,com.android.location.fused,org.lineageos.mediatek.incallservice,me.phh.treble.app,me.phh.qcrilam,org.lineageos.lineageparts,org.lineageos.setupwizard,com.android.server.telecom,com.android.wallpaperbackup,com.android.DeviceAsWebcam,com.android.settings]:
+        org.lineageos.eleven
+      org.lineageos.eleven:
+        com.android.bluetooth
+      com.android.providers.media.module:
+        org.lineageos.eleven
+  queryable via uses-library:
+
+Dexopt state:
+  [org.lineageos.eleven]
+    path: /system/product/priv-app/Eleven/Eleven.apk
+      arm64: [status=verify] [reason=prebuilt] [primary-abi]
+        [location is /system/product/priv-app/Eleven/oat/arm64/Eleven.odex]
+
+Compiler stats:
+  [org.lineageos.eleven]
+    (No recorded stats)

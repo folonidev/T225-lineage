@@ -1,0 +1,19 @@
+Installing zip file '/tmp/sistema2d_ui_ios.zip'
+Unmounting System...
+- Mounting /system
+- Mounting /system_root
+- Device is system-as-root
+********************
+ Sistema2D iOS Look 
+ by Sistema2D 
+********************
+*******************
+ Powered by Magisk 
+*******************
+- Extracting module files
+- Sistema2D iOS Look
+- Aplicando contexto SELinux nos overlays
+- Os overlays sao ativados no primeiro boot
+- Unmounting partitions
+- Done
+Done processing script file

@@ -1,0 +1,1644 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.weather.intent.action.DETAIL:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.SELECT_SEARCH:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.CITYLIST:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.SEARCH:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.HISTORY:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      android.intent.action.MAIN:
+        99f45df com.sec.android.daemonapp/com.samsung.android.weather.app.AppSearchableActivity filter 994e22c
+          Action: "android.intent.action.MAIN"
+          Category: "com.samsung.android.scs.ai.search.category.SEARCHABLE_ACTIVITY"
+        b55e4f5 com.sec.android.daemonapp/com.samsung.android.weather.app.AppLauncherActivity filter 9d3528a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.COLD:
+        c17712e com.sec.android.daemonapp/.app.splash.DetailSplashColdActivity filter 20b64cf
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.COLD"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.RAIN:
+        8584f30 com.sec.android.daemonapp/.app.splash.DetailSplashRainActivity filter 4da87a9
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.RAIN"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.APP:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.sec.android.intent.action.SEC_APPLICATION_SETTINGS:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.SETTING:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION:
+        1c4e68c com.sec.android.daemonapp/.app.setting.EulaDescriptionActivity filter b5d01d5
+          Action: "com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION"
+          Action: "com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION.ON_COVER"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.daemonapp.weather.setting:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter 822bdad
+          Action: "com.sec.android.daemonapp.weather.setting"
+          Action: "com.sec.android.widgetapp.weather.setting"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.CHINA_PERMISSION_NOTICE:
+        ce6ddea com.sec.android.daemonapp/com.samsung.android.weather.app.common.condition.view.PermissionNoticeActivity filter 2e5f8db
+          Action: "com.samsung.android.weather.intent.action.internal.CHINA_PERMISSION_NOTICE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.SEARCH:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNNY_NIGHT:
+        e707806 com.sec.android.daemonapp/.app.splash.DetailSplashSunnyNightActivity filter 5191ec7
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNNY_NIGHT"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.ON_COVER:
+        95881de com.sec.android.daemonapp/.app.search.SearchFlipCoverActivity filter 1f51fbf
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.ON_COVER"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNRISE:
+        b8c0e92 com.sec.android.daemonapp/.app.splash.DetailSplashSunriseActivity filter dfee063
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNRISE"
+          Category: "android.intent.category.DEFAULT"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        76cdb71 com.sec.android.daemonapp/.setting.WidgetCheckConditionActivity filter e9c0d56
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.THUNDERSTORM:
+        2d723a com.sec.android.daemonapp/.app.splash.DetailSplashThunderstormActivity filter f037eeb
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.THUNDERSTORM"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.widgetapp.weather.setting:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter 822bdad
+          Action: "com.sec.android.daemonapp.weather.setting"
+          Action: "com.sec.android.widgetapp.weather.setting"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION.ON_COVER:
+        1c4e68c com.sec.android.daemonapp/.app.setting.EulaDescriptionActivity filter b5d01d5
+          Action: "com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION"
+          Action: "com.samsung.android.weather.intent.action.internal.USE_CURRENT_LOCATION_DESCRIPTION.ON_COVER"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.HOT:
+        9ead448 com.sec.android.daemonapp/.app.splash.DetailSplashHotActivity filter d5a82e1
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.HOT"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.LOCATIONS:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.CLOUDY:
+        eab2e5c com.sec.android.daemonapp/.app.splash.DetailSplashCloudyActivity filter e2af565
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.CLOUDY"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.RECOVERY:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.WEATHER_DEBUG:
+        2dc60fb com.sec.android.daemonapp/com.samsung.android.weather.devopts.ui.DevOptsActivity filter a83f518
+          Action: "com.samsung.android.weather.intent.action.internal.WEATHER_DEBUG"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.PARTLY_SUNNY_NIGHT:
+        7fcecf4 com.sec.android.daemonapp/.app.splash.DetailSplashPartlySunnyNightActivity filter f9b6c1d
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.PARTLY_SUNNY_NIGHT"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNSET:
+        d75e460 com.sec.android.daemonapp/.app.splash.DetailSplashSunsetActivity filter 907ad19
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNSET"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.spv.ACTION_VIEW_DETAIL:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNNY:
+        d63a8e2 com.sec.android.daemonapp/.app.splash.DetailSplashSunnyActivity filter 1aff473
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS.SUNNY"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        b0611d7 com.sec.android.daemonapp/.app.MainActivity filter e4f4ac4
+          Action: "com.samsung.android.weather.intent.action.DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_SEARCH"
+          Action: "com.samsung.android.weather.intent.action.CITYLIST"
+          Action: "com.samsung.android.weather.intent.action.SEARCH"
+          Action: "com.samsung.android.weather.intent.action.HISTORY"
+          Action: "com.samsung.android.weather.intent.action.internal.SET_LOCATION_ON_WIDGET"
+          Action: "com.samsung.android.weather.intent.action.internal.APP"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "com.samsung.android.weather.intent.action.SETTING"
+          Action: "com.samsung.android.weather.intent.action.internal.SEARCH"
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.weather.intent.action.USE_CURRENT_LOCATION"
+          Action: "com.samsung.android.weather.intent.action.internal.SELECT_LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.LOCATIONS"
+          Action: "com.samsung.android.weather.intent.action.internal.RECOVERY"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA"
+          Action: "com.sec.android.widgetapp.weather.intent.action.START_ACTIVITY_SETTING_VIEW"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Action: "com.samsung.android.weather.intent.action.internal.PARTICULARS"
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        52f5b84 com.sec.android.daemonapp/.receiver.NewsActionReceiver filter 2de07a2
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Scheme: "package"
+        12d789b com.sec.android.daemonapp/com.samsung.android.weather.interworking.news.receiver.NewsPackageReceiver filter dfdc438
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+          Ssp: "PatternMatcher{LITERAL: com.samsung.android.app.spage}"
+
+  Non-Data Actions:
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE:
+        f30237f com.sec.android.daemonapp/.edge.EdgeProvider filter 589ff4c
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.weather.edge.action.EMPTY_VIEW"
+          Action: "com.samsung.android.weather.edge.action.END_REFRESH"
+          Action: "com.samsung.android.weather.edge.action.START_REFRESH"
+      com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      android.intent.action.BATTERY_OKAY:
+        2d86013 com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 518e250
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        18a184d com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3c1ff02
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.android.weather.widget.action.NEWS_CLICK:
+        52f5b84 com.sec.android.daemonapp/.receiver.NewsActionReceiver filter f245f6d
+          Action: "com.samsung.android.weather.widget.action.NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_CHECK_SAMSUNG_NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_APP_UPDATE_CLICK"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH:
+        94ceeb6 com.sec.android.daemonapp/.receiver.ForecastRefreshRequestReceiver filter d4147b7
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON"
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+      com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+      com.samsung.android.weather.facewidget.action.MANUAL_REFRESH:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        900db81 com.sec.android.daemonapp/androidx.profileinstaller.ProfileInstallReceiver filter 3cf1614
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH:
+        94ceeb6 com.sec.android.daemonapp/.receiver.ForecastRefreshRequestReceiver filter d4147b7
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON"
+      com.samsung.android.weather.widget.action.NEWS_CHECK_SAMSUNG_NEWS_CLICK:
+        52f5b84 com.sec.android.daemonapp/.receiver.NewsActionReceiver filter f245f6d
+          Action: "com.samsung.android.weather.widget.action.NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_CHECK_SAMSUNG_NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_APP_UPDATE_CLICK"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        a6cec49 com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9d5094e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      android.intent.action.DEVICE_STORAGE_OK:
+        a6cec49 com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 9d5094e
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.appwidget.action.APPWIDGET_UPDATE_OPTIONS:
+        950abc com.sec.android.daemonapp/.appwidget.WeatherAppWidget2x1 filter 2230a45
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        c6a959a com.sec.android.daemonapp/.appwidget.WeatherAppWidget filter 212cecb
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        90616a8 com.sec.android.daemonapp/.appwidget.WeatherForecastAppWidget filter 6f05c1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        74c7166 com.sec.android.daemonapp/.appwidget.WeatherAestheticAppWidget filter fd8ca7
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.app.spage.action.CARD_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cf9f554 com.sec.android.daemonapp/.appwidget.WeatherInsightAppWidget filter 2253cfd
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        b1e3df2 com.sec.android.daemonapp/.appwidget.WeatherNewsAppWidget filter dec4c43
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        bab12c0 com.sec.android.daemonapp/.appwidget.WeatherCoverAppWidget filter 80dabf9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.sdk.subscreen.widget.action.VISIBILITY_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        3ce473e com.sec.android.daemonapp/.appwidget.WeatherCoverFaceWidget filter 7d699f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b8e9aec com.sec.android.daemonapp/.appwidget.WeatherCoverFaceDetailWidget filter d740eb5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.weather.intent.action.AUTOREFRESH:
+        97b2590 com.sec.android.daemonapp/.receiver.SystemReceiver filter c410e89
+          Action: "com.samsung.android.weather.intent.action.AUTOREFRESH"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+      com.samsung.android.weather.fence.mock:
+        8530b95 com.sec.android.daemonapp/com.samsung.android.weather.interworking.rubin.receiver.RubinReceiver filter 32184aa
+          Action: "com.samsung.android.weather.fence.mock"
+          Action: "com.samsung.android.rubin.fence.CONTEXT_FENCE_STATUS_CHANGED"
+      com.samsung.android.weather.edge.action.EMPTY_VIEW:
+        f30237f com.sec.android.daemonapp/.edge.EdgeProvider filter 589ff4c
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.weather.edge.action.EMPTY_VIEW"
+          Action: "com.samsung.android.weather.edge.action.END_REFRESH"
+          Action: "com.samsung.android.weather.edge.action.START_REFRESH"
+      com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA:
+        94ceeb6 com.sec.android.daemonapp/.receiver.ForecastRefreshRequestReceiver filter d4147b7
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON"
+      com.samsung.android.app.spage.action.CARD_UPDATE:
+        74c7166 com.sec.android.daemonapp/.appwidget.WeatherAestheticAppWidget filter fd8ca7
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.app.spage.action.CARD_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED:
+        7bc2cb2 com.sec.android.daemonapp/com.samsung.android.collectionkit.account.SignOutAccountReceiver filter 4697403
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+      com.samsung.android.weather.action.INTERVAL_REFRESH:
+        1171e8e com.sec.android.daemonapp/.receiver.IntervalRefreshReceiver filter 1fb76af
+          Action: "com.samsung.android.weather.action.INTERVAL_REFRESH"
+      com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      android.intent.action.LOCALE_CHANGED:
+        97b2590 com.sec.android.daemonapp/.receiver.SystemReceiver filter c410e89
+          Action: "com.samsung.android.weather.intent.action.AUTOREFRESH"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+      com.samsung.sea.rm.DEMO_RESET_STARTED:
+        b314042 com.sec.android.daemonapp/.receiver.RetailModeReceiver filter a98a853
+          Action: "com.samsung.sea.rm.DEMO_RESET_STARTED"
+      com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+      com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY:
+        828cc33 com.sec.android.daemonapp/.receiver.CoverActionReceiver filter a08abf0
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY_AFTER_UNLOCK"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_RESTORE_START_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY_COVER"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_DETAIL_START_ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.ACTION_WIDGET_COVER_EMPTY_START_ACTIVITY"
+      com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID:
+        199f88f com.sec.android.daemonapp/.complication.receiver.ComplicationSimpleWeatherReceiver filter 5e4971c
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        4070f25 com.sec.android.daemonapp/.complication.receiver.ComplicationWeatherDetailReceiver filter 93ce8fa
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        9478eab com.sec.android.daemonapp/.complication.receiver.ComplicationUVReceiver filter 4320908
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        c3e78a1 com.sec.android.daemonapp/.complication.receiver.ComplicationMoonReceiver filter ce09ac6
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        5ee6a87 com.sec.android.daemonapp/.complication.receiver.ComplicationPrecipitationReceiver filter 662adb4
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        628fddd com.sec.android.daemonapp/.complication.receiver.ComplicationSunriseSunsetReceiver filter 2bb9d52
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        33d2823 com.sec.android.daemonapp/.complication.receiver.ComplicationAirQualityReceiver filter 156f120
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e3c9ad9 com.sec.android.daemonapp/.complication.receiver.ComplicationFineDustReceiver filter 3d23c9e
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.sdk.subscreen.widget.action.VISIBILITY_CHANGED:
+        bab12c0 com.sec.android.daemonapp/.appwidget.WeatherCoverAppWidget filter 80dabf9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.sdk.subscreen.widget.action.VISIBILITY_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.weather.edge.action.END_REFRESH:
+        f30237f com.sec.android.daemonapp/.edge.EdgeProvider filter 589ff4c
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.weather.edge.action.EMPTY_VIEW"
+          Action: "com.samsung.android.weather.edge.action.END_REFRESH"
+          Action: "com.samsung.android.weather.edge.action.START_REFRESH"
+      com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        900db81 com.sec.android.daemonapp/androidx.profileinstaller.ProfileInstallReceiver filter f04f426
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.samsung.android.weather.widget.action.REFRESH_ERROR:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      android.app.action.APP_BLOCK_STATE_CHANGED:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.appwidget.action.APPWIDGET_DELETED:
+        3ce473e com.sec.android.daemonapp/.appwidget.WeatherCoverFaceWidget filter 7d699f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b8e9aec com.sec.android.daemonapp/.appwidget.WeatherCoverFaceDetailWidget filter d740eb5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH:
+        94ceeb6 com.sec.android.daemonapp/.receiver.ForecastRefreshRequestReceiver filter d4147b7
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON"
+      android.intent.action.BATTERY_LOW:
+        2d86013 com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 518e250
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        8deea6f com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 331d37c
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        8deea6f com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 331d37c
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        900db81 com.sec.android.daemonapp/androidx.profileinstaller.ProfileInstallReceiver filter 2e3b867
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.appwidget.action.APPWIDGET_DISABLED:
+        3ce473e com.sec.android.daemonapp/.appwidget.WeatherCoverFaceWidget filter 7d699f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b8e9aec com.sec.android.daemonapp/.appwidget.WeatherCoverFaceDetailWidget filter d740eb5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.intent.action.REQUEST_BACKUP_WEATHER_WIDGET:
+        225cc11 com.sec.android.daemonapp/com.samsung.android.weather.bnr.BackupReceiver filter 46b4176
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_WEATHER_WIDGET"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_WEATHER_WIDGET"
+      com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        900db81 com.sec.android.daemonapp/androidx.profileinstaller.ProfileInstallReceiver filter f5eaebd
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        97b2590 com.sec.android.daemonapp/.receiver.SystemReceiver filter c410e89
+          Action: "com.samsung.android.weather.intent.action.AUTOREFRESH"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+        8deea6f com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 331d37c
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.intent.action.USER_PRESENT:
+        97b2590 com.sec.android.daemonapp/.receiver.SystemReceiver filter c410e89
+          Action: "com.samsung.android.weather.intent.action.AUTOREFRESH"
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.USER_PRESENT"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      com.sec.android.app.samsungapps.UPDATE_EXISTS:
+        72f7b24 com.sec.android.daemonapp/.receiver.AppsAutoUpdateReceiver filter 894968d
+          Action: "com.sec.android.app.samsungapps.UPDATE_EXISTS"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        18a184d com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3c1ff02
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.sec.android.intent.action.WALLPAPER_CHANGED:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        5b48569 com.sec.android.daemonapp/.receiver.NotificationActionReceiver filter 6b8fbee
+          Action: "com.samsung.android.weather.intent.action.REMOVE_WATCH_NOTIFICATION"
+          Action: "com.samsung.android.weather.widget.action.DAEMON_AUTOREFRESH_END"
+          Action: "com.samsung.android.weather.daemon.action.CUSTOMIZE_EVENT_NOTIFICATION"
+          Action: "com.samsung.android.weather.notification.action.ACTION_APP_UPDATE_NOTIFICATION"
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "com.samsung.android.weather.intent.action.UPDATE_NOTIFICATION"
+          Action: "com.samsung.accessory.intent.action.UPDATE_NOTIFICATION_ITEM"
+          Action: "com.samsung.android.weather.intent.action.REMOVED_NOTIFICATION_FROM_GEAR"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.samsung.android.weather.widget.action.APP_UPDATE_CLICK:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      com.samsung.android.theme.themecenter.THEME_APPLY:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.ACTION_REQUEST_WEATHER_DATA_TO_DAEMON:
+        21fdf78 com.sec.android.daemonapp/.receiver.LegacyReceiver filter c78e651
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.ACTION_REQUEST_WEATHER_DATA_TO_DAEMON"
+          Action: "com.sec.android.widgetapp.weatherdaemon.action.SHOW_USE_LOCATION_POPUP_CHANGE_SETTING"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.GET_CURRENT_LOCATION_OK"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      com.sec.android.widgetapp.weatherdaemon.action.SHOW_USE_LOCATION_POPUP_CHANGE_SETTING:
+        21fdf78 com.sec.android.daemonapp/.receiver.LegacyReceiver filter c78e651
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.ACTION_REQUEST_WEATHER_DATA_TO_DAEMON"
+          Action: "com.sec.android.widgetapp.weatherdaemon.action.SHOW_USE_LOCATION_POPUP_CHANGE_SETTING"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.GET_CURRENT_LOCATION_OK"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS:
+        34079d8 com.sec.android.daemonapp/.receiver.WidgetActionReceiver filter ca3e131
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_BACKGROUND_DATA_SETTINGS"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.APPWIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_RESTORE_START_WEATHER_WIDGET"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.CITY_CNT_ZERO"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.ACTIVITY"
+          Action: "com.samsung.android.weather.widget.action.APP_UPDATE_CLICK"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_EULA_ACTIVITY"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.START_LOCATION_SETTINGS"
+      android.appwidget.action.APPWIDGET_ENABLED:
+        3ce473e com.sec.android.daemonapp/.appwidget.WeatherCoverFaceWidget filter 7d699f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b8e9aec com.sec.android.daemonapp/.appwidget.WeatherCoverFaceDetailWidget filter d740eb5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.android.intent.action.REQUEST_RESTORE_WEATHER_WIDGET:
+        225cc11 com.sec.android.daemonapp/com.samsung.android.weather.bnr.BackupReceiver filter 46b4176
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_WEATHER_WIDGET"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_WEATHER_WIDGET"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        950abc com.sec.android.daemonapp/.appwidget.WeatherAppWidget2x1 filter 2230a45
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        c6a959a com.sec.android.daemonapp/.appwidget.WeatherAppWidget filter 212cecb
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        90616a8 com.sec.android.daemonapp/.appwidget.WeatherForecastAppWidget filter 6f05c1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        74c7166 com.sec.android.daemonapp/.appwidget.WeatherAestheticAppWidget filter fd8ca7
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.app.spage.action.CARD_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cf9f554 com.sec.android.daemonapp/.appwidget.WeatherInsightAppWidget filter 2253cfd
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        b1e3df2 com.sec.android.daemonapp/.appwidget.WeatherNewsAppWidget filter dec4c43
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        bab12c0 com.sec.android.daemonapp/.appwidget.WeatherCoverAppWidget filter 80dabf9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.sdk.subscreen.widget.action.VISIBILITY_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        3ce473e com.sec.android.daemonapp/.appwidget.WeatherCoverFaceWidget filter 7d699f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        b8e9aec com.sec.android.daemonapp/.appwidget.WeatherCoverFaceDetailWidget filter d740eb5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        199f88f com.sec.android.daemonapp/.complication.receiver.ComplicationSimpleWeatherReceiver filter 5e4971c
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        4070f25 com.sec.android.daemonapp/.complication.receiver.ComplicationWeatherDetailReceiver filter 93ce8fa
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        9478eab com.sec.android.daemonapp/.complication.receiver.ComplicationUVReceiver filter 4320908
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        c3e78a1 com.sec.android.daemonapp/.complication.receiver.ComplicationMoonReceiver filter ce09ac6
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        5ee6a87 com.sec.android.daemonapp/.complication.receiver.ComplicationPrecipitationReceiver filter 662adb4
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        628fddd com.sec.android.daemonapp/.complication.receiver.ComplicationSunriseSunsetReceiver filter 2bb9d52
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        33d2823 com.sec.android.daemonapp/.complication.receiver.ComplicationAirQualityReceiver filter 156f120
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e3c9ad9 com.sec.android.daemonapp/.complication.receiver.ComplicationFineDustReceiver filter 3d23c9e
+          Action: "com.samsung.android.weather.widget.action.ACTION_UPDATE_GLANCE_WIDGET_ID"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        419be8b com.sec.android.daemonapp/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 186ab68
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.samsung.android.weather.widget.action.NEWS_APP_UPDATE_CLICK:
+        52f5b84 com.sec.android.daemonapp/.receiver.NewsActionReceiver filter f245f6d
+          Action: "com.samsung.android.weather.widget.action.NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_CHECK_SAMSUNG_NEWS_CLICK"
+          Action: "com.samsung.android.weather.widget.action.NEWS_APP_UPDATE_CLICK"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        6e10377 com.sec.android.daemonapp/androidx.glance.appwidget.MyPackageReplacedReceiver filter 1e6ebe4
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON:
+        94ceeb6 com.sec.android.daemonapp/.receiver.ForecastRefreshRequestReceiver filter d4147b7
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.APPS_UPDATE_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.B_MANUALREFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CURRENT_LOCATION_WEATHER_DATA"
+          Action: "com.samsung.android.weather.daemon.REQUEST_LOCATION_WEATHER_DATA_REFRESH"
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.CHANGE_ICON_OF_DAEMON"
+      com.sec.android.widgetapp.APPWIDGET_RESIZE:
+        950abc com.sec.android.daemonapp/.appwidget.WeatherAppWidget2x1 filter 2230a45
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        c6a959a com.sec.android.daemonapp/.appwidget.WeatherAppWidget filter 212cecb
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        90616a8 com.sec.android.daemonapp/.appwidget.WeatherForecastAppWidget filter 6f05c1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        74c7166 com.sec.android.daemonapp/.appwidget.WeatherAestheticAppWidget filter fd8ca7
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "com.samsung.android.app.spage.action.CARD_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cf9f554 com.sec.android.daemonapp/.appwidget.WeatherInsightAppWidget filter 2253cfd
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        b1e3df2 com.sec.android.daemonapp/.appwidget.WeatherNewsAppWidget filter dec4c43
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      com.sec.android.widgetapp.ap.hero.accuweather.action.GET_CURRENT_LOCATION_OK:
+        21fdf78 com.sec.android.daemonapp/.receiver.LegacyReceiver filter c78e651
+          Action: "com.sec.android.widgetapp.ap.accuweatherdaemon.action.ACTION_REQUEST_WEATHER_DATA_TO_DAEMON"
+          Action: "com.sec.android.widgetapp.weatherdaemon.action.SHOW_USE_LOCATION_POPUP_CHANGE_SETTING"
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.action.GET_CURRENT_LOCATION_OK"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        88f0405 com.sec.android.daemonapp/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 8fc6c5a
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.sec.android.intent.action.LAUNCHER_CHANGED:
+        d4a0016 com.sec.android.daemonapp/.receiver.SystemActionReceiver filter b8ced97
+          Action: "com.sec.android.widgetapp.ap.hero.accuweather.widget.action.ACTION_REQUEST_CHANGE_RESTORE_MODE"
+          Action: "com.samsung.android.weather.widget.action.ACTION_REMAP_WIDGET_ID"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.theme.themecenter.THEME_APPLY"
+          Action: "com.samsung.android.intent.action.HOMESCREEN_RESTORE_COMPLETED"
+          Action: "com.sec.android.intent.action.LAUNCHER_CHANGED"
+      com.samsung.android.weather.facewidget.action.START_ACTIVITY:
+        be3994a com.sec.android.daemonapp/.facewidget.FaceWidgetReceiver filter 1d900bb
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY_WITH_COVER"
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.weather.facewidget.action.MANUAL_REFRESH"
+          Action: "com.samsung.android.weather.facewidget.action.ACTION_FACE_WIDGET_UPDATE"
+          Action: "com.samsung.android.weather.widget.action.REFRESH_ERROR"
+          Action: "com.samsung.android.weather.facewidget.action.START_ACTIVITY"
+      com.samsung.android.rubin.fence.CONTEXT_FENCE_STATUS_CHANGED:
+        8530b95 com.sec.android.daemonapp/com.samsung.android.weather.interworking.rubin.receiver.RubinReceiver filter 32184aa
+          Action: "com.samsung.android.weather.fence.mock"
+          Action: "com.samsung.android.rubin.fence.CONTEXT_FENCE_STATUS_CHANGED"
+      com.samsung.android.weather.edge.action.START_REFRESH:
+        f30237f com.sec.android.daemonapp/.edge.EdgeProvider filter 589ff4c
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.weather.edge.action.EMPTY_VIEW"
+          Action: "com.samsung.android.weather.edge.action.END_REFRESH"
+          Action: "com.samsung.android.weather.edge.action.START_REFRESH"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.READ_DANGEROUS_PROVIDER] (6110cce):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=dangerous
+    perm=PermissionInfo{c7d67ef com.samsung.android.weather.permission.READ_DANGEROUS_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.DATA_SERVICE] (8ea42fc):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{70f7d85 com.samsung.android.weather.DATA_SERVICE}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.START_ACTIVITY] (3b527da):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{2e2940b com.samsung.android.weather.permission.START_ACTIVITY}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.START_NORMAL_ACTIVITY] (f1692e8):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=normal
+    perm=PermissionInfo{4cf6d01 com.samsung.android.weather.permission.START_NORMAL_ACTIVITY}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER] (f4de7a6):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{12465e7 com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.SETUP_WIZARD] (b35f594):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{b44d83d com.samsung.android.weather.permission.SETUP_WIZARD}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.daemonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (260d832):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature
+    perm=PermissionInfo{dc77983 com.sec.android.daemonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.weather.permission.FORECAST_REFRESH] (346d700):
+    sourcePackage=com.sec.android.daemonapp
+    uid=10163 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{4abbb39 com.samsung.android.weather.permission.FORECAST_REFRESH}
+    flags=0x0
+
+Registered ContentProviders:
+  com.sec.android.daemonapp/.provider.SystemLevelContentProvider:
+    Provider{740457e com.sec.android.daemonapp/.provider.SystemLevelContentProvider}
+  com.sec.android.daemonapp/com.samsung.android.scloud.oem.lib.ClientProvider:
+    Provider{8fe2adf com.sec.android.daemonapp/com.samsung.android.scloud.oem.lib.ClientProvider}
+  com.sec.android.daemonapp/.provider.DangerousLevelContentProvider:
+    Provider{cc2632c com.sec.android.daemonapp/.provider.DangerousLevelContentProvider}
+  com.sec.android.daemonapp/.provider.WeatherContentProvider:
+    Provider{903d1f5 com.sec.android.daemonapp/.provider.WeatherContentProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.weather.content.provider.level.dangerous]:
+    Provider{cc2632c com.sec.android.daemonapp/.provider.DangerousLevelContentProvider}
+      applicationInfo=ApplicationInfo{9173b8a com.sec.android.daemonapp}
+  [com.sec.android.daemonapp.ap.accuweather.provider]:
+    Provider{903d1f5 com.sec.android.daemonapp/.provider.WeatherContentProvider}
+      applicationInfo=ApplicationInfo{9c495fb com.sec.android.daemonapp}
+  [com.samsung.android.weather.content.provider.level.system]:
+    Provider{740457e com.sec.android.daemonapp/.provider.SystemLevelContentProvider}
+      applicationInfo=ApplicationInfo{9888618 com.sec.android.daemonapp}
+  [com.sec.android.daemonapp.backup]:
+    Provider{8fe2adf com.sec.android.daemonapp/com.samsung.android.scloud.oem.lib.ClientProvider}
+      applicationInfo=ApplicationInfo{68c9871 com.sec.android.daemonapp}
+
+Key Set Manager:
+  [com.sec.android.daemonapp]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.sec.android.daemonapp] (8b58656):
+    appId=10163
+    pkg=Package{bc96d7 com.sec.android.daemonapp}
+    codePath=/system/app/SamsungWeather
+    resourcePath=/system/app/SamsungWeather
+    legacyNativeLibraryDir=/system/app/SamsungWeather/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=167548200 minSdk=31 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.6.75.48
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.android.apps.maps]
+    dataDir=/data/user/0/com.sec.android.daemonapp
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{78bebc4 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.weather.permission.READ_DANGEROUS_PROVIDER: prot=dangerous
+      com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER: prot=signature|privileged
+      com.sec.android.daemonapp.permission.WRITE_PROVIDER: prot=signature|privileged
+      com.samsung.android.weather.DATA_SERVICE: prot=signature|privileged
+      com.samsung.android.weather.permission.SETUP_WIZARD: prot=signature|privileged
+      com.samsung.android.weather.permission.START_ACTIVITY: prot=signature|privileged
+      com.samsung.android.weather.permission.START_NORMAL_ACTIVITY: prot=normal
+      com.samsung.android.weather.permission.FORECAST_REFRESH: prot=signature|privileged
+      com.sec.android.daemonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.VIBRATE
+      com.android.alarm.permission.SET_ALARM
+      android.permission.POST_NOTIFICATIONS
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.STOP_APP_SWITCHES
+      android.permission.MANAGE_USERS
+      android.permission.INTERACT_ACROSS_USERS
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.sec.android.settings.permission.SOFT_RESET
+      com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER
+      com.samsung.android.rubin.suggestion.permission.READ_SUGGESTION_MANAGER
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT
+      com.samsung.systemui.permission.FACE_WIDGET
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      com.sec.spp.permission.TOKEN_b2d3fb749fbfa462e6e3b594dc81ee02a510effb73f55be5c9a546dc067810809e8d431b60ed2ea0518a3b3118f37da90a6df4ff0c1d5ac33d001f4340e100aa3d11feef197eede6392f7767f982200b7e55708a5edc45b682f45b3aceb44498d6f0932d38d27251b12e0068498da913c9dd2befee87f3c125f182ab92dbef4a
+      com.samsung.sea.retailagent.permission.RETAILMODE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.DEVICE_POWER
+      com.samsung.android.wear.retailmode.permission.RETAILMODE
+      com.samsung.android.app.tips.permission.USE_INTENT_SERVICE
+      com.samsung.android.weather.permission.FORECAST_REFRESH
+      com.samsung.android.app.spage.permission.AGREED
+      com.samsung.android.app.aodservice.permission.SERVICEBOX_REMOTEVIEWS
+      com.sec.android.daemonapp.ap.accuweather.ACCUWEATHER_DAEMON_ACCESS_PROVIDER
+      com.sec.android.daemonapp.permission.WRITE_PROVIDER
+      com.samsung.android.app.spage.permission.NEWS_PROVIDER
+      com.wssnps.permission.COM_WSSNPS
+      com.samsung.android.scloud.backup.lib.read
+      com.samsung.android.scloud.backup.lib.write
+      com.sec.android.daemonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER
+      android.permission.ACCESS_COARSE_LOCATION
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.systemui.permission.FACE_WIDGET: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.scloud.backup.lib.write: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      android.permission.FOREGROUND_SERVICE_LOCATION: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.sec.android.daemonapp.permission.WRITE_PROVIDER: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS: granted=true
+      com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER: granted=true
+      com.samsung.android.scloud.backup.lib.read: granted=true
+      com.sec.android.daemonapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT: granted=true
+      com.samsung.android.app.aodservice.permission.SERVICEBOX_REMOTEVIEWS: granted=true
+      com.samsung.android.app.spage.permission.NEWS_PROVIDER: granted=true
+      android.permission.VIBRATE: granted=true
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.android.weather.permission.FORECAST_REFRESH: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=4566 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|REVOKE_WHEN_REQUESTED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+      disabledComponents:
+        com.sec.android.daemonapp.appwidget.WeatherNewsAppWidget
+        com.sec.android.daemonapp.complication.receiver.ComplicationFineDustReceiver
+      enabledComponents:
+        com.sec.android.daemonapp.complication.receiver.ComplicationAirQualityReceiver
+        com.sec.android.daemonapp.appwidget.WeatherInsightAppWidget
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.sec.android.daemonapp
+  queries via package name:
+    com.sec.android.daemonapp:
+      com.google.android.apps.maps
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.sec.android.daemonapp
+      com.samsung.android.rubin.app:
+        com.sec.android.daemonapp
+      com.sec.android.daemonapp:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+        com.samsung.android.app.spage
+  queryable via uses-library:
+
+Dexopt state:
+  [com.sec.android.daemonapp]
+    path: /system/app/SamsungWeather/SamsungWeather.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@SamsungWeather@SamsungWeather.apk@classes.vdex]
+
+Compiler stats:
+  [com.sec.android.daemonapp]
+     SamsungWeather.apk - 5100
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

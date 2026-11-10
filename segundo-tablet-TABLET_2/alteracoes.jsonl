@@ -1,0 +1,20 @@
+{"tipo": "setting", "nome": "global:window_animation_scale", "anterior": "1.0", "novo": "0", "comando": "settings put global window_animation_scale 0", "resultado": "pendente"}
+{"tipo": "setting", "nome": "global:window_animation_scale", "anterior": "1.0", "novo": "0", "comando": "settings put global window_animation_scale 0", "resultado": "aplicado"}
+{"tipo": "setting", "nome": "global:transition_animation_scale", "anterior": "1.0", "novo": "0", "comando": "settings put global transition_animation_scale 0", "resultado": "pendente"}
+{"tipo": "setting", "nome": "global:transition_animation_scale", "anterior": "1.0", "novo": "0", "comando": "settings put global transition_animation_scale 0", "resultado": "aplicado"}
+{"tipo": "setting", "nome": "global:animator_duration_scale", "anterior": "null", "novo": "0", "comando": "settings put global animator_duration_scale 0", "resultado": "pendente"}
+{"tipo": "setting", "nome": "global:animator_duration_scale", "anterior": "null", "novo": "0", "comando": "settings put global animator_duration_scale 0", "resultado": "aplicado"}
+{"tipo": "density", "nome": "density", "anterior": "Physical density: 213", "novo": "200", "comando": "wm density 200", "resultado": "pendente"}
+{"tipo": "density", "nome": "density", "anterior": "Physical density: 213", "novo": "200", "comando": "wm density 200", "resultado": "aplicado"}
+{"tipo": "setting", "nome": "system:font_scale", "anterior": "1.0", "novo": "1.05", "comando": "settings put system font_scale 1.05", "resultado": "pendente"}
+{"tipo": "setting", "nome": "system:font_scale", "anterior": "1.0", "novo": "1.05", "comando": "settings put system font_scale 1.05", "resultado": "aplicado"}
+{"tipo": "package", "nome": "com.google.android.googlequicksearchbox", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.googlequicksearchbox", "resultado": "pendente"}
+{"tipo": "package", "nome": "com.google.android.googlequicksearchbox", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.googlequicksearchbox", "resultado": "Package com.google.android.googlequicksearchbox new state: disabled-user"}
+{"tipo": "package", "nome": "com.google.android.apps.wellbeing", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.apps.wellbeing", "resultado": "pendente"}
+{"tipo": "package", "nome": "com.google.android.apps.wellbeing", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.apps.wellbeing", "resultado": "Package com.google.android.apps.wellbeing new state: disabled-user"}
+{"tipo": "package", "nome": "com.google.android.projection.gearhead", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.projection.gearhead", "resultado": "pendente"}
+{"tipo": "package", "nome": "com.google.android.projection.gearhead", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 com.google.android.projection.gearhead", "resultado": "Package com.google.android.projection.gearhead new state: disabled-user"}
+{"tipo": "package", "nome": "org.lineageos.eleven", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 org.lineageos.eleven", "resultado": "pendente"}
+{"tipo": "package", "nome": "org.lineageos.eleven", "anterior": "0", "novo": "disabled-user", "comando": "pm disable-user --user 0 org.lineageos.eleven", "resultado": "Package org.lineageos.eleven new state: disabled-user"}
+{"tipo": "radio", "nome": "airplane_mode_on", "anterior": "0", "novo": "1", "comando": "cmd connectivity airplane-mode enable", "resultado": "pendente"}
+{"tipo": "radio", "nome": "airplane_mode_on", "anterior": "0", "novo": "1", "comando": "cmd connectivity airplane-mode enable", "resultado": "aplicado"}

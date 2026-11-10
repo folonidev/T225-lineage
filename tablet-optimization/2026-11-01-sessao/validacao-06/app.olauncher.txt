@@ -1,0 +1,8 @@
+Starting: Intent { cmp=app.olauncher/.MainActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: app.olauncher/.MainActivity
+TotalTime: 178
+WaitTime: 227
+Complete

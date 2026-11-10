@@ -1,0 +1,77 @@
+ResourceManagerService: 0xf3300990
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+    Pid: 1765
+    Priority: -800
+    Pid: 2119
+    Priority: -800
+    Pid: 3212
+    Priority: -700
+    Pid: 3322
+    Priority: 0
+      Client:
+        Id: -5476376645575959056
+        Name: c2.android.aac.decoder
+        Resources:
+          non-secure-codec/audio-codec:[]:1
+      Client:
+        Id: -5476376645575958768
+        Name: c2.mtk.avc.decoder
+        Resources:
+          non-secure-codec/video-codec:[]:1
+          battery/video-codec:[]:1
+  Process Pid override:
+  Events logs (most recent at top):
+    11-01 18:09:49 addResource(pid 3322, uid 10214 clientId -5476376645575958768, resources battery/video-codec:[]:1 )
+    11-01 18:09:49 addResource(pid 3322, uid 10214 clientId -5476376645575959056, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:09:49 reclaimResourcesFromClientsPendingRemoval(pid 3322)
+    11-01 18:09:49 addResource(pid 3322, uid 10214 clientId -5476376645575958768, resources graphic-memory/unspecified:[]:0 )
+    11-01 18:09:49 addResource(pid 3322, uid 10214 clientId -5476376645575958768, resources non-secure-codec/video-codec:[]:1 )
+    11-01 18:09:49 reclaimResourcesFromClientsPendingRemoval(pid 3322)
+    11-01 18:08:38 removeResource(pid 3212, uid 10211 clientId -5476376645576224448)
+    11-01 18:08:38 removeResource(pid 3212, uid 10211 clientId -5476376645576224448)
+    11-01 18:08:38 markClientForPendingRemoval(pid 3212, clientId -5476376645576224448)
+    11-01 18:08:38 addResource(pid 3212, uid 10211 clientId -5476376645576224448, resources non-secure-codec/video-codec:[]:1 )
+    11-01 18:08:38 reclaimResourcesFromClientsPendingRemoval(pid 3212)
+    11-01 18:08:37 removeResource(pid 2119, uid 10183 clientId 4084266704)
+    11-01 18:08:37 removeResource(pid 2119, uid 10183 clientId 4084266704)
+    11-01 18:08:35 addResource(pid 2119, uid 10183 clientId 4084266704, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:35 reclaimResourcesFromClientsPendingRemoval(pid 2119)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575953728)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575953728)
+    11-01 18:08:31 addResource(pid 2119, uid 10183 clientId -5476376645575953728, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:31 reclaimResourcesFromClientsPendingRemoval(pid 2119)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575955456)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575955456)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575954592)
+    11-01 18:08:31 removeResource(pid 2119, uid 10183 clientId -5476376645575954592)
+    11-01 18:08:31 addResource(pid 2119, uid 10183 clientId -5476376645575955456, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:31 addResource(pid 2119, uid 10183 clientId -5476376645575954592, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:31 reclaimResourcesFromClientsPendingRemoval(pid 2119)
+    11-01 18:08:31 reclaimResourcesFromClientsPendingRemoval(pid 2119)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575877120)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575877120)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575879280)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575879280)
+    11-01 18:08:29 addResource(pid 1765, uid 1000 clientId -5476376645575877120, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:29 addResource(pid 1765, uid 1000 clientId -5476376645575879280, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:29 reclaimResourcesFromClientsPendingRemoval(pid 1765)
+    11-01 18:08:29 reclaimResourcesFromClientsPendingRemoval(pid 1765)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575895984)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575895984)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575875104)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575875104)
+    11-01 18:08:29 addResource(pid 1765, uid 1000 clientId -5476376645575895984, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:29 addResource(pid 1765, uid 1000 clientId -5476376645575875104, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:29 reclaimResourcesFromClientsPendingRemoval(pid 1765)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575875968)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575875968)
+    11-01 18:08:29 reclaimResourcesFromClientsPendingRemoval(pid 1765)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575879280)
+    11-01 18:08:29 removeResource(pid 1765, uid 1000 clientId -5476376645575879280)
+    11-01 18:08:28 addResource(pid 1765, uid 1000 clientId -5476376645575879280, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:28 addResource(pid 1765, uid 1000 clientId -5476376645575875968, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 18:08:28 reclaimResourcesFromClientsPendingRemoval(pid 1765)
+    11-01 18:08:28 reclaimResourcesFromClientsPendingRemoval(pid 1765)

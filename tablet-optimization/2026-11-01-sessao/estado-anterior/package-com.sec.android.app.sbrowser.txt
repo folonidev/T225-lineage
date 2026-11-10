@@ -1,0 +1,2187 @@
+﻿Activity Resolver Table:
+  Full MIME Types:
+      multipart/related:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter fff18c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "multipart/related"
+      application/vnd.wap.xhtml+xml:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      text/html:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4afc45f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      text/xml:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      text/*:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/*:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/*:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application/xhtml+xml:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      vnd.android.cursor.dir/bookmark:
+        b59d52f com.sec.android.app.sbrowser/.sites.bookmark.view.add_bookmark.AddBookmarkActivity filter 58e473c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/bookmark"
+      text/plain:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4afc45f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      image/*:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.dir:
+        b59d52f com.sec.android.app.sbrowser/.sites.bookmark.view.add_bookmark.AddBookmarkActivity filter 58e473c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/bookmark"
+      multipart:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter fff18c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "multipart/related"
+      text:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4afc45f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4afc45f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+      application:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+
+  Wild MIME Types:
+      text:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      samsunginternet:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter de2c30a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "open": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4b6477b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "search": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter f861998
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "recommend_app_popup": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter b7565f1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "site_and_download": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter f7205d6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "default_app_settings": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter ad7e057
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "search_page": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8f3744
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "launch": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 869702d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "useful_features": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4e0a962
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "toolbar_custom": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter b102af3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "add_ons": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter dea83b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "settings_appearance": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter b19e229
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "settings_privacy": -1
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 1a3f9ae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "browsing_assist": -1
+          Path: "PatternMatcher{LITERAL: /}"
+        aa811a5 com.sec.android.app.sbrowser/.capsule.BixbySBrowserLauncherActivity filter 98df97a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "samsunginternet"
+          Authority: "com.sec.android.app.sbrowser": -1
+      file:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter fff18c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "multipart/related"
+      http:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 68a7b03
+          Action: "com.samsung.intent.action.READ_ARTICLES_ALOUD"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 1c37a80
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 9ba54fe
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter d25beac
+          Action: "android.intent.action.SBROWSER_VIEW_FOR_EXTERNAL_APP"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e32c775
+          Action: "com.samsung.intent.action.SBROWSER_VIEW_FOR_EXTERNAL_APP"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+      about:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 1c37a80
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      https:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 68a7b03
+          Action: "com.samsung.intent.action.READ_ARTICLES_ALOUD"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 1c37a80
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 9ba54fe
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter d25beac
+          Action: "android.intent.action.SBROWSER_VIEW_FOR_EXTERNAL_APP"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e32c775
+          Action: "com.samsung.intent.action.SBROWSER_VIEW_FOR_EXTERNAL_APP"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+      sasdk:
+        8125fe9 com.sec.android.app.sbrowser/.scloud.account.SamsungAccountSDKActivity filter 42046e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "sasdk"
+          Authority: "account.samsunginternet": -1
+          Authority: "account.samsunginternet": -1
+          Path: "PatternMatcher{PREFIX: /signin}"
+          Path: "PatternMatcher{PREFIX: /confirmpassword}"
+      internet:
+        f47c9e6 com.sec.android.app.sbrowser/.extensions.ExtensionsActivity filter ef93b27
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "internet"
+          Authority: "extension": -1
+        d6fc804 com.sec.android.app.sbrowser/.blockers.content_block.view.ContentBlockActivity filter f8f8822
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "internet"
+          Authority: "content_block_activity": -1
+      content:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      com.sec.android.app.sbrowser.bookmarksDb.ui.ShowBookmarksActivity:
+        74e41d4 com.sec.android.app.sbrowser/.sites.SitesActivity filter 258cf7d
+          Action: "com.sec.android.app.sbrowser.bookmarksDb.ui.ShowBookmarksActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.SIGN_IN_SAMSUNG_ACCOUNT_SDK:
+        8125fe9 com.sec.android.app.sbrowser/.scloud.account.SamsungAccountSDKActivity filter 489970f
+          Action: "com.sec.android.app.sbrowser.SIGN_IN_SAMSUNG_ACCOUNT_SDK"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter e09661a
+          Action: "com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.support.REMOTE_ACTION:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 68a2f12
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        d19b6e3 com.sec.android.app.sbrowser/.SBrowserMainActivity2 filter a26de3f
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        dfe030c com.sec.android.app.sbrowser/.SBrowserMainActivity3 filter 20e43f8
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        298b0d1 com.sec.android.app.sbrowser/.SBrowserMainActivity4 filter 526890d
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        c3880c2 com.sec.android.app.sbrowser/.SBrowserMainActivity5 filter e91e70e
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        837a740 com.sec.android.app.sbrowser/.customtabs.CustomTabActivity filter 27e679
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        3cc2fbe com.sec.android.app.sbrowser/.customtabs.TranslucentCustomTabActivity filter f70681f
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        93b1e58 com.sec.android.app.sbrowser/.webapp.WebappActivity filter 17aebb1
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        10c7896 com.sec.android.app.sbrowser/.webapp.SameTaskWebApkActivity filter 9113c17
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+      android.intent.action.MAIN:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 93a02ba
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "com.samsung.android.intent.category.COVER_LAUNCHER_FOR_FLIP"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.APP_BROWSER"
+      com.samsung.android.sbrowser.APP_DATA:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 378834f
+          Action: "com.samsung.android.sbrowser.APP_DATA"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter e09661a
+          Action: "com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.webapp.WebappManager.ACTION_START_WEBAPP:
+        51789ca com.sec.android.app.sbrowser/.webapp.WebappManager filter 33d673b
+          Action: "com.sec.android.app.sbrowser.webapp.WebappManager.ACTION_START_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.intent.action.SEC_APPLICATION_SETTINGS:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter e09661a
+          Action: "com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.android.settings.MANUFACTURER_APPLICATION_SETTING:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter 938954b
+          Action: "com.android.settings.MANUFACTURER_APPLICATION_SETTING"
+        d969b28 com.sec.android.app.sbrowser/.settings.SettingsActivityIntelligentFeatures filter 5567041
+          Action: "com.android.settings.MANUFACTURER_APPLICATION_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENT_FEATURES_SETTINGS"
+      android.intent.action.MANAGE_NETWORK_USAGE:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter e09661a
+          Action: "com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.CONFIRM_PASSWORD:
+        8125fe9 com.sec.android.app.sbrowser/.scloud.account.SamsungAccountSDKActivity filter f36139c
+          Action: "com.sec.android.app.sbrowser.CONFIRM_PASSWORD"
+          Category: "android.intent.category.DEFAULT"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        7e382b3 com.sec.android.app.sbrowser/.widget.WidgetSettingActivity filter 7236070
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        1d2952b com.sec.android.app.sbrowser/.search_widget.SearchWidgetSettingsActivity filter a5ecd88
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      com.samsung.android.sbrowser.contentBlocker.ACTION_SETTING:
+        d6fc804 com.sec.android.app.sbrowser/.blockers.content_block.view.ContentBlockActivity filter ea191ed
+          Action: "com.samsung.android.sbrowser.contentBlocker.ACTION_SETTING"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.INTENT_NEW_TAB:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 63b8d47
+          Action: "com.sec.android.app.sbrowser.INTENT_NEW_TAB"
+        d19b6e3 com.sec.android.app.sbrowser/.SBrowserMainActivity2 filter 3e38e0
+          Action: "com.sec.android.app.sbrowser.INTENT_NEW_TAB"
+        dfe030c com.sec.android.app.sbrowser/.SBrowserMainActivity3 filter 15d2455
+          Action: "com.sec.android.app.sbrowser.INTENT_NEW_TAB"
+        298b0d1 com.sec.android.app.sbrowser/.SBrowserMainActivity4 filter 3892736
+          Action: "com.sec.android.app.sbrowser.INTENT_NEW_TAB"
+        c3880c2 com.sec.android.app.sbrowser/.SBrowserMainActivity5 filter 3561ed3
+          Action: "com.sec.android.app.sbrowser.INTENT_NEW_TAB"
+      com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 850f974
+          Action: "com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS"
+        d19b6e3 com.sec.android.app.sbrowser/.SBrowserMainActivity2 filter d12a799
+          Action: "com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS"
+        dfe030c com.sec.android.app.sbrowser/.SBrowserMainActivity3 filter 4788e6a
+          Action: "com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS"
+        298b0d1 com.sec.android.app.sbrowser/.SBrowserMainActivity4 filter 51c5637
+          Action: "com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS"
+        c3880c2 com.sec.android.app.sbrowser/.SBrowserMainActivity5 filter 3419a10
+          Action: "com.sec.android.app.sbrowser.INTENT_VIEW_DOWNLOADS"
+      com.sec.android.app.sbrowser.LAUNCH_DOWNLOAD_HISTORY:
+        6b69e72 com.sec.android.app.sbrowser/.download.ui.DownloadHistoryActivity filter e3462c3
+          Action: "com.sec.android.app.sbrowser.LAUNCH_DOWNLOAD_HISTORY"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.sbrowser.LAUNCH_VIDEO_ACTIVITY:
+        98ff76c com.sec.android.app.sbrowser/.media.player.MPVideoActivity filter 9377135
+          Action: "com.sec.android.app.sbrowser.LAUNCH_VIDEO_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.settings.action.INTELLIGENT_FEATURES_SETTINGS:
+        d969b28 com.sec.android.app.sbrowser/.settings.SettingsActivityIntelligentFeatures filter 5567041
+          Action: "com.android.settings.MANUFACTURER_APPLICATION_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENT_FEATURES_SETTINGS"
+      android.intent.action.WEB_SEARCH:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 6f59086
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.spv.ACTION_VIEW_DETAIL:
+        bb0ccc5 com.sec.android.app.sbrowser/.settings.SettingsActivity filter e09661a
+          Action: "com.sec.android.app.sbrowser.ACTION_SHOW_SYNC_SETTING"
+          Action: "com.samsung.android.settings.action.INTELLIGENCE_SERVICE_SETTINGS"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Action: "android.intent.action.MANAGE_NETWORK_USAGE"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 6c2adc
+          Action: "android.intent.action.SEARCH"
+      com.samsung.android.support.executable:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter a33be9d
+          Action: "com.samsung.android.support.executable"
+        d19b6e3 com.sec.android.app.sbrowser/.SBrowserMainActivity2 filter 9582a5e
+          Action: "com.samsung.android.support.executable"
+        dfe030c com.sec.android.app.sbrowser/.SBrowserMainActivity3 filter 2b51f5b
+          Action: "com.samsung.android.support.executable"
+        298b0d1 com.sec.android.app.sbrowser/.SBrowserMainActivity4 filter 4dfa7a4
+          Action: "com.samsung.android.support.executable"
+        c3880c2 com.sec.android.app.sbrowser/.SBrowserMainActivity5 filter 83fa909
+          Action: "com.samsung.android.support.executable"
+
+  MIME Typed Actions:
+      com.sec.android.app.sbrowser.VIEW_MEDIA:
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter bdaad61
+          Action: "com.sec.android.app.sbrowser.VIEW_MEDIA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "image"
+          StaticType: "video"
+          StaticType: "audio"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter 4afc45f
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+      android.intent.action.VIEW:
+        f30efb2 com.sec.android.app.sbrowser/.SBrowserLauncherActivity filter e8e58b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter 64056b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/xml"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+          StaticType: "application/vnd.wap.xhtml+xml"
+          StaticType: "multipart/related"
+        54577e5 com.sec.android.app.sbrowser/.SBrowserMainActivity filter fff18c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          StaticType: "multipart/related"
+      android.intent.action.INSERT:
+        b59d52f com.sec.android.app.sbrowser/.sites.bookmark.view.add_bookmark.AddBookmarkActivity filter 58e473c
+          Action: "android.intent.action.INSERT"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.dir/bookmark"
+
+Receiver Resolver Table:
+  Schemes:
+      android_secret_code:
+        39b26e2 com.sec.android.app.sbrowser/.stub.TestModeKeyStringBroadcastReceiver filter 3b49a73
+          Action: "android.provider.Telephony.SECRET_CODE"
+          Scheme: "android_secret_code"
+          Authority: "88277*66": -1
+          Authority: "88277*633": -1
+      package:
+        ce53439 com.sec.android.app.sbrowser/.autofill.SamsungPassBroadcastReceiver filter 96ca7e
+          Action: "com.samsung.android.sbrowser.easysignin.ACTION_MIGRATION"
+          Scheme: "package"
+        e4f7c8e com.sec.android.app.sbrowser/com.sec.terrace.browser.browserservices.TinInstalledWebappBroadcastReceiver filter 39f7caf
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Scheme: "package"
+      file:
+        b5c3171 com.sec.android.app.sbrowser/.download.DownloadBroadcastReceiver filter dec57d7
+          Action: "android.intent.action.MEDIA_REMOVED"
+          Action: "android.intent.action.MEDIA_UNMOUNTED"
+          Action: "android.intent.action.MEDIA_EJECT"
+          Scheme: "file"
+
+  Non-Data Actions:
+      android.intent.action.BCS_REQUEST:
+        6ffc8ef com.sec.android.app.sbrowser/.settings.ATCommandReceiver filter 1fb8ffc
+          Action: "android.intent.action.BCS_REQUEST"
+          Action: "com.samsung.intent.action.BCS_REQUEST"
+      com.sec.android.webapp.notifications.CANCEL:
+        4f8d390 com.sec.android.app.sbrowser/com.sec.terrace.browser.webapps.notifications.TinWebApkNotificationService$Receiver filter fc82489
+          Action: "com.sec.android.webapp.notifications.CANCEL"
+      android.intent.action.BATTERY_OKAY:
+        a8ff48c com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c15f7d5
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.samsung.android.bio.face.intent.action.FACE_REMOVED:
+        dca46fb com.sec.android.app.sbrowser/.FaceStateChangedReceiver filter 1e2e318
+          Action: "com.samsung.android.bio.face.intent.action.FACE_REMOVED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_ADDED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_RESET"
+      com.samsung.android.intent.action.FINGERPRINT_ADDED:
+        d5acbdf com.sec.android.app.sbrowser/.FingerprintStateChangedReceiver filter 740f02c
+          Action: "com.samsung.android.intent.action.FINGERPRINT_ADDED"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_RESET"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_REMOVED"
+      com.samsung.android.intent.action.FINGERPRINT_RESET:
+        d5acbdf com.sec.android.app.sbrowser/.FingerprintStateChangedReceiver filter 740f02c
+          Action: "com.samsung.android.intent.action.FINGERPRINT_ADDED"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_RESET"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_REMOVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        49d5fde com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter deba5bf
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.android.bio.face.intent.action.FACE_ADDED:
+        dca46fb com.sec.android.app.sbrowser/.FaceStateChangedReceiver filter 1e2e318
+          Action: "com.samsung.android.bio.face.intent.action.FACE_REMOVED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_ADDED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_RESET"
+      com.samsung.android.bio.face.intent.action.FACE_RESET:
+        dca46fb com.sec.android.app.sbrowser/.FaceStateChangedReceiver filter 1e2e318
+          Action: "com.samsung.android.bio.face.intent.action.FACE_REMOVED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_ADDED"
+          Action: "com.samsung.android.bio.face.intent.action.FACE_RESET"
+      com.samsung.android.providers.context.WEEKLY_BROADCAST:
+        7af18c4 com.sec.android.app.sbrowser/.logging.WeeklyBroadcastReceiver filter ab173ad
+          Action: "com.samsung.android.providers.context.WEEKLY_BROADCAST"
+      com.sec.android.intent.action.REQUEST_RESTORE_BROWSER:
+        7c71f1b com.sec.android.app.sbrowser/.backup.SBrowserImportBookmarkReceiver filter 524a8b8
+          Action: "com.sec.android.intent.action.REQUEST_RESTORE_BROWSER"
+      com.samsung.intent.action.SPRINTEXTENSION_BROWSER_GET_HEADERS:
+        5ec0a83 com.sec.android.app.sbrowser/.net.SBrowserHeadersSetReceiver filter 5069400
+          Action: "com.samsung.intent.action.SPRINTEXTENSION_BROWSER_GET_HEADERS"
+      com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER:
+        3061559 com.sec.android.app.sbrowser/.backup.SBrowserBackupRestoreReceiver filter fee651e
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER"
+      android.os.storage.action.VOLUME_STATE_CHANGED:
+        b5c3171 com.sec.android.app.sbrowser/.download.DownloadBroadcastReceiver filter bb7ab56
+          Action: "android.os.storage.action.VOLUME_STATE_CHANGED"
+      com.sec.terrace.browser.notifications.CLOSE_NOTIFICATION:
+        6ffbe42 com.sec.android.app.sbrowser/com.sec.terrace.browser.notifications.TinNotificationService$Receiver filter fe84e53
+          Action: "com.sec.terrace.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "com.sec.terrace.browser.notifications.CLICK_NOTIFICATION"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        f134cb com.sec.android.app.sbrowser/androidx.profileinstaller.ProfileInstallReceiver filter b728f66
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.sec.android.app.sbrowser.bookmark.widget.update:
+        a928acd com.sec.android.app.sbrowser/.widget.BookmarkAppWidgetProvider filter e3dbf82
+          Action: "com.sec.android.app.sbrowser.bookmark.widget.update"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.samsung.intent.action.CSC_BROWSER_SET_SEARCH_ENGINE:
+        6a8c13d com.sec.android.app.sbrowser/.settings.SearchEngineSettingReceiver filter 2e90d32
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_SEARCH_ENGINE"
+      com.samsung.android.sdk.smp.pushTokenChanged:
+        5e14248 com.sec.android.app.sbrowser/.smp.SmpEventReceiver filter ecb58e1
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        a9b9bea com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter ebededb
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.sec.android.app.sbrowser.RemoteConsent:
+        a16b03a com.sec.android.app.sbrowser/.parental_control.RemoteConsentReceiver filter c36e4eb
+          Action: "com.sec.android.app.sbrowser.RemoteConsent"
+      com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER:
+        3061559 com.sec.android.app.sbrowser/.backup.SBrowserBackupRestoreReceiver filter fee651e
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER"
+      com.samsung.intent.action.SETTINGS_SOFT_RESET:
+        9aa050b com.sec.android.app.sbrowser/.settings.SettingsSoftResetReceiver filter c6fafe8
+          Action: "com.samsung.intent.action.SETTINGS_SOFT_RESET"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED:
+        c79ae15 com.sec.android.app.sbrowser/.sync.SamsungAccountChangedReceiver filter c17b52a
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+        2e6fd30 com.sec.android.app.sbrowser/.scloud.account.InternetAccountStatusReceiver filter 9e9da9
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_REMOVE_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      SAMSUNGELECTRONICSCO.LTD.SamsungAccountPluginforSa_3c1yjt4zspk6g_INTENT:
+        4527ea3 com.sec.android.app.sbrowser/.continuity_helper.InstantMessageReceiver filter ec7c5a0
+          Action: "SAMSUNGELECTRONICSCO.LTD.SamsungAccountPluginforSa_3c1yjt4zspk6g_INTENT"
+      com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED:
+        c79ae15 com.sec.android.app.sbrowser/.sync.SamsungAccountChangedReceiver filter c17b52a
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+        2e6fd30 com.sec.android.app.sbrowser/.scloud.account.InternetAccountStatusReceiver filter 9e9da9
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_REMOVE_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.sec.spp.RegistrationChangedAction:
+        af9606 com.sec.android.app.sbrowser/.smp.SmpSppReceiver filter 91ce4c7
+          Action: "com.sec.spp.RegistrationChangedAction"
+          Action: "4cef69cd71a8fe58"
+      com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT:
+        e8461ff com.sec.android.app.sbrowser/.backup.SBrowserInstantBackupRestoreReceiver filter e739bcc
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        a9b9bea com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter ebededb
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE:
+        e8461ff com.sec.android.app.sbrowser/.backup.SBrowserInstantBackupRestoreReceiver filter e739bcc
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      SBROWSER_BOOKMARK_WIDGET_ITEM_CLICKED:
+        1305693 com.sec.android.app.sbrowser/.widget.BookmarkWidgetBroadcastReceiver filter 4a7d6d0
+          Action: "SBROWSER_BOOKMARK_WIDGET_ITEM_CLICKED"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE:
+        c79ae15 com.sec.android.app.sbrowser/.sync.SamsungAccountChangedReceiver filter c17b52a
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.samsung.android.intent.action.INTERNET_ACCOUNT_REMOVE_COMPLETED:
+        2e6fd30 com.sec.android.app.sbrowser/.scloud.account.InternetAccountStatusReceiver filter 9e9da9
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_REMOVE_COMPLETED"
+          mPriority=999, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.samsung.android.samsungaccount.ACTION_MINOR_INFO_CHANGED:
+        59f0c92 com.sec.android.app.sbrowser/.parental_control.MinorInfoReceiver filter 5790663
+          Action: "com.samsung.android.samsungaccount.ACTION_MINOR_INFO_CHANGED"
+      com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      com.samsung.android.sdk.smp.smpInitializeResult:
+        5e14248 com.sec.android.app.sbrowser/.smp.SmpEventReceiver filter ecb58e1
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED:
+        c79ae15 com.sec.android.app.sbrowser/.sync.SamsungAccountChangedReceiver filter c17b52a
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+        7ae91f7 com.sec.android.app.sbrowser/.artificial_intelligence.SamsungAccountChangeReceiver filter 1d79864
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+      android.intent.action.SIM_STATE_CHANGED:
+        b71e6e7 com.sec.android.app.sbrowser/.SimStateChangedReceiver filter 183e294
+          Action: "android.intent.action.SIM_STATE_CHANGED"
+      com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER:
+        e8461ff com.sec.android.app.sbrowser/.backup.SBrowserInstantBackupRestoreReceiver filter e739bcc
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      4cef69cd71a8fe58:
+        af9606 com.sec.android.app.sbrowser/.smp.SmpSppReceiver filter 91ce4c7
+          Action: "com.sec.spp.RegistrationChangedAction"
+          Action: "4cef69cd71a8fe58"
+      com.samsung.android.intent.action.FINGERPRINT_REMOVED:
+        d5acbdf com.sec.android.app.sbrowser/.FingerprintStateChangedReceiver filter 740f02c
+          Action: "com.samsung.android.intent.action.FINGERPRINT_ADDED"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_RESET"
+          Action: "com.samsung.android.intent.action.FINGERPRINT_REMOVED"
+      android.intent.action.LOCALE_CHANGED:
+        c2d2321 com.sec.android.app.sbrowser/.LocaleChangedReceiver filter c723346
+          Action: "android.intent.action.LOCALE_CHANGED"
+        7ec3af4 com.sec.android.app.sbrowser/.search_widget.SearchWidgetProvider filter 643a21d
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.sec.android.app.sbrowser.search.widget.SEARCH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.sec.terrace.browser.browserservices.TinInstalledWebappBroadcastReceiver.DEBUG:
+        e4f7c8e com.sec.android.app.sbrowser/com.sec.terrace.browser.browserservices.TinInstalledWebappBroadcastReceiver filter 13f98bc
+          Action: "com.sec.terrace.browser.browserservices.TinInstalledWebappBroadcastReceiver.DEBUG"
+      com.samsung.sea.rm.DEMO_RESET_STARTED:
+        896c601 com.sec.android.app.sbrowser/.ClearDataRetailModeReceiver filter e4ccca6
+          Action: "com.samsung.sea.rm.DEMO_RESET_STARTED"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE:
+        e8461ff com.sec.android.app.sbrowser/.backup.SBrowserInstantBackupRestoreReceiver filter e739bcc
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      com.sec.terrace.browser.notifications.CLICK_NOTIFICATION:
+        6ffbe42 com.sec.android.app.sbrowser/com.sec.terrace.browser.notifications.TinNotificationService$Receiver filter fe84e53
+          Action: "com.sec.terrace.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "com.sec.terrace.browser.notifications.CLICK_NOTIFICATION"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        f134cb com.sec.android.app.sbrowser/androidx.profileinstaller.ProfileInstallReceiver filter 4cb84a8
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        6058045 com.sec.android.app.sbrowser/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 7cad39a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      com.samsung.android.intent.action.IRIS_REMOVED:
+        ddbdaf5 com.sec.android.app.sbrowser/.IrisStateChangedReceiver filter 1d1108a
+          Action: "com.samsung.android.intent.action.IRIS_REMOVED"
+          Action: "com.samsung.android.intent.action.IRIS_ADDED"
+          Action: "com.samsung.android.intent.action.IRIS_RESET"
+      android.intent.action.BATTERY_LOW:
+        a8ff48c com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter c15f7d5
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED:
+        c79ae15 com.sec.android.app.sbrowser/.sync.SamsungAccountChangedReceiver filter c17b52a
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.android.intent.action.INTERNET_ACCOUNT_SIGNIN_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_BEFORE_RESTORE"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      android.intent.action.TIMEZONE_CHANGED:
+        a928acd com.sec.android.app.sbrowser/.widget.BookmarkAppWidgetProvider filter e3dbf82
+          Action: "com.sec.android.app.sbrowser.bookmark.widget.update"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        78dcd78 com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ecb3c51
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+      android.intent.action.TIME_SET:
+        6635907 com.sec.android.app.sbrowser/.settings.notifications.SystemTimeChangedReceiver filter fd73a34
+          Action: "android.intent.action.TIME_SET"
+        a97d05d com.sec.android.app.sbrowser/.settings.security_panel.PrivacyDateChangedReceiver filter 90e3dd2
+          Action: "android.intent.action.TIME_SET"
+        a928acd com.sec.android.app.sbrowser/.widget.BookmarkAppWidgetProvider filter e3dbf82
+          Action: "com.sec.android.app.sbrowser.bookmark.widget.update"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        78dcd78 com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ecb3c51
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+      androidx.profileinstaller.action.SKIP_FILE:
+        f134cb com.sec.android.app.sbrowser/androidx.profileinstaller.ProfileInstallReceiver filter f02dbc1
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        f134cb com.sec.android.app.sbrowser/androidx.profileinstaller.ProfileInstallReceiver filter 65c52a7
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        49d5fde com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter deba5bf
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.sec.android.app.sbrowser.search.widget.SEARCH:
+        7ec3af4 com.sec.android.app.sbrowser/.search_widget.SearchWidgetProvider filter 643a21d
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.sec.android.app.sbrowser.search.widget.SEARCH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.DATE_CHANGED:
+        a928acd com.sec.android.app.sbrowser/.widget.BookmarkAppWidgetProvider filter e3dbf82
+          Action: "com.sec.android.app.sbrowser.bookmark.widget.update"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.sec.android.app.sbrowser.action.intent_blocker.open_link_once:
+        e76bc5c com.sec.android.app.sbrowser/.intent_blocker.IntentBlockerReceiver filter 11a6b65
+          Action: "com.sec.android.app.sbrowser.action.intent_blocker.open_link_once"
+          Action: "com.sec.android.app.sbrowser.action.intent_blocker.open_link_always"
+      com.sec.android.intent.action.WALLPAPER_CHANGED:
+        3ca06c9 com.sec.android.app.sbrowser/.DeviceWallpaperChangedReceiver filter 38c51ce
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+      com.samsung.android.intent.action.REQUIRED_INTERNET_LOGIN_NOTIFICATION:
+        148cf2e com.sec.android.app.sbrowser/.scloud.account.AuthenticationReceiver filter 6b46acf
+          Action: "com.samsung.android.intent.action.REQUIRED_INTERNET_LOGIN_NOTIFICATION"
+      com.samsung.intent.action.BROWSER_AUTO_SET:
+        2541691 com.sec.android.app.sbrowser/.sites.provider.OperatorBookmarkReceiver filter 1d3f9f6
+          Action: "com.samsung.intent.action.BROWSER_AUTO_SET"
+      com.samsung.intent.action.BCS_REQUEST:
+        6ffc8ef com.sec.android.app.sbrowser/.settings.ATCommandReceiver filter 1fb8ffc
+          Action: "android.intent.action.BCS_REQUEST"
+          Action: "com.samsung.intent.action.BCS_REQUEST"
+      com.samsung.android.intent.action.IRIS_ADDED:
+        ddbdaf5 com.sec.android.app.sbrowser/.IrisStateChangedReceiver filter 1d1108a
+          Action: "com.samsung.android.intent.action.IRIS_REMOVED"
+          Action: "com.samsung.android.intent.action.IRIS_ADDED"
+          Action: "com.samsung.android.intent.action.IRIS_RESET"
+      com.samsung.android.intent.action.IRIS_RESET:
+        ddbdaf5 com.sec.android.app.sbrowser/.IrisStateChangedReceiver filter 1d1108a
+          Action: "com.samsung.android.intent.action.IRIS_REMOVED"
+          Action: "com.samsung.android.intent.action.IRIS_ADDED"
+          Action: "com.samsung.android.intent.action.IRIS_RESET"
+      com.samsung.android.sdk.smp.pushRegistrationResult:
+        5e14248 com.sec.android.app.sbrowser/.smp.SmpEventReceiver filter ecb58e1
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        a928acd com.sec.android.app.sbrowser/.widget.BookmarkAppWidgetProvider filter e3dbf82
+          Action: "com.sec.android.app.sbrowser.bookmark.widget.update"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.DATE_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        7ec3af4 com.sec.android.app.sbrowser/.search_widget.SearchWidgetProvider filter 643a21d
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.sec.android.app.sbrowser.search.widget.SEARCH"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        8e4924 com.sec.android.app.sbrowser/androidx.work.impl.diagnostics.DiagnosticsReceiver filter cb64c8d
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        5e14248 com.sec.android.app.sbrowser/.smp.SmpEventReceiver filter ecb58e1
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        80c1260 com.sec.android.app.sbrowser/androidx.glance.appwidget.MyPackageReplacedReceiver filter fd4319
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE:
+        6e34685 com.sec.android.app.sbrowser/.homepage.HomepageSettingReceiver filter e1fbcda
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_SET_HOMEPAGE_PROTECTED"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CSC_BROWSER_SET_HOMEPAGE"
+          Action: "com.samsung.intent.action.STK_BROWSER_GET_HOMEPAGE2"
+          Action: "com.samsung.intent.action.RETAIL_SET_HOMEPAGE_AS_QUICKACCESS"
+          Action: "com.samsung.intent.action.OMADM_BROWSER_GET_HOMEPAGE"
+          Action: "com.samsung.intent.action.CHAMELEON_BROWSER_SET_HOMEPAGE"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        8f8cb6 com.sec.android.app.sbrowser/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 4c28db7
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED:
+        e8461ff com.sec.android.app.sbrowser/.backup.SBrowserInstantBackupRestoreReceiver filter e739bcc
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      com.sec.android.app.sbrowser.action.intent_blocker.open_link_always:
+        e76bc5c com.sec.android.app.sbrowser/.intent_blocker.IntentBlockerReceiver filter 11a6b65
+          Action: "com.sec.android.app.sbrowser.action.intent_blocker.open_link_once"
+          Action: "com.sec.android.app.sbrowser.action.intent_blocker.open_link_always"
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        d9426fa com.sec.android.app.sbrowser/.sites.bookmark.wearable_sync.BookmarkWearableService filter b50f4ab
+          Action: "com.google.android.gms.wearable.CHANNEL_EVENT"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{PREFIX: /message}"
+
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        9f559f0 com.sec.android.app.sbrowser/.scloud.sync.adapters.SBrowserSyncService filter e7e9b69
+          Action: "android.content.SyncAdapter"
+        b7859ee com.sec.android.app.sbrowser/.scloud.sync.adapters.SBrowserSyncServiceGED filter 9b8fe8f
+          Action: "android.content.SyncAdapter"
+      com.sec.android.intent.action.REQUEST_RESTORE_BROWSER:
+        a0d2984 com.sec.android.app.sbrowser/.backup.ImportBookmarkService filter a59156d permission com.sec.android.app.browser.permission.IMPORT_BOOKMARK
+          Action: "com.sec.android.intent.action.REQUEST_RESTORE_BROWSER"
+      com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER:
+        a3d67d8 com.sec.android.app.sbrowser/.backup.BackupRestoreService filter ad93731 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER"
+      com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER:
+        a3d67d8 com.sec.android.app.sbrowser/.backup.BackupRestoreService filter ad93731 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_SBROWSER"
+      android.app.appsearch.functions.AppFunctionService:
+        26db8c6 com.sec.android.app.sbrowser/com.google.android.appfunctions.service.MainAppFunctionService filter 6283087 permission android.permission.BIND_APP_FUNCTION_SERVICE
+          Action: "android.app.appsearch.functions.AppFunctionService"
+      com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT:
+        e339e16 com.sec.android.app.sbrowser/.backup.InstantBackupRestoreService filter 1293397 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE:
+        e339e16 com.sec.android.app.sbrowser/.backup.InstantBackupRestoreService filter 1293397 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      android.app.appfunctions.AppFunctionService:
+        26db8c6 com.sec.android.app.sbrowser/com.google.android.appfunctions.service.MainAppFunctionService filter d4ffbb4 permission android.permission.BIND_APP_FUNCTION_SERVICE
+          Action: "android.app.appfunctions.AppFunctionService"
+      com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER:
+        e339e16 com.sec.android.app.sbrowser/.backup.InstantBackupRestoreService filter 1293397 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      com.google.firebase.MESSAGING_EVENT:
+        2ee251c com.sec.android.app.sbrowser/.smp.SmpFcmService filter e5c8525
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          Action: "com.google.firebase.iid.TOKEN_REFRESH"
+        af733dd com.sec.android.app.sbrowser/com.google.firebase.messaging.FirebaseMessagingService filter 6fc9b52
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE:
+        e339e16 com.sec.android.app.sbrowser/.backup.InstantBackupRestoreService filter 1293397 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      android.support.customtabs.action.CustomTabsService:
+        af8a8ec com.sec.android.app.sbrowser/.customtabs.CustomTabsConnectionService filter 1e004b5
+          Action: "android.support.customtabs.action.CustomTabsService"
+          Category: "androidx.browser.trusted.category.TrustedWebActivities"
+          Category: "androidx.browser.trusted.category.ImmersiveMode"
+          Category: "androidx.browser.customtabs.category.SetNetwork"
+      android.accounts.AccountAuthenticator:
+        bc385a2 com.sec.android.app.sbrowser/.scloud.account.AuthenticationService filter 2437233
+          Action: "android.accounts.AccountAuthenticator"
+      com.google.firebase.iid.TOKEN_REFRESH:
+        2ee251c com.sec.android.app.sbrowser/.smp.SmpFcmService filter e5c8525
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          Action: "com.google.firebase.iid.TOKEN_REFRESH"
+      com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED:
+        e339e16 com.sec.android.app.sbrowser/.backup.InstantBackupRestoreService filter 1293397 permission com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_SNAPSHOT"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_UPLOAD_DONE"
+          Action: "com.samsung.android.intent.action.REQUEST_PREPARE_SBROWSER"
+          Action: "com.samsung.android.intent.action.REQUEST_INSTANT_RESTORE"
+          Action: "com.samsung.android.intent.action.NOTICE_INSTANT_TASK_CANCELED"
+      android.intent.action.MEDIA_BUTTON:
+        6cf574a com.sec.android.app.sbrowser/.media.ui.MediaPlaybackListenerService filter 1ce6bb
+          Action: "android.intent.action.MEDIA_BUTTON"
+        3467708 com.sec.android.app.sbrowser/.artificial_intelligence.read_aloud.notification.ReadAloudListenerService filter 5754ea1
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.DOCUMENTS_PROVIDER:
+        6da253e com.sec.android.app.sbrowser/.backup.BnRDocumentProvider filter e2eef9f
+          Action: "android.content.action.DOCUMENTS_PROVIDER"
+      com.sec.android.app.myfiles.MANAGE_APP_DATA:
+        f040c0 com.sec.android.app.sbrowser/.sites.provider.ManageAppDataProvider filter e8641f9
+          Action: "com.sec.android.app.myfiles.MANAGE_APP_DATA"
+      com.samsung.android.settings.DYNAMIC_MENU_PROVIDER:
+        aa84354 com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiDescriptionProvider filter 52072fd
+          Action: "com.samsung.android.settings.DYNAMIC_MENU_PROVIDER"
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        e883bf2 com.sec.android.app.sbrowser/.settings.SbrowserSettingsSearchIndexablesProvider filter 1717243
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.SILENT_INSTALL_COMPLETE] (26b9eff):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{a7e94cc com.sec.android.app.sbrowser.permission.SILENT_INSTALL_COMPLETE}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.MPACTIVITY_PERMISSION] (b03b315):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{861d62a com.sec.android.app.sbrowser.permission.MPACTIVITY_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.browser.permission.BROWSER_HEADERS] (f652c1b):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{96631b8 com.sec.android.app.browser.permission.BROWSER_HEADERS}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.WRITE_VIDEO_HISTORY] (ff96b91):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{f1f2af6 com.sec.android.app.sbrowser.permission.WRITE_VIDEO_HISTORY}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.WRITE_MOST_VISITED_SITES] (fa06ef7):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{328b164 com.sec.android.app.sbrowser.permission.WRITE_MOST_VISITED_SITES}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.EASYSIGNIN_MIGRATION] (5b82fcd):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{38b0082 com.sec.android.app.sbrowser.permission.EASYSIGNIN_MIGRATION}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.READ_MOST_VISITED_SITES] (2e30393):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{c717fd0 com.sec.android.app.sbrowser.permission.READ_MOST_VISITED_SITES}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.READ_VIDEO_HISTORY] (c24fbc9):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{6eca2ce com.sec.android.app.sbrowser.permission.READ_VIDEO_HISTORY}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.browser.permission.HOMEPAGE] (5b045ef):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{736c8fc com.sec.android.app.browser.permission.HOMEPAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.operatorbookmarks.permission.BOOKMARK_AUTO_SET] (2788b85):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{5b41dda com.sec.android.app.sbrowser.operatorbookmarks.permission.BOOKMARK_AUTO_SET}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.QUICKACCESS] (f65520b):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{ca578e8 com.sec.android.app.sbrowser.permission.QUICKACCESS}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (8bb5b01):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1463da6 com.sec.android.app.sbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.WRITE_QUICKACCESS] (61503e7):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{9cd3b94 com.sec.android.app.sbrowser.permission.WRITE_QUICKACCESS}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.HANDOFF_APP_DATA] (d01a63d):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{a888e32 com.sec.android.app.sbrowser.permission.HANDOFF_APP_DATA}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.WEARABLE_PERMISSION] (423f783):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{b0c7d00 com.sec.android.app.sbrowser.permission.WEARABLE_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.browser.permission.IMPORT_BOOKMARK] (676939):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{92d5b7e com.sec.android.app.browser.permission.IMPORT_BOOKMARK}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.BACKUP_RESTORE] (ba488df):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{23c692c com.sec.android.app.sbrowser.permission.BACKUP_RESTORE}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.app.sbrowser.permission.READ_CREDIT_CARD_INFO] (fcc5ff5):
+    sourcePackage=com.sec.android.app.sbrowser
+    uid=10246 gids=[] type=0 prot=normal
+    perm=PermissionInfo{bbfb18a com.sec.android.app.sbrowser.permission.READ_CREDIT_CARD_INFO}
+    flags=0x0
+
+Registered ContentProviders:
+  com.sec.android.app.sbrowser/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{372d3fb com.sec.android.app.sbrowser/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.sec.android.app.sbrowser/.sites.common.search.provider.SitesSearchKeywordProvider:
+    Provider{39cec18 com.sec.android.app.sbrowser/.sites.common.search.provider.SitesSearchKeywordProvider}
+  com.sec.android.app.sbrowser/.searchengine.SearchEngineProvider:
+    Provider{c500671 com.sec.android.app.sbrowser/.searchengine.SearchEngineProvider}
+  com.sec.android.app.sbrowser/.settings.notifications.NotificationProvider:
+    Provider{c6f5c56 com.sec.android.app.sbrowser/.settings.notifications.NotificationProvider}
+  com.sec.android.app.sbrowser/.media.history.model.MHDatabaseProvider:
+    Provider{a10b4d7 com.sec.android.app.sbrowser/.media.history.model.MHDatabaseProvider}
+  com.sec.android.app.sbrowser/.sites.provider.ManageAppDataProvider:
+    Provider{f040c0 com.sec.android.app.sbrowser/.sites.provider.ManageAppDataProvider}
+  com.sec.android.app.sbrowser/androidx.startup.InitializationProvider:
+    Provider{580b1c4 com.sec.android.app.sbrowser/androidx.startup.InitializationProvider}
+  com.sec.android.app.sbrowser/com.samsung.android.sdk.bixby2.provider.CapsuleProvider:
+    Provider{f8d98ad com.sec.android.app.sbrowser/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+  com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+  com.sec.android.app.sbrowser/.common.sdp.SBrowserInternalProvider:
+    Provider{a41c773 com.sec.android.app.sbrowser/.common.sdp.SBrowserInternalProvider}
+  com.sec.android.app.sbrowser/.sync.v2.SyncClientProviderV2:
+    Provider{eb92630 com.sec.android.app.sbrowser/.sync.v2.SyncClientProviderV2}
+  com.sec.android.app.sbrowser/.settings.website.recent_search.RecentWebsiteSearchProvider:
+    Provider{79812a9 com.sec.android.app.sbrowser/.settings.website.recent_search.RecentWebsiteSearchProvider}
+  com.sec.android.app.sbrowser/.settings.search.provider.SettingSearchKeywordProvider:
+    Provider{925a02e com.sec.android.app.sbrowser/.settings.search.provider.SettingSearchKeywordProvider}
+  com.sec.android.app.sbrowser/.handoff.HandoffDataProvider:
+    Provider{d6767cf com.sec.android.app.sbrowser/.handoff.HandoffDataProvider}
+  com.sec.android.app.sbrowser/.common.download.provider.DownloadFileProvider:
+    Provider{fc2755c com.sec.android.app.sbrowser/.common.download.provider.DownloadFileProvider}
+  com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.ClientProvider:
+    Provider{79cb1eb com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.ClientProvider}
+  com.sec.android.app.sbrowser/.download.ui.recent_search.RecentDownloadSearchDbProvider:
+    Provider{2de6de1 com.sec.android.app.sbrowser/.download.ui.recent_search.RecentDownloadSearchDbProvider}
+  com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiDescriptionProvider:
+    Provider{aa84354 com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiDescriptionProvider}
+  com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder:
+    Provider{b358706 com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder}
+  com.sec.android.app.sbrowser/.settings.SbrowserSettingsSearchIndexablesProvider:
+    Provider{e883bf2 com.sec.android.app.sbrowser/.settings.SbrowserSettingsSearchIndexablesProvider}
+  com.sec.android.app.sbrowser/.settings.notifications.search.NotificationSearchKeywordProvider:
+    Provider{99281c7 com.sec.android.app.sbrowser/.settings.notifications.search.NotificationSearchKeywordProvider}
+  com.sec.android.app.sbrowser/.quickaccess.db.MostVisitedSitesProvider:
+    Provider{dd613f4 com.sec.android.app.sbrowser/.quickaccess.db.MostVisitedSitesProvider}
+  com.sec.android.app.sbrowser/.quickaccess.db.QuickAccessProvider:
+    Provider{f3071d com.sec.android.app.sbrowser/.quickaccess.db.QuickAccessProvider}
+  com.sec.android.app.sbrowser/androidx.core.content.FileProvider:
+    Provider{1130d92 com.sec.android.app.sbrowser/androidx.core.content.FileProvider}
+  com.sec.android.app.sbrowser/.dump.provider.DumpProvider:
+    Provider{42b7363 com.sec.android.app.sbrowser/.dump.provider.DumpProvider}
+  com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiOnDeviceProcessOptionProvider:
+    Provider{53a7b60 com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiOnDeviceProcessOptionProvider}
+  com.sec.android.app.sbrowser/.sites.provider.AccountDataProvider:
+    Provider{7bdf819 com.sec.android.app.sbrowser/.sites.provider.AccountDataProvider}
+  com.sec.android.app.sbrowser/.sites.provider.SBrowserProviderV2:
+    Provider{9d070de com.sec.android.app.sbrowser/.sites.provider.SBrowserProviderV2}
+  com.sec.android.app.sbrowser/.backup.BnRDocumentProvider:
+    Provider{6da253e com.sec.android.app.sbrowser/.backup.BnRDocumentProvider}
+  com.sec.android.app.sbrowser/.sync.SamsungCloudSyncSettingProvider:
+    Provider{6bbed8c com.sec.android.app.sbrowser/.sync.SamsungCloudSyncSettingProvider}
+  com.sec.android.app.sbrowser/.annotated_page_content.PageContentProvider:
+    Provider{6acfcd5 com.sec.android.app.sbrowser/.annotated_page_content.PageContentProvider}
+  com.sec.android.app.sbrowser/.sync.v2.ClientProviderV2:
+    Provider{e6ebcea com.sec.android.app.sbrowser/.sync.v2.ClientProviderV2}
+  com.sec.android.app.sbrowser/.sites.provider.CreditCardProvider:
+    Provider{9b1ebdb com.sec.android.app.sbrowser/.sites.provider.CreditCardProvider}
+
+ContentProvider Authorities:
+  [com.sec.android.app.sbrowser.scloud.quickaccess.sync]:
+    Provider{79cb1eb com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.ClientProvider}
+      applicationInfo=ApplicationInfo{d005678 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.scloud.quickaccess.sync2]:
+    Provider{e6ebcea com.sec.android.app.sbrowser/.sync.v2.ClientProviderV2}
+      applicationInfo=ApplicationInfo{c4d9151 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.settingsearchkeywords]:
+    Provider{925a02e com.sec.android.app.sbrowser/.settings.search.provider.SettingSearchKeywordProvider}
+      applicationInfo=ApplicationInfo{4f3bdb6 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.backup]:
+    Provider{79cb1eb com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.ClientProvider}
+      applicationInfo=ApplicationInfo{596ab7 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.mlkitinitprovider]:
+    Provider{372d3fb com.sec.android.app.sbrowser/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{5206224 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.aiSummary]:
+    Provider{aa84354 com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiDescriptionProvider}
+      applicationInfo=ApplicationInfo{888f18d com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.scloud.sync]:
+    Provider{79cb1eb com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.ClientProvider}
+      applicationInfo=ApplicationInfo{3137c90 com.sec.android.app.sbrowser}
+  [com.scloud.sync.SyncClientAuthority2]:
+    Provider{eb92630 com.sec.android.app.sbrowser/.sync.v2.SyncClientProviderV2}
+      applicationInfo=ApplicationInfo{2e8cd8e com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.backup2]:
+    Provider{e6ebcea com.sec.android.app.sbrowser/.sync.v2.ClientProviderV2}
+      applicationInfo=ApplicationInfo{594f9af com.sec.android.app.sbrowser}
+  [com.scloud.sync.SyncClientAuthority]:
+    Provider{b358706 com.sec.android.app.sbrowser/com.samsung.android.scloud.oem.lib.sync.SyncClientProivder}
+      applicationInfo=ApplicationInfo{dbd1bc com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.provider.DumpProvider]:
+    Provider{42b7363 com.sec.android.app.sbrowser/.dump.provider.DumpProvider}
+      applicationInfo=ApplicationInfo{ae7c545 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.quickaccesspinned]:
+    Provider{f3071d com.sec.android.app.sbrowser/.quickaccess.db.QuickAccessProvider}
+      applicationInfo=ApplicationInfo{b28349a com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.searchengine]:
+    Provider{c500671 com.sec.android.app.sbrowser/.searchengine.SearchEngineProvider}
+      applicationInfo=ApplicationInfo{94181cb com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.BrowserProviderProxy]:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+      applicationInfo=ApplicationInfo{4724da8 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.handoffData]:
+    Provider{d6767cf com.sec.android.app.sbrowser/.handoff.HandoffDataProvider}
+      applicationInfo=ApplicationInfo{4470c1 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.ChromeBrowserProvider]:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+      applicationInfo=ApplicationInfo{dc50066 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.browser]:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+      applicationInfo=ApplicationInfo{7e46fa7 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.operatorbookmarks]:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+      applicationInfo=ApplicationInfo{8729c54 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.card]:
+    Provider{9b1ebdb com.sec.android.app.sbrowser/.sites.provider.CreditCardProvider}
+      applicationInfo=ApplicationInfo{16657fd com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.aiOnDeviceOptionsProvider]:
+    Provider{53a7b60 com.sec.android.app.sbrowser/.artificial_intelligence.provider.AiOnDeviceProcessOptionProvider}
+      applicationInfo=ApplicationInfo{210bcf2 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.recentDownloadSearch]:
+    Provider{2de6de1 com.sec.android.app.sbrowser/.download.ui.recent_search.RecentDownloadSearchDbProvider}
+      applicationInfo=ApplicationInfo{fde5f43 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.mostvisited]:
+    Provider{dd613f4 com.sec.android.app.sbrowser/.quickaccess.db.MostVisitedSitesProvider}
+      applicationInfo=ApplicationInfo{38729c0 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.androidx-startup]:
+    Provider{580b1c4 com.sec.android.app.sbrowser/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{9c576f9 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.notificationsearchkeywords]:
+    Provider{99281c7 com.sec.android.app.sbrowser/.settings.notifications.search.NotificationSearchKeywordProvider}
+      applicationInfo=ApplicationInfo{e9b63e com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.bnrDocuments]:
+    Provider{6da253e com.sec.android.app.sbrowser/.backup.BnRDocumentProvider}
+      applicationInfo=ApplicationInfo{afdac9f com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.webPushNotification]:
+    Provider{c6f5c56 com.sec.android.app.sbrowser/.settings.notifications.NotificationProvider}
+      applicationInfo=ApplicationInfo{a9521ec com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.FileProvider]:
+    Provider{1130d92 com.sec.android.app.sbrowser/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{a5d89b5 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser]:
+    Provider{69ce7e2 com.sec.android.app.sbrowser/.sites.provider.SBrowserProvider}
+      applicationInfo=ApplicationInfo{c6f84a com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.PageContentProvider]:
+    Provider{6acfcd5 com.sec.android.app.sbrowser/.annotated_page_content.PageContentProvider}
+      applicationInfo=ApplicationInfo{79a73bb com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.DownloadFileProvider]:
+    Provider{fc2755c com.sec.android.app.sbrowser/.common.download.provider.DownloadFileProvider}
+      applicationInfo=ApplicationInfo{9a870d8 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.recentWebsiteSearch]:
+    Provider{79812a9 com.sec.android.app.sbrowser/.settings.website.recent_search.RecentWebsiteSearchProvider}
+      applicationInfo=ApplicationInfo{e2a0c31 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.ManageAppDataProvider]:
+    Provider{f040c0 com.sec.android.app.sbrowser/.sites.provider.ManageAppDataProvider}
+      applicationInfo=ApplicationInfo{6844f16 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.mediahistory]:
+    Provider{a10b4d7 com.sec.android.app.sbrowser/.media.history.model.MHDatabaseProvider}
+      applicationInfo=ApplicationInfo{7729097 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.sfinder.searchprovider]:
+    Provider{9d070de com.sec.android.app.sbrowser/.sites.provider.SBrowserProviderV2}
+      applicationInfo=ApplicationInfo{f9fc284 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.sitessearchkeywords]:
+    Provider{39cec18 com.sec.android.app.sbrowser/.sites.common.search.provider.SitesSearchKeywordProvider}
+      applicationInfo=ApplicationInfo{a623a6d com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.searchindexables]:
+    Provider{e883bf2 com.sec.android.app.sbrowser/.settings.SbrowserSettingsSearchIndexablesProvider}
+      applicationInfo=ApplicationInfo{6ee46a2 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.sync.setting.provider]:
+    Provider{6bbed8c com.sec.android.app.sbrowser/.sync.SamsungCloudSyncSettingProvider}
+      applicationInfo=ApplicationInfo{459f33 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.sbrowser2]:
+    Provider{a41c773 com.sec.android.app.sbrowser/.common.sdp.SBrowserInternalProvider}
+      applicationInfo=ApplicationInfo{89882f0 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.CapsuleProvider]:
+    Provider{f8d98ad com.sec.android.app.sbrowser/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+      applicationInfo=ApplicationInfo{6751069 com.sec.android.app.sbrowser}
+  [com.sec.android.app.sbrowser.account]:
+    Provider{7bdf819 com.sec.android.app.sbrowser/.sites.provider.AccountDataProvider}
+      applicationInfo=ApplicationInfo{50e2aee com.sec.android.app.sbrowser}
+
+Key Set Manager:
+  [com.sec.android.app.sbrowser]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.sec.android.app.sbrowser] (a30fb8f):
+    appId=10246
+    pkg=Package{31ade1c com.sec.android.app.sbrowser}
+    codePath=/data/app/~~iIIveAiBSM7BZpavUkL3wQ==/com.sec.android.app.sbrowser-8bnwtQqMBqrsgjubhqXGxQ==
+    resourcePath=/data/app/~~iIIveAiBSM7BZpavUkL3wQ==/com.sec.android.app.sbrowser-8bnwtQqMBqrsgjubhqXGxQ==
+    legacyNativeLibraryDir=/data/app/~~iIIveAiBSM7BZpavUkL3wQ==/com.sec.android.app.sbrowser-8bnwtQqMBqrsgjubhqXGxQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1300527501 minSdk=30 targetSdk=36
+    minExtensionVersions=[]
+    versionName=30.0.5.27
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.samsung.android.spay, com.samsung.android.smartsuggestions, com.samsung.android.moneta, com.samsung.android.intellivoiceservice, com.samsung.android.smp.register, com.sec.spp.push, com.sec.android.app.sbrowser, com.android.chrome, org.mozilla.firefox, com.UCMobile, sogou.mobile.explorer, com.qihoo.browser, com.android.browser, com.vivo.browser, com.osp.app.signin, com.microsoft.appmanager, com.google.ar.core, com.android.vending, com.samsung.android.spay]
+    queriesIntents=[Intent { act=com.samsung.android.scs.asr.action.SEARCH_LANGPACK }, Intent { act=com.samsung.android.utils.asset.action.REMOTE_ASSETS_INFO }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=http:/... }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=com.google.android.play.core.install.BIND_INSTALL_SERVICE }, Intent { act=android.intent.action.TTS_SERVICE }]
+    dataDir=/data/user/0/com.sec.android.app.sbrowser
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      samsungkeystoreutils
+      com.android.extensions.appfunctions
+      android.ext.adservices
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesOptionalNativeLibraries:
+      libSDKRecognitionOCR.spenocr.samsung.so
+      libStride.camera.samsung.so
+      libSDKMoireDetector.spenocr.samsung.so
+      libtensorflowlite_c.spenocr.samsung.so
+      libSDKRecognitionOCR.spenocr.samsung.so
+      libSDKMoireDetector.spenocr.samsung.so
+      libStride.camera.samsung.so
+      libOpenCv.camera.samsung.so
+      libLttEngine_RR.so
+      libimagecodec.quram.so
+      libsavscmn.so
+      libLttEngine.camera.samsung.so
+      libOpenCL.so
+      libcommon-jni.vexfwk.samsung.so
+      libsdk-jni.vexfwk.samsung.so
+      libsdk-v2-jni.vexfwk.samsung.so
+      libQREngine.camera.samsung.so
+      libOpenCL.so
+      libobjectcapture_jni.arcsoft.so
+      libobjectcapture.arcsoft.so
+      libdvs.camera.samsung.so
+      libSDKRecognitionOCR.spenocr.samsung.so
+      libSDKMoireDetector.spenocr.samsung.so
+      libStride.camera.samsung.so
+      libQREngine.camera.samsung.so
+      libcommon-jni.vexfwk.samsung.so
+      libsdk-jni.vexfwk.samsung.so
+      libsdk-v2-jni.vexfwk.samsung.so
+      libapex_jni.media.samsung.so
+      libapex_motionphoto_utils_jni.media.samsung.so
+    usesLibraryFiles:
+      /system/framework/samsungkeystoreutils.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      libOpenCv.camera.samsung.so
+      libimagecodec.quram.so
+      libOpenCL.so
+      libQREngine.camera.samsung.so
+    timeStamp=2026-10-23 06:21:51
+    lastUpdateTime=2026-10-23 06:21:59
+    installerPackageName=com.sec.android.app.samsungapps
+    installerPackageUid=10070
+    initiatingPackageName=com.sec.android.app.samsungapps
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{7c54a25 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.sec.android.app.sbrowser.permission.EASYSIGNIN_MIGRATION: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.QUICKACCESS: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.WRITE_QUICKACCESS: prot=signature|privileged
+      com.sec.android.app.sbrowser.operatorbookmarks.permission.BOOKMARK_AUTO_SET: prot=signature|privileged
+      com.sec.android.app.browser.permission.HOMEPAGE: prot=signature|privileged
+      com.sec.android.app.browser.permission.BROWSER_HEADERS: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.BACKUP_RESTORE: prot=signature|privileged
+      com.sec.android.app.browser.permission.IMPORT_BOOKMARK: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.READ_MOST_VISITED_SITES: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.WRITE_MOST_VISITED_SITES: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.SILENT_INSTALL_COMPLETE: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.WEARABLE_PERMISSION: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.MPACTIVITY_PERMISSION: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.HANDOFF_APP_DATA: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.READ_VIDEO_HISTORY: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.WRITE_VIDEO_HISTORY: prot=signature|privileged
+      com.sec.android.app.sbrowser.permission.READ_CREDIT_CARD_INFO: prot=normal
+      com.sec.android.app.sbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.samsung.android.moneta.datacollector.reception.permission.EXTERNAL_DATA
+      com.samsung.permission.ACCESS_BIXBY_VISION_SERVICE
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.SET_PREFERRED_APPLICATIONS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.DEVICE_POWER
+      android.permission.GET_ACCOUNTS_PRIVILEGED
+      android.permission.READ_SYNC_STATS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.REORDER_TASKS
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.NFC
+      android.permission.MANAGE_ROLE_HOLDERS
+      com.sec.android.app.sbrowser.permission.SILENT_INSTALL_COMPLETE
+      com.sec.android.app.sbrowser.permission.WEARABLE_PERMISSION
+      com.sec.android.app.sbrowser.permission.MPACTIVITY_PERMISSION
+      com.sec.android.mimage.photoretouching
+      com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER
+      com.samsung.systemui.permission.KEYGUARD_IMAGE
+      com.sec.android.stk.permission.EVENT
+      android.permission.GET_INTENT_SENDER_INTENT
+      android.permission.sec.MDM_AUDIT_LOG
+      android.permission.sec.MDM_CERTIFICATE
+      android.permission.sec.MDM_FIREWALL
+      com.samsung.android.knox.permission.KNOX_AUDIT_LOG
+      com.samsung.android.knox.permission.KNOX_CERTIFICATE
+      com.wssnps.permission.COM_WSSNPS
+      com.samsung.android.scloud.sync.permission.READ
+      com.samsung.android.scloud.sync.permission.WRITE
+      com.samsung.android.scloud.backup.lib.read
+      com.samsung.android.scloud.backup.lib.write
+      com.sec.android.settings.permission.SOFT_RESET
+      com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU
+      android.permission.USE_FINGERPRINT
+      com.samsung.android.permission.FINGERPRINT_PRIVILEGED
+      com.samsung.android.permission.BIOMETRICS_PRIVILEGED
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.sec.spp.permission.TOKEN_72b3588973288bacf9f7ff71eef276ae144820b9f7c020b672eb4fab6eb2074ad8ca270639d317de30f53b636797f28ea5adee40ffea9bbdc78b0d8d767865a7aed9341f4b30925f95c8d53ee789f7c824ea5fe428e7d3ecb7d5aaa57ba4102684befe003be35ca421d02bcd6906540f67d78930c3db11bbd7460cb936e7e556
+      com.google.android.c2dm.permission.RECEIVE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.CONFIGURE_WIFI_DISPLAY
+      com.android.setting.permission.ALLSHARE_CAST_SERVICE
+      com.samsung.android.camera.iris.permission.MANAGE_IRIS
+      com.samsung.android.camera.iris.permission.RESET_IRIS_LOCKOUT
+      com.samsung.android.camera.iris.permission.USE_IRIS
+      com.samsung.android.bio.face.permission.USE_FACE
+      android.permission.USE_BIOMETRIC
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_SETTINGS
+      com.samsung.android.providers.media.WRITE
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL
+      com.samsung.android.stickercenter.service.ACCESS
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+      android.permission.POST_NOTIFICATIONS
+      com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION
+      android.permission.STATUS_BAR
+      com.samsung.android.bixby.service.bixbysearch.permission.UPDATE_INDEX
+      com.samsung.android.scs.ai.search.permission.READ
+      com.samsung.android.scs.ai.search.permission.WRITE
+      com.samsung.android.smartsuggestions.search.permission.READ
+      com.samsung.android.smartsuggestions.search.permission.WRITE
+      com.sec.android.app.myfiles.permission.READ
+      com.sec.android.app.myfiles.permission.WRITE
+      android.permission.MANAGE_ACTIVITY_STACKS
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.INSTALL_PACKAGES
+      android.permission.RUN_USER_INITIATED_JOBS
+      com.samsung.android.spay.permission.READ_CAPABILITY
+      com.samsung.android.spay.permission.SWALLET_APP_AUTH
+      com.samsung.android.spay.virtualcardautofill.provider.AUTOFILL_READ
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      com.samsung.android.launcher.permission.WRITE_SETTINGS
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT
+      com.samsung.android.app.spage.permission.WRITE_CARD_DATA
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_SCAN
+      com.samsung.android.permission.MODIFY_THEME
+      com.samsung.sea.retailagent.permission.RETAILMODE
+      com.samsung.android.samsungpass.permission.autofillform
+      com.samsung.android.permission.FINGERPRINT_WEB_SIGNIN
+      com.samsung.android.permission.IRIS_WEB_SIGNIN
+      com.samsung.android.samsungpass.permission.EASYSIGNIN
+      com.samsung.android.samsungpass.permission.setting.READ
+      com.samsung.android.samsungpass.permission.setting.WRITE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON
+      android.permission.READ_SEARCH_INDEXABLES
+      com.samsung.android.mcfds.permission.USE_CONTINUITY_PROVIDER
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+      android.permission.CAMERA
+      android.permission.REAL_GET_TASKS
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+      com.sec.android.app.sbrowser.permission.QUICKACCESS
+      com.samsung.android.scloud.permission.RPC_SYNC_SETTING
+      android.permission.MANAGE_USERS
+      com.samsung.android.app.tips.permission.USE_INTENT_SERVICE
+      com.samsung.android.mdx.permission.ADD_RECENT_WEBSITES
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION
+      com.samsung.android.privateaccesstokens.PAT_TOKEN_PERMISSION
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.settings.permission.MANAGE_LANGUAGE_PACK
+      com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER
+      com.samsung.android.samsungaccount.permission.MINOR_INFO_PROVIDER.READ
+      com.samsung.android.app.parentalcare.permission.READ_CARE
+      com.samsung.android.app.parentalcare.permission.CONTROL_CARE
+      com.samsung.android.app.parentalcare.permission.RECEIVE_BROADCAST
+      com.osp.app.signin.BROADCAST_PERMISSION
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER
+      com.sec.android.app.sbrowser.permission.BACKUP_RESTORE
+      com.sec.android.app.browser.permission.IMPORT_BOOKMARK
+      com.samsung.permission.LAUNCH_SOFTWARE_UPDATE
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.VIBRATE
+      com.samsung.android.sdk.ocr.permission.PROVIDE_OCR_RESOURCE
+      com.samsung.android.spay.permission.READ_SPAY_SHARE
+      com.samsung.android.app.interpreter.permission.READ_TRANSLATION_SETTINGS
+      com.samsung.aimodelprovider.objectremovalmodels.AIProvider.READ
+      com.samsung.android.app.deepsky.permission.ACCESS_SERVICE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.RECORD_AUDIO
+      android.permission.READ_EXTERNAL_STORAGE
+      com.sec.android.app.sbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.samsung.android.moneta.sdk.permission.BIND_MEMORY_SERVICE
+      com.samsung.android.moneta.sdk.permission.BIND_MEMORY_SEARCH_SERVICE
+      com.samsung.android.moneta.sdk.permission.BIND_EVENT_SERVICE
+      com.samsung.android.moneta.sdk.permission.BIND_BASIC_DOMAIN_SERVICE
+      com.samsung.android.moneta.preference.permission.READ_LIFESTYLE
+      com.samsung.android.moneta.basicdomain.permission.READ_BASIC_DOMAIN
+      com.samsung.android.mcfds.permission.START_SERVICE
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE
+      com.samsung.android.pass.permissions.USE_PASS_SERVICE
+      com.samsung.android.pass.permissions.MANAGE_PASS_SERVICE
+      com.samsung.android.pass.permissions.USE_FINGERPRINT
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE_FOR_EXTERNAL
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_WRITING_COMPOSER_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_FORMAT_CONVERSION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION
+      com.samsung.android.aicore.permission.BIND_WALLPAPER_SERVICE
+      com.samsung.android.aicore.permission.BIND_ON_DEVICE_SERVICE
+      com.samsung.android.aicore.permission.BIND_DOWNLOAD_SERVICE
+      com.samsung.android.aicore.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.visual.cloudcore.permission.BIND_PORTRAIT_SERVICE
+      com.samsung.android.visual.cloudcore.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.visual.cloudcore.permission.BIND_IMAGE_EDITOR_SERVICE
+      com.samsung.android.visual.cloudcore.permission.BIND_DOWNLOAD_SERVICE
+      com.samsung.android.intellivoiceservice.common.permission.SYSTEM_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.common.permission.CONFIG_PROVIDER
+      com.samsung.android.app.deepsky.donation.provider.permission.DONATE_ACTION
+      com.samsung.android.app.deepsky.feedback.provider.permission.SUBMIT_FEEDBACK
+      com.netflix.partner
+      com.sec.android.app.apex.permission.ACCESS_APEX_SERVICE
+      com.samsung.android.sume.nn.service.permission.ACCESS_SUME_NN_SERVICE
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.samsung.android.samsungaccount.permission.MINOR_INFO_PROVIDER.READ: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION: granted=true
+      com.sec.android.app.sbrowser.permission.SILENT_INSTALL_COMPLETE: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      com.samsung.android.launcher.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.samsung.android.scs.ai.search.permission.WRITE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE: granted=true
+      com.samsung.android.permission.MODIFY_THEME: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.samsung.android.app.parentalcare.permission.READ_CARE: granted=true
+      com.sec.android.app.sbrowser.permission.MPACTIVITY_PERMISSION: granted=true
+      com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      com.samsung.android.settings.permission.MANAGE_LANGUAGE_PACK: granted=true
+      com.samsung.android.knox.permission.KNOX_AUDIT_LOG: granted=true
+      android.permission.NFC: granted=true
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      com.samsung.android.scloud.backup.lib.write: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      com.samsung.android.app.parentalcare.permission.RECEIVE_BROADCAST: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS: granted=true
+      com.samsung.android.stickercenter.service.ACCESS: granted=true
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER: granted=true
+      com.samsung.android.scloud.sync.permission.WRITE: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.sec.android.app.myfiles.permission.READ: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE: granted=true
+      com.sec.android.app.myfiles.permission.WRITE: granted=true
+      com.samsung.android.bio.face.permission.USE_FACE: granted=true
+      com.samsung.android.mcfds.permission.START_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.providers.media.WRITE: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.scloud.sync.permission.READ: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.RUN_USER_INITIATED_JOBS: granted=true
+      com.samsung.android.samsungaccount.permission.ACCOUNT_MANAGER: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      com.samsung.android.scloud.permission.RPC_SYNC_SETTING: granted=true
+      com.samsung.android.scloud.backup.lib.read: granted=true
+      com.sec.android.mimage.photoretouching: granted=true
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN: granted=true
+      com.samsung.android.permission.BIOMETRICS_PRIVILEGED: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      com.sec.android.app.sbrowser.permission.QUICKACCESS: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      com.samsung.android.mcfds.permission.USE_CONTINUITY_PROVIDER: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      com.sec.android.app.sbrowser.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      com.samsung.android.knox.permission.KNOX_CERTIFICATE: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE: granted=true
+      com.samsung.android.permission.FINGERPRINT_PRIVILEGED: granted=true
+      android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.scs.ai.search.permission.READ: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE: granted=true
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      com.android.browser.permission.WRITE_HISTORY_BOOKMARKS: granted=true
+      com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.MANAGE_ACTIVITY_STACKS: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE: granted=true
+      com.samsung.android.app.parentalcare.permission.CONTROL_CARE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.sec.android.app.sbrowser.permission.WEARABLE_PERMISSION: granted=true
+      com.sec.android.app.browser.permission.IMPORT_BOOKMARK: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.sec.android.app.sbrowser.permission.BACKUP_RESTORE: granted=true
+      com.samsung.android.app.assistantmenu.permission.ADVERTISE_ASSISTANTMENU: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.STATUS_BAR: granted=true
+      com.osp.app.signin.BROADCAST_PERMISSION: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE: granted=true
+      com.samsung.permission.LAUNCH_SOFTWARE_UPDATE: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      com.samsung.android.pass.permissions.USE_PASS_SERVICE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER: granted=true
+      com.samsung.android.permission.FINGERPRINT_WEB_SIGNIN: granted=true
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS: granted=true
+      com.samsung.systemui.permission.KEYGUARD_IMAGE: granted=true
+    User 0: ceDataInode=24767 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=4
+      firstInstallTime=2026-10-16 09:31:21
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      lastDisabledCaller: com.sec.android.app.samsungapps
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.samsung.android.setting.multisound:
+      com.sec.android.app.sbrowser
+    com.microsoft.skydrive:
+      com.sec.android.app.sbrowser
+    com.sec.android.app.billing:
+      com.sec.android.app.sbrowser
+    com.samsung.android.dynamiclock:
+      com.sec.android.app.sbrowser
+    com.samsung.android.app.spage:
+      com.sec.android.app.sbrowser
+    com.google.android.gm:
+      com.sec.android.app.sbrowser
+    com.sec.android.app.sbrowser:
+      com.sec.android.app.samsungapps
+      com.sec.spp.push
+      com.android.chrome
+  queries via component:
+    com.samsung.android.app.sharelive:
+      com.sec.android.app.sbrowser
+    com.microsoft.skydrive:
+      com.sec.android.app.sbrowser
+    com.samsung.android.mobileservice:
+      com.sec.android.app.sbrowser
+    com.sec.android.app.billing:
+      com.sec.android.app.sbrowser
+    com.hiya.star:
+      com.sec.android.app.sbrowser
+    com.google.android.captiveportallogin:
+      com.sec.android.app.sbrowser
+    com.google.android.apps.messaging:
+      com.sec.android.app.sbrowser
+    com.android.vending:
+      com.sec.android.app.sbrowser
+    com.google.android.apps.tachyon:
+      com.sec.android.app.sbrowser
+    com.google.android.youtube:
+      com.sec.android.app.sbrowser
+    com.google.android.apps.maps:
+      com.sec.android.app.sbrowser
+    com.google.android.gm:
+      com.sec.android.app.sbrowser
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.sec.android.app.sbrowser
+    com.pinterest:
+      com.sec.android.app.sbrowser
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.sec.android.app.sbrowser
+      [com.google.android.gsf,com.google.android.gms]:
+        com.sec.android.app.sbrowser
+      com.sec.android.app.sbrowser:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+  queryable via uses-library:
+
+Dexopt state:
+  [com.sec.android.app.sbrowser]
+    path: /data/app/~~iIIveAiBSM7BZpavUkL3wQ==/com.sec.android.app.sbrowser-8bnwtQqMBqrsgjubhqXGxQ==/base.apk
+      arm: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/app/~~iIIveAiBSM7BZpavUkL3wQ==/com.sec.android.app.sbrowser-8bnwtQqMBqrsgjubhqXGxQ==/oat/arm/base.vdex]
+
+Compiler stats:
+  [com.sec.android.app.sbrowser]
+    (No recorded stats)
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

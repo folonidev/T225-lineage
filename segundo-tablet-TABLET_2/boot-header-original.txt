@@ -1,0 +1,4 @@
+name=SRPTL16A011
+cmdline=bootopt=64S3,32N2,64N2 androidboot.tag=TabA7lite_Huaqin_BSP_20210408174009 loop.max_part=7
+os_version=12.0.0
+os_patch_level=2025-05

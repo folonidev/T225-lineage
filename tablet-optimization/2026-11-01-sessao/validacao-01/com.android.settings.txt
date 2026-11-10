@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.android.settings/.Settings }
+Status: ok
+LaunchState: WARM
+Activity: com.android.settings/.Settings$ConnectionsSettingsActivity
+TotalTime: 1816
+WaitTime: 1834
+Complete

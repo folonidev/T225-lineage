@@ -1,0 +1,200 @@
+{
+  "serial": {
+    "atual": "TABLET_2",
+    "alvo": "TABLET_2",
+    "confere": true
+  },
+  "lineage": {
+    "atual": "21.0-20260614-UNOFFICIAL-arm64_bgN",
+    "alvo": "21.0-20260614-UNOFFICIAL-arm64_bgN",
+    "confere": true
+  },
+  "boot_concluido": {
+    "atual": "1",
+    "alvo": "1",
+    "confere": true
+  },
+  "magisk": {
+    "atual": "30.7",
+    "alvo": "30.7",
+    "confere": true
+  },
+  "root": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "anims": {
+    "atual": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "alvo": [
+      0,
+      0,
+      0
+    ],
+    "confere": true
+  },
+  "densidade": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "fonte": {
+    "atual": 1.05,
+    "alvo": 1.05,
+    "confere": true
+  },
+  "modo_aviao": {
+    "atual": "1",
+    "alvo": "1",
+    "confere": true
+  },
+  "bluetooth": {
+    "atual": "1",
+    "alvo": "1",
+    "confere": true
+  },
+  "wifi_conectado": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "perfetto": {
+    "atual": "0",
+    "alvo": "0",
+    "confere": true
+  },
+  "desativado:com.google.android.googlequicksearchbox": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "desativado:com.google.android.apps.wellbeing": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "desativado:com.google.android.projection.gearhead": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "desativado:org.lineageos.eleven": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "modulo:sistema2d_tweaks": {
+    "atual": "ativo",
+    "alvo": "ativo",
+    "confere": true
+  },
+  "modulo:sistema2d_bootanim": {
+    "atual": "ativo",
+    "alvo": "ativo",
+    "confere": true
+  },
+  "modulo:sistema2d_ui_ios": {
+    "atual": "ativo",
+    "alvo": "ativo",
+    "confere": true
+  },
+  "modulo:sistema2d_rom_provisioning": {
+    "atual": "ativo",
+    "alvo": "ativo",
+    "confere": true
+  },
+  "overlay:corners": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "overlay:icon.ios": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "overlay:taskbar": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "overlay:settings": {
+    "atual": true,
+    "alvo": true,
+    "confere": true
+  },
+  "magisk_preinit": {
+    "atual": "presente",
+    "alvo": "presente",
+    "confere": true
+  },
+  "newpipe:default_resolution": {
+    "atual": "720p",
+    "alvo": "720p",
+    "confere": true
+  },
+  "newpipe:default_video_format": {
+    "atual": "video_mp4",
+    "alvo": "video_mp4",
+    "confere": true
+  },
+  "newpipe:default_popup_resolution": {
+    "atual": "480p",
+    "alvo": "480p",
+    "confere": true
+  },
+  "newpipe:show_higher_resolutions": {
+    "atual": "false",
+    "alvo": "false",
+    "confere": true
+  },
+  "newpipe:preferred_open_action_key": {
+    "atual": "video_player",
+    "alvo": "video_player",
+    "confere": true
+  },
+  "newpipe:preferred_open_action_last_selected": {
+    "atual": "video_player",
+    "alvo": "video_player",
+    "confere": true
+  },
+  "newpipe:theme": {
+    "atual": "auto_device_theme",
+    "alvo": "auto_device_theme",
+    "confere": true
+  },
+  "newpipe:night_theme": {
+    "atual": "dark_theme",
+    "alvo": "dark_theme",
+    "confere": true
+  },
+  "versao:org.schabi.newpipe": {
+    "atual": "0.29.1",
+    "alvo": "0.29.1",
+    "confere": true
+  },
+  "versao:com.topjohnwu.magisk": {
+    "atual": "30.7",
+    "alvo": "30.7",
+    "confere": true
+  },
+  "vm": {
+    "atual": [
+      "100",
+      "100",
+      "20",
+      "5"
+    ],
+    "alvo": [
+      "100",
+      "100",
+      "20",
+      "5"
+    ],
+    "confere": true
+  }
+}

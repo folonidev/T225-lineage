@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf8'?>
+<map><string name="default_resolution">720p</string><string name="default_video_format">video_mp4</string><string name="default_popup_resolution">480p</string><boolean name="show_higher_resolutions" value="false" /><string name="preferred_open_action_key">video_player</string><string name="preferred_open_action_last_selected">video_player</string><string name="theme">auto_device_theme</string><string name="night_theme">dark_theme</string></map>

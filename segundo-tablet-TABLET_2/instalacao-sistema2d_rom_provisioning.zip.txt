@@ -1,0 +1,17 @@
+Installing zip file '/tmp/sistema2d_rom_provisioning.zip'
+Unmounting System...
+- Mounting /system
+- Mounting /system_root
+- Device is system-as-root
+***************************************
+ Sistema2D — First Boot Provisioning 
+ by Sistema2D 
+***************************************
+*******************
+ Powered by Magisk 
+*******************
+- Extracting module files
+- Sistema2D — First Boot Provisioning
+- Unmounting partitions
+- Done
+Done processing script file

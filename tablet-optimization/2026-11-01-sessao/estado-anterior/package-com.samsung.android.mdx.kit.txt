@@ -1,0 +1,580 @@
+﻿Receiver Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        d2c0624 com.samsung.android.mdx.kit/androidx.profileinstaller.ProfileInstallReceiver filter b3aef53
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        d2c0624 com.samsung.android.mdx.kit/androidx.profileinstaller.ProfileInstallReceiver filter 975c58d
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        d2c0624 com.samsung.android.mdx.kit/androidx.profileinstaller.ProfileInstallReceiver filter 1644342
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.samsung.android.sharelive.DEVICE_VISIBILITY:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        d2c0624 com.samsung.android.mdx.kit/androidx.profileinstaller.ProfileInstallReceiver filter a356090
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      com.samsung.android.sharelive.PRIVACY_AGREED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      android.intent.action.BOOT_COMPLETED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      com.samsung.android.sharelive.PACKAGE_REPLACED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+      com.samsung.android.aware.service.PACKAGE_REPLACED:
+        d45c1b6 com.samsung.android.mdx.kit/.discovery.impl.viewImpl.DeviceDiscoverySystemReceiver filter 7d1eb7
+          Action: "com.samsung.android.mdx.kit.ACTION_JOB_SERVICE_TRIGGERED"
+          Action: "com.samsung.android.allshare.service.fileshare.PACKAGE_REPLACED"
+          Action: "com.samsung.android.sharelive.DEVICE_VISIBILITY"
+          Action: "com.samsung.android.sharelive.PRIVACY_AGREED"
+          Action: "com.samsung.android.mcfds.mydevice.CHANGE_SETTINGS_REQUEST"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "com.samsung.android.sharelive.PACKAGE_REPLACED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.aware.service.PACKAGE_REPLACED"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.mdx.kit.permission.ACCESS_MDX_KIT_SERVICE] (192048c):
+    sourcePackage=com.samsung.android.mdx.kit
+    uid=5025 gids=[] type=0 prot=signature
+    perm=PermissionInfo{8d6c7d5 com.samsung.android.mdx.kit.permission.ACCESS_MDX_KIT_SERVICE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.mdx.kit/.provider.ConnectionContentProvider:
+    Provider{8142bea com.samsung.android.mdx.kit/.provider.ConnectionContentProvider}
+  com.samsung.android.mdx.kit/androidx.startup.InitializationProvider:
+    Provider{6f42edb com.samsung.android.mdx.kit/androidx.startup.InitializationProvider}
+  com.samsung.android.mdx.kit/.provider.CompatibilityContentProvider:
+    Provider{4a0dd78 com.samsung.android.mdx.kit/.provider.CompatibilityContentProvider}
+  com.samsung.android.mdx.kit/.provider.CapabilityContentProvider:
+    Provider{ec90c51 com.samsung.android.mdx.kit/.provider.CapabilityContentProvider}
+  com.samsung.android.mdx.kit/.provider.UtilityContentProvider:
+    Provider{5011cb6 com.samsung.android.mdx.kit/.provider.UtilityContentProvider}
+  com.samsung.android.mdx.kit/.provider.BuddyServiceSignUpContentProvider:
+    Provider{2fcddb7 com.samsung.android.mdx.kit/.provider.BuddyServiceSignUpContentProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.mdx.kit.Compatibility.Provider]:
+    Provider{4a0dd78 com.samsung.android.mdx.kit/.provider.CompatibilityContentProvider}
+      applicationInfo=ApplicationInfo{3c25924 com.samsung.android.mdx.kit}
+  [com.samsung.android.mdx.kit.Utility.Provider]:
+    Provider{5011cb6 com.samsung.android.mdx.kit/.provider.UtilityContentProvider}
+      applicationInfo=ApplicationInfo{6c11c8d com.samsung.android.mdx.kit}
+  [com.samsung.android.mdx.kit.Capability.Provider]:
+    Provider{ec90c51 com.samsung.android.mdx.kit/.provider.CapabilityContentProvider}
+      applicationInfo=ApplicationInfo{8fa4e42 com.samsung.android.mdx.kit}
+  [com.samsung.android.mdx.kit.androidx-startup]:
+    Provider{6f42edb com.samsung.android.mdx.kit/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{f779e53 com.samsung.android.mdx.kit}
+  [com.samsung.android.mdx.kit.Connection.Provider]:
+    Provider{8142bea com.samsung.android.mdx.kit/.provider.ConnectionContentProvider}
+      applicationInfo=ApplicationInfo{f5de390 com.samsung.android.mdx.kit}
+  [com.samsung.android.mdx.kit.BuddyServiceSignUp.Provider]:
+    Provider{2fcddb7 com.samsung.android.mdx.kit/.provider.BuddyServiceSignUpContentProvider}
+      applicationInfo=ApplicationInfo{7aff489 com.samsung.android.mdx.kit}
+
+Key Set Manager:
+  [com.samsung.android.mdx.kit]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.mdx.kit] (de1a13):
+    appId=5025
+    sharedUser=SharedUserSetting{d630c8e android.uid.mdxkit/5025}
+    pkg=Package{4d3ccaf com.samsung.android.mdx.kit}
+    codePath=/data/app/~~BA1Vp0JGPaCLllj-HEiZ-g==/com.samsung.android.mdx.kit-o88pYCKUQi474fXewlmenQ==
+    resourcePath=/data/app/~~BA1Vp0JGPaCLllj-HEiZ-g==/com.samsung.android.mdx.kit-o88pYCKUQi474fXewlmenQ==
+    legacyNativeLibraryDir=/data/app/~~BA1Vp0JGPaCLllj-HEiZ-g==/com.samsung.android.mdx.kit-o88pYCKUQi474fXewlmenQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=151316000 minSdk=29 targetSdk=35
+    minExtensionVersions=[]
+    versionName=1.5.13.16
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.samsung.android.mobileservice, com.osp.app.signin]
+    dataDir=/data/user/0/com.samsung.android.mdx.kit
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      samsungkeystoreutils
+    usesLibraryFiles:
+      /system/framework/samsungkeystoreutils.jar
+    timeStamp=2026-10-16 18:59:17
+    lastUpdateTime=2026-10-16 18:59:18
+    installerPackageName=com.sec.android.app.samsungapps
+    installerPackageUid=10070
+    initiatingPackageName=com.sec.android.app.samsungapps
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{4e5a8bc version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.mdx.kit.permission.ACCESS_MDX_KIT_SERVICE: prot=signature
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.READ
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE
+      com.samsung.android.mobileservice.social.group.provider.permission.READ
+      com.samsung.android.mobileservice.social.group.member.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE
+      com.samsung.android.mobileservice.social.share.item.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION
+      com.sec.spp.permission.TOKEN_ba8b227e1678cc1e2917bfcc7b87e54d589096a18ffd637b958b186515e016d4657eaf20a74fa6f21c09b225c4a91f97704f645a30c93969bcbf55341a71f0a95f6c4b3817e1c5f350c75f75853f11f0e9406a454fedd722dcd38e03f041c82f9242e5f1cc9603757f7eb3f5d6a288539b30eb5977ec557288abde66ba9ed577
+      com.samsung.android.scpm.mde.permission.BROADCAST
+      android.permission.ACCESS_CONTEXT_HUB
+      com.samsung.android.mcfds.permission.START_SERVICE
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.BLUETOOTH_STACK
+      android.permission.PEERS_MAC_ADDRESS
+      android.permission.ACCESS_BLUETOOTH_SHARE
+      com.android.permission.WHITELIST_BLUETOOTH_DEVICE
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.MANAGE_WIFI_NETWORK_SELECTION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      com.samsung.permission.WIFI_FACTORY_TEST
+      android.permission.CONNECTIVITY_INTERNAL
+      android.permission.TETHER_PRIVILEGED
+      android.permission.BIND_QUICK_SETTINGS_TILE
+      android.permission.NETWORK_SETTINGS
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.MANAGE_USERS
+      com.samsung.android.beaconmanager.permission.START_BLE_PROXY
+      android.permission.WAKE_LOCK
+      android.permission.SET_PROCESS_LIMIT
+      android.permission.LOCAL_MAC_ADDRESS
+      com.sec.android.settings.permission.NETWORK_RESET
+      com.sec.android.settings.permission.SOFT_RESET
+      com.sec.android.settings.permission.WIFI_BLUETOOTH_RESET
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.samsung.android.allshare.service.fileshare.SERVICE_MANAGER
+      com.samsung.android.aware.service.fileshare.SERVICE_MANAGER
+      com.samsung.android.sharelive.permission.READ_EXTERNAL_SETTINGS_PROVIDER
+      com.samsung.android.sharelive.permission.WRITE_EXTERNAL_SETTINGS_PROVIDER
+      com.samsung.android.sharelive.permission.SHARE_LIVE_UPDATE
+      android.permission.LOCATION_HARDWARE
+      com.samsung.android.stdpserver.permission.START_SERVICE
+      com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ
+    install permissions:
+      com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.READ: granted=true
+      com.samsung.android.aware.service.fileshare.SERVICE_MANAGER: granted=true
+      com.samsung.android.sharelive.permission.SHARE_LIVE_UPDATE: granted=true
+      android.permission.BIND_QUICK_SETTINGS_TILE: granted=true
+      android.permission.MANAGE_WIFI_NETWORK_SELECTION: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.android.beaconmanager.permission.START_BLE_PROXY: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      com.samsung.android.sharelive.permission.READ_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.sharelive.permission.WRITE_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.BLUETOOTH_STACK: granted=true
+      com.samsung.android.mcfds.permission.START_SERVICE: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.READ: granted=true
+      com.sec.android.settings.permission.NETWORK_RESET: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_BLUETOOTH_SHARE: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE: granted=true
+      com.samsung.android.mobileservice.social.group.member.provider.permission.READ: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.permission.WIFI_FACTORY_TEST: granted=true
+      com.sec.android.settings.permission.WIFI_BLUETOOTH_RESET: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE: granted=true
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.mobileservice.social.group.provider.permission.READ: granted=true
+    User 0: ceDataInode=4841 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      lastDisabledCaller: com.sec.android.app.samsungapps
+
+Hidden system packages:
+  Package [com.samsung.android.mdx.kit] (8e20b40):
+    appId=5025
+    sharedUser=SharedUserSetting{d630c8e android.uid.mdxkit/5025}
+    pkg=Package{c9a5045 com.samsung.android.mdx.kit}
+    codePath=/system/app/MdxKitService
+    resourcePath=/system/app/MdxKitService
+    legacyNativeLibraryDir=/system/app/MdxKitService/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=150233000 minSdk=29 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.5.02.33
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=0
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.samsung.android.mobileservice, com.osp.app.signin]
+    dataDir=/data/user/0/com.samsung.android.mdx.kit
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      samsungkeystoreutils
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=1969-12-31 20:59:59
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{c87639a version:0, signatures:[], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.mdx.kit.permission.ACCESS_MDX_KIT_SERVICE: prot=signature
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.READ
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE
+      com.samsung.android.mobileservice.social.group.provider.permission.READ
+      com.samsung.android.mobileservice.social.group.member.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE
+      com.samsung.android.mobileservice.social.share.item.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION
+      com.sec.spp.permission.TOKEN_ba8b227e1678cc1e2917bfcc7b87e54d589096a18ffd637b958b186515e016d4657eaf20a74fa6f21c09b225c4a91f97704f645a30c93969bcbf55341a71f0a95f6c4b3817e1c5f350c75f75853f11f0e9406a454fedd722dcd38e03f041c82f9242e5f1cc9603757f7eb3f5d6a288539b30eb5977ec557288abde66ba9ed577
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.BLUETOOTH_STACK
+      android.permission.PEERS_MAC_ADDRESS
+      android.permission.ACCESS_BLUETOOTH_SHARE
+      com.android.permission.WHITELIST_BLUETOOTH_DEVICE
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.MANAGE_WIFI_NETWORK_SELECTION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.INTERNET
+      com.samsung.permission.WIFI_FACTORY_TEST
+      android.permission.CONNECTIVITY_INTERNAL
+      android.permission.TETHER_PRIVILEGED
+      android.permission.BIND_QUICK_SETTINGS_TILE
+      android.permission.NETWORK_SETTINGS
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.MANAGE_USERS
+      com.samsung.android.beaconmanager.permission.START_BLE_PROXY
+      android.permission.WAKE_LOCK
+      android.permission.SET_PROCESS_LIMIT
+      android.permission.LOCAL_MAC_ADDRESS
+      com.sec.android.settings.permission.NETWORK_RESET
+      com.sec.android.settings.permission.SOFT_RESET
+      com.sec.android.settings.permission.WIFI_BLUETOOTH_RESET
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.samsung.android.allshare.service.fileshare.SERVICE_MANAGER
+      com.samsung.android.aware.service.fileshare.SERVICE_MANAGER
+      com.samsung.android.sharelive.permission.READ_EXTERNAL_SETTINGS_PROVIDER
+      com.samsung.android.sharelive.permission.WRITE_EXTERNAL_SETTINGS_PROVIDER
+      com.samsung.android.sharelive.permission.SHARE_LIVE_UPDATE
+      com.samsung.android.mcfds.permission.START_SERVICE
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE
+      com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ
+      android.permission.LOCATION_HARDWARE
+      com.samsung.android.stdpserver.permission.START_SERVICE
+    install permissions:
+      com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.READ: granted=true
+      com.samsung.android.aware.service.fileshare.SERVICE_MANAGER: granted=true
+      com.samsung.android.sharelive.permission.SHARE_LIVE_UPDATE: granted=true
+      android.permission.BIND_QUICK_SETTINGS_TILE: granted=true
+      android.permission.MANAGE_WIFI_NETWORK_SELECTION: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.android.beaconmanager.permission.START_BLE_PROXY: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      com.samsung.android.sharelive.permission.READ_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.sharelive.permission.WRITE_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.BLUETOOTH_STACK: granted=true
+      com.samsung.android.mcfds.permission.START_SERVICE: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.READ: granted=true
+      com.sec.android.settings.permission.NETWORK_RESET: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_BLUETOOTH_SHARE: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE: granted=true
+      com.samsung.android.mobileservice.social.group.member.provider.permission.READ: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.permission.WIFI_FACTORY_TEST: granted=true
+      com.sec.android.settings.permission.WIFI_BLUETOOTH_RESET: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE: granted=true
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.mobileservice.social.group.provider.permission.READ: granted=true
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=1969-12-31 20:59:59
+      uninstallReason=0
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.mdx.kit
+  queries via package name:
+    com.samsung.android.mdx.kit:
+      com.sec.android.app.samsungapps
+      com.samsung.android.mobileservice
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.samsung.android.mdx.kit
+      com.samsung.android.mdx.kit:
+        com.samsung.android.app.sharelive
+      com.samsung.android.app.sharelive:
+        com.samsung.android.mdx.kit
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.mdxkit] (d630c8e):
+    appId=5025
+    Packages
+      PackageSetting{de1a13 com.samsung.android.mdx.kit/5025}
+    install permissions:
+      com.samsung.android.mobileservice.social.common.provider.opensession.permission.READ: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      com.samsung.android.security.permission.SAMSUNG_KEYSTORE_PERMISSION: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.READ: granted=true
+      com.samsung.android.aware.service.fileshare.SERVICE_MANAGER: granted=true
+      com.samsung.android.sharelive.permission.SHARE_LIVE_UPDATE: granted=true
+      android.permission.BIND_QUICK_SETTINGS_TILE: granted=true
+      android.permission.MANAGE_WIFI_NETWORK_SELECTION: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.android.beaconmanager.permission.START_BLE_PROXY: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      com.samsung.android.sharelive.permission.READ_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.sharelive.permission.WRITE_EXTERNAL_SETTINGS_PROVIDER: granted=true
+      android.permission.BLUETOOTH_STACK: granted=true
+      com.samsung.android.mcfds.permission.START_SERVICE: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.READ: granted=true
+      com.sec.android.settings.permission.NETWORK_RESET: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_BLUETOOTH_SHARE: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.android.mobileservice.social.share.item.provider.permission.WRITE: granted=true
+      com.samsung.android.mobileservice.social.group.member.provider.permission.READ: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.permission.WIFI_FACTORY_TEST: granted=true
+      com.sec.android.settings.permission.WIFI_BLUETOOTH_RESET: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.samsung.android.mobileservice.social.buddy.provider.Permission.WRITE: granted=true
+      com.samsung.android.mcfds.permission.ACCESS_SERVICE: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.mobileservice.social.group.provider.permission.READ: granted=true
+    User 0: 
+      gids=[3003, 1002, 3010, 3011]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.NEARBY_WIFI_DEVICES: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ GRANTED_BY_DEFAULT]
+
+Dexopt state:
+  [com.samsung.android.mdx.kit]
+    path: /data/app/~~BA1Vp0JGPaCLllj-HEiZ-g==/com.samsung.android.mdx.kit-o88pYCKUQi474fXewlmenQ==/base.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/app/~~BA1Vp0JGPaCLllj-HEiZ-g==/com.samsung.android.mdx.kit-o88pYCKUQi474fXewlmenQ==/oat/arm64/base.vdex]
+
+Compiler stats:
+  [com.samsung.android.mdx.kit]
+     MdxKitService.apk - 801
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

@@ -1,0 +1,2414 @@
+﻿Activity Resolver Table:
+  Schemes:
+      rubin:
+        e847975 com.samsung.android.rubin.app/.ui.LaunchingActivity filter f4c497b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLER"
+          Scheme: "rubin"
+          Authority: "main": -1
+        ef96fd6 com.samsung.android.rubin.app/.ui.ics.PrivacyActivity filter 6ddb144
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "rubin"
+          Authority: "privacy_setting": -1
+
+  Non-Data Actions:
+      com.samsung.android.rubin.APP_PERMISSIONS_FOR_WELCOME:
+        e246cf3 com.samsung.android.rubin.app/.ui.ics.AppPermissionActivity filter 21cf429
+          Action: "com.samsung.android.rubin.APP_PERMISSIONS_FOR_WELCOME"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.rubin.DEVICE_CS_SETTINGS:
+        200f398 com.samsung.android.rubin.app/.ui.ics.DeviceCustomizationServiceActivity filter 43037f1
+          Action: "com.samsung.android.rubin.DEVICE_CS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.rubin.PRIVACY_SETTINGS:
+        ef96fd6 com.samsung.android.rubin.app/.ui.ics.PrivacyActivity filter 5cc0257
+          Action: "com.samsung.android.rubin.PRIVACY_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.secsetupwizard.ACTION_ALTERNATIVE_PERMISSION_VIEW:
+        e246cf3 com.samsung.android.rubin.app/.ui.ics.AppPermissionActivity filter 5a69db0
+          Action: "com.sec.android.app.secsetupwizard.ACTION_ALTERNATIVE_PERMISSION_VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.rubin.CS_SETTINGS:
+        e847975 com.samsung.android.rubin.app/.ui.LaunchingActivity filter e78d0a
+          Action: "com.samsung.android.rubin.CS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      show_chn_dialog:
+        6ff622d com.samsung.android.rubin.app/.ui.ChinaDialogActivity filter 674b362
+          Action: "show_chn_dialog"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA:
+        e246cf3 com.samsung.android.rubin.app/.ui.ics.AppPermissionActivity filter 96ea3ae
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.rubin.ACTION_APP_PERMISSIONS_FOR_MENU:
+        e246cf3 com.samsung.android.rubin.app/.ui.ics.AppPermissionActivity filter 8ee54f
+          Action: "com.samsung.android.rubin.ACTION_APP_PERMISSIONS_FOR_MENU"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Schemes:
+      content:
+        5343bd4 com.samsung.android.rubin.app/com.samsung.android.rubin.fence.ContextChangedReceiver filter b70417d
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "com.samsung.android.rubin.context.tpocontext": -1
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        afb316c com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b8b2335
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        87259be com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6fc4a1f
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.controller.keepaliveservice.ACTION_SERVICE_ALARM:
+        4054cba com.samsung.android.rubin.app/com.samsung.android.rubin.controller.KeepAliveService$AlarmBroadcastReceiver filter 57e876b
+          Action: "com.samsung.android.rubin.controller.keepaliveservice.ACTION_SERVICE_ALARM"
+      com.samsung.android.rubin.ACTION_CMS_BATCH_ALARM:
+        66e2872 com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.batch.CMSBatchJob$AlarmBroadcastReceiver filter 76624c3
+          Action: "com.samsung.android.rubin.ACTION_CMS_BATCH_ALARM"
+      com.samsung.android.rubin.inferenceengine.utils.PROXIMITY_CHANGED:
+        6fe1df8 com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.utils.geofence.GeofenceEventBroadcastReceiver filter d2482d1
+          Action: "com.samsung.android.rubin.inferenceengine.utils.PROXIMITY_CHANGED"
+      com.samsung.android.rubin.debugmode.IMPORT_DATABASES:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.alarm.ACTION_PENDING_INTENT:
+        9bab3e6 com.samsung.android.rubin.app/com.samsung.android.rubin.pendingintent.PendingIntentReceiver filter 132dd27
+          Action: "com.samsung.android.rubin.alarm.ACTION_PENDING_INTENT"
+          Action: "com.samsung.android.rubin.LAUNCH_GALAXY_APPS_UPDATE_PAGE"
+      com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_REPLACED:
+        e57013c com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.AppInstallationLogger$AppInstallationBroadcastReceiver filter dd3fec5
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_REPLACED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_FULLY_REMOVED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_ADDED"
+      com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.sdk.smp.pushTokenChanged:
+        c41b01a com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpEventReceiver filter 9bc174b
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        ef653ca com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4a5693b
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.android.rubin.debugmode.START_CLOUD_SYNC:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.LAUNCH_GALAXY_APPS_UPDATE_PAGE:
+        9bab3e6 com.samsung.android.rubin.app/com.samsung.android.rubin.pendingintent.PendingIntentReceiver filter 132dd27
+          Action: "com.samsung.android.rubin.alarm.ACTION_PENDING_INTENT"
+          Action: "com.samsung.android.rubin.LAUNCH_GALAXY_APPS_UPDATE_PAGE"
+      com.samsung.android.intent.action.REQUEST_RESTORE_RUNESTONE:
+        70d9136 com.samsung.android.rubin.app/com.samsung.android.rubin.smartswitch.SmartSwitchBnRReceiver filter 8c97837
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_RUNESTONE"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_RUNESTONE"
+      com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.sec.spp.RegistrationChangedAction:
+        330f528 com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpSppReceiver filter b7ac241
+          Action: "com.sec.spp.RegistrationChangedAction"
+          Action: "dbe5a8713a552d0f"
+      android.intent.action.DEVICE_STORAGE_OK:
+        ef653ca com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 4a5693b
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.REQUEST_RUBIN_UPDATE:
+        cfe4dc com.samsung.android.rubin.app/.ui.update.UpdateRequestReceiver filter e67a9e5
+          Action: "com.samsung.android.rubin.REQUEST_RUBIN_UPDATE"
+          Action: "com.samsung.android.rubin.START_RUBIN_UPDATE"
+      com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_FULLY_REMOVED:
+        e57013c com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.AppInstallationLogger$AppInstallationBroadcastReceiver filter dd3fec5
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_REPLACED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_FULLY_REMOVED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_ADDED"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        3c43d0c com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.CarLogger$BluetoothEventReceiver filter 86fd655
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+        5aa586a com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BluetoothLogger$BluetoothEventReceiver filter c74215b
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      com.samsung.accessory.action.REGISTER_AGENT:
+        712b410 com.samsung.android.rubin.app/com.samsung.android.sdk.accessory.RegisterUponInstallReceiver filter a33bb09
+          Action: "com.samsung.accessory.action.REGISTER_AGENT"
+      com.samsung.android.sdk.smp.smpInitializeResult:
+        c41b01a com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpEventReceiver filter 9bc174b
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.samsung.android.rubin.debugmode.EXPORT_DATABASES:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.RUNESTONE_LITE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.ACTION_WIFI_ONLY_CHANGED:
+        42b7a86 com.samsung.android.rubin.app/com.samsung.android.rubin.controller.receivers.WifiOptionChangedReceiver filter f7c2f47
+          Action: "com.samsung.android.rubin.ACTION_WIFI_ONLY_CHANGED"
+      com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.intent.action.LAZY_BOOT_COMPLETE:
+        621545e com.samsung.android.rubin.app/com.samsung.android.rubin.controller.receivers.BootCompletedReceiver filter 299c03f
+          Action: "com.samsung.intent.action.LAZY_BOOT_COMPLETE"
+      com.samsung.android.mobileservice.profile.ACTION_PROFILE_LOGIN_MERGE_COMPLETED:
+        7834140 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountProfileReceiver filter 8447879
+          Action: "com.samsung.android.mobileservice.profile.ACTION_PROFILE_LOGIN_MERGE_COMPLETED"
+      com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      com.google.android.c2dm.intent.RECEIVE:
+        93d9222 com.samsung.android.rubin.app/com.google.firebase.iid.FirebaseInstanceIdReceiver filter a09c4b3
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      android.intent.action.BATTERY_LOW:
+        afb316c com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter b8b2335
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED:
+        434d2e0 com.samsung.android.rubin.app/com.samsung.android.rubin.saccount.receivers.SamsungAccountReceiver filter bfe3999
+          Action: "com.samsung.android.samsungaccount.ACTION_CMS_RUNESTONE_AGREE"
+          Action: "com.samsung.account.SA_CUSTOMIZED_SERVICE_COLLECTION"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNOUT_COMPLETED"
+          Action: "com.osp.app.signin.action.EMAIL_VALIDATION_COMPLETED"
+          Action: "com.samsung.android.unifiedprofile.privacy.ICS_DELETE_ALL_DATA"
+          Action: "com.samsung.account.SAMSUNGACCOUNT_SIGNIN_COMPLETED"
+      android.intent.action.TIMEZONE_CHANGED:
+        f1ff858 com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a57bdb1
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        f1ff858 com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a57bdb1
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.samsung.android.rubin.START_RUBIN_UPDATE:
+        cfe4dc com.samsung.android.rubin.app/.ui.update.UpdateRequestReceiver filter e67a9e5
+          Action: "com.samsung.android.rubin.REQUEST_RUBIN_UPDATE"
+          Action: "com.samsung.android.rubin.START_RUBIN_UPDATE"
+      com.samsung.android.intent.action.REQUEST_BACKUP_RUNESTONE:
+        70d9136 com.samsung.android.rubin.app/com.samsung.android.rubin.smartswitch.SmartSwitchBnRReceiver filter 8c97837
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_RUNESTONE"
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_RUNESTONE"
+      android.intent.action.BOOT_COMPLETED:
+        f1ff858 com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a57bdb1
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BATCHING_LOCATION:
+        1f321a4 com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BatchLocationLogger$BatchingLoggingReceiver filter 19d7b0d
+          Action: "com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BATCHING_LOCATION"
+      com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_ADDED:
+        e57013c com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.AppInstallationLogger$AppInstallationBroadcastReceiver filter dd3fec5
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_REPLACED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_FULLY_REMOVED"
+          Action: "com.samsung.android.rubin.inferenceengine.datalogging.action.PACKAGE_ADDED"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.REFRESH_POLICY:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        87259be com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6fc4a1f
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.android.runestone.debugmode.REQUEST_GET_POI:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.sdk.smp.pushRegistrationResult:
+        c41b01a com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpEventReceiver filter 9bc174b
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        5c84204 com.samsung.android.rubin.app/androidx.work.impl.diagnostics.DiagnosticsReceiver filter d7983ed
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        631f374 com.samsung.android.rubin.app/com.samsung.android.rubin.update.receivers.RubinUpdateReceiver filter b2a309d
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        234b912 com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.common.receiver.MyPackageReplacedReceiver filter 6c278e3
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        c41b01a com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpEventReceiver filter 9bc174b
+          Action: "com.samsung.android.sdk.smp.pushTokenChanged"
+          Action: "com.samsung.android.sdk.smp.smpInitializeResult"
+          Action: "com.samsung.android.sdk.smp.pushRegistrationResult"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED:
+        cf9910e com.samsung.android.rubin.app/com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver filter f49372f
+          Action: "com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        3c43d0c com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.CarLogger$BluetoothEventReceiver filter 86fd655
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+        5aa586a com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BluetoothLogger$BluetoothEventReceiver filter c74215b
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        b0de296 com.samsung.android.rubin.app/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 5f75e17
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      dbe5a8713a552d0f:
+        330f528 com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpSppReceiver filter b7ac241
+          Action: "com.sec.spp.RegistrationChangedAction"
+          Action: "dbe5a8713a552d0f"
+      com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+      com.samsung.android.rubin.REAGREEMENT_ALARM:
+        be472c8 com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.batch.ReAgreementBatchJob$ReAgreementBroadcastReceiver filter 9edff61
+          Action: "com.samsung.android.rubin.REAGREEMENT_ALARM"
+      com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS:
+        4998ac2 com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.DebugModeReceiver filter 1b360d3
+          Action: "com.samsung.android.rubin.debugmode.SET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT_FROM_FILE"
+          Action: "com.samsung.android.rubin.debugmode.IMPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.SEND_USER_PROFILE_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_TRANSPORTING_EVENT_DEBUG_STATUS"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_LOGGING_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_ADD_MULTI_HOME_PLACE"
+          Action: "com.samsung.android.rubin.debugmode.START_CLOUD_SYNC"
+          Action: "com.samsung.android.rubin.smombie.service.receiver.ACTION_SMOMBIE_WALKING_DURATION_SETTING_CHANGED"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_DELETE_ALL_DATABASE"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GET_GEAR_SERVICE_STATUS"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_STOP_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_GEAR_DATA_SYNC"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_CHANGE_SCRIPT_MODE"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_DATABASES"
+          Action: "com.samsung.android.rubin.debugmode.GET_PREDICTION_METHOD"
+          Action: "com.samsung.android.rubin.debugmode.RUNESTONE_LITE"
+          Action: "com.samsung.android.runestone.debugmode.LOAD_CALENDAR_TITLE"
+          Action: "com.samsung.android.runestone.debugmode.SET_ANAYZED_WIFI"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_RUN_SCRIPT"
+          Action: "com.samsung.android.rubin.debugmode.REFRESH_POLICY"
+          Action: "com.samsung.android.runestone.debugmode.REQUEST_GET_POI"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_UPSYNC"
+          Action: "com.samsung.android.rubin.debugmode.EXPORT_SYNCABLE_TABLES"
+          Action: "com.samsung.android.rubin.debugmode.GET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DELETE_COLLECTED_DATA"
+          Action: "com.samsung.android.rubin.debugmode.REQUEST_GET_DEVICE_INFO"
+          Action: "com.samsung.android.rubin.debugmode.ACTION_INFERENCE_ENGINE_TRANSPORTING_ENABLE_DISABLE_FEATURE"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_DOWNSYNC"
+          Action: "com.samsung.android.rubin.debugmode.USER_PROFILE_COLLECT"
+          Action: "com.samsung.android.rubin.debugmode.RESET_SERVER_API_CALLED_COUNT"
+          Action: "com.samsung.android.rubin.debugmode.INFERENCE_ENGINE_START_ANAYSIS"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.firebase.MESSAGING_EVENT:
+        7c6ae6e com.samsung.android.rubin.app/com.samsung.android.rubin.serverinterface.push.smp.RunestoneSmpFcmService filter fd1f90f
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        6e3cd9c com.samsung.android.rubin.app/com.google.firebase.messaging.FirebaseMessagingService filter a4c43a5
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        5897a70 com.samsung.android.rubin.app/.provider.SettingSearchProvider filter 17771e9
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER] (d3a36bb):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=normal
+    perm=PermissionInfo{e1877d8 com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING] (dff0731):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=normal
+    perm=PermissionInfo{aad2e16 com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER] (acb8397):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=normal
+    perm=PermissionInfo{8893984 com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER] (20be56d):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=normal
+    perm=PermissionInfo{e4615a2 com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (bbac233):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c2269f0 com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.lib.READ] (68e6b69):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{b93e9ee com.samsung.android.rubin.lib.READ}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER] (b554e8f):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=normal
+    perm=PermissionInfo{2dc351c com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.permission.ACCESS_PERMISSION] (f995525):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{bd8b6fa com.samsung.android.rubin.permission.ACCESS_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE] (26244ab):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c058708 com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.lib.WRITE] (5af1ea1):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{86b48c6 com.samsung.android.rubin.lib.WRITE}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.rubin.profile.permission.REQUEST_KIDSMODE_INFO_RUBIN] (4fe8087):
+    sourcePackage=com.samsung.android.rubin.app
+    uid=5010 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{af00bb4 com.samsung.android.rubin.profile.permission.REQUEST_KIDSMODE_INFO_RUBIN}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.rubin.app/com.samsung.android.rubin.smombie.providers.SmombieEventProvider:
+    Provider{cfe03dd com.samsung.android.rubin.app/com.samsung.android.rubin.smombie.providers.SmombieEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DestinationProvider:
+    Provider{7432b52 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DestinationProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.pad.handdetection.provider.HandDetectionContextProvider:
+    Provider{2389e23 com.samsung.android.rubin.app/com.samsung.android.rubin.pad.handdetection.provider.HandDetectionContextProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralLRProvider:
+    Provider{45c2f20 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralLRProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WorkingEventProvider:
+    Provider{45c00d9 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WorkingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WatchingSportsEventProvider:
+    Provider{444aa9e com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WatchingSportsEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.upload.debug.RunestoneLogDebugProvider:
+    Provider{16cf97f com.samsung.android.rubin.app/com.samsung.android.rubin.upload.debug.RunestoneLogDebugProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.EatingEventProvider:
+    Provider{6a51d4c com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.EatingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SleepEventProvider:
+    Provider{802d195 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SleepEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredContactsProvider:
+    Provider{34cd2aa com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredContactsProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralMultiLabelClassificationProvider:
+    Provider{961ae9b com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralMultiLabelClassificationProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.ExerciseEventProvider:
+    Provider{8acc238 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.ExerciseEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredOnlineShoppingProvider:
+    Provider{40bf211 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredOnlineShoppingProvider}
+  com.samsung.android.rubin.app/.provider.SettingSearchProvider:
+    Provider{5897a70 com.samsung.android.rubin.app/.provider.SettingSearchProvider}
+  com.samsung.android.rubin.app/com.google.android.gms.ads.MobileAdsInitProvider:
+    Provider{6fd6f76 com.samsung.android.rubin.app/com.google.android.gms.ads.MobileAdsInitProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.GardeningEventProvider:
+    Provider{d229977 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.GardeningEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.TpoPreferenceProvider:
+    Provider{b87c9e4 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.TpoPreferenceProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.poi.provider.PoiContextProvider:
+    Provider{2ac9e4d com.samsung.android.rubin.app/com.samsung.android.rubin.poi.provider.PoiContextProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredSettingsProvider:
+    Provider{8490d02 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredSettingsProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.StudyingEventProvider:
+    Provider{a9d5613 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.StudyingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringPetsEventProvider:
+    Provider{ae9a050 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringPetsEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TripEventProvider:
+    Provider{231d249 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TripEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredChargingProvider:
+    Provider{abef74e com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredChargingProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.UserProfileProvider:
+    Provider{6fd406f com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.UserProfileProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredValuesProvider:
+    Provider{850717c com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredValuesProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SilentPlaceEventProvider:
+    Provider{ebc4a05 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SilentPlaceEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.searchrecommend.provider.SearchRecommendProvider:
+    Provider{9973a5a com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.searchrecommend.provider.SearchRecommendProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringChildrenEventProvider:
+    Provider{4c7748b com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringChildrenEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PlacePatternProvider:
+    Provider{cf12968 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PlacePatternProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.pad.posedetection.provider.PoseEventProvider:
+    Provider{bbc8181 com.samsung.android.rubin.app/com.samsung.android.rubin.pad.posedetection.provider.PoseEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.IotaProvider:
+    Provider{97ea226 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.IotaProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.InterestKeywordProvider:
+    Provider{fb6ce67 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.InterestKeywordProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.controller.provider.RubinStateProvider:
+    Provider{e637414 com.samsung.android.rubin.app/com.samsung.android.rubin.controller.provider.RubinStateProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CommutingPatternProvider:
+    Provider{92eb4bd com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CommutingPatternProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.SleepPatternProvider:
+    Provider{b22bab2 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.SleepPatternProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredDeviceProvider:
+    Provider{a57ea03 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredDeviceProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredPlacesProvider:
+    Provider{20dbd80 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredPlacesProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OnlineShoppingEventProvider:
+    Provider{96dfb9 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OnlineShoppingEventProvider}
+  com.samsung.android.rubin.app/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{a7dcffe com.samsung.android.rubin.app/com.google.firebase.provider.FirebaseInitProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.fence.ContextFenceProvider:
+    Provider{965235f com.samsung.android.rubin.app/com.samsung.android.rubin.fence.ContextFenceProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralPreferredContentProvider:
+    Provider{b5131ac com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralPreferredContentProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.gearsync.wear.WearableCompanionProvider:
+    Provider{5bcbe75 com.samsung.android.rubin.app/com.samsung.android.rubin.gearsync.wear.WearableCompanionProvider}
+  com.samsung.android.rubin.app/com.sec.android.diagmonagent.log.provider.DiagMonProvider:
+    Provider{6e2ee0a com.samsung.android.rubin.app/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CalendarEventProvider:
+    Provider{8e2967b com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CalendarEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CookingEventProvider:
+    Provider{75bc98 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CookingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SignalMetaProvider:
+    Provider{727ccf1 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SignalMetaProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RefreshingEventProvider:
+    Provider{fc9e0d6 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RefreshingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.NotificationProvider:
+    Provider{6fa1f57 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.NotificationProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CommutingEventProvider:
+    Provider{2560a44 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CommutingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.QaProvider:
+    Provider{a5b472d com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.QaProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.odm.provider.OdmProvider:
+    Provider{25b3462 com.samsung.android.rubin.app/com.samsung.android.rubin.odm.provider.OdmProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredWebsProvider:
+    Provider{9759f3 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredWebsProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TransportingEventProvider:
+    Provider{2cb86b0 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TransportingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.VisitedPlaceProvider:
+    Provider{fd22929 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.VisitedPlaceProvider}
+  com.samsung.android.rubin.app/androidx.startup.InitializationProvider:
+    Provider{3bc34ae com.samsung.android.rubin.app/androidx.startup.InitializationProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlayingGamesEventProvider:
+    Provider{bc3a24f com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlayingGamesEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OfflineShoppingEventProvider:
+    Provider{5da5ddc com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OfflineShoppingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.pkg.provider.PkgProvider:
+    Provider{abb2ee5 com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.pkg.provider.PkgProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RelaxingEventProvider:
+    Provider{41aedba com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RelaxingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.alternativeui.AlternativeUIProvider:
+    Provider{bc2146b com.samsung.android.rubin.app/com.samsung.android.rubin.alternativeui.AlternativeUIProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TpoContextProvider:
+    Provider{99d7bc8 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TpoContextProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredAppsProvider:
+    Provider{874d461 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredAppsProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.update.provider.RubinUpdateProvider:
+    Provider{67a2b86 com.samsung.android.rubin.app/com.samsung.android.rubin.update.provider.RubinUpdateProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DrivingEventProvider:
+    Provider{aeb8c47 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DrivingEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ExercisePatternProvider:
+    Provider{f28c74 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ExercisePatternProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.NightlifeEventProvider:
+    Provider{3c9559d com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.NightlifeEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlaceEventProvider:
+    Provider{93d7a12 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlaceEventProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ShortTermPreferredProvider:
+    Provider{64aa5e3 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ShortTermPreferredProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.collection.CollectionProvider:
+    Provider{ce5fbe0 com.samsung.android.rubin.app/com.samsung.android.rubin.collection.CollectionProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredShortcutProvider:
+    Provider{feaae99 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredShortcutProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PresenceProvider:
+    Provider{b75255e com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PresenceProvider}
+  com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredMusicProvider:
+    Provider{6f7bd3f com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredMusicProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.rubin.signalmeta]:
+    Provider{727ccf1 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SignalMetaProvider}
+      applicationInfo=ApplicationInfo{def60c com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.playinggamesevent]:
+    Provider{bc3a24f com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlayingGamesEventProvider}
+      applicationInfo=ApplicationInfo{72e9b55 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.samsunganalytics]:
+    Provider{16cf97f com.samsung.android.rubin.app/com.samsung.android.rubin.upload.debug.RunestoneLogDebugProvider}
+      applicationInfo=ApplicationInfo{aea396a com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredmusic]:
+    Provider{6f7bd3f com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredMusicProvider}
+      applicationInfo=ApplicationInfo{534ee5b com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.visitedplace]:
+    Provider{fd22929 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.VisitedPlaceProvider}
+      applicationInfo=ApplicationInfo{d8b66f8 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.app.androidx-startup]:
+    Provider{3bc34ae com.samsung.android.rubin.app/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{98a97d1 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.caringpetsevent]:
+    Provider{ae9a050 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringPetsEventProvider}
+      applicationInfo=ApplicationInfo{6ea8236 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.tripevent]:
+    Provider{231d249 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TripEventProvider}
+      applicationInfo=ApplicationInfo{14a1537 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.silentplaceevent]:
+    Provider{ebc4a05 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SilentPlaceEventProvider}
+      applicationInfo=ApplicationInfo{e8bfaa4 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.userprofile]:
+    Provider{6fd406f com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.UserProfileProvider}
+      applicationInfo=ApplicationInfo{6cfe00d com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.odm]:
+    Provider{25b3462 com.samsung.android.rubin.app/com.samsung.android.rubin.odm.provider.OdmProvider}
+      applicationInfo=ApplicationInfo{3d48bc2 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.permission]:
+    Provider{bc2146b com.samsung.android.rubin.app/com.samsung.android.rubin.alternativeui.AlternativeUIProvider}
+      applicationInfo=ApplicationInfo{e20cdd3 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.drivingevent]:
+    Provider{aeb8c47 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DrivingEventProvider}
+      applicationInfo=ApplicationInfo{6e01d10 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.placepattern]:
+    Provider{cf12968 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PlacePatternProvider}
+      applicationInfo=ApplicationInfo{a77009 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.presence]:
+    Provider{b75255e com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PresenceProvider}
+      applicationInfo=ApplicationInfo{b63a20e com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.qa]:
+    Provider{a5b472d com.samsung.android.rubin.app/com.samsung.android.rubin.debugmode.QaProvider}
+      applicationInfo=ApplicationInfo{9a0742f com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.general.preferredcontent]:
+    Provider{b5131ac com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralPreferredContentProvider}
+      applicationInfo=ApplicationInfo{811fa3c com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.workingevent]:
+    Provider{45c00d9 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WorkingEventProvider}
+      applicationInfo=ApplicationInfo{4e03c5 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.eatingevent]:
+    Provider{6a51d4c com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.EatingEventProvider}
+      applicationInfo=ApplicationInfo{5bbd11a com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredcontacts]:
+    Provider{34cd2aa com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredContactsProvider}
+      applicationInfo=ApplicationInfo{eca244b com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredshortcut]:
+    Provider{feaae99 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredShortcutProvider}
+      applicationInfo=ApplicationInfo{227e28 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.tpocontext]:
+    Provider{99d7bc8 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TpoContextProvider}
+      applicationInfo=ApplicationInfo{c101741 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.destination]:
+    Provider{7432b52 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.DestinationProvider}
+      applicationInfo=ApplicationInfo{735e4e6 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.sleepevent]:
+    Provider{802d195 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.SleepEventProvider}
+      applicationInfo=ApplicationInfo{d94ba27 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.calendareventpattern]:
+    Provider{8e2967b com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CalendarEventProvider}
+      applicationInfo=ApplicationInfo{a3554d4 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.notification]:
+    Provider{6fa1f57 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.NotificationProvider}
+      applicationInfo=ApplicationInfo{885e67d com.samsung.android.rubin.app}
+  [com.sec.android.log.795-395-509999]:
+    Provider{6e2ee0a com.samsung.android.rubin.app/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+      applicationInfo=ApplicationInfo{eeb6972 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.placeevent]:
+    Provider{93d7a12 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.PlaceEventProvider}
+      applicationInfo=ApplicationInfo{488d1c3 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.relaxingevent]:
+    Provider{41aedba com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RelaxingEventProvider}
+      applicationInfo=ApplicationInfo{dfcea40 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.poicontext]:
+    Provider{2ac9e4d com.samsung.android.rubin.app/com.samsung.android.rubin.poi.provider.PoiContextProvider}
+      applicationInfo=ApplicationInfo{18f6d79 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferred_online_shopping]:
+    Provider{40bf211 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredOnlineShoppingProvider}
+      applicationInfo=ApplicationInfo{202aabe com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.gardeningevent]:
+    Provider{d229977 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.GardeningEventProvider}
+      applicationInfo=ApplicationInfo{81cc71f com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.studyingevent]:
+    Provider{a9d5613 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.StudyingEventProvider}
+      applicationInfo=ApplicationInfo{9e66a6c com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.interest]:
+    Provider{fb6ce67 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.InterestKeywordProvider}
+      applicationInfo=ApplicationInfo{7106835 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.caringchildrenevent]:
+    Provider{4c7748b com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CaringChildrenEventProvider}
+      applicationInfo=ApplicationInfo{fbab4ca com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.general.generic]:
+    Provider{45c2f20 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralLRProvider}
+      applicationInfo=ApplicationInfo{3d0b63b com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.pkg]:
+    Provider{abb2ee5 com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.pkg.provider.PkgProvider}
+      applicationInfo=ApplicationInfo{405c158 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.transportingevent]:
+    Provider{2cb86b0 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.TransportingEventProvider}
+      applicationInfo=ApplicationInfo{96c52b1 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.nightlifeevent]:
+    Provider{3c9559d com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.NightlifeEventProvider}
+      applicationInfo=ApplicationInfo{a375396 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.iota]:
+    Provider{97ea226 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.IotaProvider}
+      applicationInfo=ApplicationInfo{10a7b17 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.tpopreference]:
+    Provider{b87c9e4 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.TpoPreferenceProvider}
+      applicationInfo=ApplicationInfo{dc19b04 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.commutingpattern]:
+    Provider{92eb4bd com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.CommutingPatternProvider}
+      applicationInfo=ApplicationInfo{1c268ed com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferreddevice]:
+    Provider{a57ea03 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredDeviceProvider}
+      applicationInfo=ApplicationInfo{d1322 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.app.firebaseinitprovider]:
+    Provider{a7dcffe com.samsung.android.rubin.app/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{fb1b1b3 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.general.multilabelclassification]:
+    Provider{961ae9b com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.GeneralMultiLabelClassificationProvider}
+      applicationInfo=ApplicationInfo{63f6370 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.sleeppattern]:
+    Provider{b22bab2 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.SleepPatternProvider}
+      applicationInfo=ApplicationInfo{1e9a6e9 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredsettings]:
+    Provider{8490d02 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredSettingsProvider}
+      applicationInfo=ApplicationInfo{28d3f6e com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredcharging]:
+    Provider{abef74e com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredChargingProvider}
+      applicationInfo=ApplicationInfo{c8bb60f com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.cookingevent]:
+    Provider{75bc98 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CookingEventProvider}
+      applicationInfo=ApplicationInfo{78f469c com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredplaces]:
+    Provider{20dbd80 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredPlacesProvider}
+      applicationInfo=ApplicationInfo{82cc8a5 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.exercisepattern]:
+    Provider{f28c74 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ExercisePatternProvider}
+      applicationInfo=ApplicationInfo{4d1e47a com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.customindexables]:
+    Provider{5897a70 com.samsung.android.rubin.app/.provider.SettingSearchProvider}
+      applicationInfo=ApplicationInfo{157a42b com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredvalues]:
+    Provider{850717c com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredValuesProvider}
+      applicationInfo=ApplicationInfo{a983088 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.hand_detection_event]:
+    Provider{2389e23 com.samsung.android.rubin.app/com.samsung.android.rubin.pad.handdetection.provider.HandDetectionContextProvider}
+      applicationInfo=ApplicationInfo{2c64a21 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.update]:
+    Provider{67a2b86 com.samsung.android.rubin.app/com.samsung.android.rubin.update.provider.RubinUpdateProvider}
+      applicationInfo=ApplicationInfo{f89ce46 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.searchrecommendation]:
+    Provider{9973a5a com.samsung.android.rubin.app/com.samsung.android.rubin.inferenceengine.personalanalytics.searchrecommend.provider.SearchRecommendProvider}
+      applicationInfo=ApplicationInfo{aaa5807 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.shorttermpreferred]:
+    Provider{64aa5e3 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.ShortTermPreferredProvider}
+      applicationInfo=ApplicationInfo{dc3cd34 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredapps]:
+    Provider{874d461 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredAppsProvider}
+      applicationInfo=ApplicationInfo{f1c675d com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.persona.preferredwebs]:
+    Provider{9759f3 com.samsung.android.rubin.app/com.samsung.android.rubin.persona.providers.PreferredWebsProvider}
+      applicationInfo=ApplicationInfo{58488d2 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.wearable.companion]:
+    Provider{5bcbe75 com.samsung.android.rubin.app/com.samsung.android.rubin.gearsync.wear.WearableCompanionProvider}
+      applicationInfo=ApplicationInfo{f8a6da3 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.commutingevent]:
+    Provider{2560a44 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.CommutingEventProvider}
+      applicationInfo=ApplicationInfo{a6a88a0 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.onlineshoppingevent]:
+    Provider{96dfb9 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OnlineShoppingEventProvider}
+      applicationInfo=ApplicationInfo{bd1c59 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.pose_event]:
+    Provider{bbc8181 com.samsung.android.rubin.app/com.samsung.android.rubin.pad.posedetection.provider.PoseEventProvider}
+      applicationInfo=ApplicationInfo{4fe601e com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.collection]:
+    Provider{ce5fbe0 com.samsung.android.rubin.app/com.samsung.android.rubin.collection.CollectionProvider}
+      applicationInfo=ApplicationInfo{6cc40ff com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.smombie]:
+    Provider{cfe03dd com.samsung.android.rubin.app/com.samsung.android.rubin.smombie.providers.SmombieEventProvider}
+      applicationInfo=ApplicationInfo{4ff8ecc com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.refreshingevent]:
+    Provider{fc9e0d6 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.RefreshingEventProvider}
+      applicationInfo=ApplicationInfo{c1a2515 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.shoppingevent]:
+    Provider{5da5ddc com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.OfflineShoppingEventProvider}
+      applicationInfo=ApplicationInfo{1ac602a com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.exerciseevent]:
+    Provider{8acc238 com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.ExerciseEventProvider}
+      applicationInfo=ApplicationInfo{62dee1b com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.fence]:
+    Provider{965235f com.samsung.android.rubin.app/com.samsung.android.rubin.fence.ContextFenceProvider}
+      applicationInfo=ApplicationInfo{3fccbb8 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.state]:
+    Provider{e637414 com.samsung.android.rubin.app/com.samsung.android.rubin.controller.provider.RubinStateProvider}
+      applicationInfo=ApplicationInfo{104fd91 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.app.mobileadsinitprovider]:
+    Provider{6fd6f76 com.samsung.android.rubin.app/com.google.android.gms.ads.MobileAdsInitProvider}
+      applicationInfo=ApplicationInfo{38854f6 com.samsung.android.rubin.app}
+  [com.samsung.android.rubin.context.watchingsportsevent]:
+    Provider{444aa9e com.samsung.android.rubin.app/com.samsung.android.rubin.context.providers.WatchingSportsEventProvider}
+      applicationInfo=ApplicationInfo{73350f7 com.samsung.android.rubin.app}
+
+Key Set Manager:
+  [com.samsung.android.rubin.app]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.rubin.app] (50e02a1):
+    appId=5010
+    sharedUser=SharedUserSetting{98eeb64 android.uid.intelligenceservice/5010}
+    pkg=Package{eae1cd com.samsung.android.rubin.app}
+    codePath=/data/app/~~S86nJ_O0B5veTA2zD-nH1Q==/com.samsung.android.rubin.app-VAPSf_vsjqqlO5bXE0fgwQ==
+    resourcePath=/data/app/~~S86nJ_O0B5veTA2zD-nH1Q==/com.samsung.android.rubin.app-VAPSf_vsjqqlO5bXE0fgwQ==
+    legacyNativeLibraryDir=/data/app/~~S86nJ_O0B5veTA2zD-nH1Q==/com.samsung.android.rubin.app-VAPSf_vsjqqlO5bXE0fgwQ==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=351000100 minSdk=33 targetSdk=34
+    minExtensionVersions=[]
+    versionName=3.5.10.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE UPDATED_SYSTEM_APP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.sec.android.app.shealth, com.samsung.android.smp.register, com.sec.spp.push, com.samsung.android.intellivoiceservice]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=com.samsung.android.scs.asr.action.SEARCH_LANGPACK }, Intent { act=com.samsung.android.utils.asset.action.REMOTE_ASSETS_INFO }]
+    dataDir=/data/user/0/com.samsung.android.rubin.app
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2026-10-16 18:58:55
+    lastUpdateTime=2026-10-16 18:58:57
+    installerPackageName=com.sec.android.app.samsungapps
+    installerPackageUid=10070
+    initiatingPackageName=com.sec.android.app.samsungapps
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{65cca82 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE UPDATED_SYSTEM_APP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING: prot=normal
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: prot=normal
+      com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER: prot=normal
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: prot=normal
+      com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER: prot=normal
+      com.samsung.android.rubin.profile.permission.REQUEST_KIDSMODE_INFO_RUBIN: prot=signature|privileged
+      com.samsung.android.rubin.lib.READ: prot=signature|privileged
+      com.samsung.android.rubin.lib.WRITE: prot=signature|privileged
+      com.samsung.android.rubin.permission.ACCESS_PERMISSION: prot=signature|privileged
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: prot=signature
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.samsung.systemui.POPUP_UI_PERMISSION
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.READ_SMS
+      android.permission.READ_CALL_LOG
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REAL_GET_TASKS
+      android.permission.READ_CONTACTS
+      android.permission.ACTIVITY_RECOGNITION
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.READ_CALENDAR
+      android.permission.INTERNET
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.SCHEDULE_EXACT_ALARM
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      com.osp.app.signin.BROADCAST_PERMISSION
+      android.permission.SET_ACTIVITY_WATCHER
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE
+      com.samsung.android.rubin.lib.READ
+      com.samsung.android.rubin.lib.WRITE
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      com.samsung.android.bixby.agent.permission.READ_LANGUAGE
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST
+      com.samsung.android.mobileservice.profile.READ
+      sec.permission.RADIO_BASED_LOCATION
+      sec.permission.SAMSUNG_POSITIONING
+      com.samsung.cmh.SKIPHEAVY
+      com.samsung.cmh.START
+      com.samsung.cmh.data.READ
+      com.samsung.cmh.data.WRITE
+      com.samsung.android.providers.media.CMH
+      com.samsung.android.providers.media.READ
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.MEDIA_CONTENT_CONTROL
+      com.samsung.android.oneconnect.permission.READ_CLOUD_LOCATION_PROVIDER
+      com.samsung.android.bixby.bridge.provision.integrated.READ_PERMISSION
+      com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.samsung.wmanager.ENABLE_NOTIFICATION
+      com.samsung.WATCH_APP_TYPE.Companion
+      com.samsung.android.gearoplugin.provider.Settings.READ
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS
+      com.samsung.android.hostmanager.permission.ACCESS_WEARABLE_STATE
+      com.samsung.android.rubin.inferenceengine.datalogging.LOG_WRITE
+      com.sec.android.diagmonagent.permission.DIAGMON
+      com.sec.spp.permission.SEND
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.GET_INTENT_SENDER_INTENT
+      com.google.android.gms.permission.AD_ID
+      com.samsung.permission.WRITE_SM_DATA
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SUGGESTION_SERVICE_FOR_EXTERNAL
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_WRITING_COMPOSER_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION
+      com.samsung.android.visual.core.permission.BIND_WALLPAPER_SERVICE
+      com.samsung.android.visual.core.permission.BIND_DOWNLOAD_SERVICE
+      com.samsung.android.visual.core.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.visual.cloudcore.permission.BIND_PORTRAIT_SERVICE
+      com.samsung.android.visual.cloudcore.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.visual.cloudcore.permission.BIND_IMAGE_EDITOR_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION: granted=true
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.profile.READ: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.samsung.android.providers.media.CMH: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE: granted=true
+      com.samsung.cmh.data.READ: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.READ: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.cmh.SKIPHEAVY: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE: granted=true
+      sec.permission.SAMSUNG_POSITIONING: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.samsung.cmh.data.WRITE: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      com.samsung.cmh.START: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      com.samsung.permission.WRITE_SM_DATA: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE: granted=true
+      com.sec.spp.permission.SEND: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE: granted=true
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE: granted=true
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.WRITE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.osp.app.signin.BROADCAST_PERMISSION: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+    User 0: ceDataInode=4462 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/overlays/current_locale_apks/files/com.samsung.android.rubin.app.pt.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/overlays/current_locale_apks/files/com.samsung.android.rubin.app.pt.apk
+      lastDisabledCaller: com.sec.android.app.samsungapps
+      enabledComponents:
+        com.samsung.android.rubin.inferenceengine.utils.geofence.GeofenceEventBroadcastReceiver
+        com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.BluetoothLogger$BluetoothEventReceiver
+        com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.CarLogger$BluetoothEventReceiver
+        com.samsung.android.rubin.inferenceengine.contextanalytics.engine.loggers.AppInstallationLogger$AppInstallationBroadcastReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Hidden system packages:
+  Package [com.samsung.android.rubin.app] (95692d3):
+    appId=5010
+    sharedUser=SharedUserSetting{98eeb64 android.uid.intelligenceservice/5010}
+    pkg=Package{dc20593 com.samsung.android.rubin.app}
+    codePath=/system/priv-app/RubinVersion34
+    resourcePath=/system/priv-app/RubinVersion34
+    legacyNativeLibraryDir=/system/priv-app/RubinVersion34/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=350023100 minSdk=33 targetSdk=34
+    minExtensionVersions=[]
+    versionName=3.5.00.23
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=0
+    flags=[ SYSTEM HAS_CODE ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.sec.android.app.shealth, com.samsung.android.smp.register, com.sec.spp.push]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }, Intent { act=android.support.customtabs.action.CustomTabsService }]
+    dataDir=/data/user/0/com.samsung.android.rubin.app
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.apache.http.legacy
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=1969-12-31 20:59:59
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{c0159d0 version:0, signatures:[], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.rubin.app.ui.permission.LAUNCH_RUBIN_SETTING: prot=normal
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: prot=normal
+      com.samsung.android.rubin.context.permission.WRITE_CONTEXT_MANAGER: prot=normal
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: prot=normal
+      com.samsung.android.rubin.persona.permission.WRITE_PERSONA_MANAGER: prot=normal
+      com.samsung.android.rubin.profile.permission.REQUEST_KIDSMODE_INFO_RUBIN: prot=signature|privileged
+      com.samsung.android.rubin.lib.READ: prot=signature|privileged
+      com.samsung.android.rubin.lib.WRITE: prot=signature|privileged
+      com.samsung.android.rubin.permission.ACCESS_PERMISSION: prot=signature|privileged
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: prot=signature
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.samsung.systemui.POPUP_UI_PERMISSION
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.READ_SMS
+      android.permission.READ_CALL_LOG
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.REAL_GET_TASKS
+      android.permission.READ_CONTACTS
+      android.permission.ACTIVITY_RECOGNITION
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.READ_CALENDAR
+      android.permission.INTERNET
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.SCHEDULE_EXACT_ALARM
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      android.permission.SET_ACTIVITY_WATCHER
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE
+      com.samsung.android.rubin.lib.READ
+      com.samsung.android.rubin.lib.WRITE
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS
+      com.samsung.android.bixby.agent.permission.READ_LANGUAGE
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER
+      com.samsung.android.mobileservice.profile.READ
+      sec.permission.RADIO_BASED_LOCATION
+      sec.permission.SAMSUNG_POSITIONING
+      com.samsung.cmh.SKIPHEAVY
+      com.samsung.cmh.START
+      com.samsung.cmh.data.READ
+      com.samsung.cmh.data.WRITE
+      com.samsung.android.providers.media.CMH
+      com.samsung.android.providers.media.READ
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.MEDIA_CONTENT_CONTROL
+      com.samsung.android.oneconnect.permission.READ_CLOUD_LOCATION_PROVIDER
+      com.samsung.android.bixby.bridge.provision.integrated.READ_PERMISSION
+      com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      com.samsung.wmanager.ENABLE_NOTIFICATION
+      com.samsung.WATCH_APP_TYPE.Companion
+      com.samsung.android.gearoplugin.provider.Settings.READ
+      com.samsung.android.hostmanager.permission.CONTROL_WEARABLE_STATUS
+      com.samsung.android.hostmanager.permission.ACCESS_WEARABLE_STATE
+      com.samsung.android.rubin.inferenceengine.datalogging.LOG_WRITE
+      com.sec.android.diagmonagent.permission.DIAGMON
+      com.sec.spp.permission.SEND
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.GET_INTENT_SENDER_INTENT
+      com.google.android.gms.permission.AD_ID
+      android.permission.PACKAGE_USAGE_STATS
+      com.samsung.permission.WRITE_SM_DATA
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.c2dm.permission.RECEIVE
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION: granted=true
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.profile.READ: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.samsung.android.providers.media.CMH: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE: granted=true
+      com.samsung.cmh.data.READ: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.READ: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.cmh.SKIPHEAVY: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE: granted=true
+      sec.permission.SAMSUNG_POSITIONING: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.samsung.cmh.data.WRITE: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      com.samsung.cmh.START: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      com.samsung.permission.WRITE_SM_DATA: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE: granted=true
+      com.sec.spp.permission.SEND: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE: granted=true
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE: granted=true
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.WRITE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.osp.app.signin.BROADCAST_PERMISSION: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=1969-12-31 20:59:59
+      uninstallReason=0
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.rubin.app
+  queries via package name:
+    com.samsung.android.rubin.app:
+      com.sec.android.app.samsungapps
+      com.sec.spp.push
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.samsung.android.rubin.app
+      com.samsung.android.rubin.app:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+        [com.samsung.cmh,com.samsung.storyservice]
+        com.samsung.android.bluelightfilter
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+        com.sec.android.daemonapp
+      com.osp.app.signin:
+        com.samsung.android.rubin.app
+      [com.google.android.gsf,com.google.android.gms]:
+        com.samsung.android.rubin.app
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.intelligenceservice] (98eeb64):
+    appId=5010
+    Packages
+      PackageSetting{50e02a1 com.samsung.android.rubin.app/5010}
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      com.samsung.android.intellivoiceservice.aitranslator.permission.BIND_TRANSLATION: granted=true
+      com.samsung.android.intellivoiceservice.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_NOTES_ORGANIZATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      com.samsung.android.mobileservice.permission.RECEIVE_SEMS_BROADCAST: granted=true
+      com.samsung.android.mobileservice.profile.READ: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.samsung.android.providers.media.CMH: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_GENERIC_SERVICE: granted=true
+      com.samsung.android.scs.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CLASSIFICATION_SERVICE: granted=true
+      com.samsung.cmh.data.READ: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EMOJI_AUGMENTATION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_CAPTURE_SERVICE: granted=true
+      com.android.browser.permission.READ_HISTORY_BOOKMARKS: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.samsung.android.samsungaccount.permission.PROFILE_PROVIDER: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_EXTRACTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.rubin.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.READ: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_USAGE_SERVICE: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.cmh.SKIPHEAVY: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SUMMARIZATION_SERVICE: granted=true
+      sec.permission.SAMSUNG_POSITIONING: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.ai.asr.permission.SYSTEM_BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.samsung.cmh.data.WRITE: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      com.samsung.cmh.START: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CONFIGURATION_SERVICE: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      com.samsung.permission.WRITE_SM_DATA: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_REPLY_SERVICE: granted=true
+      com.sec.spp.permission.SEND: granted=true
+      com.samsung.android.scs.ai.asr.permission.SYSTEM_SPEECH_RECOGNITION_SERVICE_CONFIG_PROVIDER: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TRANSLATION_SERVICE: granted=true
+      com.msc.openprovider.OpenContentProvider.READ_CONTENT: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_CORRECTION_SERVICE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_SMART_COVER_SERVICE: granted=true
+      com.samsung.android.rubin.debugmode.ACCESS_DEBUG_MODE: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      com.samsung.android.rubin.lib.WRITE: granted=true
+      com.samsung.android.intellivoiceservice.permission.BIND_TONECONVERT_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.osp.app.signin.BROADCAST_PERMISSION: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      com.samsung.android.settings.intelligence.READ_SETTINGS_SEARCH_DATA_PROVIDER: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+    User 0: 
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALENDAR: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALL_LOG: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+
+Dexopt state:
+  [com.samsung.android.rubin.app]
+    path: /data/app/~~S86nJ_O0B5veTA2zD-nH1Q==/com.samsung.android.rubin.app-VAPSf_vsjqqlO5bXE0fgwQ==/base.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/app/~~S86nJ_O0B5veTA2zD-nH1Q==/com.samsung.android.rubin.app-VAPSf_vsjqqlO5bXE0fgwQ==/oat/arm64/base.vdex]
+
+Compiler stats:
+  [com.samsung.android.rubin.app]
+     RubinVersion34.apk - 3927
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

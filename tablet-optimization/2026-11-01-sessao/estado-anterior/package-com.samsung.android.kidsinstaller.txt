@@ -1,0 +1,147 @@
+﻿Activity Resolver Table:
+  Schemes:
+      kidsinstaller:
+        9729890 com.samsung.android.kidsinstaller/.InstallerLaunchActivity filter fa70589
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "kidsinstaller"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        de0bb42 com.samsung.android.kidsinstaller/.install.ui.KidsHomeInstallActivity filter 8ca0753
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.kidsinstaller.SETTING:
+        9729890 com.samsung.android.kidsinstaller/.InstallerLaunchActivity filter ec3498e
+          Action: "com.samsung.android.kidsinstaller.SETTING"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.sec.android.app.kidshome.UPDATE_KIDS_TILE_SERVICE:
+        b310dcb com.samsung.android.kidsinstaller/.broadcastreceiver.KidsTileServiceUpdateReceiver filter c18e9a8
+          Action: "com.sec.android.app.kidshome.UPDATE_KIDS_TILE_SERVICE"
+      com.samsung.settings.DIAGNOSTIC_INFO_CHANGED:
+        b717145 com.samsung.android.kidsinstaller/.broadcastreceiver.DiagInfoReceiver filter 2e709a
+          Action: "com.samsung.settings.DIAGNOSTIC_INFO_CHANGED"
+      com.sec.kidsplat.parentalcontrol.intent.action.CURRENT_PLAYTIME:
+        b63c5af com.samsung.android.kidsinstaller/.install.receiver.PlaytimeChangedFromPCReceiver filter 410adbc
+          Action: "com.sec.kidsplat.parentalcontrol.intent.action.CURRENT_PLAYTIME"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.quicksettings.action.QS_TILE:
+        dbcdcc1 com.samsung.android.kidsinstaller/.quickpanel.service.KidsTileService filter 2f2fc66 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+          Action: "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+      android.service.quicksettings.action.QS_TILE_PREFERENCES:
+        dbcdcc1 com.samsung.android.kidsinstaller/.quickpanel.service.KidsTileService filter 2f2fc66 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+          Action: "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.samsung.android.kidsinstaller/androidx.startup.InitializationProvider:
+    Provider{65ef486 com.samsung.android.kidsinstaller/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.kidsinstaller.androidx-startup]:
+    Provider{65ef486 com.samsung.android.kidsinstaller/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{a932147 com.samsung.android.kidsinstaller}
+
+Key Set Manager:
+  [com.samsung.android.kidsinstaller]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.kidsinstaller] (8b2fd74):
+    appId=10172
+    pkg=Package{927729d com.samsung.android.kidsinstaller}
+    codePath=/system/app/KidsHome_Installer
+    resourcePath=/system/app/KidsHome_Installer
+    legacyNativeLibraryDir=/system/app/KidsHome_Installer/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1050100003 minSdk=28 targetSdk=34
+    minExtensionVersions=[]
+    versionName=10.5.01.3
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.samsung.android.kidsinstaller
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{d25d312 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INSTALL_PACKAGES
+      android.permission.INTERNET
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.samsung.kidshome.PARENTALCONTROL_PERMISSION
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.MANAGE_USERS
+      android.permission.STOP_APP_SWITCHES
+      com.sec.spp.permission.TOKEN_374d1b697a3e9f8e9c02799ccf51925ee382e577106c1846af01d991dfb58dea6ef27abf97dbce178f2d97e4cdeb810ba8f40897c9e41e253079bfb85a960621594ada44fadbe071f9945f5cca69acacf4835402aa0970befb70e53ed3fa62e656b0efd010f6ad7880765768a1b76e9cfb152d8f171a53c5bfb35fee48c570b6
+      android.permission.GET_INTENT_SENDER_INTENT
+      android.permission.QUERY_ALL_PACKAGES
+    install permissions:
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+    User 0: ceDataInode=4426 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.kidsinstaller
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.samsung.android.kidsinstaller]
+    path: /system/app/KidsHome_Installer/KidsHome_Installer.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@KidsHome_Installer@KidsHome_Installer.apk@classes.vdex]
+
+Compiler stats:
+  [com.samsung.android.kidsinstaller]
+     KidsHome_Installer.apk - 1219
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

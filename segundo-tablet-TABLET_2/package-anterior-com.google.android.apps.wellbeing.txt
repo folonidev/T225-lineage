@@ -1,0 +1,807 @@
+Activity Resolver Table:
+  Schemes:
+      android-app:
+        6a6a5bf com.google.android.apps.wellbeing/.appindexing.impl.UrlHandlerActivity filter c2ef48c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "android-app"
+          Authority: "com.google.android.apps.wellbeing": -1
+          Path: "PatternMatcher{GLOB: .*}"
+
+  Non-Data Actions:
+      com.google.android.apps.wellbeing.action.VIEW_AMBIENT_CONTEXT_SLEEP_INSIGHTS:
+        bddca7e com.google.android.apps.wellbeing/.winddown.ui.WindDownEntryActivity filter 5b546fb
+          Action: "com.google.android.apps.wellbeing.action.VIEW_AMBIENT_CONTEXT_SLEEP_INSIGHTS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.focusmode.VIEW_SETTINGS:
+        f1351ce com.google.android.apps.wellbeing/.focusmode.ui.FocusModeActivity filter 17ac8ef
+          Action: "com.google.android.apps.wellbeing.focusmode.VIEW_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.HOME:
+        ec2e294 com.google.android.apps.wellbeing/.settings.TopLevelSettingsActivity filter 7c00d32
+          Action: "com.google.android.apps.wellbeing.action.HOME"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.REQUEST_ACCESS:
+        e8db03a com.google.android.apps.wellbeing/.datamanagement.accessrequest.ExternalAccessRequestActivity filter 4e1e4eb
+          Action: "com.google.android.apps.wellbeing.action.REQUEST_ACCESS"
+          Action: "com.google.android.apps.wellbeing.action.WITHDRAW_ACCESS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.WITHDRAW_ACCESS:
+        e8db03a com.google.android.apps.wellbeing/.datamanagement.accessrequest.ExternalAccessRequestActivity filter 4e1e4eb
+          Action: "com.google.android.apps.wellbeing.action.REQUEST_ACCESS"
+          Action: "com.google.android.apps.wellbeing.action.WITHDRAW_ACCESS"
+          Category: "android.intent.category.DEFAULT"
+      android.settings.BEDTIME_SETTINGS:
+        7359400 com.google.android.apps.wellbeing/.winddown.ui.WindDownDarkThemeSettings filter ce83439
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        3b3cca6 com.google.android.apps.wellbeing/.settings.LauncherActivity filter a4ce6e7
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ec2e294 com.google.android.apps.wellbeing/.settings.TopLevelSettingsActivity filter 7770a83
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.MONKEY"
+        bddca7e com.google.android.apps.wellbeing/.winddown.ui.WindDownEntryActivity filter c95cbdf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        c4fcf2e com.google.android.apps.wellbeing/.settings.MultiPaneLauncherActivity filter aaf6acf
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        b04248 com.google.android.apps.wellbeing/.dashboard.DashboardSettingsActivity filter aee58e1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.AUTO_DND:
+        9c991f7 com.google.android.apps.wellbeing/.autodnd.ui.AutoDndGesturesSettingsActivity filter 5a58acd
+          Action: "com.google.android.apps.wellbeing.action.AUTO_DND"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.REQUEST_BEDTIME_DATA_CONSENT:
+        a55bc5c com.google.android.apps.wellbeing/.datamanagement.optin.ui.ExportedBedtimeDataOptInActivity filter 10d6b65
+          Action: "com.google.android.apps.wellbeing.action.REQUEST_BEDTIME_DATA_CONSENT"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.walkingdetection.action.REPORT_FALSE_POSITIVE:
+        c3226e2 com.google.android.apps.wellbeing/.walkingdetection.WalkingDetectionReportFalsePositiveActivity filter dff9a73
+          Action: "com.google.android.apps.wellbeing.walkingdetection.action.REPORT_FALSE_POSITIVE"
+      com.google.android.apps.wellbeing.action.VIEW_SLEEP_INSIGHT:
+        bddca7e com.google.android.apps.wellbeing/.winddown.ui.WindDownEntryActivity filter a88108a
+          Action: "com.google.android.apps.wellbeing.action.VIEW_SLEEP_INSIGHT"
+          Category: "android.intent.category.DEFAULT"
+      android.service.quicksettings.action.QS_TILE_PREFERENCES:
+        8840663 com.google.android.apps.wellbeing/.common.ui.quicksettings.QuickSettingsTileLongPressActivity filter dbb1260
+          Action: "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+      com.google.android.apps.wellbeing.action.VIEW_NIGHT_INSIGHTS:
+        ed5fd30 com.google.android.apps.wellbeing/.sleepinsights.ui.SleepInsightsDailyViewGatewayActivity filter 7619da9
+          Action: "com.google.android.apps.wellbeing.action.VIEW_NIGHT_INSIGHTS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.DARK_SCREEN_SETTINGS_ENTRY:
+        bddca7e com.google.android.apps.wellbeing/.winddown.ui.WindDownEntryActivity filter d5ff02c
+          Action: "com.google.android.apps.wellbeing.action.DARK_SCREEN_SETTINGS_ENTRY"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.WALKING_DETECTION_SETTINGS:
+        2ae18c4 com.google.android.apps.wellbeing/.walkingdetection.ui.WalkingDetectionActivity filter b4473ad
+          Action: "com.google.android.apps.wellbeing.action.WALKING_DETECTION_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.android.settings.action.TIME_SPENT_IN_APP:
+        ec8f7d5 com.google.android.apps.wellbeing/.appdetails.AppInfoSettingsActivity filter ad29bea
+          Action: "com.android.settings.action.TIME_SPENT_IN_APP"
+          Action: "android.settings.action.APP_USAGE_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.VIEW_DATA_ACCESS_SETTINGS:
+        f54bf82 com.google.android.apps.wellbeing/.datamanagement.ui.ExportedDataAccessSettingsActivity filter 9fb5693
+          Action: "com.google.android.apps.wellbeing.action.VIEW_DATA_ACCESS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.REQUEST_AMBIENT_DETECTION:
+        196a21d com.google.android.apps.wellbeing/.coughandsnore.consent.ui.ConsentGatewayActivity filter 1f60c92
+          Action: "com.google.android.apps.wellbeing.action.REQUEST_AMBIENT_DETECTION"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.PIN_SCREEN_TIME_WIDGET:
+        af1e318 com.google.android.apps.wellbeing/.widget.screentime.PinScreenTimeWidgetGatewayActivity filter 8bf3171
+          Action: "com.google.android.apps.wellbeing.action.PIN_SCREEN_TIME_WIDGET"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.APP_USAGE_DASHBOARD:
+        b04248 com.google.android.apps.wellbeing/.dashboard.DashboardSettingsActivity filter 5969606
+          Action: "com.google.android.apps.wellbeing.action.APP_USAGE_DASHBOARD"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.autodnd.action.VIEW_SETTINGS:
+        2371691 com.google.android.apps.wellbeing/.autodnd.ui.AutoDndActivity filter f7af9f6
+          Action: "com.google.android.apps.wellbeing.autodnd.action.VIEW_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.usage_stats.action.SHOW_WEBSITE_DETAILS:
+        8deab56 com.google.android.apps.wellbeing/.web.wellbeing.impl.WebsiteDetailsDeepLink filter 98757d7
+          Action: "org.chromium.chrome.browser.usage_stats.action.SHOW_WEBSITE_DETAILS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.autodnd.action.FIRST_AUTO_DND_NOTIFICATION_ACTION:
+        e804319 com.google.android.apps.wellbeing/.autodnd.impl.FirstAutoDndNotificationActionActivity filter f645fde
+          Action: "com.google.android.apps.wellbeing.autodnd.action.FIRST_AUTO_DND_NOTIFICATION_ACTION"
+      com.google.android.apps.wellbeing.action.WIND_DOWN:
+        bddca7e com.google.android.apps.wellbeing/.winddown.ui.WindDownEntryActivity filter b0edaf5
+          Action: "com.google.android.apps.wellbeing.action.WIND_DOWN"
+          Category: "android.intent.category.DEFAULT"
+      android.settings.action.APP_USAGE_SETTINGS:
+        ec8f7d5 com.google.android.apps.wellbeing/.appdetails.AppInfoSettingsActivity filter ad29bea
+          Action: "com.android.settings.action.TIME_SPENT_IN_APP"
+          Action: "android.settings.action.APP_USAGE_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.android.settings.action.IA_SETTINGS:
+        9c991f7 com.google.android.apps.wellbeing/.autodnd.ui.AutoDndGesturesSettingsActivity filter 1569864
+          Action: "com.android.settings.action.IA_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+        ec2e294 com.google.android.apps.wellbeing/.settings.TopLevelSettingsActivity filter c7bc13d
+          Action: "com.android.settings.action.IA_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+        177e4c7 com.google.android.apps.wellbeing/.home.AppsNotificationSettingsActivity filter ab3af4
+          Action: "com.android.settings.action.IA_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.LAUNCH_IN_MULTI_PANE:
+        3beafe8 com.google.android.apps.wellbeing/.multipane.MultiPaneTrampolineActivity filter 739c601
+          Action: "com.google.android.apps.wellbeing.action.LAUNCH_IN_MULTI_PANE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SHOW_SUSPENDED_APP_DETAILS:
+        829dedb com.google.android.apps.wellbeing/.appconfig.suspend.gateway.SuspendedAppDetailsDeepLink filter 41ccd78
+          Action: "android.intent.action.SHOW_SUSPENDED_APP_DETAILS"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.focusmode.action.SEARCH_RESULT:
+        b16bcda com.google.android.apps.wellbeing/.focusmode.ui.FocusModeSettingsActivity filter d5050b
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SEARCH_RESULT"
+      com.google.android.apps.wellbeing.focusmode.VIEW_QUICK_SETTINGS_ONBOARDING:
+        d16d6d0 com.google.android.apps.wellbeing/.focusmode.quicksettings.ui.FocusModeQuickSettingsOnboardingActivity filter d0d06c9
+          Action: "com.google.android.apps.wellbeing.focusmode.VIEW_QUICK_SETTINGS_ONBOARDING"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.apps.wellbeing.action.FOCUS_MODE:
+        25a8ffc com.google.android.apps.wellbeing/.focusmode.ui.FocusModeConfigActivity filter 1564685
+          Action: "com.google.android.apps.wellbeing.action.FOCUS_MODE"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        5ec156d com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.PackageFullyRemovedCoalescedBroadcast_Receiver filter 35a85a2
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      android.accounts.action.ACCOUNT_REMOVED:
+        3a03c47 com.google.android.apps.wellbeing/com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver filter 3817c74
+          Action: "android.accounts.action.ACCOUNT_REMOVED"
+      android.intent.action.BATTERY_OKAY:
+        880cb55 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 588a96a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.google.android.apps.wellbeing.winddown.discovery.NOTIFICATION_DISMISSED:
+        6e7d35f com.google.android.apps.wellbeing/.winddown.discovery.NotificationDismissedReceiver_Receiver filter d9621ac
+          Action: "com.google.android.apps.wellbeing.winddown.discovery.NOTIFICATION_DISMISSED"
+      com.google.android.apps.wellbeing.focusmode.action.RESUME:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED:
+        f8e7233 com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.ScheduleExactAlarmPermissionChangedCoalescedBroadcast_Receiver filter ce459f0
+          Action: "android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED"
+      com.google.android.apps.wellbeing.focusmode.action.SNOOZE:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        b926d3f com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 85be60c
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.google.android.apps.wellbeing.appconfig.limit.action.APP_USAGE_LIMIT_OBSERVER_TRIGGERED:
+        11a7caf com.google.android.apps.wellbeing/.appconfig.limit.impl.AppUsageLimitObserverBroadcastReceiver_Receiver filter 89e98bc
+          Action: "com.google.android.apps.wellbeing.appconfig.limit.action.APP_USAGE_LIMIT_OBSERVER_TRIGGERED"
+      com.google.android.deskclock.action.BEDTIME_CHANGED:
+        5fc7243 com.google.android.apps.wellbeing/.bedtime.manager.SyncBedtimeBroadcastReceiver_Receiver filter a1f40c0
+          Action: "com.google.android.deskclock.action.BEDTIME_CHANGED"
+      com.google.android.apps.wellbeing.schedule.impl.action.SCHEDULE_ALARM_TRIGGERED:
+        c334977 com.google.android.apps.wellbeing/.schedule.impl.ScheduleAlarmBroadcastReceiver_Receiver filter b42b9e4
+          Action: "com.google.android.apps.wellbeing.schedule.impl.action.SCHEDULE_ALARM_TRIGGERED"
+      com.google.android.apps.wellbeing.ambientcontext.action.AMBIENT_CONTEXT_EVENTS_DETECTED:
+        9dd8db7 com.google.android.apps.wellbeing/.ambientcontext.AmbientContextEventDetectedReceiver_Receiver filter 70d4924
+          Action: "com.google.android.apps.wellbeing.ambientcontext.action.AMBIENT_CONTEXT_EVENTS_DETECTED"
+      com.google.android.apps.wellbeing.workscheduler.SHOW_END_OF_SESSION_NOTIFICATION:
+        40e0461 com.google.android.apps.wellbeing/.workscheduler.manager.WorkSchedulerActor_Receiver filter 3539b86
+          Action: "com.google.android.apps.wellbeing.workscheduler.SHOW_END_OF_SESSION_NOTIFICATION"
+          Action: "com.google.android.apps.wellbeing.PERFORM_SCHEDULE"
+          Action: "com.google.android.apps.wellbeing.workscheduler.EXTEND_PERIOD"
+      com.google.android.apps.wellbeing.walkingdetection.action.ACTIVITY_UPDATE_DETECTED:
+        efdb181 com.google.android.apps.wellbeing/.walkingdetection.ActivityUpdateReceiver_Receiver filter 8e01226
+          Action: "com.google.android.apps.wellbeing.walkingdetection.action.ACTIVITY_UPDATE_DETECTED"
+      com.google.firebase.appindexing.UPDATE_INDEX:
+        8a5dbc1 com.google.android.apps.wellbeing/.appindexing.impl.WellbeingAppIndexingUpdateReceiver_Receiver filter fd98f66
+          Action: "com.google.firebase.appindexing.UPDATE_INDEX"
+      com.google.android.apps.wellbeing.winddown.discovery.SHOW_DARK_SCREEN_DISCOVERY_NOTIFICATION:
+        c0f9a03 com.google.android.apps.wellbeing/.winddown.discovery.darkscreen.DarkScreenOptionsNotificationAlarmReceiver_Receiver filter 4e3ad80
+          Action: "com.google.android.apps.wellbeing.winddown.discovery.SHOW_DARK_SCREEN_DISCOVERY_NOTIFICATION"
+      com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_DOCKED:
+        fa12211 com.google.android.apps.wellbeing/.powerstate.impl.PowerStateNestDockSignalsReceiver_Receiver filter a22df76
+          Action: "com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_DOCKED"
+          Action: "com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_UNDOCKED"
+      com.google.android.apps.wellbeing.api.launcher.impl.LAUNCHER_ACTION_TRIGGERED:
+        2c94c8d com.google.android.apps.wellbeing/.api.launcher.impl.LauncherActionBroadcastReceiver_Receiver filter 716be42
+          Action: "com.google.android.apps.wellbeing.api.launcher.impl.LAUNCHER_ACTION_TRIGGERED"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.google.android.apps.wellbeing.action.TASK_MANAGER_ALARM:
+        53d0249 com.google.android.apps.wellbeing/.task.ScheduledTaskReceiver_Receiver filter f22674e
+          Action: "com.google.android.apps.wellbeing.action.TASK_MANAGER_ALARM"
+          Action: "com.google.android.apps.wellbeing.action.TASK_MANAGER_URGENT_ALARM"
+      com.google.android.apps.wellbeing.action.TASK_MANAGER_URGENT_ALARM:
+        53d0249 com.google.android.apps.wellbeing/.task.ScheduledTaskReceiver_Receiver filter f22674e
+          Action: "com.google.android.apps.wellbeing.action.TASK_MANAGER_ALARM"
+          Action: "com.google.android.apps.wellbeing.action.TASK_MANAGER_URGENT_ALARM"
+      android.intent.action.MANAGED_PROFILE_UNAVAILABLE:
+        98bc46b com.google.android.apps.wellbeing/.workscheduler.manager.ManagedProfileChangesListener_Receiver filter c1d6bc8
+          Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_AVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+          Action: "android.intent.action.MANAGED_PROFILE_REMOVED"
+          Action: "com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        ca9e5b com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 7e756f8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        5cfc7d1 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 4fff236
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.google.android.apps.wellbeing.action.SCREEN_ON_OFF:
+        6fbf4ab com.google.android.apps.wellbeing/.fences.screen.ScreenOnOffReceiver_Receiver filter 5157708
+          Action: "com.google.android.apps.wellbeing.action.SCREEN_ON_OFF"
+      com.google.android.apps.wellbeing.autodnd.action.SHUSH_FENCE_TRIGGERED:
+        5f372fd com.google.android.apps.wellbeing/.autodnd.impl.AutoDndFenceBroadcastReceiver_Receiver filter 25f3bf2
+          Action: "com.google.android.apps.wellbeing.autodnd.action.SHUSH_FENCE_TRIGGERED"
+      com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        33c3731 com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.LockedBootCompletedCoalescedBroadcast_Receiver filter a5a9e16
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+      android.intent.action.MANAGED_PROFILE_AVAILABLE:
+        98bc46b com.google.android.apps.wellbeing/.workscheduler.manager.ManagedProfileChangesListener_Receiver filter c1d6bc8
+          Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_AVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+          Action: "android.intent.action.MANAGED_PROFILE_REMOVED"
+          Action: "com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED"
+      com.google.android.apps.wellbeing.time.zone.TIMEZONE_OFFSET_CHANGED:
+        f4a7a05 com.google.android.apps.wellbeing/.time.zone.RefreshTimeZoneSnapshotBroadcastReceiver_Receiver filter 8c1aa5a
+          Action: "com.google.android.apps.wellbeing.time.zone.TIMEZONE_OFFSET_CHANGED"
+      android.accounts.LOGIN_ACCOUNTS_CHANGED:
+        d9a55e3 com.google.android.apps.wellbeing/com.google.apps.tiktok.account.data.device.DeviceAccountsChangedReceiver_Receiver filter 173ebe0
+          Action: "android.accounts.LOGIN_ACCOUNTS_CHANGED"
+      com.google.android.apps.wellbeing.winddown.action.END_CALM_WAKEUP:
+        e215ee5 com.google.android.apps.wellbeing/.winddown.impl.CalmWakeupNotificationDismissedBroadcastReceiver_Receiver filter 93d5dba
+          Action: "com.google.android.apps.wellbeing.winddown.action.END_CALM_WAKEUP"
+      com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.intent.action.DEVICE_STORAGE_OK:
+        ca9e5b com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 7e756f8
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.appwidget.action.APPWIDGET_UPDATE_OPTIONS:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.google.android.apps.wellbeing.focusmode.growth.BROAD_NOTIFICATION_DISMISSED:
+        a584e23 com.google.android.apps.wellbeing/.focusmode.growth.OnBroadGrowthNotificationDismissedReceiver_Receiver filter 17a1f20
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.BROAD_NOTIFICATION_DISMISSED"
+      com.google.android.apps.wellbeing.focusmode.growth.DND_NOTIFICATION_DISMISSED:
+        14a33dd com.google.android.apps.wellbeing/.focusmode.growth.OnTargetedGrowthNotificationDismissedReceiver_Receiver filter 2539b52
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.DND_NOTIFICATION_DISMISSED"
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.AIRPLANE_NOTIFICATION_DISMISSED"
+      com.google.android.apps.wellbeing.action.SHUSH_STATE_CHANGE_ACTION:
+        1833087 com.google.android.apps.wellbeing/.fences.shush.ShushStateChangeReceiver_Receiver filter d0efbb4
+          Action: "com.google.android.apps.wellbeing.action.SHUSH_STATE_CHANGE_ACTION"
+      android.app.action.NEXT_ALARM_CLOCK_CHANGED:
+        9ae3c51 com.google.android.apps.wellbeing/.alarm.NextAlarmClockChangedReceiver_Receiver filter d368cb6
+          Action: "android.app.action.NEXT_ALARM_CLOCK_CHANGED"
+      android.intent.action.MANAGED_PROFILE_ADDED:
+        98bc46b com.google.android.apps.wellbeing/.workscheduler.manager.ManagedProfileChangesListener_Receiver filter c1d6bc8
+          Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_AVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+          Action: "android.intent.action.MANAGED_PROFILE_REMOVED"
+          Action: "com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED"
+      com.google.android.apps.wellbeing.autodnd.discovery.DISCOVERY_NOTIFICATION_DISMISSED:
+        83752a7 com.google.android.apps.wellbeing/.autodnd.discovery.AutoDndDiscoveryNotificationDismissedReceiver_Receiver filter ee74354
+          Action: "com.google.android.apps.wellbeing.autodnd.discovery.DISCOVERY_NOTIFICATION_DISMISSED"
+      com.google.android.apps.wellbeing.winddown.action.PAUSE:
+        3e0467b com.google.android.apps.wellbeing/.winddown.impl.PauseWindDownBroadcastReceiver_Receiver filter a19ac98
+          Action: "com.google.android.apps.wellbeing.winddown.action.PAUSE"
+      android.settings.action.GRAYSCALE_CHANGED:
+        1eb772d com.google.android.apps.wellbeing/.winddown.impl.WindDownGrayscaleChangedBroadcastReceiver_Receiver filter 95fa462
+          Action: "android.settings.action.GRAYSCALE_CHANGED"
+      com.google.android.apps.wellbeing.sleepdetection.action.SLEEP_SEGMENT_DETECTED:
+        a64ce4d com.google.android.apps.wellbeing/.sleepdetection.SleepDetectionResultBroadcastReceiver_Receiver filter 557d02
+          Action: "com.google.android.apps.wellbeing.sleepdetection.action.SLEEP_SEGMENT_DETECTED"
+      com.google.android.apps.wellbeing.widget.screentime.PIN_WIDGET_CALLBACK:
+        752e4bd com.google.android.apps.wellbeing/.widget.screentime.PinScreenTimeWidgetCallbackReceiver_Receiver filter 72b2ab2
+          Action: "com.google.android.apps.wellbeing.widget.screentime.PIN_WIDGET_CALLBACK"
+      android.appwidget.action.APPWIDGET_RESTORED:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.LOCALE_CHANGED:
+        69ef9f com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.LocaleChangedCoalescedBroadcast_Receiver filter 817a8ec
+          Action: "android.intent.action.LOCALE_CHANGED"
+      com.google.android.apps.wellbeing.focusmode.growth.AIRPLANE_NOTIFICATION_DISMISSED:
+        14a33dd com.google.android.apps.wellbeing/.focusmode.growth.OnTargetedGrowthNotificationDismissedReceiver_Receiver filter 2539b52
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.DND_NOTIFICATION_DISMISSED"
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.AIRPLANE_NOTIFICATION_DISMISSED"
+      com.google.android.apps.wellbeing.focusmode.action.ALARM_TRIGGERED:
+        3a50195 com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeRefreshStateBroadcastReceiver_Receiver filter 1fb42aa
+          Action: "com.google.android.apps.wellbeing.focusmode.action.ALARM_TRIGGERED"
+      com.google.android.apps.wellbeing.PERFORM_SCHEDULE:
+        40e0461 com.google.android.apps.wellbeing/.workscheduler.manager.WorkSchedulerActor_Receiver filter 3539b86
+          Action: "com.google.android.apps.wellbeing.workscheduler.SHOW_END_OF_SESSION_NOTIFICATION"
+          Action: "com.google.android.apps.wellbeing.PERFORM_SCHEDULE"
+          Action: "com.google.android.apps.wellbeing.workscheduler.EXTEND_PERIOD"
+      com.google.android.apps.wellbeing.action.SCREEN_TURNING_OFF:
+        c984ea1 com.google.android.apps.wellbeing/.fences.screen.ScreenTurningOffReceiver_Receiver filter 654b8c6
+          Action: "com.google.android.apps.wellbeing.action.SCREEN_TURNING_OFF"
+      com.google.android.apps.wellbeing.winddown.action.USE_POWER_STATE_TRIGGER_DISCOVERY:
+        8355929 com.google.android.apps.wellbeing/.winddown.impl.UsePowerStateTriggerDiscoveryReceiver_Receiver filter e97a4ae
+          Action: "com.google.android.apps.wellbeing.winddown.action.USE_POWER_STATE_TRIGGER_DISCOVERY"
+      android.app.action.APP_BLOCK_STATE_CHANGED:
+        98941f9 com.google.android.apps.wellbeing/.common.notification.channelstate.NotificationChannelStateChangeReceiver_Receiver filter 121253e
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.appwidget.action.APPWIDGET_DELETED:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.BATTERY_LOW:
+        880cb55 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 588a96a
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        a1304b5 com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.TimezoneChangedCoalescedBroadcast_Receiver filter e86574a
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+        88ac537 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ab6eaa4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        173f06f com.google.android.apps.wellbeing/.time.delta.CheckTimeDeltaBroadcastReceiver_Receiver filter 679617c
+          Action: "android.intent.action.TIME_SET"
+        88ac537 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ab6eaa4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.appwidget.action.APPWIDGET_DISABLED:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.google.android.apps.wellbeing.focusmode.action.PAUSE:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.intent.action.BOOT_COMPLETED:
+        b07e6bb com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.BootCompletedCoalescedBroadcast_Receiver filter a4c67d8
+          Action: "android.intent.action.BOOT_COMPLETED"
+        88ac537 com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.RescheduleReceiver filter ab6eaa4
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.google.android.apps.wellbeing.winddown.discovery.SHOW_DISCOVERY_NOTIFICATION:
+        4ce0fb9 com.google.android.apps.wellbeing/.winddown.discovery.NotificationAlarmReceiver_Receiver filter 69d3ffe
+          Action: "com.google.android.apps.wellbeing.winddown.discovery.SHOW_DISCOVERY_NOTIFICATION"
+      com.google.com.android.gms.contextmanager.CONTEXT_MANAGER_RESTARTED:
+        419b69 com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.ContextManagerRestartedCoalescedBroadcast_Receiver filter 57f59ee
+          Action: "com.google.com.android.gms.contextmanager.CONTEXT_MANAGER_RESTARTED"
+      android.intent.action.PACKAGE_UNSUSPENDED_MANUALLY:
+        b1c34cb com.google.android.apps.wellbeing/.appconfig.suspend.impl.PackageUnsuspendedManuallyBroadcastReceiver_Receiver filter 31a84a8
+          Action: "android.intent.action.PACKAGE_UNSUSPENDED_MANUALLY"
+      com.google.android.apps.wellbeing.walkingdetection.action.WALKING_ACTIVITY_DETECTED:
+        7f9248b com.google.android.apps.wellbeing/.walkingdetection.WalkingActivityDetectedReceiver_Receiver filter cb91968
+          Action: "com.google.android.apps.wellbeing.walkingdetection.action.WALKING_ACTIVITY_DETECTED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        b926d3f com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 85be60c
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      android.intent.action.MANAGED_PROFILE_REMOVED:
+        98bc46b com.google.android.apps.wellbeing/.workscheduler.manager.ManagedProfileChangesListener_Receiver filter c1d6bc8
+          Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_AVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+          Action: "android.intent.action.MANAGED_PROFILE_REMOVED"
+          Action: "com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        98941f9 com.google.android.apps.wellbeing/.common.notification.channelstate.NotificationChannelStateChangeReceiver_Receiver filter 121253e
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.google.android.apps.wellbeing.appconfig.limit.action.MIDNIGHT_ALARM_TRIGGERED:
+        bb34e53 com.google.android.apps.wellbeing/.appconfig.limit.impl.MidnightAlarmBroadcastReceiver_Receiver filter 467d390
+          Action: "com.google.android.apps.wellbeing.appconfig.limit.action.MIDNIGHT_ALARM_TRIGGERED"
+      com.google.android.apps.wellbeing.winddown.action.RESUME:
+        514fcf1 com.google.android.apps.wellbeing/.winddown.impl.ResumeWindDownBroadcastReceiver_Receiver filter 26750d6
+          Action: "com.google.android.apps.wellbeing.winddown.action.RESUME"
+      com.google.android.apps.wellbeing.action.POWER_CHARGING_FENCE:
+        94f8525 com.google.android.apps.wellbeing/.fences.power.PowerFenceReceiver_Receiver filter 10b26fa
+          Action: "com.google.android.apps.wellbeing.action.POWER_CHARGING_FENCE"
+      com.google.android.apps.wellbeing.winddown.action.WIND_DOWN_ALARM_TRIGGERED:
+        e36ee75 com.google.android.apps.wellbeing/.winddown.impl.WindDownAlarmBroadcastReceiver_Receiver filter d895e0a
+          Action: "com.google.android.apps.wellbeing.winddown.action.WIND_DOWN_ALARM_TRIGGERED"
+      com.google.android.apps.wellbeing.powerstate.action.POWER_STATE_FENCE_TRIGGERED:
+        fc75e9b com.google.android.apps.wellbeing/.powerstate.impl.PowerStateFenceBroadcastReceiver_Receiver filter d98b238
+          Action: "com.google.android.apps.wellbeing.powerstate.action.POWER_STATE_FENCE_TRIGGERED"
+      com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_UNDOCKED:
+        fa12211 com.google.android.apps.wellbeing/.powerstate.impl.PowerStateNestDockSignalsReceiver_Receiver filter a22df76
+          Action: "com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_DOCKED"
+          Action: "com.google.android.apps.nest.dockmanager.ACTION_ALLOWLIST_UNDOCKED"
+      com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED:
+        3d7a97f com.google.android.apps.wellbeing/.focusmode.manager.impl.FocusModeNotificationActionBroadcast_Receiver filter fb20d4c
+          Action: "com.google.android.apps.wellbeing.focusmode.action.RESUME"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SNOOZE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.TURN_OFF_NOW"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.EXTEND_SINGLE_APP_UNLOCK"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.PAUSE"
+          Action: "com.google.android.apps.wellbeing.focusmode.action.SCHEDULE_EDUCATION_NOTIFICATION_DISMISSED"
+      android.appwidget.action.APPWIDGET_ENABLED:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.google.android.apps.wellbeing.focusmode.growth.SCHEDULED_GROWTH_NOTIFICATION:
+        93b30d9 com.google.android.apps.wellbeing/.focusmode.growth.OnScheduledNotificationAlarm_Receiver filter 7ec1a9e
+          Action: "com.google.android.apps.wellbeing.focusmode.growth.SCHEDULED_GROWTH_NOTIFICATION"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        c537e67 com.google.android.apps.wellbeing/.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver filter aba6414
+          Action: "android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"
+          Action: "android.appwidget.action.APPWIDGET_RESTORED"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        bc7dd3 com.google.android.apps.wellbeing/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 2ca0d10
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED:
+        98bc46b com.google.android.apps.wellbeing/.workscheduler.manager.ManagedProfileChangesListener_Receiver filter c1d6bc8
+          Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_AVAILABLE"
+          Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+          Action: "android.intent.action.MANAGED_PROFILE_REMOVED"
+          Action: "com.google.android.apps.wellbeing.REQUEST_PROFILE_ENABLED"
+      com.google.android.apps.wellbeing.workscheduler.EXTEND_PERIOD:
+        40e0461 com.google.android.apps.wellbeing/.workscheduler.manager.WorkSchedulerActor_Receiver filter 3539b86
+          Action: "com.google.android.apps.wellbeing.workscheduler.SHOW_END_OF_SESSION_NOTIFICATION"
+          Action: "com.google.android.apps.wellbeing.PERFORM_SCHEDULE"
+          Action: "com.google.android.apps.wellbeing.workscheduler.EXTEND_PERIOD"
+      com.google.android.apps.wellbeing.appconfig.limit.action.APP_USAGE_OBSERVER_TRIGGERED:
+        40b2489 com.google.android.apps.wellbeing/.appconfig.limit.impl.AppUsageObserverBroadcastReceiver_Receiver filter 8d67c8e
+          Action: "com.google.android.apps.wellbeing.appconfig.limit.action.APP_USAGE_OBSERVER_TRIGGERED"
+      com.google.android.apps.wellbeing.winddown.action.TURN_OFF_WIND_DOWN:
+        c22cf57 com.google.android.apps.wellbeing/.winddown.impl.TurnOffWindDownBroadcastReceiver_Receiver filter a48fa44
+          Action: "com.google.android.apps.wellbeing.winddown.action.TURN_OFF_WIND_DOWN"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        b788045 com.google.android.apps.wellbeing/.appconfig.service.impl.UsageLimitServicePackageReplacedBroadcastReceiver_Receiver filter 3c1d39a
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        fc43397 com.google.android.apps.wellbeing/.common.receiver.coalescedreceivers.MyPackageReplacedCoalescedBroadcast_Receiver filter c0c2984
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.google.android.apps.wellbeing.sleepdetection.action.REFRESH_SLEEP_REGISTRATION:
+        2090613 com.google.android.apps.wellbeing/.sleepdetection.RefreshSleepDetectionRegistrationBroadcastReceiver_Receiver filter 3639050
+          Action: "com.google.android.apps.wellbeing.sleepdetection.action.REFRESH_SLEEP_REGISTRATION"
+      com.google.android.apps.wellbeing.winddown.action.REJECT_POWER_STATE_TRIGGER_DISCOVERY:
+        79b09f3 com.google.android.apps.wellbeing/.winddown.impl.RejectPowerStateTriggerDiscoveryReceiver_Receiver filter efd76b0
+          Action: "com.google.android.apps.wellbeing.winddown.action.REJECT_POWER_STATE_TRIGGER_DISCOVERY"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        a38100d com.google.android.apps.wellbeing/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 5d0fbc2
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.google.android.deskclock.action.ALARM_PREDISMISS:
+        752524f com.google.android.apps.wellbeing/.winddown.impl.WindDownClockAlarmActionReceiver_Receiver filter b3b4ddc
+          Action: "com.google.android.deskclock.action.ALARM_PREDISMISS"
+      com.google.android.gms.phenotype.UPDATE:
+        b3fe8f com.google.android.apps.wellbeing/.experiments.listener.impl.PhenotypeConfigurationChangedBroadcastReceiver_Receiver filter 5cd251c
+          Action: "com.google.android.gms.phenotype.UPDATE"
+        7c5859d com.google.android.apps.wellbeing/com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver filter 23dea12
+          Action: "com.google.android.gms.phenotype.UPDATE"
+        f79de99 com.google.android.apps.wellbeing/com.google.apps.tiktok.experiments.phenotype.ConfigurationUpdatedReceiver_Receiver filter c0c955e
+          Action: "com.google.android.gms.phenotype.UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.quicksettings.action.QS_TILE:
+        c014741 com.google.android.apps.wellbeing/.focusmode.quicksettings.FocusModeTileService filter d8754e6 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+        e616a27 com.google.android.apps.wellbeing/.screen.ui.GrayscaleTileService filter efc44d4 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+      com.google.android.build.data.Properties:
+        d7081c3 com.google.android.apps.wellbeing/com.google.android.build.data.PropertiesServiceHolder filter 42da40
+          Action: "com.google.android.build.data.Properties"
+      android.service.notification.ConditionProviderService:
+        32bd44b com.google.android.apps.wellbeing/.dnd.impl.DndConditionProviderService filter 15a6e28 permission android.permission.BIND_CONDITION_PROVIDER_SERVICE
+          Action: "android.service.notification.ConditionProviderService"
+      org.chromium.chrome.browser.usage_stats.service.WELLBEING:
+        e5a167d com.google.android.apps.wellbeing/.web.wellbeing.impl.WellbeingService filter e3d972
+          Action: "org.chromium.chrome.browser.usage_stats.service.WELLBEING"
+      com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService:
+        28c33c5 com.google.android.apps.wellbeing/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter cd6411a
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+
+Provider Resolver Table:
+  Schemes:
+      android-app:
+        247242f com.google.android.apps.wellbeing/.slices.impl.WellbeingSliceProvider filter aaea3c
+          Action: "android.intent.action.VIEW"
+          Category: "android.app.slice.category.SLICE"
+          Scheme: "android-app"
+          Authority: "com.google.android.apps.wellbeing": -1
+
+  Non-Data Actions:
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        a62a009 com.google.android.apps.wellbeing/.searchindexables.impl.WellbeingSearchIndexablesProvider filter 8b7120e
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.google.android.apps.wellbeing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (1563f9e):
+    sourcePackage=com.google.android.apps.wellbeing
+    uid=10144 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b4f6a7f com.google.android.apps.wellbeing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.google.android.apps.wellbeing/.autodnd.ui.SettingsContentProvider:
+    Provider{7d3a4c com.google.android.apps.wellbeing/.autodnd.ui.SettingsContentProvider}
+  com.google.android.apps.wellbeing/.slices.impl.WellbeingSliceProvider:
+    Provider{247242f com.google.android.apps.wellbeing/.slices.impl.WellbeingSliceProvider}
+  com.google.android.apps.wellbeing/.searchindexables.impl.WellbeingSearchIndexablesProvider:
+    Provider{a62a009 com.google.android.apps.wellbeing/.searchindexables.impl.WellbeingSearchIndexablesProvider}
+  com.google.android.apps.wellbeing/.api.impl.WellbeingSettingsProvider:
+    Provider{fdd2a95 com.google.android.apps.wellbeing/.api.impl.WellbeingSettingsProvider}
+
+ContentProvider Authorities:
+  [com.google.android.apps.wellbeing.api]:
+    Provider{fdd2a95 com.google.android.apps.wellbeing/.api.impl.WellbeingSettingsProvider}
+      applicationInfo=ApplicationInfo{862b7aa com.google.android.apps.wellbeing}
+  [com.google.android.apps.wellbeing]:
+    Provider{a62a009 com.google.android.apps.wellbeing/.searchindexables.impl.WellbeingSearchIndexablesProvider}
+      applicationInfo=ApplicationInfo{d7a2f9b com.google.android.apps.wellbeing}
+  [com.google.android.apps.wellbeing.slices]:
+    Provider{247242f com.google.android.apps.wellbeing/.slices.impl.WellbeingSliceProvider}
+      applicationInfo=ApplicationInfo{469af38 com.google.android.apps.wellbeing}
+  [com.google.android.apps.wellbeing.autodnd.ui.provider]:
+    Provider{7d3a4c com.google.android.apps.wellbeing/.autodnd.ui.SettingsContentProvider}
+      applicationInfo=ApplicationInfo{1b2db11 com.google.android.apps.wellbeing}
+
+Key Set Manager:
+  [com.google.android.apps.wellbeing]
+      Signing KeySets: 9
+
+Packages:
+  Package [com.google.android.apps.wellbeing] (80ca476):
+    appId=10144
+    pkg=Package{c22a77 com.google.android.apps.wellbeing}
+    codePath=/system/product/priv-app/Wellbeing
+    resourcePath=/system/product/priv-app/Wellbeing
+    legacyNativeLibraryDir=/system/product/priv-app/Wellbeing/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=514397 minSdk=28 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.6.540869695 (514397)
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=true
+    queriesPackages=[com.google.android.apps.maps, com.google.android.apps.kids.familylink, com.google.android.apps.kids.familylinkhelper, com.google.android.gms]
+    queriesIntents=[Intent { act=com.google.android.gms.kids.action.VIEW_PARENTAL_CONTROLS }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:/... }]
+    dataDir=/data/user/0/com.google.android.apps.wellbeing
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2008-12-31 22:00:00
+    lastUpdateTime=2008-12-31 22:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{aa686e4 version:3, signatures:[83fc239b], past signatures:[fa133d44 flags: 17, 83fc239b flags: 17]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.google.android.apps.wellbeing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      android.permission.SYSTEM_APPLICATION_OVERLAY
+      android.permission.POST_NOTIFICATIONS
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.OBSERVE_APP_USAGE
+      android.permission.SUSPEND_APPS
+      android.permission.CONTROL_DISPLAY_SATURATION
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME
+      android.permission.ACCESS_INSTANT_APPS
+      android.permission.INTERACT_ACROSS_PROFILES
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.MODIFY_PHONE_STATE
+      android.permission.MODIFY_QUIET_MODE
+      android.permission.READ_DREAM_STATE
+      android.permission.WRITE_DREAM_STATE
+      android.permission.READ_WALLPAPER_INTERNAL
+      android.permission.SET_WALLPAPER_COMPONENT
+      android.permission.SET_WALLPAPER
+      android.permission.SET_WALLPAPER_DIM_AMOUNT
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      android.permission.VIBRATE
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION
+      android.permission.ACTIVITY_RECOGNITION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      com.google.android.deskclock.permission.RECEIVE_ALERT_BROADCASTS
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK
+      android.permission.REAL_GET_TASKS
+      android.permission.START_TASKS_FROM_RECENTS
+      android.permission.MODIFY_DAY_NIGHT_MODE
+      android.permission.ACCESS_AMBIENT_CONTEXT_EVENT
+      android.permission.START_CROSS_PROFILE_ACTIVITIES
+      com.google.android.apps.nest.DOCK_MANAGER_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.START_CROSS_PROFILE_ACTIVITIES: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.READ_WALLPAPER_INTERNAL: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.START_TASKS_FROM_RECENTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.CONTROL_DISPLAY_SATURATION: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.permission.SYSTEM_APPLICATION_OVERLAY: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.MODIFY_DAY_NIGHT_MODE: granted=true
+      android.permission.OBSERVE_APP_USAGE: granted=true
+      android.permission.SET_WALLPAPER_COMPONENT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      com.google.android.gms.permission.ACTIVITY_RECOGNITION: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      android.permission.WRITE_DREAM_STATE: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.SUSPEND_APPS: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.MODIFY_QUIET_MODE: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.SET_WALLPAPER_DIM_AMOUNT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.INTERACT_ACROSS_PROFILES: granted=false
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.ACCESS_AMBIENT_CONTEXT_EVENT: granted=true
+    User 0: ceDataInode=2041 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 22:00:00
+      uninstallReason=0
+      overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /data/resource-cache/com.android.systemui-neutral-PCt2.frro
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+        /data/resource-cache/com.android.systemui-accent-BZuU.frro
+        /data/resource-cache/com.android.systemui-dynamic-b0f8.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|GRANTED_BY_ROLE]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACTIVITY_RECOGNITION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+      disabledComponents:
+        com.google.android.apps.wellbeing.winddown.ui.WindDownDarkThemeSettings
+        com.google.android.apps.wellbeing.autodnd.ui.AutoDndGesturesSettingsActivity
+      enabledComponents:
+        com.google.android.apps.wellbeing.focusmode.ui.FocusModeSettingsActivity
+        com.google.android.apps.wellbeing.widget.screentime.PinScreenTimeWidgetGatewayActivity
+        com.google.android.apps.wellbeing.widget.screentime.ScreenTimeWidgetProviderReceiver_Receiver
+        com.google.android.apps.wellbeing.focusmode.quicksettings.FocusModeTileService
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.google.android.apps.wellbeing
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [org.lineageos.lineagesettings,com.android.providers.settings,org.lineageos.mediatek.incallservice,com.android.settings,android,org.lineageos.setupwizard,com.android.wallpaperbackup,com.android.location.fused,me.phh.qcrilam,com.android.server.telecom,com.google.android.iwlan,com.android.keychain,org.lineageos.lineageparts,com.android.localtransport,com.android.inputdevices,me.phh.treble.app,lineageos.platform,com.android.dynsystem,com.android.DeviceAsWebcam]:
+        com.google.android.apps.wellbeing
+      com.google.android.apps.wellbeing:
+        [org.lineageos.lineagesettings,com.android.providers.settings,org.lineageos.mediatek.incallservice,com.android.settings,android,org.lineageos.setupwizard,com.android.wallpaperbackup,com.android.location.fused,me.phh.qcrilam,com.android.server.telecom,com.google.android.iwlan,com.android.keychain,org.lineageos.lineageparts,com.android.localtransport,com.android.inputdevices,me.phh.treble.app,lineageos.platform,com.android.dynsystem,com.android.DeviceAsWebcam]
+      com.android.systemui:
+        com.google.android.apps.wellbeing
+      android.ext.services:
+        com.google.android.apps.wellbeing
+  queryable via uses-library:
+
+Dexopt state:
+  [com.google.android.apps.wellbeing]
+    path: /system/product/priv-app/Wellbeing/Wellbeing.apk
+      arm64: [status=verify] [reason=first-boot] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@product@priv-app@Wellbeing@Wellbeing.apk@classes.dex]
+
+Compiler stats:
+  [com.google.android.apps.wellbeing]
+     Wellbeing.apk - 863

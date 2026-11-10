@@ -1,0 +1,17 @@
+{
+  "density": "Physical density: 213",
+  "settings": {
+    "global:window_animation_scale": "1.0",
+    "global:transition_animation_scale": "1.0",
+    "global:animator_duration_scale": "null",
+    "global:airplane_mode_on": "0",
+    "global:bluetooth_on": "1",
+    "system:font_scale": "1.0"
+  },
+  "packages": {
+    "com.google.android.googlequicksearchbox": "0",
+    "com.google.android.apps.wellbeing": "0",
+    "com.google.android.projection.gearhead": "0",
+    "org.lineageos.eleven": "0"
+  }
+}

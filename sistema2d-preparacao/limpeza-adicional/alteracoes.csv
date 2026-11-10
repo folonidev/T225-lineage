@@ -1,0 +1,5 @@
+﻿"pacote","motivo","estado_anterior","comando","resultado","reversao"
+"com.google.android.googlequicksearchbox","Pesquisa e assistente Google nao utilizados neste uso","default","pm disable-user --user 0 com.google.android.googlequicksearchbox","aplicado","pm default-state --user 0 com.google.android.googlequicksearchbox"
+"com.google.android.apps.wellbeing","Estatisticas e limites de uso opcionais","default","pm disable-user --user 0 com.google.android.apps.wellbeing","aplicado","pm default-state --user 0 com.google.android.apps.wellbeing"
+"com.google.android.projection.gearhead","Integracao Android Auto com veiculos nao utilizada","default","pm disable-user --user 0 com.google.android.projection.gearhead","aplicado","pm default-state --user 0 com.google.android.projection.gearhead"
+"org.lineageos.eleven","Player de musica local opcional; NewPipe usa seu proprio player","default","pm disable-user --user 0 org.lineageos.eleven","aplicado","pm default-state --user 0 org.lineageos.eleven"

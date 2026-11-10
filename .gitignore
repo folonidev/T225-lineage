@@ -1,0 +1,36 @@
+# Downloads, firmware, capturas e dependencias binarias locais.
+*.apk
+*.exe
+*.dll
+*.pyd
+*.pyc
+__pycache__/
+*.zip
+*.tar
+*.gz
+*.whl
+*.img
+*.part
+*.pit
+*.cat
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+# Credenciais e configuracao privada.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.keystore
+adbkey*
+**/.aws/
+**/.ssh/
+# Backups e resultados de novas instalacoes: mantenha privados.
+/tablet-local/
+# Executavel ARM64 extraido do APK oficial; reconstruir conforme README.
+/sistema2d-preparacao/imagens-pequenas/magiskboot

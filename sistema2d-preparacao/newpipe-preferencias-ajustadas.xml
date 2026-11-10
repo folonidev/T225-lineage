@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<map>
+    <boolean name="scale_to_square_image_in_notifications" value="false" />
+    <boolean name="resume_on_audio_focus_gain" value="false" />
+    <boolean name="use_inexact_seek_key" value="false" />
+    <string name="tablet_mode">auto</string>
+    <boolean name="show_age_restricted_content" value="false" />
+    <boolean name="clear_queue_confirmation_key" value="false" />
+    <boolean name="is_in_background" value="false" />
+    <boolean name="popup_remember_size_pos_key" value="true" />
+    <boolean name="auto_queue_key" value="false" />
+    <boolean name="show_original_time_ago_key" value="false" />
+    <string name="night_theme">dark_theme</string>
+    <boolean name="playback_skip_silence_key" value="false" />
+    <string name="limit_mobile_data_usage">limit_data_usage_none</string>
+    <boolean name="enable_playback_state_lists" value="true" />
+    <boolean name="enable_playback_resume" value="true" />
+    <string name="file_replacement_character">_</string>
+    <boolean name="update_app_key" value="false" />
+    <string name="default_resolution">720p</string>
+    <set name="channel_tabs">
+        <string>show_channel_tabs_livestreams</string>
+        <string>show_channel_tabs_likes</string>
+        <string>show_channel_tabs_videos</string>
+        <string>show_channel_tabs_albums</string>
+        <string>show_channel_tabs_channels</string>
+        <string>show_channel_tabs_tracks</string>
+        <string>show_channel_tabs_about</string>
+        <string>show_channel_tabs_shorts</string>
+        <string>show_channel_tabs_playlists</string>
+    </set>
+    <string name="downloads_max_retry">3</string>
+    <string name="content_country">system</string>
+    <boolean name="show_next_video" value="true" />
+    <boolean name="downloads_storage_ask" value="false" />
+    <string name="default_popup_resolution">480p</string>
+    <boolean name="show_higher_resolutions" value="false" />
+    <string name="list_view_mode">auto</string>
+    <boolean name="cross_network_downloads" value="false" />
+    <boolean name="use_external_video_player" value="false" />
+    <boolean name="show_comments" value="true" />
+    <boolean name="allow_heap_dumping_key" value="false" />
+    <set name="feed_fetch_channel_tabs">
+        <string>fetch_channel_tabs_shorts</string>
+        <string>fetch_channel_tabs_videos</string>
+        <string>fetch_channel_tabs_livestreams</string>
+        <string>fetch_channel_tabs_tracks</string>
+        <string>fetch_channel_tabs_likes</string>
+    </set>
+    <boolean name="show_thumbnail_key" value="true" />
+    <boolean name="storage_use_saf" value="true" />
+    <boolean name="feed_use_dedicated_fetch_method" value="false" />
+    <boolean name="show_crash_the_player_key" value="false" />
+    <boolean name="prefer_original_audio" value="true" />
+    <set name="show_search_suggestions">
+        <string>show_local_search_suggestions</string>
+        <string>show_remote_search_suggestions</string>
+    </set>
+    <string name="feed_update_threshold_key">300</string>
+    <boolean name="notification_colorize_key" value="true" />
+    <boolean name="start_main_player_fullscreen_key" value="false" />
+    <boolean name="update_check_consent_key" value="true" />
+    <boolean name="youtube_restricted_mode_enabled" value="false" />
+    <float name="playback_pitch_key" value="1.0" />
+    <string name="file_rename_charset">CHARSET_MOST_SPECIAL</string>
+    <string name="right_gesture_control">volume_control</string>
+    <boolean name="enable_watch_history" value="true" />
+    <string name="autoplay_key">autoplay_wifi_key</string>
+    <boolean name="prefer_descriptive_audio" value="false" />
+    <boolean name="ignore_hardware_media_buttons_key" value="false" />
+    <int name="media_tunneling_device_blacklist_version" value="994" />
+    <string name="content_language">system</string>
+    <boolean name="main_tabs_position" value="false" />
+    <string name="image_quality_key">image_quality_medium</string>
+    <boolean name="enable_search_history" value="true" />
+    <string name="minimize_on_exit_key">minimize_on_exit_background_key</string>
+    <boolean name="show_meta_info" value="true" />
+    <boolean name="allow_disposed_exceptions_key" value="false" />
+    <string name="preferred_open_action_key">video_player</string>
+    <string name="theme">auto_device_theme</string>
+    <string name="preferred_open_action_last_selected">video_player</string>
+    <boolean name="use_external_audio_player" value="false" />
+    <string name="default_video_format">video_mp4</string>
+    <boolean name="show_description" value="true" />
+    <long name="kao_last_checked" value="1793567376179" />
+    <int name="last_used_preferences_version" value="8" />
+    <string name="default_audio_format">audio_m4a</string>
+    <float name="playback_speed_key" value="1.0" />
+    <string name="seekbar_preview_thumbnail_key">seekbar_preview_thumbnail_high_quality</string>
+    <string name="left_gesture_control">brightness_control</string>
+    <boolean name="show_play_with_kodi" value="false" />
+    <string name="seek_duration">10000</string>
+    <string name="stream_info_selected_tab">COMMENTS</string>
+    <boolean name="show_hold_to_append" value="true" />
+    <boolean name="downloads_queue_limit" value="true" />
+</map>

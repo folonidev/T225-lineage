@@ -1,0 +1,18 @@
+Installing zip file '/tmp/sistema2d_bootanim.zip'
+Unmounting System...
+- Mounting /system
+- Mounting /system_root
+- Device is system-as-root
+****************
+ Sistema2D Boot 
+ by Sistema2D 
+****************
+*******************
+ Powered by Magisk 
+*******************
+- Extracting module files
+- Sistema2D Boot
+- Descomprimindo a splash do framebuffer
+- Unmounting partitions
+- Done
+Done processing script file

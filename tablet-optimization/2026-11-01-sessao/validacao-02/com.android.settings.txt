@@ -1,0 +1,8 @@
+Starting: Intent { cmp=com.android.settings/.Settings }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.android.settings/.Settings$ConnectionsSettingsActivity
+TotalTime: 452
+WaitTime: 465
+Complete

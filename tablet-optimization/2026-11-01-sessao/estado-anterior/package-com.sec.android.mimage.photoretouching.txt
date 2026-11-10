@@ -1,0 +1,434 @@
+﻿Activity Resolver Table:
+  Schemes:
+      photoeditor:
+        c09d610 com.sec.android.mimage.photoretouching/.SPEActivity.GalaxyStore filter fc93509
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "photoeditor"
+
+  Non-Data Actions:
+      com.sec.android.intent.action.SEC_APPLICATION_SETTINGS:
+        89e433c com.sec.android.mimage.photoretouching/.settings.SettingsActivity filter 4718c5
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.sec.android.mimage.photoretouching.WaterMarkTextEditActivity:
+        8df5cc2 com.sec.android.mimage.photoretouching/.WaterMarkTextEditActivity filter 569cad3
+          Action: "com.sec.android.mimage.photoretouching.WaterMarkTextEditActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.mimage.photoretouching.spe.states.decoration.stickermanager.StickerManagerActivity:
+        4ca830e com.sec.android.mimage.photoretouching/.spe.controller.states.decoration.stickermanager.StickerManagerActivity filter 8fc412f
+          Action: "com.sec.android.mimage.photoretouching.spe.states.decoration.stickermanager.StickerManagerActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.mimage.photoretouching.motionphoto:
+        c5c23a4 com.sec.android.mimage.photoretouching/.agif.MotionPhotoActivity filter aef550d
+          Action: "com.sec.android.mimage.photoretouching.motionphoto"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_EDITOR_SETTING:
+        877e5e6 com.sec.android.mimage.photoretouching/.settings.SmartSwitchBackupRestoreReceiver filter 8fd2727
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_RESTORE_PHOTO_EDITOR_SETTING"
+      com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_EDITOR_SETTING:
+        877e5e6 com.sec.android.mimage.photoretouching/.settings.SmartSwitchBackupRestoreReceiver filter 8fd2727
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_RESTORE_PHOTO_EDITOR_SETTING"
+      com.samsung.android.intent.action.RESPONSE_BACKUP_PHOTO_EDITOR_SETTING:
+        877e5e6 com.sec.android.mimage.photoretouching/.settings.SmartSwitchBackupRestoreReceiver filter 8fd2727
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_RESTORE_PHOTO_EDITOR_SETTING"
+      com.samsung.android.intent.action.REQUEST_BACKUP_CUSTOM_STICKERS:
+        7aa5728 com.sec.android.mimage.photoretouching/.bnr.MyStickerBackupRestoreReceiver filter b057c41
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_CUSTOM_STICKERS"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_CUSTOM_STICKERS"
+      com.samsung.android.intent.action.REQUEST_RESTORE_CUSTOM_STICKERS:
+        7aa5728 com.sec.android.mimage.photoretouching/.bnr.MyStickerBackupRestoreReceiver filter b057c41
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_CUSTOM_STICKERS"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_CUSTOM_STICKERS"
+      com.samsung.android.intent.action.RESPONSE_RESTORE_PHOTO_EDITOR_SETTING:
+        877e5e6 com.sec.android.mimage.photoretouching/.settings.SmartSwitchBackupRestoreReceiver filter 8fd2727
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_BACKUP_PHOTO_EDITOR_SETTING"
+          Action: "com.samsung.android.intent.action.RESPONSE_RESTORE_PHOTO_EDITOR_SETTING"
+      samsung.stickercenter.intent.PROCESS_COMPLETE:
+        52fc21a com.sec.android.mimage.photoretouching/.spe.controller.states.decoration.db.StickerPackageReceiver filter c95c14b
+          Action: "samsung.stickercenter.intent.PROCESS_COMPLETE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.sdk.bixby.APP_SERVICE:
+        8cc7a72 com.sec.android.mimage.photoretouching/com.samsung.android.sdk.bixby.BixbyAppService filter 28b0ec3 permission com.samsung.android.bixby.agent.permission.APP_SERVICE
+          Action: "com.samsung.android.sdk.bixby.APP_SERVICE"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        4e1bdd4 com.sec.android.mimage.photoretouching/.settings.SearchProvider filter 1ec9b7d
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.wssnps.permission.COM_WSSNPS] (b638802):
+    sourcePackage=com.sec.android.mimage.photoretouching
+    uid=10053 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{5db513 com.wssnps.permission.COM_WSSNPS}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.mimage.photoretouching] (4c41350):
+    sourcePackage=com.sec.android.mimage.photoretouching
+    uid=10053 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{53ec949 com.sec.android.mimage.photoretouching}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (486224e):
+    sourcePackage=com.sec.android.mimage.photoretouching
+    uid=10053 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1e48f6f com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.sec.android.mimage.photoretouching/.settings.SearchProvider:
+    Provider{4e1bdd4 com.sec.android.mimage.photoretouching/.settings.SearchProvider}
+  com.sec.android.mimage.photoretouching/androidx.startup.InitializationProvider:
+    Provider{df147c com.sec.android.mimage.photoretouching/androidx.startup.InitializationProvider}
+  com.sec.android.mimage.photoretouching/com.samsung.android.sdk.bixby2.provider.CapsuleProvider:
+    Provider{b21b105 com.sec.android.mimage.photoretouching/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+  com.sec.android.mimage.photoretouching/androidx.core.content.FileProvider:
+    Provider{26155a com.sec.android.mimage.photoretouching/androidx.core.content.FileProvider}
+  com.sec.android.mimage.photoretouching/.spe.controller.states.decoration.db.DecorationProvider:
+    Provider{854b38b com.sec.android.mimage.photoretouching/.spe.controller.states.decoration.db.DecorationProvider}
+
+ContentProvider Authorities:
+  [com.sec.android.mimage.photoretouching.decoration]:
+    Provider{854b38b com.sec.android.mimage.photoretouching/.spe.controller.states.decoration.db.DecorationProvider}
+      applicationInfo=ApplicationInfo{346fc68 com.sec.android.mimage.photoretouching}
+  [com.sec.android.mimage.photoretouching.androidx-startup]:
+    Provider{df147c com.sec.android.mimage.photoretouching/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{6915881 com.sec.android.mimage.photoretouching}
+  [com.sec.android.mimage.photoretouching.settings.SearchProvider]:
+    Provider{4e1bdd4 com.sec.android.mimage.photoretouching/.settings.SearchProvider}
+      applicationInfo=ApplicationInfo{9a02d26 com.sec.android.mimage.photoretouching}
+  [com.sec.android.mimage.photoretouching.CapsuleProvider]:
+    Provider{b21b105 com.sec.android.mimage.photoretouching/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+      applicationInfo=ApplicationInfo{858fd67 com.sec.android.mimage.photoretouching}
+  [com.sec.android.mimage.photoretouching.provider]:
+    Provider{26155a com.sec.android.mimage.photoretouching/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{fc37714 com.sec.android.mimage.photoretouching}
+
+Key Set Manager:
+  [com.sec.android.mimage.photoretouching]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.sec.android.mimage.photoretouching] (a4c8d29):
+    appId=10053
+    sharedUser=SharedUserSetting{1f9fbbd com.sec.android.mimage.uid.photoretouching/10053}
+    pkg=Package{351f5b2 com.sec.android.mimage.photoretouching}
+    codePath=/system/priv-app/PhotoEditor_Lite
+    resourcePath=/system/priv-app/PhotoEditor_Lite
+    legacyNativeLibraryDir=/system/priv-app/PhotoEditor_Lite/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=342145021 minSdk=34 targetSdk=34
+    minExtensionVersions=[]
+    versionName=3.4.21.45
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.sec.android.mimage.photoretouching
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      SmpsManager
+      sechardware
+      allshare
+      secimaging
+      saiv
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesNativeLibraries:
+      libagifencoder.quram.so
+      libimagecodec.quram.so
+    usesOptionalNativeLibraries:
+      libOpenCv.camera.samsung.so
+      libBestComposition.polarr.so
+      libMyFilter.camera.samsung.so
+      libOpenCL.so
+      libImageScreener.camera.samsung.so
+      libPortraitSolution.camera.samsung.so
+      libveframework.videoeditor.samsung.so
+      libsnap_aidl.snap.samsung.so
+      libOpenCv.camera.samsung.so
+      libsrib_CNNInterface.camera.samsung.so
+      libcdsprpc.so
+      libFace_Landmark_API.camera.samsung.so
+      libapex_jni.media.samsung.so
+      libapex_motionphoto_utils_jni.media.samsung.so
+    usesLibraryFiles:
+      /system/framework/SmpsManager.jar
+      /system/framework/secimaging.jar
+      /system/framework/saiv.jar
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+      libagifencoder.quram.so
+      libimagecodec.quram.so
+      libOpenCv.camera.samsung.so
+      libOpenCL.so
+      libImageScreener.camera.samsung.so
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{c6e0903 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.sec.android.mimage.photoretouching: prot=signature|privileged
+      com.wssnps.permission.COM_WSSNPS: prot=signature|privileged
+      com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.READ
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.WRITE
+      com.samsung.android.settings.analyzestorage.permission
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      com.sec.android.gallery3d.provider2.READ
+      com.sec.android.gallery3d.provider2.WRITE
+      com.samsung.android.permission.MEDIA_CLOUD_CONTENTS
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.MANAGE_MEDIA
+      android.permission.ACCESS_MEDIA_LOCATION
+      com.samsung.android.provider.filterprovider.permission.READ_FILTER
+      com.samsung.android.provider.filterprovider.permission.WRITE_FILTER
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.INTERNET
+      android.permission.REAL_GET_TASKS
+      com.sec.android.permission.PERSONAL_MEDIA
+      com.android.setting.permission.ALLSHARE_CAST_SERVICE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.WRITE_SETTINGS
+      android.permission.CONFIGURE_WIFI_DISPLAY
+      com.sec.face.provider.FaceProvider.data.WRITE
+      com.sec.face.provider.FaceProvider.data.READ
+      com.samsung.cmh.data.READ
+      com.samsung.cmh.data.WRITE
+      android.permission.GET_TASKS
+      android.permission.REORDER_TASKS
+      android.permission.DEVICE_POWER
+      android.permission.WAKE_LOCK
+      android.permission.MANAGE_ACTIVITY_STACKS
+      android.permission.INJECT_EVENTS
+      android.permission.VIBRATE
+      com.sec.android.daemonapp.ap.accuweather.ACCUWEATHER_DAEMON_ACCESS_PROVIDER
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERACT_ACROSS_USERS
+      com.samsung.android.stickercenter.permission.sticker.READ
+      com.samsung.android.stickercenter.service.ACCESS
+      com.samsung.android.email.permission.ACCESS_PROVIDER
+      android.permission.FOREGROUND_SERVICE
+      com.bitstrips.imoji.provider.READ
+      com.sec.spp.permission.TOKEN_a457849abd3152089a46071e3828d3f8b1c70a93c1b14b5b181b3b92e31bcb0ec63bb7e9d174c2ba9ed27ed385f6d15160a52e25e6c3a2e47792c6a80c4eb28e77fc55f245650acc5bb752054d2eaca629b3b1d384ccc0fd4cd0043e234b2abbde3a98bcb99ed21a7c2525b3381d42e33eb953a4679193238bd33c9943ce1b35
+      com.samsung.android.providers.media.READ
+      com.samsung.android.providers.media.WRITE
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL
+      android.permission.INTERNAL_SYSTEM_WINDOW
+      com.sec.android.app.ve.vebgm.permission.BGM.READ
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.QUERY_ALL_PACKAGES
+      com.samsung.aimodelprovider.objectremovalmodels.AIProvider.READ
+      com.samsung.aimodelprovider.shadowremovalmodels.AIProvider.READ
+      com.samsung.aimodelprovider.reflectionremovalmodels.AIProvider.READ
+      com.samsung.aimodelprovider.smartaiengine.AIProvider.READ
+      com.samsung.android.app.tips.permission.USE_INTENT_SERVICE
+      android.permission.DELETE_PACKAGES
+      android.permission.POST_NOTIFICATIONS
+      com.samsung.android.sume.nn.service.permission.ACCESS_SUME_NN_SERVICE
+      com.samsung.android.permission.SEM_APP_RESTRICTION
+      com.samsung.android.permission.SEM_VOLD_DATA_MOVE
+      com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.sec.android.app.apex.permission.ACCESS_APEX_SERVICE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE
+      com.samsung.android.scs.ai.texttospeech.permission.BIND_TEXT_TO_SPEECH
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.permission.SEM_VOLD_DATA_MOVE: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.INTERNAL_SYSTEM_WINDOW: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE: granted=true
+      com.sec.android.gallery3d.provider2.WRITE: granted=true
+      com.samsung.cmh.data.READ: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.samsung.android.stickercenter.service.ACCESS: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.sec.android.app.ve.vebgm.permission.BGM.READ: granted=true
+      com.samsung.android.providers.media.WRITE: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.stickercenter.permission.sticker.READ: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ: granted=true
+      android.permission.MANAGE_MEDIA: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.samsung.cmh.data.WRITE: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL: granted=true
+      com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.sec.android.gallery3d.provider2.READ: granted=true
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.WRITE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.MANAGE_ACTIVITY_STACKS: granted=true
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.READ: granted=true
+      com.samsung.android.permission.SEM_APP_RESTRICTION: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.samsung.android.settings.analyzestorage.permission: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: ceDataInode=5060 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.sec.android.mimage.photoretouching
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [com.sec.android.mimage.uid.photoretouching] (1f9fbbd):
+    appId=10053
+    Packages
+      PackageSetting{a4c8d29 com.sec.android.mimage.photoretouching/10053}
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.permission.SEM_VOLD_DATA_MOVE: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      com.samsung.android.scs.ai.asr.permission.BIND_SPEECH_RECOGNITION_SERVICE: granted=true
+      android.permission.INTERNAL_SYSTEM_WINDOW: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.WRITE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE: granted=true
+      com.sec.android.gallery3d.provider2.WRITE: granted=true
+      com.samsung.cmh.data.READ: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.samsung.android.permission.SEM_MEDIA_CONTENTS: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.samsung.android.stickercenter.service.ACCESS: granted=true
+      com.samsung.android.scs.permission.SUPPORTED_FEATURE_PROVIDER: granted=true
+      com.sec.android.app.ve.vebgm.permission.BGM.READ: granted=true
+      com.samsung.android.providers.media.WRITE: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.android.stickercenter.permission.sticker.READ: granted=true
+      com.samsung.android.mobileservice.social.share.space.provider.permission.READ: granted=true
+      android.permission.MANAGE_MEDIA: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.samsung.cmh.data.WRITE: granted=true
+      com.samsung.android.scs.ai.image.permission.IMAGE_PROVIDER: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL: granted=true
+      com.sec.android.mimage.photoretouching.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.android.scs.ai.suggestion.permission.SUGGESTION_PROVIDER: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      com.samsung.android.scs.ai.image.permission.BIND_IMAGE_SERVICE: granted=true
+      com.sec.android.gallery3d.provider2.READ: granted=true
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.WRITE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.MANAGE_ACTIVITY_STACKS: granted=true
+      com.samsung.app.newtrim.data.provider.SharedMemoryProvider.READ: granted=true
+      com.samsung.android.permission.SEM_APP_RESTRICTION: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.samsung.android.settings.analyzestorage.permission: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      com.samsung.android.scs.ai.text.permission.TEXT_PROVIDER: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: 
+      gids=[5050, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT]
+
+Dexopt state:
+  [com.sec.android.mimage.photoretouching]
+    path: /system/priv-app/PhotoEditor_Lite/PhotoEditor_Lite.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@priv-app@PhotoEditor_Lite@PhotoEditor_Lite.apk@classes.vdex]
+
+Compiler stats:
+  [com.sec.android.mimage.photoretouching]
+     PhotoEditor_Lite.apk - 4325
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

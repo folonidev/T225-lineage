@@ -1,0 +1,247 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        fa985cd app.olauncher/.MainActivity filter b809e82
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+        b9e20ce app.olauncher/.helper.FakeHomeActivity filter da6ebef
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+      android.content.pm.action.CONFIRM_PIN_APPWIDGET:
+        9b4993 app.olauncher/.helper.PinItemActivity filter 2d5b1c9
+          Action: "android.content.pm.action.CONFIRM_PIN_APPWIDGET"
+          Category: "android.intent.category.DEFAULT"
+      android.content.pm.action.CONFIRM_PIN_SHORTCUT:
+        9b4993 app.olauncher/.helper.PinItemActivity filter d3b4dd0
+          Action: "android.content.pm.action.CONFIRM_PIN_SHORTCUT"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        71b06e8 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 20cd101
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        6ff7bda app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 720580b
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        75c972c app.olauncher/androidx.profileinstaller.ProfileInstallReceiver filter afb59fb
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        ee97ba6 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 57a69e7
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        10da994 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 8f47c3d
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        ee97ba6 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 57a69e7
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.app.action.DEVICE_ADMIN_ENABLED:
+        5cf76fc app.olauncher/.listener.DeviceAdmin filter 27ea185
+          Action: "android.app.action.DEVICE_ADMIN_ENABLED"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        75c972c app.olauncher/androidx.profileinstaller.ProfileInstallReceiver filter 83f5f5
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        71b06e8 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 20cd101
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        221ac32 app.olauncher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b79bd83
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        221ac32 app.olauncher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b79bd83
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        75c972c app.olauncher/androidx.profileinstaller.ProfileInstallReceiver filter d9e8f8a
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        75c972c app.olauncher/androidx.profileinstaller.ProfileInstallReceiver filter 591fa18
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        221ac32 app.olauncher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter b79bd83
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        6ff7bda app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 720580b
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        43a597e app.olauncher/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 990aedf
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        e5cb00 app.olauncher/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 7b19f39
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.accessibilityservice.AccessibilityService:
+        feafc71 app.olauncher/.helper.MyAccessibilityService filter 5e1a56 permission android.permission.BIND_ACCESSIBILITY_SERVICE
+          Action: "android.accessibilityservice.AccessibilityService"
+
+Preferred Activities User 0:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        2586d62 app.olauncher/.MainActivity
+         mMatch=0x100000 mAlways=true
+          Selected from:
+            com.sec.android.app.launcher/.activities.LauncherActivity
+            app.olauncher/.MainActivity
+            bitpit.launcher/.ui.HomeActivity
+            com.android.settings/.FallbackHome
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+
+Permissions:
+  Permission [app.olauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (66048b7):
+    sourcePackage=app.olauncher
+    uid=10242 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1b0e824 app.olauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  app.olauncher/androidx.startup.InitializationProvider:
+    Provider{ee5ff8d app.olauncher/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [app.olauncher.androidx-startup]:
+    Provider{ee5ff8d app.olauncher/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{fd8f542 app.olauncher}
+
+Key Set Manager:
+  [app.olauncher]
+      Signing KeySets: 62
+
+Packages:
+  Package [app.olauncher] (d26b953):
+    appId=10242
+    pkg=Package{f266290 app.olauncher}
+    codePath=/data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==
+    resourcePath=/data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==
+    legacyNativeLibraryDir=/data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=112 minSdk=24 targetSdk=36
+    minExtensionVersions=[]
+    versionName=v6.9.1
+    usesNonSdkApi=false
+    splits=[base, config.pt, config.tvdpi]
+    apkSigningVersion=3
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/app.olauncher
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2026-10-15 16:00:03
+    lastUpdateTime=2026-10-15 16:00:03
+    installerPackageName=com.android.vending
+    installerPackageUid=10188
+    initiatingPackageName=com.android.vending
+    originatingPackageName=null
+    updateOwnerPackageName=com.android.vending
+    packageSource=0
+    appMetadataFilePath=/data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==/app.metadata
+    signatures=PackageSignatures{105238e version:3, signatures:[b30693b4], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      app.olauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.SET_WALLPAPER
+      android.permission.EXPAND_STATUS_BAR
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.INTERNET
+      com.android.alarm.permission.SET_ALARM
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.ACCESS_HIDDEN_PROFILES
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      app.olauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      app.olauncher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=false
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=11411 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=4
+      firstInstallTime=2026-10-15 16:00:03
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      lastDisabledCaller: com.android.vending
+      gids=[3003]
+      runtime permissions:
+      enabledComponents:
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.apps.messaging:
+      app.olauncher
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        app.olauncher
+      com.samsung.android.honeyboard:
+        app.olauncher
+      [com.google.android.gsf,com.google.android.gms]:
+        app.olauncher
+      app.olauncher:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+  queryable via uses-library:
+
+Dexopt state:
+  [app.olauncher]
+    path: /data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==/base.apk
+      arm64: [status=speed-profile] [reason=boot-after-mainline-update] [primary-abi]
+        [location is /data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==/oat/arm64/base.odex]
+        [image location is /data/app/~~8m5z0MgLT5cxC967GGk8lw==/app.olauncher-1xm7fyrOuBJdr9slTZTZkA==/oat/arm64/base.art (required)]
+
+Compiler stats:
+  [app.olauncher]
+     base.apk - 1643
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

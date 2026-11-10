@@ -1,0 +1,214 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        10810ab com.samsung.android.app.watchmanagerstub/.MainActivity filter 4c56308
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.INFO"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        c67caa1 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.WMStubBroadCastReceiver filter 6350c87
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+          Ssp: "PatternMatcher{LITERAL: com.samsung.android.app.watchmanager}"
+          Ssp: "PatternMatcher{LITERAL: com.samsung.android.app.watchmanager2}"
+
+  Non-Data Actions:
+      com.samsung.android.sconnect.action.CONNECT_WEARABLE:
+        c67caa1 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.WMStubBroadCastReceiver filter 17484c6
+          Action: "com.samsung.android.sconnect.action.CONNECT_WEARABLE"
+          Action: "com.samsung.android.action.BLUETOOTH_DEVICE"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+      com.samsung.android.action.BLUETOOTH_DEVICE:
+        c67caa1 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.WMStubBroadCastReceiver filter 17484c6
+          Action: "com.samsung.android.sconnect.action.CONNECT_WEARABLE"
+          Action: "com.samsung.android.action.BLUETOOTH_DEVICE"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+      com.samsung.android.action.BLUETOOTH_DEVICE_DIRECT:
+        5d1a7b4 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.DirectBroadcastReceiver filter 4956fdd
+          Action: "com.samsung.android.action.BLUETOOTH_DEVICE_DIRECT"
+      android.samsung.watchmanagerstub.DELETE_PACKAGE_CONFIRMED:
+        da42752 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.DeleteBroadcastReceiver filter e4bea23
+          Action: "android.samsung.watchmanagerstub.DELETE_PACKAGE_CONFIRMED"
+      com.samsung.bluetooth.device.action.BLUETOOTH_BUDS_SELL_OUT:
+        1bb8b20 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.BudsSellOutBroadCastReceiver filter bfe2cd9
+          Action: "com.samsung.bluetooth.device.action.BLUETOOTH_BUDS_SELL_OUT"
+      android.bluetooth.device.action.BOND_STATE_CHANGED:
+        c67caa1 com.samsung.android.app.watchmanagerstub/com.sec.android.applicationmgr.WMStubBroadCastReceiver filter 17484c6
+          Action: "com.samsung.android.sconnect.action.CONNECT_WEARABLE"
+          Action: "com.samsung.android.action.BLUETOOTH_DEVICE"
+          Action: "android.bluetooth.device.action.BOND_STATE_CHANGED"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.accessory.permission.TRANSPORTING_NOTIFICATION_ITEM] (c935855):
+    sourcePackage=com.samsung.android.app.watchmanagerstub
+    uid=10112 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{664b26a com.samsung.accessory.permission.TRANSPORTING_NOTIFICATION_ITEM}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.watchmanagerstub.permission.DELETE_PACKAGE_CONFIRMED] (f38735b):
+    sourcePackage=com.samsung.android.app.watchmanagerstub
+    uid=10112 gids=[] type=0 prot=signature
+    perm=PermissionInfo{19107f8 com.samsung.android.app.watchmanagerstub.permission.DELETE_PACKAGE_CONFIRMED}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.watchmanagerstub.permission.BLUETOOTH_DEVICE_DIRECT] (cfe24d1):
+    sourcePackage=com.samsung.android.app.watchmanagerstub
+    uid=10112 gids=[] type=0 prot=signature
+    perm=PermissionInfo{2138b36 com.samsung.android.app.watchmanagerstub.permission.BLUETOOTH_DEVICE_DIRECT}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.app.watchmanagerstub.permission.START_ACTIVITY] (880ea37):
+    sourcePackage=com.samsung.android.app.watchmanagerstub
+    uid=10112 gids=[] type=0 prot=signature
+    perm=PermissionInfo{3caaba4 com.samsung.app.watchmanagerstub.permission.START_ACTIVITY}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.bluetooth.permission.BLUETOOTH_DEVICE] (26f3d0d):
+    sourcePackage=com.samsung.android.app.watchmanagerstub
+    uid=10112 gids=[] type=0 prot=signature
+    perm=PermissionInfo{30524c2 com.samsung.bluetooth.permission.BLUETOOTH_DEVICE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.app.watchmanagerstub/androidx.startup.InitializationProvider:
+    Provider{a6ff2d3 com.samsung.android.app.watchmanagerstub/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.app.watchmanagerstub.androidx-startup]:
+    Provider{a6ff2d3 com.samsung.android.app.watchmanagerstub/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{35f9d09 com.samsung.android.app.watchmanagerstub}
+
+Key Set Manager:
+  [com.samsung.android.app.watchmanagerstub]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.app.watchmanagerstub] (f84cb0e):
+    appId=10112
+    pkg=Package{c3ce92f com.samsung.android.app.watchmanagerstub}
+    codePath=/system/app/GearManagerStub
+    resourcePath=/system/app/GearManagerStub
+    legacyNativeLibraryDir=/system/app/GearManagerStub/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=210124003 minSdk=25 targetSdk=34
+    minExtensionVersions=[]
+    versionName=2.1.01.24003
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.samsung.android.scloud.config]
+    dataDir=/data/user/0/com.samsung.android.app.watchmanagerstub
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{e55cb3c version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.app.watchmanagerstub.permission.DELETE_PACKAGE_CONFIRMED: prot=signature
+      com.samsung.accessory.permission.TRANSPORTING_NOTIFICATION_ITEM: prot=signature|privileged
+      com.samsung.bluetooth.permission.BLUETOOTH_DEVICE: prot=signature
+      com.samsung.android.app.watchmanagerstub.permission.BLUETOOTH_DEVICE_DIRECT: prot=signature
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY: prot=signature
+    requested permissions:
+      com.samsung.android.app.watchmanagerstub.permission.DELETE_PACKAGE_CONFIRMED
+      android.permission.FOREGROUND_SERVICE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.READ_PHONE_STATE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.INSTALL_PACKAGES
+      android.permission.DELETE_PACKAGES
+      android.permission.POST_NOTIFICATIONS
+      android.permission.BLUETOOTH_PRIVILEGED
+      com.samsung.bluetooth.permission.BLUETOOTH_DEVICE
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.WRITE_SETTINGS
+      android.permission.GET_TASKS
+      com.samsung.permission.wearable.CONNECT_ACCESS
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.samsung.android.hostmanager.permission.ACCESS_UNIFIED_HOST_MANAGER
+      com.samsung.android.app.watchmanagerstub.permission.BLUETOOTH_DEVICE_DIRECT
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.app.watchmanagerstub.permission.DELETE_PACKAGE_CONFIRMED: granted=true
+      com.samsung.android.app.watchmanagerstub.permission.BLUETOOTH_DEVICE_DIRECT: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      com.samsung.app.watchmanagerstub.permission.START_ACTIVITY: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      com.samsung.bluetooth.permission.BLUETOOTH_DEVICE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: ceDataInode=5305 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.app.watchmanagerstub
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.samsung.android.app.watchmanagerstub]
+    path: /system/app/GearManagerStub/GearManagerStub.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@GearManagerStub@GearManagerStub.apk@classes.vdex]
+
+Compiler stats:
+  [com.samsung.android.app.watchmanagerstub]
+     GearManagerStub.apk - 1420
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

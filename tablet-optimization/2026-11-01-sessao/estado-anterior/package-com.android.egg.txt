@@ -1,0 +1,172 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        854bab8 com.android.egg/.landroid.MainActivity filter f47c091
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.android.internal.category.PLATLOGO"
+        f5f5bf6 com.android.egg/.quares.QuaresActivity filter fe34bf7
+          Action: "android.intent.action.MAIN"
+        cf6ca64 com.android.egg/.paint.PaintActivity filter 416d4cd
+          Action: "android.intent.action.MAIN"
+        61d4182 com.android.egg/.neko.NekoLand filter f6b093
+          Action: "android.intent.action.MAIN"
+          Action: "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+          Category: "android.intent.category.DEFAULT"
+        78828d0 com.android.egg/.ComponentActivationActivity filter 248f0c9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        6e1f3ce com.android.egg/.widget.PaintChipsActivity filter 5d1c2ef
+          Action: "android.intent.action.MAIN"
+      android.service.quicksettings.action.QS_TILE_PREFERENCES:
+        61d4182 com.android.egg/.neko.NekoLand filter f6b093
+          Action: "android.intent.action.MAIN"
+          Action: "android.service.quicksettings.action.QS_TILE_PREFERENCES"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        e2d7eda com.android.egg/androidx.profileinstaller.ProfileInstallReceiver filter 6c8f001
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        e2d7eda com.android.egg/androidx.profileinstaller.ProfileInstallReceiver filter ca19f0b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        e2d7eda com.android.egg/androidx.profileinstaller.ProfileInstallReceiver filter cc841e8
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        e2d7eda com.android.egg/androidx.profileinstaller.ProfileInstallReceiver filter e74aea6
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        78f01fc com.android.egg/.widget.PaintChipsWidget filter f66d085
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.service.controls.ControlsProviderService:
+        6d38b3d com.android.egg/.neko.NekoControlsService filter aad0f32 permission android.permission.BIND_CONTROLS
+          Action: "android.service.controls.ControlsProviderService"
+      android.service.quicksettings.action.QS_TILE:
+        f4920e7 com.android.egg/.neko.NekoTile filter 3d39494 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.android.egg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (d6b8014):
+    sourcePackage=com.android.egg
+    uid=10155 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b43d0bd com.android.egg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.android.egg/androidx.core.content.FileProvider:
+    Provider{4a7a6b2 com.android.egg/androidx.core.content.FileProvider}
+  com.android.egg/androidx.startup.InitializationProvider:
+    Provider{fd86603 com.android.egg/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.android.egg.androidx-startup]:
+    Provider{fd86603 com.android.egg/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{78a8980 com.android.egg}
+  [com.android.egg.fileprovider]:
+    Provider{4a7a6b2 com.android.egg/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{4e1bbb9 com.android.egg}
+
+Key Set Manager:
+  [com.android.egg]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.android.egg] (5657bfe):
+    appId=10155
+    pkg=Package{c715f5f com.android.egg}
+    codePath=/system/app/EasterEgg
+    resourcePath=/system/app/EasterEgg
+    legacyNativeLibraryDir=/system/app/EasterEgg/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=12 minSdk=34 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.0
+    usesNonSdkApi=true
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.android.egg
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{9cebdac version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.android.egg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.BIND_CONTROLS
+      android.permission.POST_NOTIFICATIONS
+      com.android.egg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.permission.BIND_CONTROLS: granted=true
+      com.android.egg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=4732 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.android.egg
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.android.egg]
+    path: /system/app/EasterEgg/EasterEgg.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@EasterEgg@EasterEgg.apk@classes.vdex]
+
+Compiler stats:
+  [com.android.egg]
+     EasterEgg.apk - 716
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

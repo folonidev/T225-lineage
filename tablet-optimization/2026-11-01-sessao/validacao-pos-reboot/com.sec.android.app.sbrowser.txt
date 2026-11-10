@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.sec.android.app.sbrowser/.SBrowserMainActivity }
+Status: ok
+LaunchState: WARM
+Activity: com.sec.android.app.sbrowser/.SBrowserMainActivity
+TotalTime: 8023
+WaitTime: 8052
+Complete

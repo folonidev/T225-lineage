@@ -1,0 +1,7 @@
+﻿Starting: Intent { cmp=com.google.android.youtube/.app.honeycomb.Shell$HomeActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.google.android.youtube/com.google.android.apps.youtube.app.watchwhile.MainActivity
+TotalTime: 2664
+WaitTime: 2675
+Complete

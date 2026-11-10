@@ -1,0 +1,530 @@
+[
+    {
+        "path":  ".gitattributes",
+        "size":  140
+    },
+    {
+        "path":  ".github",
+        "size":  null
+    },
+    {
+        "path":  ".github/FUNDING.yml",
+        "size":  884
+    },
+    {
+        "path":  ".gitignore",
+        "size":  50
+    },
+    {
+        "path":  "LICENSE",
+        "size":  11340
+    },
+    {
+        "path":  "README.md",
+        "size":  24955
+    },
+    {
+        "path":  "ferramentas",
+        "size":  null
+    },
+    {
+        "path":  "ferramentas/baixar-ferramentas.ps1",
+        "size":  4943
+    },
+    {
+        "path":  "img",
+        "size":  null
+    },
+    {
+        "path":  "img/boot.png",
+        "size":  19872
+    },
+    {
+        "path":  "img/drawer.png",
+        "size":  236814
+    },
+    {
+        "path":  "img/home.png",
+        "size":  392588
+    },
+    {
+        "path":  "img/quicksettings.png",
+        "size":  69832
+    },
+    {
+        "path":  "img/settings.png",
+        "size":  87322
+    },
+    {
+        "path":  "rom",
+        "size":  null
+    },
+    {
+        "path":  "rom/ajustes",
+        "size":  null
+    },
+    {
+        "path":  "rom/ajustes/aplicar-ajustes.ps1",
+        "size":  3597
+    },
+    {
+        "path":  "rom/ajustes/reverter-ajustes.ps1",
+        "size":  1751
+    },
+    {
+        "path":  "rom/boot",
+        "size":  null
+    },
+    {
+        "path":  "rom/boot/generate_boot_static.py",
+        "size":  5193
+    },
+    {
+        "path":  "rom/boot/generate_boot_visual_v9.py",
+        "size":  9831
+    },
+    {
+        "path":  "rom/boot/generate_fb_splash.py",
+        "size":  5016
+    },
+    {
+        "path":  "rom/boot/generate_up_param_v11.py",
+        "size":  7246
+    },
+    {
+        "path":  "rom/boot/github_mark.png",
+        "size":  7249
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock",
+        "size":  null
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_0.jpg",
+        "size":  5355
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_1.jpg",
+        "size":  5154
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_10.jpg",
+        "size":  5220
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_2.jpg",
+        "size":  5415
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_3.jpg",
+        "size":  5424
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_4.jpg",
+        "size":  5426
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_5.jpg",
+        "size":  5455
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_6.jpg",
+        "size":  5380
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_7.jpg",
+        "size":  5332
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_8.jpg",
+        "size":  5431
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/SUD_9.jpg",
+        "size":  5403
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/booting_warning.jpg",
+        "size":  49917
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/broken_cable.jpg",
+        "size":  16322
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/device_lock.jpg",
+        "size":  66471
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/device_unlock.jpg",
+        "size":  131921
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/download.jpg",
+        "size":  31062
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/download_error.jpg",
+        "size":  27659
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_000.jpg",
+        "size":  5087
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_001.jpg",
+        "size":  5086
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_002.jpg",
+        "size":  5083
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_003.jpg",
+        "size":  5084
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_004.jpg",
+        "size":  4917
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_005.jpg",
+        "size":  4868
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_006.jpg",
+        "size":  4762
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_007.jpg",
+        "size":  4627
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_008.jpg",
+        "size":  4590
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_009.jpg",
+        "size":  4461
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_010.jpg",
+        "size":  4441
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_011.jpg",
+        "size":  4390
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_012.jpg",
+        "size":  4300
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_013.jpg",
+        "size":  4358
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_014.jpg",
+        "size":  4371
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_015.jpg",
+        "size":  4363
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_016.jpg",
+        "size":  4336
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_017.jpg",
+        "size":  4306
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_018.jpg",
+        "size":  4482
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_019.jpg",
+        "size":  4640
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_020.jpg",
+        "size":  4787
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_021.jpg",
+        "size":  4906
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_022.jpg",
+        "size":  4919
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_023.jpg",
+        "size":  5083
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_024.jpg",
+        "size":  5087
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_025.jpg",
+        "size":  5064
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_026.jpg",
+        "size":  5081
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_027.jpg",
+        "size":  5081
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_028.jpg",
+        "size":  5099
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/grdm_029.jpg",
+        "size":  5082
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/letter.jpg",
+        "size":  26710
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/logo.jpg",
+        "size":  43319
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/low_battery_alert.jpg",
+        "size":  34658
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/lpm.jpg",
+        "size":  25592
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/secure_error.jpg",
+        "size":  46589
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/svb_orange.jpg",
+        "size":  66808
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/warning.jpg",
+        "size":  97841
+    },
+    {
+        "path":  "rom/boot/up_param-recursos-stock/warning_svb.jpg",
+        "size":  105845
+    },
+    {
+        "path":  "rom/boot/validate_up_param_v11.py",
+        "size":  4267
+    },
+    {
+        "path":  "rom/empacotar.py",
+        "size":  4230
+    },
+    {
+        "path":  "rom/modulos",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/service.d",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/service.d/99-aosp-tweaks.sh",
+        "size":  345
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/auto_mount",
+        "size":  0
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/customize.sh",
+        "size":  63
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/module.prop",
+        "size":  294
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/post-fs-data.sh",
+        "size":  3267
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/splash_fb0.raw.gz",
+        "size":  18381
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/system",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/system/product",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/system/product/media",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_bootanim/system/product/media/bootanimation.zip",
+        "size":  20041
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning/README.txt",
+        "size":  597
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning/module.prop",
+        "size":  229
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning/reference",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning/reference/default_workspace_sistema2d.xml",
+        "size":  1494
+    },
+    {
+        "path":  "rom/modulos/sistema2d_rom_provisioning/service.sh",
+        "size":  690
+    },
+    {
+        "path":  "rom/modulos/sistema2d_tweaks",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_tweaks/README.txt",
+        "size":  1922
+    },
+    {
+        "path":  "rom/modulos/sistema2d_tweaks/module.prop",
+        "size":  248
+    },
+    {
+        "path":  "rom/modulos/sistema2d_tweaks/system.prop",
+        "size":  389
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/auto_mount",
+        "size":  0
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/module.prop",
+        "size":  282
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/service.sh",
+        "size":  1162
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/IconShapeIOS",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/IconShapeIOS/IconShapeIOS.apk",
+        "size":  12634
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/ScreenCornersIOS",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/SettingsDensityIOS",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/SettingsDensityIOS/SettingsDensityIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/TaskbarTranslucentIOS",
+        "size":  null
+    },
+    {
+        "path":  "rom/modulos/sistema2d_ui_ios/system/product/overlay/TaskbarTranslucentIOS/TaskbarTranslucentIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/overlays",
+        "size":  null
+    },
+    {
+        "path":  "rom/overlays/apk",
+        "size":  null
+    },
+    {
+        "path":  "rom/overlays/apk/IconShapeIOS.apk",
+        "size":  12634
+    },
+    {
+        "path":  "rom/overlays/apk/IconShapeIOS.apk.idsig",
+        "size":  5574
+    },
+    {
+        "path":  "rom/overlays/apk/ScreenCornersIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/overlays/apk/ScreenCornersIOS.apk.idsig",
+        "size":  5574
+    },
+    {
+        "path":  "rom/overlays/apk/SettingsDensityIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/overlays/apk/SettingsDensityIOS.apk.idsig",
+        "size":  5574
+    },
+    {
+        "path":  "rom/overlays/apk/TaskbarTranslucentIOS.apk",
+        "size":  8538
+    },
+    {
+        "path":  "rom/overlays/apk/TaskbarTranslucentIOS.apk.idsig",
+        "size":  5574
+    },
+    {
+        "path":  "rom/overlays/build_overlays.py",
+        "size":  9118
+    },
+    {
+        "path":  "rom/overlays/icon_mask_ios.txt",
+        "size":  1385
+    }
+]

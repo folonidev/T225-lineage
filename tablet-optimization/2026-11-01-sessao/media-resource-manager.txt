@@ -1,0 +1,58 @@
+ResourceManagerService: 0xf1fcabe0
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+    GeneralDecoderSpec: 2088960
+  Processes:
+    Pid: 1749
+    Priority: -800
+    Pid: 2709
+    Priority: -700
+    Pid: 7553
+    Priority: 0
+      Client:
+        Id: -5476376621888475776
+        Name: c2.android.av1-dav1d.decoder
+        Resources:
+          non-secure-codec/video-codec:[]:1
+          battery/video-codec:[]:1
+        mediaInfo:
+          854x480 (fps:30) - sw codec : yes, encoder : no componentName = c2.android.av1-dav1d.decoder bitrate = 17000000
+        state: Running
+      Client:
+        Id: -5476376621888470176
+        Name: c2.dolby.eac3.decoder
+        Resources:
+          non-secure-codec/audio-codec:[]:1
+  Process Pid override:
+  Events logs (most recent at top):
+    11-01 17:04:03 addResource(pid 7553, uid 10207 clientId -5476376621888470176, resources non-secure-codec/audio-codec:[]:1 )
+    11-01 17:04:03 reclaimResourcesFromClientsPendingRemoval(pid 7553)
+    11-01 17:04:03 addResource(pid 7553, uid 10207 clientId -5476376621888475776, resources battery/video-codec:[]:1 )
+    11-01 17:04:03 addMediaInfo(pid 7553, clientId -5476376621888475776, resources 854x480 (fps:30) - sw codec : yes, encoder : no componentName = c2.android.av1-dav1d.decoder bitrate = 17000000 ), allocated hw codec count 0
+    11-01 17:04:03 addResource(pid 7553, uid 10207 clientId -5476376621888475776, resources graphic-memory/unspecified:[]:0 )
+    11-01 17:04:03 addResource(pid 7553, uid 10207 clientId -5476376621888475776, resources non-secure-codec/video-codec:[]:1 )
+    11-01 17:04:03 reclaimResourcesFromClientsPendingRemoval(pid 7553)
+    11-01 17:02:51 removeResource(pid 1749, uid 10067 clientId -5476376618854917136)
+    11-01 17:02:47 addResource(pid 1749, uid 10067 clientId -5476376618854917136, resources battery/video-codec:[]:1 )
+    11-01 17:02:47 addMediaInfo(pid 1749, clientId -5476376618854917136, resources 720x1280 (fps:25) - sw codec : no, encoder : no componentName = c2.mtk.avc.decoder bitrate = 1101262 ), allocated hw codec count 1
+    11-01 17:02:47 addResource(pid 1749, uid 10067 clientId -5476376618854917136, resources graphic-memory/unspecified:[]:0 )
+    11-01 17:02:46 addResource(pid 1749, uid 10067 clientId -5476376618854917136, resources non-secure-codec/video-codec:[]:1 )
+    11-01 17:02:46 reclaimResourcesFromClientsPendingRemoval(pid 1749)
+    11-01 17:02:46 removeResource(pid 1749, uid 10067 clientId -5476376621201921072)
+    11-01 17:02:39 removeResource(pid 1749, uid 10067 clientId -5476376621201921072, resources battery/video-codec:[]:1 )
+    11-01 17:02:36 addResource(pid 1749, uid 10067 clientId -5476376621201921072, resources battery/video-codec:[]:1 )
+    11-01 17:02:36 addMediaInfo(pid 1749, clientId -5476376621201921072, resources 720x1280 (fps:25) - sw codec : no, encoder : no componentName = c2.mtk.avc.decoder bitrate = 1101262 ), allocated hw codec count 1
+    11-01 17:02:36 addResource(pid 1749, uid 10067 clientId -5476376621201921072, resources graphic-memory/unspecified:[]:0 )
+    11-01 17:02:36 addResource(pid 1749, uid 10067 clientId -5476376621201921072, resources non-secure-codec/video-codec:[]:1 )
+    11-01 17:02:36 reclaimResourcesFromClientsPendingRemoval(pid 1749)
+    11-01 17:02:26 removeResource(pid 1749, uid 10067 clientId -5476376618578156512)
+    11-01 17:02:24 removeResource(pid 2709, uid 10223 clientId -5476376618578160880)
+    11-01 17:02:24 markClientForPendingRemoval(pid 2709, clientId -5476376618578160880)
+    11-01 17:02:24 addResource(pid 2709, uid 10223 clientId -5476376618578160880, resources non-secure-codec/video-codec:[]:1 )
+    11-01 17:02:23 reclaimResourcesFromClientsPendingRemoval(pid 2709)
+    11-01 17:02:15 addResource(pid 1749, uid 10067 clientId -5476376618578156512, resources battery/video-codec:[]:1 )
+    11-01 17:02:15 addMediaInfo(pid 1749, clientId -5476376618578156512, resources 720x1280 (fps:25) - sw codec : no, encoder : no componentName = c2.mtk.avc.decoder bitrate = 1101262 ), allocated hw codec count 1
+    11-01 17:02:15 addResource(pid 1749, uid 10067 clientId -5476376618578156512, resources graphic-memory/unspecified:[]:0 )
+    11-01 17:02:15 addResource(pid 1749, uid 10067 clientId -5476376618578156512, resources non-secure-codec/video-codec:[]:1 )
+    11-01 17:02:15 reclaimResourcesFromClientsPendingRemoval(pid 1749)

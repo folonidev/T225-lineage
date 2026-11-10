@@ -1,0 +1,5 @@
+﻿Trust manager state:
+ User "Proprietário" (id=0, flags=0x4c13) (current): trusted=0, trustManaged=0, deviceLocked=0, isActiveUnlockRunning=0, strongAuthRequired=0x0
+   Enabled agents:
+   Events:
+

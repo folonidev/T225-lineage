@@ -1,0 +1,2 @@
+  mCurMethodId=com.samsung.android.honeyboard/.service.HoneyBoardService
+  mInputShown=false

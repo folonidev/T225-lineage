@@ -1,0 +1,3 @@
+ro.build.version.security_patch=2026-06-01
+ro.lineage.version=21.0-20260614-UNOFFICIAL-arm64_bgN
+ro.system.build.fingerprint=google/lineage_arm64_bgN/tdgsi_arm64_ab:14/UQ1A.240205.004/crossgate06150454:userdebug/release-keys

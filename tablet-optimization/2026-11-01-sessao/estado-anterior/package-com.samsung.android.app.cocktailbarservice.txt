@@ -1,0 +1,87 @@
+﻿Domain verification status:
+
+Registered ContentProviders:
+  com.samsung.android.app.cocktailbarservice/.settings.EdgeSettingProvider:
+    Provider{c836866 com.samsung.android.app.cocktailbarservice/.settings.EdgeSettingProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.app.cocktailbarservice.settings.EdgeSettingProvider]:
+    Provider{c836866 com.samsung.android.app.cocktailbarservice/.settings.EdgeSettingProvider}
+      applicationInfo=ApplicationInfo{2a6b7a7 com.samsung.android.app.cocktailbarservice}
+
+Key Set Manager:
+  [com.samsung.android.app.cocktailbarservice]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.app.cocktailbarservice] (f1b4454):
+    appId=10080
+    pkg=Package{a65dffd com.samsung.android.app.cocktailbarservice}
+    codePath=/system/priv-app/CocktailBarService_v3.2
+    resourcePath=/system/priv-app/CocktailBarService_v3.2
+    legacyNativeLibraryDir=/system/priv-app/CocktailBarService_v3.2/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1500307000 minSdk=28 targetSdk=33
+    minExtensionVersions=[]
+    versionName=15.0.03.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.samsung.android.app.cocktailbarservice
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{87d2743 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    requested permissions:
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL
+    install permissions:
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL: granted=true
+    User 0: ceDataInode=4275 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.app.cocktailbarservice
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.samsung.android.app.cocktailbarservice]
+    path: /system/priv-app/CocktailBarService_v3.2/CocktailBarService_v3.2.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@priv-app@CocktailBarService_v3.2@CocktailBarService_v3.2.apk@classes.vdex]
+
+Compiler stats:
+  [com.samsung.android.app.cocktailbarservice]
+     CocktailBarService_v3.2.apk - 416
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

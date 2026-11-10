@@ -1,0 +1,4 @@
+﻿package:com.netflix.mediaclient
+package:com.microsoft.skydrive
+package:com.google.android.gms.supervision
+package:com.samsung.android.peripheral.framework

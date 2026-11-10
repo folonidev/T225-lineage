@@ -1,0 +1,13 @@
+Wifi is enabled
+Wifi scanning is only available when wifi is enabled
+==== Primary ClientModeManager instance ====
+Wifi is connected to "REDE_WIFI"
+WifiInfo: SSID: "REDE_WIFI", BSSID: 00:00:00:00:00:00, MAC: 00:00:00:00:00:00, IP: /192.0.2.1, Security type: 2, Supplicant state: COMPLETED, Wi-Fi standard: 5, RSSI: -37, Link speed: 390Mbps, Tx Link speed: 390Mbps, Max Supported Tx Link speed: 433Mbps, Rx Link speed: 433Mbps, Max Supported Rx Link speed: 433Mbps, Frequency: 5180MHz, Net ID: 0, Metered hint: false, score: 60, isUsable: true, CarrierMerged: false, SubscriptionId: -1, IsPrimary: 1, Trusted: true, Restricted: false, Ephemeral: false, OEM paid: false, OEM private: false, OSU AP: false, FQDN: <none>, Provider friendly name: <none>, Requesting package name: <none>"REDE_WIFI"wpa2-pskMLO Information: , Is TID-To-Link negotiation supported by the AP: false, AP MLD Address: <none>, AP MLO Link Id: <none>, AP MLO Affiliated links: <none>
+successfulTxPackets: 29985
+successfulTxPacketsPerSecond: 6.156329993449404
+retriedTxPackets: 0
+retriedTxPacketsPerSecond: 0.0
+lostTxPackets: 0
+lostTxPacketsPerSecond: 0.0
+successfulRxPackets: 60542
+successfulRxPacketsPerSecond: 6.320814526657123

@@ -1,0 +1,271 @@
+﻿Activity Resolver Table:
+  Non-Data Actions:
+      android.hardware.usb.action.USB_DEVICE_ATTACHED:
+        4d56a0a com.sec.android.easyMover.Agent/.OTGAttachingActivity filter 2e9627b
+          Action: "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+          Action: "android.hardware.usb.action.USB_DEVICE_DETACHED"
+      android.hardware.usb.action.USB_DEVICE_DETACHED:
+        4d56a0a com.sec.android.easyMover.Agent/.OTGAttachingActivity filter 2e9627b
+          Action: "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+          Action: "android.hardware.usb.action.USB_DEVICE_DETACHED"
+      com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK_CONTINUE:
+        f829898 com.sec.android.easyMover.Agent/.FastTrackActivity filter 2a978f1
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK_CONTINUE"
+          Action: "android.intent.action.MAIN"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_SMART_SWITCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        f829898 com.sec.android.easyMover.Agent/.FastTrackActivity filter 2a978f1
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK_CONTINUE"
+          Action: "android.intent.action.MAIN"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_SMART_SWITCH"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK:
+        f829898 com.sec.android.easyMover.Agent/.FastTrackActivity filter 2a978f1
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK_CONTINUE"
+          Action: "android.intent.action.MAIN"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_SMART_SWITCH"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA:
+        b54a644 com.sec.android.easyMover.Agent/.ui.RuntimePermissionActivity filter a4bb32d
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.easyMover.Agent.WATCH_INSTALL_SMART_SWITCH:
+        681cd6 com.sec.android.easyMover.Agent/.ui.SsmUpdateCheckActivity filter 8a1ab57
+          Action: "com.sec.android.easyMover.Agent.WATCH_INSTALL_SMART_SWITCH"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.spv.ACTION_VIEW_DETAIL:
+        b54a644 com.sec.android.easyMover.Agent/.ui.RuntimePermissionActivity filter a4bb32d
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.easyMover.agent.SETUP_WIZARD_SMART_SWITCH:
+        f829898 com.sec.android.easyMover.Agent/.FastTrackActivity filter 2a978f1
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK_CONTINUE"
+          Action: "android.intent.action.MAIN"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_FAST_TRACK"
+          Action: "com.sec.android.easyMover.agent.SETUP_WIZARD_SMART_SWITCH"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        4a13062 com.sec.android.easyMover.Agent/.MainReceiver filter 32ba5f3
+          Action: "com.sec.android.easyMover.Agent.action.FAIL_FAST_TRACK"
+          Action: "com.sec.android.easyMover.Agent.action.CLOSE_NOTI_SSM"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "package"
+          Ssp: "PatternMatcher{LITERAL: com.sec.android.easyMover}"
+
+  Non-Data Actions:
+      com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE:
+        a65f0ae com.sec.android.easyMover.Agent/.MainReceiver$SetupWizardReceiver filter 150ae4f
+          Action: "com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"
+          Action: "com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE"
+      android.os.storage.action.VOLUME_STATE_CHANGED:
+        317e2b0 com.sec.android.easyMover.Agent/.MainReceiver$UsbAttachedReceiver filter c5d5529
+          Action: "android.os.storage.action.VOLUME_STATE_CHANGED"
+      com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE:
+        a65f0ae com.sec.android.easyMover.Agent/.MainReceiver$SetupWizardReceiver filter 150ae4f
+          Action: "com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"
+          Action: "com.sec.android.app.setupwizard.SETUPWIZARD_COMPLETE"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      android.content.action.DOCUMENTS_PROVIDER:
+        49079dc com.sec.android.easyMover.Agent/.bnr.BnRDocumentProvider filter 2cd1ae5
+          Action: "android.content.action.DOCUMENTS_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.sec.android.easyMover.permission.SCLOUD_RESTORE] (348a478):
+    sourcePackage=com.sec.android.easyMover.Agent
+    uid=10115 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{4dac751 com.sec.android.easyMover.permission.SCLOUD_RESTORE}
+    flags=0x0
+
+Permissions:
+  Permission [com.sec.android.easyMover.permission.RUN_AGENT] (387bbb6):
+    sourcePackage=com.sec.android.easyMover.Agent
+    uid=10115 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{29f9024 com.sec.android.easyMover.permission.RUN_AGENT}
+    flags=0x0
+
+Registered ContentProviders:
+  com.sec.android.easyMover.Agent/.bnr.BnRDocumentProvider:
+    Provider{49079dc com.sec.android.easyMover.Agent/.bnr.BnRDocumentProvider}
+  com.sec.android.easyMover.Agent/androidx.startup.InitializationProvider:
+    Provider{3194a54 com.sec.android.easyMover.Agent/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.sec.android.easyMover.Agent.bnrDocuments]:
+    Provider{49079dc com.sec.android.easyMover.Agent/.bnr.BnRDocumentProvider}
+      applicationInfo=ApplicationInfo{4df084 com.sec.android.easyMover.Agent}
+  [com.sec.android.easyMover.Agent.androidx-startup]:
+    Provider{3194a54 com.sec.android.easyMover.Agent/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{fb90f0 com.sec.android.easyMover.Agent}
+
+Key Set Manager:
+  [com.sec.android.easyMover.Agent]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.sec.android.easyMover.Agent] (f514c77):
+    appId=10115
+    pkg=Package{5f400e4 com.sec.android.easyMover.Agent}
+    codePath=/system/app/SmartSwitchAgent
+    resourcePath=/system/app/SmartSwitchAgent
+    legacyNativeLibraryDir=/system/app/SmartSwitchAgent/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=200200032 minSdk=29 targetSdk=34
+    minExtensionVersions=[]
+    versionName=2.0.02.32
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.sec.android.easyMover, com.sec.android.Cdfs]
+    queriesIntents=[Intent { act=com.android.setupwizard.action.PARTNER_CUSTOMIZATION }]
+    dataDir=/data/user/0/com.sec.android.easyMover.Agent
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{582094d version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.sec.android.easyMover.permission.RUN_AGENT: prot=signature|privileged
+      com.sec.android.easyMover.permission.SCLOUD_RESTORE: prot=signature|privileged
+    requested permissions:
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.MODIFY_PHONE_STATE
+      android.permission.INSTALL_PACKAGES
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.DISABLE_KEYGUARD
+      com.android.launcher.permission.WRITE_SETTINGS
+      com.android.launcher.permission.READ_SETTINGS
+      com.samsung.android.launcher.permission.WRITE_SETTINGS
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      com.samsung.android.oneconnect.permission.START_SERVICE
+      android.permission.GET_ACCOUNTS_PRIVILEGED
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.REAL_GET_TASKS
+      android.permission.POST_NOTIFICATIONS
+      com.samsung.android.settings.wifi.permission.USE_WIFI_BNR_SERVICE
+      com.sec.android.easyMover.permission.RUN_AGENT
+      com.samsung.systemui.POPUP_UI_PERMISSION
+      com.sec.android.app.SecSetupWizard.permission.SHOW_SETUP_WIZARD
+      com.sec.spp.permission.TOKEN_055271f19e7be2f623efd0895a153f4b40f946aa0cb0587f9d4dcf0db047dc6dad239204f4592d01734482b544c2433a53c8ed2b46cf205bbd90ee3331008c9ae580d80db14201e1e3bb79de4ba29a40ebde9d3141338785942bc7fdf672ea18c60b05aa3c1bd6ec703606cce3922faade0cb7689aa78b5f4dbdf19648ab8ad3
+      android.permission.MANAGE_USERS
+      android.permission.WAKE_LOCK
+      com.samsung.permission.READ_SM_DATA
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_SCAN
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+      android.permission.RECEIVE_BOOT_COMPLETED
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.launcher.permission.WRITE_SETTINGS: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      com.samsung.android.settings.wifi.permission.USE_WIFI_BNR_SERVICE: granted=true
+      com.sec.android.app.SecSetupWizard.permission.SHOW_SETUP_WIZARD: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.GET_ACCOUNTS_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.sec.android.easyMover.permission.RUN_AGENT: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.samsung.permission.READ_SM_DATA: granted=true
+    User 0: ceDataInode=4476 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/overlays/current_locale_apks/files/com.sec.android.easyMover.Agent.pt.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/overlays/current_locale_apks/files/com.sec.android.easyMover.Agent.pt.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+      enabledComponents:
+        com.sec.android.easyMover.Agent.OTGAttachingActivity
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.sec.android.easyMover.Agent
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.sec.android.easyMover.Agent]
+    path: /system/app/SmartSwitchAgent/SmartSwitchAgent.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@SmartSwitchAgent@SmartSwitchAgent.apk@classes.vdex]
+
+Compiler stats:
+  [com.sec.android.easyMover.Agent]
+    (No recorded stats)
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

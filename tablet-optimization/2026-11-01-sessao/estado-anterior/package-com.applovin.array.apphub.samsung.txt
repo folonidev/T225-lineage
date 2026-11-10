@@ -1,0 +1,338 @@
+﻿Activity Resolver Table:
+  Schemes:
+      apphub:
+        4f22c79 com.applovin.array.apphub.samsung/com.applovin.oem.discovery.oobe.IntentRouterActivity filter 33ffdbe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "apphub"
+          Authority: "com.applovin.array.apphub.tmobile": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        3c3f2c5 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.settings.NotificationPreferencesActivity filter 7c4941a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+        9ef2b4b com.applovin.array.apphub.samsung/com.applovin.oem.am.oobe.PreOOBELauncherActivity filter 1087928
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.HOME"
+          mPriority=3, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        8eab57d com.applovin.array.apphub.samsung/com.applovin.oem.discovery.oobe.HomeDiscoveryActivity filter ae98c72
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.HOME"
+          mPriority=2, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.applovin.am.intent.action.DIRECT_DOWNLOAD:
+        275f641 com.applovin.array.apphub.samsung/com.applovin.oem.am.ui.ads.DirectDownloadAppDetailsActivity filter 487d7e6
+          Action: "com.applovin.am.intent.action.DIRECT_DOWNLOAD"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.array.debug.panel.view.DebugSettingActivity:
+        831e1f com.applovin.array.apphub.samsung/com.applovin.array.debug.panel.view.DebugSettingActivity filter 5fb756c
+          Action: "com.applovin.array.debug.panel.view.DebugSettingActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.array.apphub.intent.action.OOBE_RECOMMENDATION:
+        3833127 com.applovin.array.apphub.samsung/com.applovin.oem.discovery.oobe.ReminderPopupActivity filter 2ffffd4
+          Action: "com.applovin.array.apphub.intent.action.OOBE_RECOMMENDATION"
+          Category: "android.intent.category.DEFAULT"
+      ACTION.GameSpotLightFrequencyDialogActivity:
+        67b8c3 com.applovin.array.apphub.samsung/com.applovin.oem.discovery.tmobile.gamespotlight.GameSpotLightFrequencyDialogActivity filter 474540
+          Action: "ACTION.GameSpotLightFrequencyDialogActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.array.apm.NOTIFICATIONADS:
+        b30b2f com.applovin.array.apphub.samsung/com.applovin.oem.am.ui.ads.WidgetAndNotificationAdDetailActivity filter efe453c
+          Action: "com.applovin.array.apm.NOTIFICATIONADS"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        961331e com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 32a17ff
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        afe63a0 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e6b5b59
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE:
+        1c57d3b com.applovin.array.apphub.samsung/com.applovin.oem.am.device.samsung.SamsungSetupCompletedReceiver filter 3e07c58
+          Action: "com.sec.android.app.secsetupwizard.SETUPWIZARD_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        dd72d82 com.applovin.array.apphub.samsung/androidx.profileinstaller.ProfileInstallReceiver filter e0cccc9
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        a7619cc com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter fed5415
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        4e9632a com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 12351b
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.applovin.am.intent.action.INSTALL_STATUS_UPDATE:
+        9858b3 com.applovin.array.apphub.samsung/com.applovin.oem.am.ui.notifications.DeliveryNotificationBroadcastReceiver filter 9567e70
+          Action: "com.applovin.am.intent.action.INSTALL_STATUS_UPDATE"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.am.intent.action.GROUPED_APPS_NOTIFICATION_CLICK:
+        efa25e9 com.applovin.array.apphub.samsung/com.applovin.oem.am.notification.reminder.grouped.GroupedOpenAppsBroadcastReceiver filter 345526e
+          Action: "com.applovin.am.intent.action.GROUPED_APPS_NOTIFICATION_CLICK"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.am.intent.action.SCHEDULE_APP_UPDATE:
+        414b65d com.applovin.array.apphub.samsung/com.applovin.oem.am.services.update.ScheduleUpdateBroadcastReceiver filter 5502bd2
+          Action: "com.applovin.am.intent.action.SCHEDULE_APP_UPDATE"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.am.intent.action.CANCEL_INSTALL:
+        704b217 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.CancelInstallBroadcastReceiver filter d0604
+          Action: "com.applovin.am.intent.action.CANCEL_INSTALL"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.LOCKED_BOOT_COMPLETED:
+        f4637a5 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.LockedBootBroadcastReceiver filter 478277a
+          Action: "android.intent.action.LOCKED_BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.DEVICE_STORAGE_OK:
+        a7619cc com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter fed5415
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.applovin.am.intent.action.SCHEDULE_SELF_UPDATE:
+        414b65d com.applovin.array.apphub.samsung/com.applovin.oem.am.services.update.ScheduleUpdateBroadcastReceiver filter 6e8d4a3
+          Action: "com.applovin.am.intent.action.SCHEDULE_SELF_UPDATE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.LOCALE_CHANGED:
+        58c2b2b com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.LocalChangeBroadcastReceiver filter 17ab88
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.intent.action.LAZY_BOOT_COMPLETE:
+        87f1b1 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.LazyBootBroadcastReceiver filter 56c0696
+          Action: "com.samsung.intent.action.LAZY_BOOT_COMPLETE"
+          Category: "android.intent.category.DEFAULT"
+      com.google.android.setupwizard.SETUP_WIZARD_FINISHED:
+        387a921 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.SetupWizardFinishedReceiver filter 6d14146
+          Action: "com.google.android.setupwizard.SETUP_WIZARD_FINISHED"
+          Category: "android.intent.category.DEFAULT"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        dd72d82 com.applovin.array.apphub.samsung/androidx.profileinstaller.ProfileInstallReceiver filter 9082c93
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        961331e com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 32a17ff
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        1d106b8 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5c1c91
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        1d106b8 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5c1c91
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        dd72d82 com.applovin.array.apphub.samsung/androidx.profileinstaller.ProfileInstallReceiver filter 2c1f4d0
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.applovin.am.intent.action.CLICK_NOTIFICATION:
+        878f7ed com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.NotificationActionBroadcastReceiver filter 559f622
+          Action: "com.applovin.am.intent.action.CLICK_NOTIFICATION"
+          Category: "android.intent.category.DEFAULT"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        dd72d82 com.applovin.array.apphub.samsung/androidx.profileinstaller.ProfileInstallReceiver filter e4e9fce
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        2b5cd0f com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.BootBroadcastReceiver filter 47d119c
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        1d106b8 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 5c1c91
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      com.samsung.intent.action.installagent.ACTION_PACKAGE_FIRST_LAUNCH:
+        7601735 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.PackageFirstLaunchBroadcastReceiver filter 2fa37ca
+          Action: "com.samsung.intent.action.installagent.ACTION_PACKAGE_FIRST_LAUNCH"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        afe63a0 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter e6b5b59
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        febd664 com.applovin.array.apphub.samsung/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 814f0cd
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        b204f07 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.MyPackageReplacedReceiver filter b3ff834
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Category: "android.intent.category.DEFAULT"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        11287f6 com.applovin.array.apphub.samsung/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 89507f7
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.applovin.am.intent.action.APPHUB_LOG_SERVICE:
+        98c6c85 com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.AppHubLogService filter db8eada permission com.applovin.array.apphub.permission.APPHUB_LOG_SERVICE
+          Action: "com.applovin.am.intent.action.APPHUB_LOG_SERVICE"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.array.apphub.samsung.messenger:
+        3ac4c01 com.applovin.array.apphub.samsung/com.blankj.utilcode.util.MessengerUtils$ServerService filter 94adaa6
+          Action: "com.applovin.array.apphub.samsung.messenger"
+      com.applovin.array.debug.panel.view.DragonBallService:
+        de69b0b com.applovin.array.apphub.samsung/com.applovin.array.debug.panel.view.DragonBallService filter 3ef8de8
+          Action: "com.applovin.array.debug.panel.view.DragonBallService"
+          Category: "android.intent.category.DEFAULT"
+      com.applovin.am.intent.action.APPHUB_SERVICE:
+        37efeef com.applovin.array.apphub.samsung/com.applovin.oem.am.android.external.AppHubService filter a998dfc
+          Action: "com.applovin.am.intent.action.APPHUB_SERVICE"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.applovin.array.apphub.permission.APPHUB_LOG_SERVICE] (78de7ee):
+    sourcePackage=com.applovin.array.apphub.samsung
+    uid=10216 gids=[] type=0 prot=normal
+    perm=PermissionInfo{42a748f com.applovin.array.apphub.permission.APPHUB_LOG_SERVICE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.applovin.array.apphub.samsung/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{b31631c com.applovin.array.apphub.samsung/com.google.firebase.provider.FirebaseInitProvider}
+  com.applovin.array.apphub.samsung/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{3e1eb25 com.applovin.array.apphub.samsung/com.blankj.utilcode.util.UtilsFileProvider}
+  com.applovin.array.apphub.samsung/androidx.core.content.FileProvider:
+    Provider{7494fa com.applovin.array.apphub.samsung/androidx.core.content.FileProvider}
+  com.applovin.array.apphub.samsung/com.google.firebase.perf.provider.FirebasePerfProvider:
+    Provider{a63caab com.applovin.array.apphub.samsung/com.google.firebase.perf.provider.FirebasePerfProvider}
+
+ContentProvider Authorities:
+  [com.applovin.array.apphub.samsung.firebaseperfprovider]:
+    Provider{a63caab com.applovin.array.apphub.samsung/com.google.firebase.perf.provider.FirebasePerfProvider}
+      applicationInfo=ApplicationInfo{f7f9508 com.applovin.array.apphub.samsung}
+  [com.applovin.array.apphub.samsung.install.fileProvider]:
+    Provider{7494fa com.applovin.array.apphub.samsung/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{4eb14a1 com.applovin.array.apphub.samsung}
+  [com.applovin.array.apphub.samsung.firebaseinitprovider]:
+    Provider{b31631c com.applovin.array.apphub.samsung/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{de706c6 com.applovin.array.apphub.samsung}
+  [com.applovin.array.apphub.samsung.utilcode.fileprovider]:
+    Provider{3e1eb25 com.applovin.array.apphub.samsung/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{2926687 com.applovin.array.apphub.samsung}
+
+Key Set Manager:
+  [com.applovin.array.apphub.samsung]
+      Signing KeySets: 36
+
+Packages:
+  Package [com.applovin.array.apphub.samsung] (6fcf9b4):
+    appId=10216
+    pkg=Package{30359dd com.applovin.array.apphub.samsung}
+    codePath=/prism/priv-app/AppHub
+    resourcePath=/prism/priv-app/AppHub
+    legacyNativeLibraryDir=/prism/priv-app/AppHub/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1015000 minSdk=29 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.15.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.MAIN }, Intent { act=android.intent.action.VIEW }]
+    dataDir=/data/user/0/com.applovin.array.apphub.samsung
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{bbcc952 version:2, signatures:[896ca6a2], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.applovin.array.apphub.permission.APPHUB_LOG_SERVICE: prot=normal
+    requested permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.POST_NOTIFICATIONS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.KILL_BACKGROUND_PROCESSES
+      android.permission.GET_PACKAGE_SIZE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.FOREGROUND_SERVICE
+      com.google.android.gms.permission.AD_ID
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+      android.permission.WAKE_LOCK
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.FOREGROUND_SERVICE_SPECIAL_USE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.GET_PACKAGE_SIZE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=5000 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ GRANTED_BY_DEFAULT]
+      disabledComponents:
+        com.applovin.oem.am.oobe.PreOOBELauncherActivity
+        com.applovin.oem.am.android.external.BootBroadcastReceiver
+      enabledComponents:
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.apps.messaging:
+      com.applovin.array.apphub.samsung
+    com.applovin.array.apphub.samsung:
+      com.google.android.documentsui
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.applovin.array.apphub.samsung
+      [com.google.android.gsf,com.google.android.gms]:
+        com.applovin.array.apphub.samsung
+      com.google.android.webview:
+        com.applovin.array.apphub.samsung
+      com.applovin.array.apphub.samsung:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+        com.google.android.webview
+  queryable via uses-library:
+
+Dexopt state:
+  [com.applovin.array.apphub.samsung]
+    path: /prism/priv-app/AppHub/AppHub.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/prism@priv-app@AppHub@AppHub.apk@classes.vdex]
+
+Compiler stats:
+  [com.applovin.array.apphub.samsung]
+    (No recorded stats)
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

@@ -1,0 +1,3313 @@
+﻿Activity Resolver Table:
+  Full MIME Types:
+      multipart/related:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f031ce2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter fec5873
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+      video/3gpp:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      video/webm:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/apng:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/avif:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/jpeg:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/webp:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      application/ogg:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      application/pdf:
+        848468a com.android.chrome/org.chromium.chrome.browser.document.PdfLauncherActivityAlias filter 50044fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/pdf"
+      text/html:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      image/bmp:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/gif:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/jpg:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/jxl:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/png:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      audio/*:
+        56e3416 com.android.chrome/androidx.media3.session.BluetoothValidationActivity filter 2cf1197
+          Action: "android.intent.action.VIEW"
+          Scheme: "content"
+          Authority: "media": -1
+          Path: "PatternMatcher{PREFIX: /internal/audio/media/}"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/x-m4a:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/x-mp3:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/x-wav:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/matroska:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      video/matroska:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      audio/x-matroska:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      image/svg+xml:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      */*:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter a3a252e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/x-m4v:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      audio/aac:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/mp3:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/mp4:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/ogg:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/wav:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      application/xhtml+xml:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      text/plain:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter cfc9ec4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      image/pjpeg:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/x-png:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/x-icon:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      message/rfc822:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 686e330
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+      video/mp4:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      video/ogg:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      image/x-xbitmap:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      audio/flac:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/mpeg:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      audio/webm:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      image/vnd.microsoft.icon:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      video/x-matroska:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+
+  Base MIME Types:
+      multipart:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f031ce2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter fec5873
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+      text:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter cfc9ec4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      audio:
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      image:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      video:
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+      message:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 686e330
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+      application:
+        848468a com.android.chrome/org.chromium.chrome.browser.document.PdfLauncherActivityAlias filter 50044fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/pdf"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+
+  Wild MIME Types:
+      *:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter a3a252e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio:
+        56e3416 com.android.chrome/androidx.media3.session.BluetoothValidationActivity filter 2cf1197
+          Action: "android.intent.action.VIEW"
+          Scheme: "content"
+          Authority: "media": -1
+          Path: "PatternMatcher{PREFIX: /internal/audio/media/}"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      googlechrome:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 16c4156
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      file:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f031ce2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 686e330
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 7c78ba9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mht}"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter a3a252e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+      http:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 16c4156
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter ce43965
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        6a740f4 com.android.chrome/org.chromium.chrome.browser.dragdrop.DragAndDropLauncherActivity filter bb9301d
+          Action: "org.chromium.chrome.browser.dragdrop.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+      about:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 16c4156
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+      https:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 16c4156
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter ce43965
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "http"
+          Scheme: "https"
+        6a740f4 com.android.chrome/org.chromium.chrome.browser.dragdrop.DragAndDropLauncherActivity filter bb9301d
+          Action: "org.chromium.chrome.browser.dragdrop.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+        88bb043 com.android.chrome/org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity filter d95aff9
+          Action: "android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "https"
+      content:
+        848468a com.android.chrome/org.chromium.chrome.browser.document.PdfLauncherActivityAlias filter 50044fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/pdf"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter fec5873
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 686e330
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        56e3416 com.android.chrome/androidx.media3.session.BluetoothValidationActivity filter 2cf1197
+          Action: "android.intent.action.VIEW"
+          Scheme: "content"
+          Authority: "media": -1
+          Path: "PatternMatcher{PREFIX: /internal/audio/media/}"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Non-Data Actions:
+      org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE:
+        87500fd com.android.chrome/org.chromium.chrome.browser.webapps.ActivateWebApkActivity filter ccb1f2
+          Action: "org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MEDIA_SEARCH:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 1aa08cf
+          Action: "android.intent.action.MEDIA_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP:
+        ece4e45 com.android.chrome/org.chromium.chrome.browser.webapps.SecureWebAppLauncher filter 80e899a
+          Action: "org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.usage_stats.action.UNAUTHORIZE:
+        c348dd8 com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsConsentActivity filter 2a86531
+          Action: "org.chromium.chrome.browser.usage_stats.action.UNAUTHORIZE"
+          Action: "org.chromium.chrome.browser.usage_stats.action.AUTHORIZE"
+      com.samsung.android.support.REMOTE_ACTION:
+        f9035de com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity filter 8e5ba8c
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        cef45d5 com.android.chrome/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity filter ccbdcdb
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        c79f378 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity filter 4722b6
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        9a16bb7 com.android.chrome/com.google.android.apps.chrome.Main filter 99ab442
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        6d70c53 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity2 filter 2001289
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        339b2cb com.android.chrome/org.chromium.chrome.browser.webapps.WebappActivity filter 68a89c1
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        b3ba566 com.android.chrome/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity filter 75e4954
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+        ba96eec com.android.chrome/org.chromium.chrome.browser.devtools.DevToolsActivity filter d7852b5
+          Action: "com.samsung.android.support.REMOTE_ACTION"
+      android.intent.action.MAIN:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 74d5f71
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+        9a16bb7 com.android.chrome/com.google.android.apps.chrome.Main filter f16cf24
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.APP_BROWSER"
+        26c8d4a com.android.chrome/org.chromium.components.webxr.XrHostActivity filter c80e4bb
+          Action: "android.intent.action.MAIN"
+          Category: "org.khronos.openxr.intent.category.IMMERSIVE_HMD"
+      com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP:
+        ea3d28e com.android.chrome/org.chromium.chrome.browser.webapps.WebappLauncherActivity filter dbc1aaf
+          Action: "com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.dummy.action:
+        f9035de com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity filter 884c3bf
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        cef45d5 com.android.chrome/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity filter e5d1ea
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        c79f378 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity filter eeb6a51
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        9a16bb7 com.android.chrome/com.google.android.apps.chrome.Main filter 9ab5a8d
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        6d70c53 com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity2 filter a83b990
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        339b2cb com.android.chrome/org.chromium.chrome.browser.webapps.WebappActivity filter 80d2aa8
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+        b3ba566 com.android.chrome/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity filter 7aeb0a7
+          Action: "org.chromium.chrome.browser.dummy.action"
+          Category: "com.google.intent.category.DAYDREAM"
+          Category: "com.google.intent.category.CARDBOARD"
+      android.intent.action.APPLICATION_PREFERENCES:
+        e717860 com.android.chrome/org.chromium.chrome.browser.AutofillOptionsLauncher filter 33db119
+          Action: "android.intent.action.APPLICATION_PREFERENCES"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.APP_BROWSER"
+          Category: "android.intent.category.PREFERENCE"
+      org.webapk.ACTION_START_WEBAPK:
+        ea3d28e com.android.chrome/org.chromium.chrome.browser.webapps.WebappLauncherActivity filter b92debc
+          Action: "org.webapk.ACTION_START_WEBAPK"
+          Category: "android.intent.category.DEFAULT"
+      android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA:
+        88bb043 com.android.chrome/org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity filter a00a6c0
+          Action: "android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA"
+          Category: "android.intent.category.DEFAULT"
+      org.chromium.chrome.browser.usage_stats.action.AUTHORIZE:
+        c348dd8 com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsConsentActivity filter 2a86531
+          Action: "org.chromium.chrome.browser.usage_stats.action.UNAUTHORIZE"
+          Action: "org.chromium.chrome.browser.usage_stats.action.AUTHORIZE"
+      android.speech.action.VOICE_SEARCH_RESULTS:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 32f025c
+          Action: "android.speech.action.VOICE_SEARCH_RESULTS"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.airview.HOVER:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 3e862eb
+          Action: "com.sec.android.airview.HOVER"
+      org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB:
+        df08292 com.android.chrome/org.chromium.chrome.browser.incognito.IncognitoTabLauncher filter 61c4463
+          Action: "org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.WEB_SEARCH:
+        7effb3e com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchActivity filter faf0d9f
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter fc7663a
+          Action: "android.intent.action.SEARCH"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter cfc9ec4
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.VIEW:
+        848468a com.android.chrome/org.chromium.chrome.browser.document.PdfLauncherActivityAlias filter 50044fb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "application/pdf"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 58435d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "googlechrome"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "about"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f8781ad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "text/html"
+          StaticType: "text/plain"
+          StaticType: "application/xhtml+xml"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter f031ce2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter fec5873
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "content"
+          StaticType: "multipart/related"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter 686e330
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "message/rfc822"
+        b440918 com.android.chrome/com.google.android.apps.chrome.IntentDispatcher filter a3a252e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: /.*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*.mht}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mhtml}"
+          Path: "PatternMatcher{GLOB: /.*..*..*..*..*..*..*..*..*..*.mht}"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        4d7e848 com.android.chrome/org.chromium.chrome.browser.media.MediaLauncherActivity filter 86406e1
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "image/jxl"
+          StaticType: "image/avif"
+          StaticType: "image/webp"
+          StaticType: "image/apng"
+          StaticType: "image/svg+xml"
+          StaticType: "image/jpeg"
+          StaticType: "image/png"
+          StaticType: "image/gif"
+          StaticType: "image/x-icon"
+          StaticType: "image/bmp"
+          StaticType: "image/x-xbitmap"
+          StaticType: "image/vnd.microsoft.icon"
+          StaticType: "image/pjpeg"
+          StaticType: "image/jpg"
+          StaticType: "image/x-png"
+          StaticType: "video/webm"
+          StaticType: "video/ogg"
+          StaticType: "video/mp4"
+          StaticType: "video/matroska"
+          StaticType: "video/x-matroska"
+          StaticType: "video/x-m4v"
+          StaticType: "video/3gpp"
+        fb5ac06 com.android.chrome/org.chromium.chrome.browser.media.AudioLauncherActivity filter d6842c7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "file"
+          Scheme: "content"
+          StaticType: "audio/wav"
+          StaticType: "audio/x-wav"
+          StaticType: "audio/webm"
+          StaticType: "audio/ogg"
+          StaticType: "audio/flac"
+          StaticType: "audio/mpeg"
+          StaticType: "audio/mp3"
+          StaticType: "audio/x-mp3"
+          StaticType: "audio/mp4"
+          StaticType: "audio/matroska"
+          StaticType: "audio/x-matroska"
+          StaticType: "application/ogg"
+          StaticType: "audio/aac"
+          StaticType: "audio/x-m4a"
+        56e3416 com.android.chrome/androidx.media3.session.BluetoothValidationActivity filter 2cf1197
+          Action: "android.intent.action.VIEW"
+          Scheme: "content"
+          Authority: "media": -1
+          Path: "PatternMatcher{PREFIX: /internal/audio/media/}"
+          StaticType: "audio"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Schemes:
+      package:
+        deadcfa com.android.chrome/org.chromium.chrome.browser.browserservices.InstalledWebappBroadcastReceiver filter fb072ab
+          Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+          Action: "android.intent.action.PACKAGE_REMOVED"
+          Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+          Scheme: "package"
+
+  Non-Data Actions:
+      com.android.chrome.safe_browsing.LOGIN:
+        b117ba2 com.android.chrome/org.chromium.chrome.browser.safe_browsing.PasswordProtectionBroadcastReceiver filter b693033
+          Action: "com.android.chrome.safe_browsing.LOGIN"
+      com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION:
+        5975c9b com.android.chrome/com.no.real.class.needed.receiver filter a8bd838
+          Action: "com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION"
+      org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      com.google.android.partnersetup.action.CONFIGURATION_UPDATE:
+        2052777 com.android.chrome/com.google.android.apps.chrome.rlz.RevenueStatsConfigurationUpdateReceiver filter b423fe4
+          Action: "com.google.android.partnersetup.action.CONFIGURATION_UPDATE"
+      org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      org.chromium.chrome.browser.actor.ACTION_CANCEL:
+        c5c6b1c com.android.chrome/org.chromium.chrome.browser.actor.ActorBroadcastReceiver filter fa45325
+          Action: "org.chromium.chrome.browser.actor.ACTION_CANCEL"
+          Action: "org.chromium.chrome.browser.actor.ACTION_PAUSE"
+          Action: "org.chromium.chrome.browser.actor.ACTION_RESUME"
+      org.chromium.chrome.browser.notifications.REPORT_AS_SAFE:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      android.intent.action.LOCALE_CHANGED:
+        afafee com.android.chrome/org.chromium.chrome.browser.notifications.channels.LocaleChangedBroadcastReceiver filter 27c9c8f
+          Action: "android.intent.action.LOCALE_CHANGED"
+        c531d08 com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderSearch filter 79cec6
+          Action: "android.intent.action.LOCALE_CHANGED"
+        4018e87 com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderDino filter 7aac1dd
+          Action: "android.intent.action.LOCALE_CHANGED"
+        2068520 com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider filter 2ddf09e
+          Action: "android.intent.action.LOCALE_CHANGED"
+      org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      org.chromium.chrome.browser.actor.ACTION_PAUSE:
+        c5c6b1c com.android.chrome/org.chromium.chrome.browser.actor.ActorBroadcastReceiver filter fa45325
+          Action: "org.chromium.chrome.browser.actor.ACTION_CANCEL"
+          Action: "org.chromium.chrome.browser.actor.ACTION_PAUSE"
+          Action: "org.chromium.chrome.browser.actor.ACTION_RESUME"
+      org.chromium.chrome.browser.actor.ACTION_RESUME:
+        c5c6b1c com.android.chrome/org.chromium.chrome.browser.actor.ActorBroadcastReceiver filter fa45325
+          Action: "org.chromium.chrome.browser.actor.ACTION_CANCEL"
+          Action: "org.chromium.chrome.browser.actor.ACTION_PAUSE"
+          Action: "org.chromium.chrome.browser.actor.ACTION_RESUME"
+      com.google.android.c2dm.intent.RECEIVE:
+        b50af84 com.android.chrome/com.google.firebase.iid.FirebaseInstanceIdReceiver filter aed236d
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      android.app.action.APP_BLOCK_STATE_CHANGED:
+        7c94f95 com.android.chrome/org.chromium.chrome.browser.notifications.permissions.NotificationPermissionChangeReceiver filter 93478aa
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      com.google.android.finsky.installapi.ACTION_INSTALL_STATUS:
+        904dc4d com.android.chrome/com.google.android.apps.chrome.webapps.WebApkInstallStatusReceiver filter 2bf7302
+          Action: "com.google.android.finsky.installapi.ACTION_INSTALL_STATUS"
+      org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      .BOOKMARK_APPWIDGET_UPDATE:
+        8b41152 com.android.chrome/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider filter 95e8c23
+          Action: ".BOOKMARK_APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        7c94f95 com.android.chrome/org.chromium.chrome.browser.notifications.permissions.NotificationPermissionChangeReceiver filter 93478aa
+          Action: "android.app.action.APP_BLOCK_STATE_CHANGED"
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      org.chromium.chrome.browser.notifications.ALWAYS_ALLOW:
+        3c77f com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver filter 39ed34c
+          Action: "org.chromium.chrome.browser.notifications.PRE_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.SHOW_ORIGINAL_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_AS_SAFE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_WARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.COMMIT_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.REPORT_UNWARNED_NOTIFICATION_AS_SPAM"
+          Action: "org.chromium.chrome.browser.notifications.UNDO_UNSUBSCRIBE"
+          Action: "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION"
+          Action: "org.chromium.chrome.browser.notifications.ALWAYS_ALLOW"
+      com.google.android.finsky.compliance.flow.search.engine.installed:
+        cbc5011 com.android.chrome/com.google.android.apps.chrome.search_engines.SearchEngineChoiceNotificationReceiver filter ab97576
+          Action: "com.google.android.finsky.compliance.flow.search.engine.installed"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        c531d08 com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderSearch filter e6bfca1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        4018e87 com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderDino filter 18101b4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        8b41152 com.android.chrome/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider filter 95e8c23
+          Action: ".BOOKMARK_APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        2068520 com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider filter 169ed9
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        2eb3ff0 com.android.chrome/org.chromium.chrome.browser.upgrade.PackageReplacedBroadcastReceiver filter f458969
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.wallet.callback.PAYMENT_DATA_CALLBACKS:
+        1f87db9 com.android.chrome/org.chromium.components.payments.GooglePayDataCallbacksService filter 33215fe permission com.google.android.gms.permission.BIND_PAYMENTS_CALLBACK_SERVICE
+          Action: "com.google.android.gms.wallet.callback.PAYMENT_DATA_CALLBACKS"
+      org.chromium.chrome.browser.usage_stats.service.BROWSER:
+        f0cd803 com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsBrowserServiceProvider filter 79b1380
+          Action: "org.chromium.chrome.browser.usage_stats.service.BROWSER"
+      org.chromium.intent.action.UPDATE_PAYMENT_DETAILS:
+        8c4a28b com.android.chrome/org.chromium.components.payments.PaymentDetailsUpdateService filter 7c1bf68
+          Action: "org.chromium.intent.action.UPDATE_PAYMENT_DETAILS"
+      com.google.firebase.MESSAGING_EVENT:
+        8cff049 com.android.chrome/com.google.firebase.messaging.FirebaseMessagingService filter d35bd4e
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+        7e38e6f com.android.chrome/org.chromium.chrome.browser.services.gcm.ChromeGcmListenerService filter a23a77c
+          Action: "com.google.firebase.MESSAGING_EVENT"
+      android.media.projection.AppContentProjectionService:
+        f7af15f com.android.chrome/com.google.android.apps.chrome.browser.media.ChromeAppContentProjectionService filter b5de7ac permission android.permission.MANAGE_MEDIA_PROJECTION
+          Action: "android.media.projection.AppContentProjectionService"
+      android.support.customtabs.action.CustomTabsService:
+        41e4805 com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService filter 3b4605a
+          Action: "android.support.customtabs.action.CustomTabsService"
+          Category: "androidx.browser.auth.category.AuthTab"
+          Category: "androidx.browser.customtabs.category.ColorSchemeCustomization"
+          Category: "androidx.browser.customtabs.category.EphemeralBrowsing"
+          Category: "androidx.browser.customtabs.category.NavBarColorCustomization"
+          Category: "androidx.browser.customtabs.category.SetNetwork"
+          Category: "androidx.browser.trusted.category.ImmersiveMode"
+          Category: "androidx.browser.trusted.category.LaunchSiteSettings"
+          Category: "androidx.browser.trusted.category.LaunchWebApkSiteSettings"
+          Category: "androidx.browser.trusted.category.TrustedWebActivities"
+          Category: "androidx.browser.trusted.category.TrustedWebActivitySplashScreensV1"
+          Category: "androidx.browser.trusted.category.WebShareTargetV2"
+      com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService:
+        61ac413 com.android.chrome/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter ad57650
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+        e9a3c75 com.android.chrome/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter d95940a
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+        587447b com.android.chrome/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter 397d298
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+      android.intent.action.MEDIA_BUTTON:
+        8405f81 com.android.chrome/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PlaybackListenerService filter f482826
+          Action: "android.intent.action.MEDIA_BUTTON"
+        158dc67 com.android.chrome/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$PresentationListenerService filter 4a76a14
+          Action: "android.intent.action.MEDIA_BUTTON"
+        d1272bd com.android.chrome/org.chromium.chrome.browser.media.ui.ChromeMediaNotificationControllerServices$CastListenerService filter afea0b2
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.android.chrome.permission.CHILD_SERVICE] (cad07d5):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1cd6bea com.android.chrome.permission.CHILD_SERVICE}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.chrome.TOS_ACKED] (c546edb):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{21c1d78 com.android.chrome.TOS_ACKED}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.chrome.permission.C2D_MESSAGE] (9c34c51):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature
+    perm=PermissionInfo{10e5cb6 com.android.chrome.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS] (e211db7):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{db19924 com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.chrome.permission.DEBUG] (71f5c8d):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature
+    perm=PermissionInfo{89b8e42 com.android.chrome.permission.DEBUG}
+    flags=0x0
+
+Permissions:
+  Permission [com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN] (89fde53):
+    sourcePackage=com.android.chrome
+    uid=10204 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{9012390 com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN}
+    flags=0x0
+
+Registered ContentProviders:
+  com.android.chrome/org.chromium.chrome.browser.autofill.AutofillThirdPartyModeContentProvider:
+    Provider{fb23489 com.android.chrome/org.chromium.chrome.browser.autofill.AutofillThirdPartyModeContentProvider}
+  com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider:
+    Provider{5d84c8e com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+  com.android.chrome/org.chromium.chrome.browser.pdf.PdfContentProvider:
+    Provider{8400caf com.android.chrome/org.chromium.chrome.browser.pdf.PdfContentProvider}
+  com.android.chrome/org.chromium.chrome.browser.download.DownloadFileProvider:
+    Provider{57ce8bc com.android.chrome/org.chromium.chrome.browser.download.DownloadFileProvider}
+  com.android.chrome/org.chromium.ui.dragdrop.DropDataContentProvider:
+    Provider{2809045 com.android.chrome/org.chromium.ui.dragdrop.DropDataContentProvider}
+  com.android.chrome/org.chromium.ui.base.ClipboardTextDataProvider:
+    Provider{710a39a com.android.chrome/org.chromium.ui.base.ClipboardTextDataProvider}
+  com.android.chrome/org.chromium.chrome.browser.screenshotprovider.ScreenshotContentProvider:
+    Provider{70ac4cb com.android.chrome/org.chromium.chrome.browser.screenshotprovider.ScreenshotContentProvider}
+  com.android.chrome/org.chromium.chrome.browser.provider.PageContentProvider:
+    Provider{78dd4a8 com.android.chrome/org.chromium.chrome.browser.provider.PageContentProvider}
+  com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider:
+    Provider{1eebc1 com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider}
+
+ContentProvider Authorities:
+  [com.android.chrome.ScreenshotContentProvider]:
+    Provider{70ac4cb com.android.chrome/org.chromium.chrome.browser.screenshotprovider.ScreenshotContentProvider}
+      applicationInfo=ApplicationInfo{1455f66 com.android.chrome}
+  [com.android.chrome.DropDataProvider]:
+    Provider{2809045 com.android.chrome/org.chromium.ui.dragdrop.DropDataContentProvider}
+      applicationInfo=ApplicationInfo{c7ee2a7 com.android.chrome}
+  [com.android.chrome.ChromeBrowserProvider]:
+    Provider{5d84c8e com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{f3f9354 com.android.chrome}
+  [com.android.chrome.AutofillThirdPartyModeContentProvider]:
+    Provider{fb23489 com.android.chrome/org.chromium.chrome.browser.autofill.AutofillThirdPartyModeContentProvider}
+      applicationInfo=ApplicationInfo{3ed82fd com.android.chrome}
+  [com.android.chrome]:
+    Provider{5d84c8e com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{6b80bf2 com.android.chrome}
+  [com.android.chrome.DownloadFileProvider]:
+    Provider{57ce8bc com.android.chrome/org.chromium.chrome.browser.download.DownloadFileProvider}
+      applicationInfo=ApplicationInfo{f2d0243 com.android.chrome}
+  [com.android.chrome.browser]:
+    Provider{5d84c8e com.android.chrome/org.chromium.chrome.browser.provider.ChromeBrowserProvider}
+      applicationInfo=ApplicationInfo{fac90c0 com.android.chrome}
+  [com.android.chrome.ClipboardTextDataProvider]:
+    Provider{710a39a com.android.chrome/org.chromium.ui.base.ClipboardTextDataProvider}
+      applicationInfo=ApplicationInfo{51451f9 com.android.chrome}
+  [com.android.chrome.PdfContentProvider]:
+    Provider{8400caf com.android.chrome/org.chromium.chrome.browser.pdf.PdfContentProvider}
+      applicationInfo=ApplicationInfo{a36f53e com.android.chrome}
+  [com.android.chrome.FileProvider]:
+    Provider{1eebc1 com.android.chrome/org.chromium.chrome.browser.util.ChromeFileProvider}
+      applicationInfo=ApplicationInfo{4137f9f com.android.chrome}
+  [com.android.chrome.PageContentProvider]:
+    Provider{78dd4a8 com.android.chrome/org.chromium.chrome.browser.provider.PageContentProvider}
+      applicationInfo=ApplicationInfo{129f8ec com.android.chrome}
+
+Key Set Manager:
+  [com.android.chrome]
+      Signing KeySets: 20
+
+Packages:
+  Package [com.android.chrome] (78755a2):
+    appId=10204
+    pkg=Package{e030233 com.android.chrome}
+    codePath=/data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==
+    resourcePath=/data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==
+    legacyNativeLibraryDir=/data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=805908400 minSdk=32 targetSdk=37
+    minExtensionVersions=[]
+    versionName=155.0.8059.84
+    usesNonSdkApi=false
+    splits=[base, chrome, config.pt, dev_ui, on_demand, stack_unwinder]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ISOLATED_SPLIT_LOADING PARTIALLY_DIRECT_BOOT_AWARE PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.ar.core]
+    dataDir=/data/user/0/com.android.chrome
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+      android.car
+      androidx.window.extensions
+      android.ext.adservices
+    usesOptionalNativeLibraries:
+      libopenxr.google.so
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2026-10-21 01:30:32
+    lastUpdateTime=2026-10-21 01:30:34
+    installerPackageName=com.android.vending
+    installerPackageUid=10188
+    initiatingPackageName=com.android.vending
+    originatingPackageName=null
+    category=4
+    packageSource=0
+    appMetadataFilePath=/data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/app.metadata
+    signatures=PackageSignatures{865a9f0 version:3, signatures:[e3ca78d8], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE ISOLATED_SPLIT_LOADING PARTIALLY_DIRECT_BOOT_AWARE PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.android.chrome.permission.CHILD_SERVICE: prot=signature
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS: prot=signature|privileged
+      com.android.chrome.TOS_ACKED: prot=signature|privileged
+      com.android.chrome.permission.C2D_MESSAGE: prot=signature
+      com.android.chrome.permission.DEBUG: prot=signature
+      com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN: prot=signature|privileged
+    requested permissions:
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_SCAN
+      android.permission.READ_CONTACTS
+      android.permission.REORDER_TASKS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.CAMERA
+      android.permission.CAPTURE_KEYBOARD
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_CAMERA
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FOREGROUND_SERVICE_SHORT_SERVICE
+      android.permission.RUN_USER_INITIATED_JOBS
+      android.permission.GET_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.NFC
+      android.permission.POST_NOTIFICATIONS
+      android.permission.POST_PROMOTED_NOTIFICATIONS
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECORD_AUDIO
+      android.permission.REPOSITION_SELF_WINDOWS
+      android.permission.USE_CREDENTIALS
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN
+      android.permission.QUERY_ADVANCED_PROTECTION_MODE
+      android.permission.ACCESS_HID
+      android.permission.USE_LOOPBACK_INTERFACE
+      android.permission.ACCESS_LOCAL_NETWORK
+      android.permission.SCENE_UNDERSTANDING_FINE
+      android.permission.HAND_TRACKING
+      com.android.chrome.permission.C2D_MESSAGE
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS
+      com.android.chrome.TOS_ACKED
+      com.chrome.permission.DEVICE_EXTRAS
+      com.google.android.c2dm.permission.RECEIVE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS
+      android.permission.USE_PINNED_WINDOWING_LAYER
+      com.google.android.finsky.permission.DSE
+      com.google.android.googlequicksearchbox.permission.LENS_SERVICE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.sec.enterprise.knox.MDM_CONTENT_PROVIDER
+      com.google.android.apps.aicore.service.BIND_SERVICE
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.FOREGROUND_SERVICE_CAMERA: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.google.android.googlequicksearchbox.permission.LENS_SERVICE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.RUN_USER_INITIATED_JOBS: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN: granted=true
+      com.google.android.finsky.permission.DSE: granted=true
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION: granted=true
+      com.sec.enterprise.knox.MDM_CONTENT_PROVIDER: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION: granted=true
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      com.android.chrome.TOS_ACKED: granted=true
+      com.android.chrome.permission.C2D_MESSAGE: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS: granted=true
+    User 0: ceDataInode=4949 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      lastDisabledCaller: com.android.vending
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Hidden system packages:
+  Package [com.android.chrome] (cb0ab69):
+    appId=10204
+    pkg=Package{7a929ee com.android.chrome}
+    codePath=/product/app/Chrome
+    resourcePath=/product/app/Chrome
+    legacyNativeLibraryDir=/product/app/Chrome/lib
+    extractNativeLibs=false
+    primaryCpuAbi=armeabi-v7a
+    secondaryCpuAbi=arm64-v8a
+    cpuAbiOverride=null
+    versionCode=609919331 minSdk=29 targetSdk=34
+    minExtensionVersions=[]
+    versionName=120.0.6099.193
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=0
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION HAS_DOMAIN_URLS ISOLATED_SPLIT_LOADING PARTIALLY_DIRECT_BOOT_AWARE PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.google.ar.core]
+    dataDir=/data/user/0/com.android.chrome
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesStaticLibraries:
+      com.google.android.trichromelibrary version:609919331
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=1969-12-31 20:59:59
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{401f6fa version:0, signatures:[], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION HAS_DOMAIN_URLS ISOLATED_SPLIT_LOADING PARTIALLY_DIRECT_BOOT_AWARE PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.android.chrome.permission.CHILD_SERVICE: prot=signature
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS: prot=signature|privileged
+      com.android.chrome.TOS_ACKED: prot=signature|privileged
+      com.android.chrome.permission.C2D_MESSAGE: prot=signature
+      com.android.chrome.permission.DEBUG: prot=signature
+      com.android.chrome.permission.SHOW_COMPLIANCE_SCREEN: prot=signature|privileged
+    requested permissions:
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_SCAN
+      android.permission.READ_CONTACTS
+      android.permission.REORDER_TASKS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.CAMERA
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.RUN_USER_INITIATED_JOBS
+      android.permission.GET_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.NFC
+      android.permission.POST_NOTIFICATIONS
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.RECORD_AUDIO
+      android.permission.USE_CREDENTIALS
+      android.permission.USE_BIOMETRIC
+      android.permission.USE_FINGERPRINT
+      android.permission.VIBRATE
+      android.permission.WAKE_LOCK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN
+      com.android.chrome.permission.C2D_MESSAGE
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS
+      com.android.chrome.TOS_ACKED
+      com.chrome.permission.DEVICE_EXTRAS
+      com.google.android.c2dm.permission.RECEIVE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS
+      com.google.android.googlequicksearchbox.permission.LENS_SERVICE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      com.sec.enterprise.knox.MDM_CONTENT_PROVIDER
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.FOREGROUND_SERVICE_CAMERA: granted=true
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.NFC: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.google.android.googlequicksearchbox.permission.LENS_SERVICE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ALLOWED_PROVIDERS: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.RUN_USER_INITIATED_JOBS: granted=true
+      android.permission.CREDENTIAL_MANAGER_SET_ORIGIN: granted=true
+      com.google.android.finsky.permission.DSE: granted=true
+      android.permission.ACCESS_ADSERVICES_ATTRIBUTION: granted=true
+      com.sec.enterprise.knox.MDM_CONTENT_PROVIDER: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION: granted=true
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      com.android.chrome.TOS_ACKED: granted=true
+      com.android.chrome.permission.C2D_MESSAGE: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.android.chrome.permission.READ_WRITE_BOOKMARK_FOLDERS: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.CREDENTIAL_MANAGER_QUERY_CANDIDATE_CREDENTIALS: granted=true
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=1969-12-31 20:59:59
+      uninstallReason=0
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+    com.samsung.android.setting.multisound:
+      com.android.chrome
+    com.microsoft.skydrive:
+      com.android.chrome
+    com.google.android.gm:
+      com.android.chrome
+    com.sec.android.app.sbrowser:
+      com.android.chrome
+  queries via component:
+    com.samsung.android.app.sharelive:
+      com.android.chrome
+    com.microsoft.skydrive:
+      com.android.chrome
+    com.samsung.android.mobileservice:
+      com.android.chrome
+    com.sec.android.app.billing:
+      com.android.chrome
+    com.hiya.star:
+      com.android.chrome
+    com.google.android.captiveportallogin:
+      com.android.chrome
+    com.google.android.apps.messaging:
+      com.android.chrome
+    com.android.vending:
+      com.android.chrome
+    com.google.android.apps.tachyon:
+      com.android.chrome
+    com.google.android.youtube:
+      com.android.chrome
+    com.google.android.apps.maps:
+      com.android.chrome
+    com.google.android.gm:
+      com.android.chrome
+    com.android.systemui.accessibility.accessibilitymenu:
+      com.android.chrome
+    com.pinterest:
+      com.android.chrome
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        com.android.chrome
+      [com.google.android.gsf,com.google.android.gms]:
+        com.android.chrome
+      com.android.chrome:
+        [com.google.android.gsf,com.google.android.gms]
+        com.pinterest
+  queryable via uses-library:
+
+Dexopt state:
+  [com.android.chrome]
+    path: /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/base.apk
+      arm: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/oat/arm/base.vdex]
+    path: /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_chrome.apk
+      arm: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/oat/arm/split_chrome.vdex]
+    path: /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_dev_ui.apk
+      arm: [status=verify] [reason=vdex-dm] [primary-abi]
+        [location is primary.vdex mapped directly in memory from /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_dev_ui.dm]
+    path: /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_on_demand.apk
+      arm: [status=verify] [reason=vdex-dm] [primary-abi]
+        [location is primary.vdex mapped directly in memory from /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_on_demand.dm]
+    path: /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_stack_unwinder.apk
+      arm: [status=verify] [reason=vdex-dm] [primary-abi]
+        [location is primary.vdex mapped directly in memory from /data/app/~~HSxntzwfXEBqZ9MEDgNgkA==/com.android.chrome-Z9XbWKH9nizOblkKpQfvIA==/split_stack_unwinder.dm]
+
+Compiler stats:
+  [com.android.chrome]
+     Chrome.apk - 4196
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

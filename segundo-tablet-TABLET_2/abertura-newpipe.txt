@@ -1,0 +1,7 @@
+Starting: Intent { cmp=org.schabi.newpipe/.MainActivity }
+Status: ok
+LaunchState: WARM
+Activity: org.schabi.newpipe/.MainActivity
+TotalTime: 1574
+WaitTime: 1579
+Complete

@@ -1,0 +1,4 @@
+﻿Diagnostico: PS Remote Play9.5.0 oficial Play Store, erro88001003 relatado antes de procurarconsole. Android14GSI, bootloaderdesbloqueado, Magisk30.7 ativo. Causa exata ainda nao confirmada pela Sony; modificacao/root e hipotese principal pelo momento e ambiente. Sem limpeza de dados/app ou modificacao do APK.
+Estado inicial Magisk: DenyList nao enforced, lista vazia. Teste planejado: adicionar somente com.playstation.remoteplay e ativar enforcing. Reversao: magisk --denylist rm com.playstation.remoteplay; magisk --denylist disable. Zygisk nao alterado neste teste.
+
+Teste executado: pacote adicionado aDenyList, enforcing confirmado, app reaberto; mesma mensagemAlgo deuerrado88001003 pelaUI. Semsucesso. Teste revertido: pacote removido e denylistdisabled; dadosdoapp preservados, Zygisknaoalterado.

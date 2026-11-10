@@ -1,0 +1,93 @@
+﻿Receiver Resolver Table:
+  Non-Data Actions:
+      com.netflix.partner.activation.intent.action.CHANNEL_ID_REQUEST:
+        eb0d9e1 com.netflix.partner.activation/.ChannelIdReceiver filter 8b58306
+          Action: "com.netflix.partner.activation.intent.action.CHANNEL_ID_REQUEST"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.netflix.partner.activation.permission.CHANNEL_ID] (f8ff54e):
+    sourcePackage=com.netflix.partner.activation
+    uid=10167 gids=[] type=0 prot=signature
+    perm=PermissionInfo{55d666f com.netflix.partner.activation.permission.CHANNEL_ID}
+    flags=0x0
+
+Key Set Manager:
+  [com.netflix.partner.activation]
+      Signing KeySets: 16
+
+Packages:
+  Package [com.netflix.partner.activation] (6d49f7c):
+    appId=10167
+    pkg=Package{707e005 com.netflix.partner.activation}
+    codePath=/system/app/Netflix_activationCommon
+    resourcePath=/system/app/Netflix_activationCommon
+    legacyNativeLibraryDir=/system/app/Netflix_activationCommon/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=205 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=1.0.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.netflix.partner.activation
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{d7a185a version:2, signatures:[bcfa260e], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.netflix.partner.activation.permission.CHANNEL_ID: prot=signature
+    requested permissions:
+      com.netflix.partner.activation.permission.CHANNEL_ID
+      android.permission.POST_NOTIFICATIONS
+    install permissions:
+      com.netflix.partner.activation.permission.CHANNEL_ID: granted=true
+    User 0: ceDataInode=4506 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.netflix.partner.activation]
+    path: /system/app/Netflix_activationCommon/Netflix_activationCommon.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@app@Netflix_activationCommon@Netflix_activationCommon.apk@classes.vdex]
+
+Compiler stats:
+  [com.netflix.partner.activation]
+     Netflix_activationCommon.apk - 737
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

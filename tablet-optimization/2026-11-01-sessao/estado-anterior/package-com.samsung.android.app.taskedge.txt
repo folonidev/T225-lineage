@@ -1,0 +1,428 @@
+﻿Receiver Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.app.taskedge.action.ONE_HANDED_MODE:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      send_samsung_analytics_status_logging:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.SHORTCUT_INFO_CHANGED:
+        f53c6b7 com.samsung.android.app.taskedge/.shortcut.ShortcutInfoReceiver filter 5c18e24
+          Action: "com.samsung.android.app.taskedge.action.SHORTCUT_INFO_CHANGED"
+      com.samsung.android.app.taskedge.action.HELP_UPDATE:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.android.launcher.action.UNINSTALL_SHORTCUT:
+        27e87db com.samsung.android.app.taskedge/.shortcut.UninstallShortcutReceiver filter ba6c278
+          Action: "com.android.launcher.action.UNINSTALL_SHORTCUT"
+      com.samsung.android.app.taskedge.action.panel_update:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      send_samsung_analytics_logging:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.RECORD_SCREEN:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.CLOSE_PANEL:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.sea.rm.DEMO_RESET_STARTED:
+        4d41753 com.samsung.android.app.taskedge/.settings.RetailResetReceiver filter a9b6890
+          Action: "com.samsung.sea.rm.DEMO_RESET_STARTED"
+      com.samsung.android.intent.action.REQUEST_BACKUP_EDGESCREEN_TASKEDGE_SETTING:
+        6118d51 com.samsung.android.app.taskedge/.backup.TaskEdgeBRReceiver filter c2e09b6
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_EDGESCREEN_TASKEDGE_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_EDGESCREEN_TASKEDGE_SETTING"
+      com.samsung.android.app.taskedge.action.SNAP_WINDOW:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.intent.action.REQUEST_RESTORE_EDGESCREEN_TASKEDGE_SETTING:
+        6118d51 com.samsung.android.app.taskedge/.backup.TaskEdgeBRReceiver filter c2e09b6
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_EDGESCREEN_TASKEDGE_SETTING"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_EDGESCREEN_TASKEDGE_SETTING"
+      com.samsung.android.app.taskedge.action.OPEN_PANEL:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.app.taskedge.action.MODIFY_PACKAGE:
+        2e938d5 com.samsung.android.app.taskedge/.edgepanel.TaskEdgePanelProvider filter 65c48ea
+          Action: "com.samsung.android.app.taskedge.action.ONE_HANDED_MODE"
+          Action: "send_samsung_analytics_status_logging"
+          Action: "com.samsung.android.cocktail.v2.action.COCKTAIL_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.HELP_UPDATE"
+          Action: "com.samsung.android.app.taskedge.action.NOT_SHOW_DELETED_TOAST"
+          Action: "com.samsung.android.app.taskedge.action.panel_update"
+          Action: "send_samsung_analytics_logging"
+          Action: "com.samsung.android.app.taskedge.action.START_SHORTCUT_INFO"
+          Action: "com.samsung.android.app.taskedge.action.RECORD_SCREEN"
+          Action: "com.samsung.android.app.taskedge.action.CLOSE_PANEL"
+          Action: "com.samsung.android.app.taskedge.action.SNAP_WINDOW"
+          Action: "com.samsung.android.app.taskedge.action.OPEN_PANEL"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+          Action: "com.samsung.android.app.taskedge.action.TAKE_SCREENSHOT"
+          Action: "com.samsung.android.app.taskedge.action.MODIFY_PACKAGE"
+      com.samsung.android.intent.action.CALL_BACK_RESTORE_TASK_EDGE:
+        90ad8d com.samsung.android.app.taskedge/.backup.RestoreContactShortcutReceiver filter a890b42
+          Action: "com.samsung.android.intent.action.CALL_BACK_RESTORE_TASK_EDGE"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.app.taskedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (a710e71):
+    sourcePackage=com.samsung.android.app.taskedge
+    uid=10065 gids=[] type=0 prot=signature
+    perm=PermissionInfo{efc456 com.samsung.android.app.taskedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.app.taskedge/androidx.startup.InitializationProvider:
+    Provider{46cfcd7 com.samsung.android.app.taskedge/androidx.startup.InitializationProvider}
+  com.samsung.android.app.taskedge/.data.TaskEdgeDataProvider:
+    Provider{cbb59c4 com.samsung.android.app.taskedge/.data.TaskEdgeDataProvider}
+
+ContentProvider Authorities:
+  [com.samsung.android.app.taskedge.data.TaskEdgeDataProvider]:
+    Provider{cbb59c4 com.samsung.android.app.taskedge/.data.TaskEdgeDataProvider}
+      applicationInfo=ApplicationInfo{2b720ad com.samsung.android.app.taskedge}
+  [com.samsung.android.app.taskedge.androidx-startup]:
+    Provider{46cfcd7 com.samsung.android.app.taskedge/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{6bbcfe2 com.samsung.android.app.taskedge}
+
+Key Set Manager:
+  [com.samsung.android.app.taskedge]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.app.taskedge] (21a8f73):
+    appId=10065
+    pkg=Package{2f64e30 com.samsung.android.app.taskedge}
+    codePath=/system/priv-app/TaskEdgePanel_v3.2
+    resourcePath=/system/priv-app/TaskEdgePanel_v3.2
+    legacyNativeLibraryDir=/system/priv-app/TaskEdgePanel_v3.2/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1510707000 minSdk=31 targetSdk=34
+    minExtensionVersions=[]
+    versionName=15.1.07.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.samsung.android.app.taskedge
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{7d21aa9 version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      android.permission.ACCESS_SHORTCUTS: prot=normal
+      com.samsung.android.app.taskedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.VIBRATE
+      android.permission.QUERY_ALL_PACKAGES
+      com.samsung.permission.CAPTURE
+      com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+      android.permission.START_ANY_ACTIVITY
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.STOP_APP_SWITCHES
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.INTERACT_ACROSS_USERS_FULL
+      android.permission.INJECT_EVENTS
+      com.samsung.android.app.screenrecorder.permission.ACCESS_SCREEN_RECORDER_SVC
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      com.sec.spp.permission.TOKEN_57a45ab59657f249c5f58dc7e94a409312be69aa0db60697e611e7413a2dcaeb465d7ee7493beec844e103506933b86c897620a5078345b9911d1fee794931823ab75ddff971898aa2b44c1d055d50c27ffe3541da79b3cf4e96de49719a14860e2806c8f14bfd84cd45e65bf05feb982f6bacdf80d3c6c39cd3efe70f1dc42f
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL
+      android.permission.READ_CONTACTS
+      com.samsung.sea.retailagent.permission.RETAILMODE
+      android.permission.POST_NOTIFICATIONS
+      android.permission.INTERACT_ACROSS_USERS
+      com.samsung.android.app.taskedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.START_ANY_ACTIVITY: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.app.screenrecorder.permission.ACCESS_SCREEN_RECORDER_SVC: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      com.samsung.permission.CAPTURE: granted=true
+      com.samsung.android.app.taskedge.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+    User 0: ceDataInode=4909 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3003]
+      runtime permissions:
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    com.samsung.android.app.taskedge
+  queries via package name:
+  queries via component:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.samsung.android.app.taskedge]
+    path: /system/priv-app/TaskEdgePanel_v3.2/TaskEdgePanel_v3.2.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@priv-app@TaskEdgePanel_v3.2@TaskEdgePanel_v3.2.apk@classes.vdex]
+
+Compiler stats:
+  [com.samsung.android.app.taskedge]
+     TaskEdgePanel_v3.2.apk - 976
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.

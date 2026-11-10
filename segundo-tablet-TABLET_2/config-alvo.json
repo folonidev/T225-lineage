@@ -1,0 +1,34 @@
+{
+  "serial": "TABLET_2",
+  "lineage": "21.0-20260614-UNOFFICIAL-arm64_bgN",
+  "magisk": "30.7",
+  "newpipe": "0.29.1",
+  "density": 200,
+  "font_scale": "1.05",
+  "animation_scales": "0",
+  "airplane_mode": 1,
+  "wifi": true,
+  "bluetooth": true,
+  "modules": [
+    "sistema2d_tweaks",
+    "sistema2d_bootanim",
+    "sistema2d_ui_ios",
+    "sistema2d_rom_provisioning"
+  ],
+  "disabled_packages": [
+    "com.google.android.googlequicksearchbox",
+    "com.google.android.apps.wellbeing",
+    "com.google.android.projection.gearhead",
+    "org.lineageos.eleven"
+  ],
+  "newpipe_preferences": {
+    "default_resolution": "720p",
+    "default_video_format": "video_mp4",
+    "default_popup_resolution": "480p",
+    "show_higher_resolutions": false,
+    "preferred_open_action_key": "video_player",
+    "preferred_open_action_last_selected": "video_player",
+    "theme": "auto_device_theme",
+    "night_theme": "dark_theme"
+  }
+}

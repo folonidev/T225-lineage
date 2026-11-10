@@ -1,0 +1,7 @@
+﻿Starting: Intent { cmp=com.android.chrome/com.google.android.apps.chrome.Main }
+Status: ok
+LaunchState: COLD
+Activity: com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity
+TotalTime: 1318
+WaitTime: 1325
+Complete

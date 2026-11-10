@@ -1,0 +1,379 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      com.android.settings.action.SETTINGS:
+        8d4cb49 com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.stubapp.StubSettingsActivity filter b9f616f
+          Action: "com.android.settings.action.SETTINGS"
+      android.intent.action.MAIN:
+        1af6713 com.google.android.projection.gearhead/com.google.android.gearhead.vanagon.VnLaunchPadActivity filter 4c8dd50
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        d667e7c com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubFirstActivity filter f15d305
+          Action: "android.intent.action.MAIN"
+          Action: "android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+          Category: "android.intent.category.DEFAULT"
+      android.hardware.usb.action.USB_ACCESSORY_ATTACHED:
+        d667e7c com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubFirstActivity filter f15d305
+          Action: "android.intent.action.MAIN"
+          Action: "android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+          Category: "android.intent.category.DEFAULT"
+      com.android.settings.action.IA_SETTINGS:
+        8d4cb49 com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.stubapp.StubSettingsActivity filter c00fc4e
+          Action: "com.android.settings.action.IA_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.accounts.action.ACCOUNT_REMOVED:
+        48e2114 com.google.android.projection.gearhead/com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver filter 8105dbd
+          Action: "android.accounts.action.ACCOUNT_REMOVED"
+      android.bluetooth.device.action.UUID:
+        65c4726 com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver filter 5c0f67
+          Action: "android.bluetooth.device.action.UUID"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        65c4726 com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver filter 5c0f67
+          Action: "android.bluetooth.device.action.UUID"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      com.google.android.apps.auto.components.app.fzero.ACTION_RESTORE_COMPLETE:
+        1db0668 com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.InternalFzeroReceiver filter 2a59a81
+          Action: "com.google.android.apps.auto.components.app.fzero.ACTION_RESTORE_COMPLETE"
+      android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED:
+        65c4726 com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver filter 5c0f67
+          Action: "android.bluetooth.device.action.UUID"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      android.intent.action.BOOT_COMPLETED:
+        d748f5a com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.FzeroReceiver filter 7eaa58b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED:
+        65c4726 com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver filter 5c0f67
+          Action: "android.bluetooth.device.action.UUID"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        d748f5a com.google.android.projection.gearhead/com.google.android.apps.auto.components.app.fzero.FzeroReceiver filter 7eaa58b
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        65c4726 com.google.android.projection.gearhead/com.google.android.apps.auto.carservice.gmscorecompatstub.StubCarBluetoothReceiver filter 5c0f67
+          Action: "android.bluetooth.device.action.UUID"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+      com.google.android.gms.phenotype.UPDATE:
+        8b5afb2 com.google.android.projection.gearhead/com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver filter 6903b03
+          Action: "com.google.android.gms.phenotype.UPDATE"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.google.android.build.data.Properties:
+        c847eac com.google.android.projection.gearhead/com.google.android.build.data.PropertiesServiceHolder filter 80a8775
+          Action: "com.google.android.build.data.Properties"
+      android.service.notification.NotificationListenerService:
+        4b63a80 com.google.android.projection.gearhead/com.google.android.gearhead.notifications.SharedNotificationListenerManager$ListenerService filter 66a18b9 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService:
+        6cb14fe com.google.android.projection.gearhead/com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService filter f51845f
+          Action: "com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (4005ac):
+    sourcePackage=com.google.android.projection.gearhead
+    uid=10138 gids=[] type=0 prot=signature
+    perm=PermissionInfo{c050275 com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY] (5fe20a):
+    sourcePackage=com.google.android.projection.gearhead
+    uid=10138 gids=[] type=0 prot=signature
+    perm=PermissionInfo{d6e7a7b com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY}
+    flags=0x0
+
+Key Set Manager:
+  [com.google.android.projection.gearhead]
+      Signing KeySets: 7
+
+Packages:
+  Package [com.google.android.projection.gearhead] (44fb0cb):
+    appId=10138
+    sharedUser=SharedUserSetting{77dd098 com.google.android.projection.gearhead/10138}
+    pkg=Package{3b050f1 com.google.android.projection.gearhead}
+    codePath=/system/product/priv-app/AndroidAutoStub
+    resourcePath=/system/product/priv-app/AndroidAutoStub
+    legacyNativeLibraryDir=/system/product/priv-app/AndroidAutoStub/lib
+    extractNativeLibs=false
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=12531830 minSdk=26 targetSdk=34
+    minExtensionVersions=[]
+    versionName=1.2.531830-stub
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.google.android.projection.gearhead
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2008-12-31 22:00:00
+    lastUpdateTime=2008-12-31 22:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{62214d6 version:3, signatures:[d2a5217f], past signatures:[159c4de5 flags: 17, d2a5217f flags: 17]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_UNRESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY: prot=signature
+      com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.WAKE_LOCK
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.QUERY_ALL_PACKAGES
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.VIBRATE
+      com.google.android.finsky.permission.GEARHEAD_SERVICE
+      androidx.car.app.NAVIGATION_TEMPLATES
+      androidx.car.app.ACCESS_SURFACE
+      android.permission.ASSOCIATE_COMPANION_DEVICES
+      android.permission.CALL_PHONE
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_CALL_LOG
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      com.google.android.gms.permission.CAR_SPEED
+      android.permission.RECEIVE_SMS
+      android.permission.SEND_SMS
+      android.permission.RECORD_AUDIO
+      android.permission.READ_CALENDAR
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.NEARBY_WIFI_DEVICES
+      android.permission.POST_NOTIFICATIONS
+      android.permission.ACTIVITY_EMBEDDING
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.CALL_PRIVILEGED
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE
+      android.permission.COMPANION_APPROVE_WIFI_CONNECTIONS
+      android.permission.LOCATION_HARDWARE
+      android.permission.CONTROL_INCALL_EXPERIENCE
+      android.permission.DUMP
+      android.permission.ENTER_CAR_MODE_PRIORITIZED
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.MANAGE_USB
+      android.permission.MODIFY_AUDIO_ROUTING
+      android.permission.MODIFY_DAY_NIGHT_MODE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.REQUEST_COMPANION_SELF_MANAGED
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.UPDATE_APP_OPS_STATS
+      android.permission.INTERACT_ACROSS_PROFILES
+      android.permission.WRITE_SETTINGS
+      com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY
+      com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.ADD_ALWAYS_UNLOCKED_DISPLAY
+      android.permission.CREATE_VIRTUAL_DEVICE
+      android.permission.TOGGLE_AUTOMOTIVE_PROJECTION
+      android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION
+      android.permission.ADD_TRUSTED_DISPLAY
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.TOGGLE_AUTOMOTIVE_PROJECTION: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.ENTER_CAR_MODE_PRIORITIZED: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.ACTIVITY_EMBEDDING: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.FOREGROUND_SERVICE_LOCATION: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.REQUEST_COMPANION_SELF_MANAGED: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.ASSOCIATE_COMPANION_DEVICES: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.MODIFY_DAY_NIGHT_MODE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ADD_ALWAYS_UNLOCKED_DISPLAY: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.CREATE_VIRTUAL_DEVICE: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      android.permission.ADD_TRUSTED_DISPLAY: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.COMPANION_APPROVE_WIFI_CONNECTIONS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.INTERACT_ACROSS_PROFILES: granted=false
+      com.google.android.finsky.permission.GEARHEAD_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY: granted=true
+      android.permission.CONTROL_INCALL_EXPERIENCE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION: granted=true, flags=[ GRANTED_BY_ROLE]
+    User 0: ceDataInode=2658 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 22:00:00
+      uninstallReason=0
+      overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /data/resource-cache/com.android.systemui-neutral-46cI.frro
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+        /data/resource-cache/com.android.systemui-accent-DORc.frro
+        /data/resource-cache/com.android.systemui-dynamic-sJUS.frro
+      legacy overlay paths:
+        /system/product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+        /system/product/overlay/ScreenCornersIOS/ScreenCornersIOS.apk
+        /system/product/overlay/IconShapeIOS/IconShapeIOS.apk
+      disabledComponents:
+        com.google.android.gearhead.vanagon.VnLaunchPadActivity
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.android.settings.intelligence:
+      com.google.android.projection.gearhead
+  queryable via interaction:
+    User 0:
+      com.google.android.projection.gearhead:
+        [com.android.localtransport,com.android.inputdevices,com.google.android.iwlan,lineageos.platform,org.lineageos.lineagesettings,com.android.providers.settings,android,com.android.dynsystem,com.android.keychain,com.android.location.fused,org.lineageos.mediatek.incallservice,me.phh.treble.app,me.phh.qcrilam,org.lineageos.lineageparts,org.lineageos.setupwizard,com.android.server.telecom,com.android.wallpaperbackup,com.android.DeviceAsWebcam,com.android.settings]
+      [com.google.android.gsf,com.google.android.gms]:
+        com.google.android.projection.gearhead
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [com.google.android.projection.gearhead] (77dd098):
+    appId=10138
+    Packages
+      PackageSetting{44fb0cb com.google.android.projection.gearhead/10138}
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.TOGGLE_AUTOMOTIVE_PROJECTION: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.ENTER_CAR_MODE_PRIORITIZED: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.ACTIVITY_EMBEDDING: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.FOREGROUND_SERVICE_LOCATION: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.REQUEST_COMPANION_SELF_MANAGED: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.ASSOCIATE_COMPANION_DEVICES: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.MODIFY_DAY_NIGHT_MODE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      com.google.android.projection.gearhead.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ADD_ALWAYS_UNLOCKED_DISPLAY: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.CREATE_VIRTUAL_DEVICE: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.FOREGROUND_SERVICE_MICROPHONE: granted=true
+      android.permission.ADD_TRUSTED_DISPLAY: granted=true, flags=[ GRANTED_BY_ROLE]
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.COMPANION_APPROVE_WIFI_CONNECTIONS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.INTERACT_ACROSS_PROFILES: granted=false
+      com.google.android.finsky.permission.GEARHEAD_SERVICE: granted=true
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.google.android.projection.gearhead.permission.START_PROJECTED_ACTIVITY: granted=true
+      android.permission.CONTROL_INCALL_EXPERIENCE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.REQUEST_COMPANION_PROFILE_AUTOMOTIVE_PROJECTION: granted=true, flags=[ GRANTED_BY_ROLE]
+    User 0: 
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|GRANTED_BY_ROLE]
+        android.permission.READ_CALL_LOG: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|GRANTED_BY_ROLE]
+        com.google.android.gms.permission.CAR_SPEED: granted=false
+        android.permission.NEARBY_WIFI_DEVICES: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|GRANTED_BY_ROLE]
+        android.permission.RECEIVE_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|GRANTED_BY_ROLE]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ GRANTED_BY_DEFAULT|GRANTED_BY_ROLE]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.SEND_SMS: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CALL_PHONE: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|GRANTED_BY_ROLE]
+
+Dexopt state:
+  [com.google.android.projection.gearhead]
+    path: /system/product/priv-app/AndroidAutoStub/AndroidAutoStub.apk
+      arm64: [status=verify] [reason=first-boot] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@product@priv-app@AndroidAutoStub@AndroidAutoStub.apk@classes.dex]
+
+Compiler stats:
+  [com.google.android.projection.gearhead]
+     AndroidAutoStub.apk - 421

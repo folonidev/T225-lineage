@@ -1,0 +1,6 @@
+﻿package:com.pinterest
+package:bitpit.launcher
+package:com.sec.android.app.sbrowser
+package:com.google.android.contactkeys
+package:com.google.android.verifier
+package:app.olauncher

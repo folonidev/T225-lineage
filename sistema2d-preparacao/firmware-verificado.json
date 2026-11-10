@@ -1,0 +1,12 @@
+{
+  "firmware": "D:\\tablet-sistema2d\\firmware-samsung\\SM-T225_4_20250524034241_cnxe51mdi0_fac.zip",
+  "pacotes": [
+    "D:\\tablet-sistema2d\\firmware-samsung\\extraido\\AP_T225XXSBEYE1_T225XXSBEYE1_MQB95928736_REV00_user_low_ship_MULTI_CERT_meta_RKEY_OS14.tar.md5",
+    "D:\\tablet-sistema2d\\firmware-samsung\\extraido\\BL_T225XXSBEYE1_T225XXSBEYE1_MQB95928736_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "D:\\tablet-sistema2d\\firmware-samsung\\extraido\\CP_T225XXSBEYE1_CP30168664_MQB95928736_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "D:\\tablet-sistema2d\\firmware-samsung\\extraido\\CSC_OWO_T225OWOBEYE1_QB96118624_REV00_user_low_ship_MULTI_CERT.tar.md5",
+    "D:\\tablet-sistema2d\\firmware-samsung\\extraido\\HOME_CSC_OWO_T225OWOBEYE1_QB96118624_REV00_user_low_ship_MULTI_CERT.tar.md5"
+  ],
+  "boot_original": "D:\\tablet-sistema2d\\imagens\\boot.img.lz4",
+  "validacao": "CRC ZIP e MD5 dos pacotes validados; nao aplicado ao tablet"
+}

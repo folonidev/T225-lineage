@@ -1,0 +1,1825 @@
+﻿Activity Resolver Table:
+  Full MIME Types:
+      routines/nfc_tagged:
+        9eb8f37 com.samsung.android.app.routines/.preloadproviders.system.conditions.nfc.SepPreloadNfcReaderActivity filter a78eca4
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "routines/nfc_tagged"
+
+  Base MIME Types:
+      routines:
+        9eb8f37 com.samsung.android.app.routines/.preloadproviders.system.conditions.nfc.SepPreloadNfcReaderActivity filter a78eca4
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "routines/nfc_tagged"
+
+  Schemes:
+      routines:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter a2c9438
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "routines"
+          Authority: "main": -1
+          Path: "PatternMatcher{LITERAL: /launch}"
+
+  Non-Data Actions:
+      com.samsung.android.app.routines.NAVI_LAUNCH_FOR_SEARCH:
+        120c867 com.samsung.android.app.routines/.ui.search.RoutineMainSearchActivity filter eaee614
+          Action: "com.samsung.android.app.routines.NAVI_LAUNCH_FOR_SEARCH"
+          Action: "android.intent.action.SEARCH"
+      com.samsung.android.app.routines.START_INTERIM_PAGE:
+        b0b707b com.samsung.android.app.routines/.ui.interim.InterimPageActivity filter a468e98
+          Action: "com.samsung.android.app.routines.START_INTERIM_PAGE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.action.SETTINGS:
+        f42594e com.samsung.android.app.routines/.ui.main.RoutineSettingsMainTabActivity filter 6c9fa6f
+          Action: "com.samsung.android.app.routines.action.SETTINGS"
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      android.settings.BEDTIME_SETTINGS:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        5989405 com.samsung.android.app.routines/.ui.main.RoutineLaunchActivityDummy filter feebc5a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        da5ce8b com.samsung.android.app.routines/.ui.main.RoutineFinderActivity filter f097b68
+          Action: "android.intent.action.MAIN"
+          Category: "com.samsung.android.scs.ai.search.category.SEARCHABLE_ACTIVITY"
+        bd69957 com.samsung.android.app.routines/.preloadproviders.system.conditions.ringmode.ConfigRingerModeActivity filter d61fc44
+          Action: "android.intent.action.MAIN"
+        e2d512d com.samsung.android.app.routines/.preloadproviders.settings.actions.soundmodeandvolume.SoundModeVolumeConfigActivity filter dd57662
+          Action: "android.intent.action.MAIN"
+        fc173f3 com.samsung.android.app.routines/.preloadproviders.settings.actions.mediavolume.MediaVolumeActivity filter 7a498b0
+          Action: "android.intent.action.MAIN"
+        fbad329 com.samsung.android.app.routines/.preloadproviders.v3.settings.actions.coverscreenbrightness.CoverScreenBrightnessConfigActivity filter 99896ae
+          Action: "android.intent.action.MAIN"
+        c755c4f com.samsung.android.app.routines/.preloadproviders.v3.settings.actions.vibration.VibrateOnceConfigActivity filter 4328fdc
+          Action: "android.intent.action.MAIN"
+        18478e5 com.samsung.android.app.routines/.preloadproviders.system.actions.hardkey.HardKeyConfigActivity filter 85b6fba
+          Action: "android.intent.action.MAIN"
+        86eea0d com.samsung.android.app.routines/.preloadproviders.settings.actions.powersavingmode.PowerSavingModeSettingActivity filter 597cdc2
+          Action: "android.intent.action.MAIN"
+        e2d1a09 com.samsung.android.app.routines/.preloadproviders.bixby.actions.textcommand.BixbyTextCommandActionConfigActivity filter 319040e
+          Action: "android.intent.action.MAIN"
+      com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION:
+        537337f com.samsung.android.app.routines/.ui.main.MainModeTabLaunchActivity filter d6bcf4c
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+        d89b95 com.samsung.android.app.routines/.ui.main.MainRoutineTabLaunchActivity filter 5dfd4aa
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+        f42594e com.samsung.android.app.routines/.ui.main.RoutineSettingsMainTabActivity filter 6c9fa6f
+          Action: "com.samsung.android.app.routines.action.SETTINGS"
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+          Category: "android.intent.category.DEFAULT"
+        1678403 com.samsung.android.app.routines/.ui.settings.RoutineSettingsMenuActivity filter 9e4f80
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.app.routines.SELECT_FACE_WIDGET:
+        93f8875 com.samsung.android.app.routines/.ui.settings.lockscreenwidget.RoutineUseLockscreenWidgetActivity filter b1ef00a
+          Action: "com.samsung.android.app.routines.SELECT_FACE_WIDGET"
+          Category: "android.intent.category.DEFAULT"
+      com.sec.android.intent.action.SEC_APPLICATION_SETTINGS:
+        1678403 com.samsung.android.app.routines/.ui.settings.RoutineSettingsMenuActivity filter 9e4f80
+          Action: "com.samsung.android.app.routines.SETTING_SEARCH_CLICK_ACTION"
+          Action: "com.sec.android.intent.action.SEC_APPLICATION_SETTINGS"
+          Category: "com.sec.android.intent.category.SEC_APPLICATION_SETTINGS"
+      com.samsung.android.app.routines.ACTION_MAKE_ROUTINE:
+        20a3ebd com.samsung.android.app.routines/.ui.routine.details.DetailActivity filter a87cb2
+          Action: "com.samsung.android.app.routines.ACTION_MAKE_ROUTINE"
+          Action: "com.samsung.android.app.routines.NAVI_DETAIL_FOR_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        ca109b9 com.samsung.android.app.routines/.ui.appwidget.setting.SingleWidgetSettingActivity filter f9db1fe
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA:
+        ad45d5f com.samsung.android.app.routines/.ui.settings.about.RoutineAppPermissionActivity filter 758e3ac
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.action.LAUNCH_MODE_TAB:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.action.LAUNCH_MODE_LIST_DIALOG:
+        10d36f1 com.samsung.android.app.routines/.ui.mode.dialog.lockscreen.LifestyleModeDialogActivity filter 8c402d6
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_LIST_DIALOG"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.gts.action.GTS_SETTINGS:
+        f42594e com.samsung.android.app.routines/.ui.main.RoutineSettingsMainTabActivity filter f27a37c
+          Action: "com.samsung.android.gts.action.GTS_SETTINGS"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE:
+        895889b com.samsung.android.app.routines/.ui.main.RoutineLaunchActivity filter 5745c11
+          Action: "android.settings.BEDTIME_SETTINGS"
+          Action: "com.samsung.android.app.routines.action.SHORTCUT_CREATE_ROUTINE"
+          Action: "com.samsung.android.app.routines.LAUNCH_SETTINGS_MAIN"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_MODE_TAB"
+          Action: "com.samsung.android.app.routines.NAVI_MAIN_FOR_FACEWIDGET"
+          Action: "com.samsung.android.app.routines.action.LAUNCH_ROUTINE_TAB"
+          Action: "com.samsung.android.app.routines.LAUNCH_BEDTIME_MODE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SHOW_SUSPENDED_APP_DETAILS:
+        cbe9176 com.samsung.android.app.routines/.ui.main.RoutineLaunchFromSuspendApp filter 4ba1377
+          Action: "android.intent.action.SHOW_SUSPENDED_APP_DETAILS"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.app.routines.NAVI_DETAIL_FOR_SEARCH:
+        20a3ebd com.samsung.android.app.routines/.ui.routine.details.DetailActivity filter a87cb2
+          Action: "com.samsung.android.app.routines.ACTION_MAKE_ROUTINE"
+          Action: "com.samsung.android.app.routines.NAVI_DETAIL_FOR_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      com.samsung.android.spv.ACTION_VIEW_DETAIL:
+        ad45d5f com.samsung.android.app.routines/.ui.settings.about.RoutineAppPermissionActivity filter 758e3ac
+          Action: "com.sec.android.app.secsetupwizard.APP_PERMISSIONS_FOR_CHINA"
+          Action: "com.samsung.android.spv.ACTION_VIEW_DETAIL"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        a32bbe4 com.samsung.android.app.routines/.ui.adder.action.AddActionActivity filter 331a84d
+          Action: "android.intent.action.SEARCH"
+        5fa4f02 com.samsung.android.app.routines/.ui.adder.condition.AddConditionActivity filter d327013
+          Action: "android.intent.action.SEARCH"
+        e51b250 com.samsung.android.app.routines/.ui.adder.common.search.AddSearchActivity filter 6fd7c49
+          Action: "android.intent.action.SEARCH"
+        5136b81 com.samsung.android.app.routines/.ui.routine.discover.DiscoverActivity filter acc4426
+          Action: "android.intent.action.SEARCH"
+        120c867 com.samsung.android.app.routines/.ui.search.RoutineMainSearchActivity filter eaee614
+          Action: "com.samsung.android.app.routines.NAVI_LAUNCH_FOR_SEARCH"
+          Action: "android.intent.action.SEARCH"
+        ed56e6b com.samsung.android.app.routines/.preloadproviders.apps.conditions.openapp.OpenAppConditionActivity filter a46cdc8
+          Action: "android.intent.action.SEARCH"
+        388be61 com.samsung.android.app.routines/.preloadproviders.system.conditions.notification.keyword.apppicker.NotificationMultiAppPickerActivity filter b40cd86
+          Action: "android.intent.action.SEARCH"
+        4da8647 com.samsung.android.app.routines/.preloadproviders.apps.actions.closeapp.CloseAppSettingActivity filter 7defe74
+          Action: "android.intent.action.SEARCH"
+        d31df9d com.samsung.android.app.routines/.preloadproviders.v3.settings.actions.suspendapp.SuspendAppSettingActivity filter cc3c12
+          Action: "android.intent.action.SEARCH"
+        92f3fe3 com.samsung.android.app.routines/.preloadproviders.v3.apps.actions.apppair.AppPairSettingActivity filter b278de0
+          Action: "android.intent.action.SEARCH"
+        851d899 com.samsung.android.app.routines/.preloadproviders.v3.system.actions.readnotifications.ReadNotificationsConfigActivity filter a2e075e
+          Action: "android.intent.action.SEARCH"
+        c8bf73f com.samsung.android.app.routines/.preloadproviders.apps.actions.openapp.SepPreloadLaunchAppSettingActivity filter 6a7a80c
+          Action: "android.intent.action.SEARCH"
+        fde6555 com.samsung.android.app.routines/.preloadproviders.system.actions.playmedia.MediaSingleAppPickerActivity filter 94f3b6a
+          Action: "android.intent.action.SEARCH"
+        8d2c85b com.samsung.android.app.routines/.preloadproviders.settings.actions.separateappsound.config.SeparateAppSoundAppPickerActivity filter c2d38f8
+          Action: "android.intent.action.SEARCH"
+        e6d01d1 com.samsung.android.app.routines/.preloadproviders.v3.system.actions.readnotifications.ReadNotificationsMultiAppPickerActivity filter 39da436
+          Action: "android.intent.action.SEARCH"
+        85fe7d3 com.samsung.android.app.routines/.preloadproviders.settings.actions.lockscreenshortcut.LockScreenShortcutAppPickerActivity filter 9aa2f10
+          Action: "android.intent.action.SEARCH"
+        1b72e2f com.samsung.android.app.routines/.preloadproviders.samsunghealth.conditions.exercise.SamsungHealthExerciseSettingActivity filter 26b2c3c
+          Action: "android.intent.action.SEARCH"
+        a927e4b com.samsung.android.app.routines/.preloadproviders.v3.settings.conditions.mobiledata.MobileDataConfigActivity filter bdcd028
+          Action: "android.intent.action.SEARCH"
+        b610141 com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.media.MediaConditionMultiAppPickerActivity filter ff586e6
+          Action: "android.intent.action.SEARCH"
+      com.samsung.android.app.routine.intent.ACTION_LAUNCH_URL_ACTION_CONFIG:
+        1844dc5 com.samsung.android.app.routines/.preloadproviders.v3.settings.actions.website.UrlActionConfigActivity filter 65531a
+          Action: "com.samsung.android.app.routine.intent.ACTION_LAUNCH_URL_ACTION_CONFIG"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.nfc.action.NDEF_DISCOVERED:
+        9eb8f37 com.samsung.android.app.routines/.preloadproviders.system.conditions.nfc.SepPreloadNfcReaderActivity filter a78eca4
+          Action: "android.nfc.action.NDEF_DISCOVERED"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "routines/nfc_tagged"
+
+Receiver Resolver Table:
+  Full MIME Types:
+      application/vnd.wap.mms-message:
+        856011f com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.message.receiver.MmsMessageReceiver filter df01c6c
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.wap.mms-message"
+
+  Base MIME Types:
+      application:
+        856011f com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.message.receiver.MmsMessageReceiver filter df01c6c
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.wap.mms-message"
+
+  Schemes:
+      content:
+        91ef15d com.samsung.android.app.routines/.domainmodel.receiver.RunestoneReceiver filter aa54ad2
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "com.samsung.android.rubin.context.tpocontext": -1
+        91ef15d com.samsung.android.app.routines/.domainmodel.receiver.RunestoneReceiver filter 59907a3
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "com.samsung.android.rubin.context.placeevent": -1
+          Path: "PatternMatcher{GLOB: /current_place_event.*}"
+        91ef15d com.samsung.android.app.routines/.domainmodel.receiver.RunestoneReceiver filter d8e1aa0
+          Action: "android.intent.action.PROVIDER_CHANGED"
+          Scheme: "content"
+          Authority: "com.samsung.android.rubin.persona.preferredsettings": -1
+          Path: "PatternMatcher{GLOB: /settings.*}"
+
+  Non-Data Actions:
+      com.samsung.android.app.routines.update_widget_icon:
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        8d39779 com.samsung.android.app.routines/.ui.groupwidget.GroupWidgetProvider filter ad48cbe
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      android.intent.action.BATTERY_OKAY:
+        92d76f6 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter adecaf7
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        1c09db8 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3616791
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.samsung.sec.android.clockpackage.alarm.ACTION_ROUTINE_BEDTIME_WAKEUPTIME:
+        3f0f517 com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.sleepschedule.SleepScheduleBroadcastReceiver filter f0f8d04
+          Action: "com.samsung.sec.android.clockpackage.alarm.ACTION_ROUTINE_BEDTIME_WAKEUPTIME"
+      com.samsung.android.scpm.policy.CLEAR_DATA:
+        bca40cc com.samsung.android.app.routines/.domainmodel.policy.policyserver.PolicyServerReceiver filter ea3ef15
+          Action: "com.samsung.android.scpm.policy.CLEAR_DATA"
+          Action: "com.samsung.android.scpm.policy.UPDATE.ROUTINES_GENERIC"
+      com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS:
+        de3622a com.samsung.android.app.routines/.domainmodel.facewidget.RoutineFaceWidgetProvider filter 835c81b
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.app.routine.action.CLICK_TO_START_DASHBOARD"
+      com.samsung.android.scloud.app.broadcast.ACTION_RESTORATION_COMPLETED:
+        f8c50e9 com.samsung.android.app.routines/.feature.backup.RoutineRestoreEventReceiver filter c9ba16e
+          Action: "com.samsung.android.scloud.app.broadcast.ACTION_RESTORATION_COMPLETED"
+          Action: "com.samsung.android.intent.action.SMART_SWITCH_RESTORE_COMPLETED"
+      com.samsung.android.rubin.CLEAR_ALL_DATA:
+        91ef15d com.samsung.android.app.routines/.domainmodel.receiver.RunestoneReceiver filter 95e4659
+          Action: "com.samsung.android.rubin.CLEAR_ALL_DATA"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        8c574fc com.samsung.android.app.routines/androidx.profileinstaller.ProfileInstallReceiver filter b94ee0b
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        4bddd64 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter da3ebcd
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.android.app.routine.stop_custom_noti:
+        763903b com.samsung.android.app.routines/.preloadproviders.system.actions.customnoti.SepPreloadCustomNotiReceiver filter 3f89358
+          Action: "com.samsung.android.app.routine.stop_custom_noti"
+      android.intent.action.DEVICE_STORAGE_OK:
+        4bddd64 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter da3ebcd
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.samsung.android.intent.action.REQUEST_BACKUP_MODES_FOR_WATCH:
+        287700f com.samsung.android.app.routines/.feature.backup.RoutineSmartSwitchReceiver filter 269789c
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_STAND_ALONE"
+      com.samsung.android.app.routines.update_widget:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        8d39779 com.samsung.android.app.routines/.ui.groupwidget.GroupWidgetProvider filter ad48cbe
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      android.intent.action.LOCALE_CHANGED:
+        bae72ed com.samsung.android.app.routines/.feature.aisearch.receiver.BixbySearchIndexClearReceiver filter 995522
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.search.ACTION_UPDATE_INDEX"
+        9235207 com.samsung.android.app.routines/.domainmodel.receiver.RoutineBroadcastReceiver filter f723f34
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.intent.ACTION_REQUEST_RECOMMEND_FORCED_REGISTRATION"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.android.scpm.policy.UPDATE.ROUTINES_GENERIC:
+        bca40cc com.samsung.android.app.routines/.domainmodel.policy.policyserver.PolicyServerReceiver filter ea3ef15
+          Action: "com.samsung.android.scpm.policy.CLEAR_DATA"
+          Action: "com.samsung.android.scpm.policy.UPDATE.ROUTINES_GENERIC"
+      com.samsung.sea.rm.DEMO_RESET_STARTED:
+        869421e com.samsung.android.app.routines/.domainmodel.retailmode.RetailModeReceiver filter 82a7aff
+          Action: "com.samsung.sea.rm.DEMO_RESET_STARTED"
+      com.samsung.android.app.routines.intent.ACTION_REQUEST_RECOMMEND_FORCED_REGISTRATION:
+        9235207 com.samsung.android.app.routines/.domainmodel.receiver.RoutineBroadcastReceiver filter f723f34
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.intent.ACTION_REQUEST_RECOMMEND_FORCED_REGISTRATION"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.samsung.intent.action.LAZY_BOOT_COMPLETE:
+        385cbb3 com.samsung.android.app.routines/.feature.aisearch.receiver.CheckSchemaRegistrationStatusReceiver filter 37a7570
+          Action: "com.samsung.intent.action.LAZY_BOOT_COMPLETE"
+      com.samsung.rcs.framework.instantmessaging.action.RECEIVE_NEW_MESSAGE:
+        f6d3235 com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.message.receiver.RcsMessageReceiver filter c8b6ca
+          Action: "com.samsung.rcs.framework.instantmessaging.action.RECEIVE_NEW_MESSAGE"
+          Category: "com.samsung.rcs.framework.instantmessaging.category.ACTION"
+          Category: "com.samsung.rcs.framework.instantmessaging"
+          mPriority=1, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        8c574fc com.samsung.android.app.routines/androidx.profileinstaller.ProfileInstallReceiver filter c9fc785
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.samsung.android.intent.action.RESTORE_ENABLE_APPICON:
+        e5012a5 com.samsung.android.app.routines/.feature.backup.AppIconEnableEventReceiver filter e64667a
+          Action: "com.samsung.android.intent.action.RESTORE_ENABLE_APPICON"
+      com.samsung.android.app.routines.ACTION_EXPIRED_TIME:
+        8d43421 com.samsung.android.app.routines/.domainmodel.runestone.TpoExpireReceiver filter cc27046
+          Action: "com.samsung.android.app.routines.ACTION_EXPIRED_TIME"
+      com.samsung.android.app.routines.search.ACTION_UPDATE_INDEX:
+        bae72ed com.samsung.android.app.routines/.feature.aisearch.receiver.BixbySearchIndexClearReceiver filter 995522
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.search.ACTION_UPDATE_INDEX"
+      com.samsung.android.intent.action.REQUEST_RESTORE_MODES_FOR_WATCH:
+        287700f com.samsung.android.app.routines/.feature.backup.RoutineSmartSwitchReceiver filter 269789c
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_STAND_ALONE"
+      com.samsung.android.app.routines.SLEEP_SCHEDULE_CHANGED:
+        454fe2b com.samsung.android.app.routines/.domainmodel.modeinfoprovider.SleepScheduleReceiver filter de38288
+          Action: "com.samsung.android.app.routines.SLEEP_SCHEDULE_CHANGED"
+      android.intent.action.BATTERY_LOW:
+        92d76f6 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter adecaf7
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        e320c82 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9ab1f93
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.TIME_SET:
+        e320c82 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9ab1f93
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        8c574fc com.samsung.android.app.routines/androidx.profileinstaller.ProfileInstallReceiver filter 4b0a9da
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      com.samsung.android.app.routines.trigger_on:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      com.samsung.android.intent.action.SMART_SWITCH_RESTORE_COMPLETED:
+        f8c50e9 com.samsung.android.app.routines/.feature.backup.RoutineRestoreEventReceiver filter c9ba16e
+          Action: "com.samsung.android.scloud.app.broadcast.ACTION_RESTORATION_COMPLETED"
+          Action: "com.samsung.android.intent.action.SMART_SWITCH_RESTORE_COMPLETED"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        8c574fc com.samsung.android.app.routines/androidx.profileinstaller.ProfileInstallReceiver filter 672e4e8
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        9235207 com.samsung.android.app.routines/.domainmodel.receiver.RoutineBroadcastReceiver filter f723f34
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.intent.ACTION_REQUEST_RECOMMEND_FORCED_REGISTRATION"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+        e320c82 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 9ab1f93
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        1c09db8 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 3616791
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+      com.sec.android.intent.action.WALLPAPER_CHANGED:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        8d39779 com.samsung.android.app.routines/.ui.groupwidget.GroupWidgetProvider filter ad48cbe
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      com.samsung.android.intent.action.REQUEST_RESTORE_MODES_STAND_ALONE:
+        287700f com.samsung.android.app.routines/.feature.backup.RoutineSmartSwitchReceiver filter 269789c
+          Action: "com.samsung.android.intent.action.REQUEST_BACKUP_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_FOR_WATCH"
+          Action: "com.samsung.android.intent.action.REQUEST_RESTORE_MODES_STAND_ALONE"
+      com.samsung.android.app.routines.trigger_off:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      com.samsung.android.app.shealth.intent.action.HEALTH_CONTEXT_EXERCISE_UPDATED:
+        bcbbcb1 com.samsung.android.app.routines/.preloadproviders.samsunghealth.conditions.SamsungHealthReceiver filter b237596
+          Action: "com.samsung.android.app.shealth.intent.action.HEALTH_CONTEXT_EXERCISE_UPDATED"
+      com.samsung.android.app.routine.action.CLICK_TO_START_DASHBOARD:
+        de3622a com.samsung.android.app.routines/.domainmodel.facewidget.RoutineFaceWidgetProvider filter 835c81b
+          Action: "com.samsung.android.intent.action.REQUEST_SERVICEBOX_REMOTEVIEWS"
+          Action: "com.samsung.android.app.routine.action.CLICK_TO_START_DASHBOARD"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        8d39779 com.samsung.android.app.routines/.ui.groupwidget.GroupWidgetProvider filter ad48cbe
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        2f86ece com.samsung.android.app.routines/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 6de21ef
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        9235207 com.samsung.android.app.routines/.domainmodel.receiver.RoutineBroadcastReceiver filter f723f34
+          Action: "android.intent.action.LOCALE_CHANGED"
+          Action: "com.samsung.android.app.routines.intent.ACTION_REQUEST_RECOMMEND_FORCED_REGISTRATION"
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      com.sec.android.widgetapp.APPWIDGET_RESIZE:
+        688b427 com.samsung.android.app.routines/.appwidget.RoutineAppWidgetProvider filter c42c6d4
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        cfb707d com.samsung.android.app.routines/.ui.appwidget.RoutineAppWidgetProvider filter 1032b72
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        1c26bc3 com.samsung.android.app.routines/.ui.appwidget.SingleWidgetModeProvider filter 86f7c40
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.samsung.android.app.routines.trigger_on"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "com.samsung.android.app.routines.trigger_off"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+        8d39779 com.samsung.android.app.routines/.ui.groupwidget.GroupWidgetProvider filter ad48cbe
+          Action: "com.samsung.android.app.routines.update_widget_icon"
+          Action: "com.samsung.android.app.routines.update_widget"
+          Action: "com.sec.android.intent.action.WALLPAPER_CHANGED"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.sec.android.widgetapp.APPWIDGET_RESIZE"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        2d6bd0 com.samsung.android.app.routines/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter d1077c9
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+  MIME Typed Actions:
+      android.provider.Telephony.WAP_PUSH_RECEIVED:
+        856011f com.samsung.android.app.routines/.preloadproviders.v3.system.conditions.message.receiver.MmsMessageReceiver filter df01c6c
+          Action: "android.provider.Telephony.WAP_PUSH_RECEIVED"
+          StaticType: "application/vnd.wap.mms-message"
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 2b343cf
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /requestRoutine}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 617215c
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /routineStart}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter d2b6c65
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /routineStop}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 1a21d3a
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /masterSwitchEnabled}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter bca4deb
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /requestAddNewManualRoutine}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 7a2f748
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /requestMasterSwitchEnabled}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 16b69e1
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /requestRoutineIcons}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter a04d306
+          Action: "com.google.android.gms.wearable.CAPABILITY_CHANGED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /capability_complication}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 8fdddc7
+          Action: "com.google.android.gms.wearable.CAPABILITY_CHANGED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /capability_mode_mirroring_client_wear}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter c943ff4
+          Action: "com.google.android.gms.wearable.DATA_CHANGED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{PREFIX: /mode/}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 153c31d
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/current}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter b8b1992
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/add-mode}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 4f08f63
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/set-on-phone}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter faf6760
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/wake-up-alarm-off}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 36e7419
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/wake-up-alarm-keep}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 1bd3cde
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/refresh-state-all}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 7d2bebf
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/refresh-state-current}"
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter 193998c
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{LITERAL: /mode/request/refresh-suspend-apps}"
+
+  Non-Data Actions:
+      android.service.trust.TrustAgentService:
+        754ad com.samsung.android.app.routines/.preloadproviders.system.actions.trustlock.SepRoutineTrustAgentService filter 9b9f3e2 permission android.permission.BIND_TRUST_AGENT
+          Action: "android.service.trust.TrustAgentService"
+          Category: "android.intent.category.DEFAULT"
+      android.service.quicksettings.action.QS_TILE:
+        bad10d7 com.samsung.android.app.routines/.LifestyleModeTile filter 11bddc4 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+      android.service.notification.NotificationListenerService:
+        f47e373 com.samsung.android.app.routines/.preloadproviders.common.notification.PreloadNotificationListenerService filter 6db1230 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      com.google.android.gms.wearable.BIND_LISTENER:
+        bf18ea9 com.samsung.android.app.routines/.feature.wear.WearListenerService filter f076c2e
+          Action: "com.google.android.gms.wearable.BIND_LISTENER"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      com.samsung.android.sdk.command.COMMAND_PROVIDER:
+        b660271 com.samsung.android.app.routines/com.samsung.android.sdk.command.provider.CommandProvider filter 393a856
+          Action: "com.samsung.android.sdk.command.COMMAND_PROVIDER"
+      com.samsung.android.intent.action.SCENE:
+        b2b1383 com.samsung.android.app.routines/.feature.backup.RoutineEpisodeProviderEx filter b9b6900
+          Action: "com.samsung.android.intent.action.SCENE"
+      com.samsung.android.search.intent.ACTION_CONTENT_SEARCH:
+        129e539 com.samsung.android.app.routines/.feature.search.RoutineSearchProvider filter 5c4277e
+          Action: "com.samsung.android.search.intent.ACTION_CONTENT_SEARCH"
+      com.samsung.android.action.SETTINGS_AUTOMATION:
+        20164df com.samsung.android.app.routines/.feature.search.SettingSuggestionSearchProvider filter ace152c
+          Action: "com.samsung.android.action.SETTINGS_AUTOMATION"
+      com.samsung.android.SDK.routine.ROUTINE_CONDITION_UPDATE:
+        ba25fe7 com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineConditionProvider filter 1056794
+          Action: "com.samsung.android.SDK.routine.ROUTINE_CONDITION_UPDATE"
+      com.samsung.android.sdk.routines.v3.ROUTINE_PROVIDER:
+        8c16ffb com.samsung.android.app.routines/com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider filter 19d5818
+          Action: "com.samsung.android.sdk.routines.v3.ROUTINE_PROVIDER"
+      com.samsung.android.SDK.routine.ROUTINE_ACTION_UPDATE:
+        554623d com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineActionProvider filter 30a9a32
+          Action: "com.samsung.android.SDK.routine.ROUTINE_ACTION_UPDATE"
+      com.samsung.android.gts.action.GTS_CELL:
+        3a9bf5 com.samsung.android.app.routines/.feature.gts.provider.RoutineGtsCellProvider filter 8f73d8a
+          Action: "com.samsung.android.gts.action.GTS_CELL"
+          Category: "com.samsung.android.gts.category.DEFAULT"
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        41a5701 com.samsung.android.app.routines/.ui.settings.search.RoutineSettingsMenuSearchProvider filter 17f89a6
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.WRITE_MODE_INFO] (862a00e):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{7969a2f com.samsung.android.app.routines.permission.WRITE_MODE_INFO}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.READ_MODE_INFO] (d74283c):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{91f99c5 com.samsung.android.app.routines.permission.READ_MODE_INFO}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.BIXBY_PROVIDER] (6acaf1a):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{cfcaa4b com.samsung.android.app.routines.permission.BIXBY_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES] (4798c28):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{f650d41 com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.WRITE_ROUTINE_INFO] (956a2e6):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{369a027 com.samsung.android.app.routines.permission.WRITE_ROUTINE_INFO}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.ROUTINE_HOST] (7ef42d4):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{b343c7d com.samsung.android.app.routines.permission.ROUTINE_HOST}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.READ_ROUTINE_INFO] (55a0772):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{9c617c3 com.samsung.android.app.routines.permission.READ_ROUTINE_INFO}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (867b840):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fcd2379 com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.samsung.android.app.routines.permission.RECEIVE_SLEEP_SCHEDULE] (3bd28be):
+    sourcePackage=com.samsung.android.app.routines
+    uid=10067 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{ae86d1f com.samsung.android.app.routines.permission.RECEIVE_SLEEP_SCHEDULE}
+    flags=0x0
+
+Registered ContentProviders:
+  com.samsung.android.app.routines/.feature.gts.provider.RoutineGtsCellProvider:
+    Provider{3a9bf5 com.samsung.android.app.routines/.feature.gts.provider.RoutineGtsCellProvider}
+  com.samsung.android.app.routines/.feature.bixby.RoutineBixbyProvider:
+    Provider{b30186c com.samsung.android.app.routines/.feature.bixby.RoutineBixbyProvider}
+  com.samsung.android.app.routines/.domainmodel.routineinfoprovider.RoutineInfoProvider:
+    Provider{a737e35 com.samsung.android.app.routines/.domainmodel.routineinfoprovider.RoutineInfoProvider}
+  com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineActionProvider:
+    Provider{554623d com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineActionProvider}
+  com.samsung.android.app.routines/com.sec.android.diagmonagent.log.provider.DiagMonProvider:
+    Provider{59f12ca com.samsung.android.app.routines/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+  com.samsung.android.app.routines/com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider:
+    Provider{8c16ffb com.samsung.android.app.routines/com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider}
+  com.samsung.android.app.routines/.domainmodel.runestone.provider.RunestoneContextProvider:
+    Provider{eb0bc3b com.samsung.android.app.routines/.domainmodel.runestone.provider.RunestoneContextProvider}
+  com.samsung.android.app.routines/.domainmodel.routinecontentprovider.RoutineContentProvider:
+    Provider{b3c4f58 com.samsung.android.app.routines/.domainmodel.routinecontentprovider.RoutineContentProvider}
+  com.samsung.android.app.routines/.feature.search.RoutineSearchProvider:
+    Provider{129e539 com.samsung.android.app.routines/.feature.search.RoutineSearchProvider}
+  com.samsung.android.app.routines/androidx.startup.InitializationProvider:
+    Provider{eeac8b1 com.samsung.android.app.routines/androidx.startup.InitializationProvider}
+  com.samsung.android.app.routines/com.samsung.android.sdk.bixby2.provider.CapsuleProvider:
+    Provider{d039196 com.samsung.android.app.routines/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+  com.samsung.android.app.routines/.domainmodel.search.SearchHistoryProvider:
+    Provider{e4e117 com.samsung.android.app.routines/.domainmodel.search.SearchHistoryProvider}
+  com.samsung.android.app.routines/.domainmodel.engineimpl.coordinator.impl.CoordinatorRequestReceiver:
+    Provider{cd30904 com.samsung.android.app.routines/.domainmodel.engineimpl.coordinator.impl.CoordinatorRequestReceiver}
+  com.samsung.android.app.routines/.domainmodel.command.RoutineCommandTriggerProvider:
+    Provider{fb23eed com.samsung.android.app.routines/.domainmodel.command.RoutineCommandTriggerProvider}
+  com.samsung.android.app.routines/.ui.settings.search.RoutineSettingsMenuSearchProvider:
+    Provider{41a5701 com.samsung.android.app.routines/.ui.settings.search.RoutineSettingsMenuSearchProvider}
+  com.samsung.android.app.routines/.domainmodel.modeinfoprovider.ModeInfoProvider:
+    Provider{65f3122 com.samsung.android.app.routines/.domainmodel.modeinfoprovider.ModeInfoProvider}
+  com.samsung.android.app.routines/.feature.search.SettingSuggestionSearchProvider:
+    Provider{20164df com.samsung.android.app.routines/.feature.search.SettingSuggestionSearchProvider}
+  com.samsung.android.app.routines/androidx.core.content.FileProvider:
+    Provider{9cc77b3 com.samsung.android.app.routines/androidx.core.content.FileProvider}
+  com.samsung.android.app.routines/.feature.backup.RoutineEpisodeProviderEx:
+    Provider{b2b1383 com.samsung.android.app.routines/.feature.backup.RoutineEpisodeProviderEx}
+  com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineConditionProvider:
+    Provider{ba25fe7 com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineConditionProvider}
+  com.samsung.android.app.routines/com.samsung.android.sdk.command.provider.CommandProvider:
+    Provider{b660271 com.samsung.android.app.routines/com.samsung.android.sdk.command.provider.CommandProvider}
+
+ContentProvider Authorities:
+  [com.sec.android.log.br23r9jsjw]:
+    Provider{59f12ca com.samsung.android.app.routines/com.sec.android.diagmonagent.log.provider.DiagMonProvider}
+      applicationInfo=ApplicationInfo{ff9b170 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.p_preload.action.provider]:
+    Provider{554623d com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineActionProvider}
+      applicationInfo=ApplicationInfo{e00dce9 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.CapsuleProvider]:
+    Provider{d039196 com.samsung.android.app.routines/com.samsung.android.sdk.bixby2.provider.CapsuleProvider}
+      applicationInfo=ApplicationInfo{ee33d6e com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.feature.bixby]:
+    Provider{b30186c com.samsung.android.app.routines/.feature.bixby.RoutineBixbyProvider}
+      applicationInfo=ApplicationInfo{48cdc0f com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.provider.routines.v3]:
+    Provider{8c16ffb com.samsung.android.app.routines/com.samsung.android.sdk.routines.v3.internal.RoutineSdkContentProvider}
+      applicationInfo=ApplicationInfo{da0749c com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.feature.backup.provider]:
+    Provider{b2b1383 com.samsung.android.app.routines/.feature.backup.RoutineEpisodeProviderEx}
+      applicationInfo=ApplicationInfo{d815ea5 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.androidx-startup]:
+    Provider{eeac8b1 com.samsung.android.app.routines/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{389c27a com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.RoutineSearchProvider]:
+    Provider{129e539 com.samsung.android.app.routines/.feature.search.RoutineSearchProvider}
+      applicationInfo=ApplicationInfo{f452a2b com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.SettingSuggestionSearchProvider]:
+    Provider{20164df com.samsung.android.app.routines/.feature.search.SettingSuggestionSearchProvider}
+      applicationInfo=ApplicationInfo{b8e3e88 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.p_preload.condition.provider]:
+    Provider{ba25fe7 com.samsung.android.app.routines/.preloadproviders.provider.PreloadRoutineConditionProvider}
+      applicationInfo=ApplicationInfo{7ce4021 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.trigger]:
+    Provider{fb23eed com.samsung.android.app.routines/.domainmodel.command.RoutineCommandTriggerProvider}
+      applicationInfo=ApplicationInfo{4e18c46 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.modeinfoprovider]:
+    Provider{65f3122 com.samsung.android.app.routines/.domainmodel.modeinfoprovider.ModeInfoProvider}
+      applicationInfo=ApplicationInfo{ea3e07 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.routineprovider]:
+    Provider{b3c4f58 com.samsung.android.app.routines/.domainmodel.routinecontentprovider.RoutineContentProvider}
+      applicationInfo=ApplicationInfo{30cbb34 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.searchhistoryprovider]:
+    Provider{e4e117 com.samsung.android.app.routines/.domainmodel.search.SearchHistoryProvider}
+      applicationInfo=ApplicationInfo{badbd5d com.samsung.android.app.routines}
+  [com.samsung.android.app.routine.povider.runestone]:
+    Provider{eb0bc3b com.samsung.android.app.routines/.domainmodel.runestone.provider.RunestoneContextProvider}
+      applicationInfo=ApplicationInfo{b9a26d2 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.routineinfoprovider]:
+    Provider{a737e35 com.samsung.android.app.routines/.domainmodel.routineinfoprovider.RoutineInfoProvider}
+      applicationInfo=ApplicationInfo{e2b3a3 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.coordinatorprovider]:
+    Provider{cd30904 com.samsung.android.app.routines/.domainmodel.engineimpl.coordinator.impl.CoordinatorRequestReceiver}
+      applicationInfo=ApplicationInfo{65456a0 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.searchindexablesprovider]:
+    Provider{41a5701 com.samsung.android.app.routines/.ui.settings.search.RoutineSettingsMenuSearchProvider}
+      applicationInfo=ApplicationInfo{40dd259 com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.gts.routinegtscellprovider]:
+    Provider{3a9bf5 com.samsung.android.app.routines/.feature.gts.provider.RoutineGtsCellProvider}
+      applicationInfo=ApplicationInfo{9cfde1e com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.command]:
+    Provider{b660271 com.samsung.android.app.routines/com.samsung.android.sdk.command.provider.CommandProvider}
+      applicationInfo=ApplicationInfo{c62e6ff com.samsung.android.app.routines}
+  [com.samsung.android.app.routines.fileprovider]:
+    Provider{9cc77b3 com.samsung.android.app.routines/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{b83ccc com.samsung.android.app.routines}
+
+Key Set Manager:
+  [com.samsung.android.app.routines]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.samsung.android.app.routines] (2e0fab0):
+    appId=10067
+    sharedUser=SharedUserSetting{2c03b15 android.uid.systemui/10067}
+    pkg=Package{517be2a com.samsung.android.app.routines}
+    codePath=/system/priv-app/Routines
+    resourcePath=/system/priv-app/Routines
+    legacyNativeLibraryDir=/system/priv-app/Routines/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=460105100 minSdk=31 targetSdk=34
+    minExtensionVersions=[]
+    versionName=4.6.01.5
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[com.samsung.android.scloud.config, com.google.android.apps.maps, com.samsung.android.service.stplatform]
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[com.samsung.android.gts.category.CREATE] dat=package:/... }]
+    dataDir=/data/user/0/com.samsung.android.app.routines
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2008-12-31 13:00:00
+    lastUpdateTime=2008-12-31 13:00:00
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=null
+    originatingPackageName=null
+    packageSource=0
+    appMetadataFilePath=null
+    signatures=PackageSignatures{588f41b version:3, signatures:[8f325465], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      com.samsung.android.app.routines.permission.ROUTINE_HOST: prot=signature|privileged
+      com.samsung.android.app.routines.permission.READ_ROUTINE_INFO: prot=signature|privileged
+      com.samsung.android.app.routines.permission.WRITE_ROUTINE_INFO: prot=signature|privileged
+      com.samsung.android.app.routines.permission.READ_MODE_INFO: prot=signature|privileged
+      com.samsung.android.app.routines.permission.WRITE_MODE_INFO: prot=signature|privileged
+      com.samsung.android.app.routines.permission.BIXBY_PROVIDER: prot=signature|privileged
+      com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES: prot=signature|privileged
+      com.samsung.android.app.routines.permission.RECEIVE_SLEEP_SCHEDULE: prot=signature|privileged
+      com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      android.permission.ACCESS_NOTIFICATION_POLICY
+      com.samsung.android.app.aodservice.permission.AOD_SETTING
+      com.samsung.android.bixby.service.bixbysearch.permission.BIXBY_SEARCH
+      com.samsung.android.bixby.service.bixbysearch.permission.UPDATE_INDEX
+      com.samsung.android.scs.ai.search.permission.WRITE
+      com.samsung.android.scs.ai.search.permission.READ
+      com.samsung.android.scs.ai.search.permission.UPDATE_INDEX
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.GET_ACCOUNTS
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.READ_WIFI_CREDENTIAL
+      android.permission.MODIFY_PHONE_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      com.samsung.android.app.routines.permission.ROUTINE_HOST
+      android.permission.WAKE_LOCK
+      android.permission.REAL_GET_TASKS
+      com.samsung.android.permission.LOCK_TASK_MODE
+      android.permission.SET_PROCESS_LIMIT
+      android.permission.SET_WALLPAPER
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.VIBRATE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.NFC
+      com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES
+      android.permission.READ_CONTACTS
+      com.samsung.android.settings.directaction.DIRECTACTION_PROVIDER
+      android.permission.CONNECTIVITY_INTERNAL
+      com.samsung.android.emergencymode.permission.LAUNCH_EMERGENCYMODE_SERVICE
+      com.samsung.permission.CHANGE_POWER_MODE
+      com.samsung.permission.dc.INVOKE_DC_METHOD
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER
+      android.permission.PROVIDE_TRUST_AGENT
+      android.permission.PACKAGE_USAGE_STATS
+      com.samsung.systemui.permission.FACE_WIDGET
+      android.permission.INTERNAL_SYSTEM_WINDOW
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.samsung.android.mobileservice.sasettings.permission.SET_LOCATION
+      com.samsung.android.mobileservice.profile.READ
+      com.samsung.android.mobileservice.profile.WRITE
+      com.samsung.android.app.clockpack.LOCK_PROVIDER
+      android.permission.BIND_APPWIDGET
+      android.permission.READ_WALLPAPER_INTERNAL
+      com.samsung.android.voicewakeup.permission.READ_SETTING_PROVIDER
+      com.samsung.android.voicewakeup.permission.WRITE_SETTING_PROVIDER
+      com.samsung.android.bixby.agent.permission.READ_PUBLIC_SETTINGS
+      com.samsung.android.app.aodservice.permission.AOD_PROVIDER
+      com.samsung.android.oneconnect.permission.READ_SCENE
+      com.samsung.android.oneconnect.permission.ACTION_SCENE
+      android.permission.MODIFY_DAY_NIGHT_MODE
+      android.permission.ANSWER_PHONE_CALLS
+      com.samsung.android.bixby.assistanthome.READ_PERMISSION
+      com.samsung.android.bixby.agent.permission.LAUNCH_BIXBY_VOICE
+      com.samsung.android.bixby.agent.permission.READ_SETTINGS
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.FORCE_STOP_PACKAGES
+      com.sec.android.phone.permission.READ_CALL_SETTINGS
+      com.sec.android.phone.permission.WRITE_CALL_SETTINGS
+      com.samsung.permission.READ_DW_DATA
+      android.permission.MODIFY_AUDIO_ROUTING
+      com.samsung.android.app.galaxyfinder.permission.ACCESS_APPLICATION_PROVIDER
+      com.samsung.android.permission.sdk.command.ACCESS_COMMANDS
+      android.permission.DEVICE_POWER
+      com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER
+      android.permission.READ_SEARCH_INDEXABLES
+      com.samsung.accessibility.permission.WRITE_SETTINGS
+      android.permission.READ_SMS
+      android.permission.RECEIVE_MMS
+      com.sec.imsservice.PERMISSION
+      android.permission.SEND_SMS
+      com.samsung.android.app.tips.permission.USE_INTENT_SERVICE
+      com.samsung.android.samsungaccount.permission.ACCESS_SASETTINGS
+      com.samsung.android.holiday.permission.READ_HOLIDAY
+      com.samsung.sea.retailagent.permission.RETAILMODE
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND
+      android.permission.SUSPEND_APPS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.POST_NOTIFICATIONS
+      com.sec.android.app.clockpackage.permission.READ_ALARM
+      android.permission.GET_INTENT_SENDER_INTENT
+      com.samsung.android.app.parentalcare.permission.READ_CARE
+      com.samsung.android.launcher.permission.READ_SETTINGS
+      android.permission.CONTROL_KEYGUARD
+      android.permission.USE_BIOMETRIC
+      com.samsung.systemui.permission.KEYGUARD_IMAGE
+      com.samsung.android.service.stplatform.permission.ACCESS_POLICY_DATA
+      android.permission.MEDIA_CONTENT_CONTROL
+      com.sec.imsservice.READ_IMS_PERMISSION
+      com.wssnps.permission.COM_WSSNPS
+      android.permission.READ_PHONE_STATE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.samsung.android.permission.WRITE_SCPM
+      com.samsung.android.permission.READ_SCPM
+      com.samsung.android.app.routines.permission.READ_ROUTINE_INFO
+      com.sec.spp.permission.TOKEN_c51fa378edf49b048ef5a7509c70ee0afba6bc15bc7653bbfc3c30d8b2769e24d124d6a298c784bb067129edc17ef47324465ad1b1d9b9f16c4d018a834abb7a24e2cc30f328aa382af2327b464e4aab5b1bfac9c1b530d248593d76b55192f784053b90c41a85568b7fbc472e5d6a76e0045972545f15b80a0a0ad6799d9033
+      com.sec.android.diagmonagent.permission.DIAGMON
+      com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      com.samsung.android.mdec.provider.setting.CMC_ES_PERMISSION
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.REMOTE_AUDIO_PLAYBACK: granted=true
+      android.permission.REGISTER_WINDOW_MANAGER_LISTENERS: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONTROL_KEYGUARD: granted=true
+      android.permission.READ_WALLPAPER_INTERNAL: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      com.samsung.android.permisson.DOUBLE_CLICK: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.android.systemui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      android.permission.TABLET_MODE: granted=true
+      com.samsung.android.scs.ai.search.permission.WRITE: granted=true
+      com.samsung.android.permission.MODIFY_THEME: granted=true
+      android.permission.BIND_DEVICE_ADMIN: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      com.samsung.systemui.permission.FACE_WIDGET: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.sec.android.app.calendar.permission.READ_CALENDAR_SETTINGS: granted=true
+      com.samsung.android.scs.ai.search.permission.UPDATE_INDEX: granted=true
+      com.samsung.android.permission.READ_SCPM: granted=true
+      android.permission.GET_APP_OPS_STATS: granted=true
+      android.permission.READ_SAFETY_CENTER_STATUS: granted=true
+      com.samsung.android.app.parentalcare.permission.READ_CARE: granted=true
+      android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS: granted=true
+      com.samsung.android.permission.LOCK_TASK_MODE: granted=true
+      com.samsung.android.permission.ADD_PAIR_APP_SHORTCUT: granted=true
+      android.permission.READ_WIFI_CREDENTIAL: granted=true
+      android.permission.QUERY_AUDIO_STATE: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      com.samsung.android.mobileservice.profile.READ: granted=true
+      android.permission.START_ACTIVITY_AS_CALLER: granted=true
+      com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      com.sec.imsservice.PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.samsung.permission.dc.INVOKE_DC_METHOD: granted=true
+      android.permission.START_TASKS_FROM_RECENTS: granted=true
+      com.samsung.systemui.permission.AIRPLANE_STATE_CHANGE: granted=true
+      android.permission.GET_TOP_ACTIVITY_INFO: granted=true
+      android.permission.PROVIDE_TRUST_AGENT: granted=true
+      android.permission.MONITOR_INPUT: granted=true
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.BIND_QUICK_SETTINGS_TILE: granted=true
+      com.samsung.android.app.routines.permission.READ_MODE_INFO: granted=true
+      android.permission.NFC: granted=true
+      android.permission.INTERNAL_SYSTEM_WINDOW: granted=true
+      android.permission.PROCESS_PHONE_ACCOUNT_REGISTRATION: granted=true
+      com.samsung.android.honeyboard.permission.KEYBOARD_SETTING: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_OVERLAY_PACKAGES: granted=true
+      android.permission.BIND_WALLPAPER: granted=true
+      com.sec.android.provider.badge.permission.READ: granted=true
+      android.permission.START_ANY_ACTIVITY: granted=true
+      android.permission.MANAGE_APP_TOKENS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      com.samsung.systemui.permission.SEC_UPDATE_CUSTOMTILE_VISIBILITY: granted=true
+      com.sec.imsservice.READ_IMS_PERMISSION: granted=true
+      android.permission.RESET_SHORTCUT_MANAGER_THROTTLING: granted=true
+      android.permission.RESET_FINGERPRINT_LOCKOUT: granted=true
+      android.permission.MANAGE_ACTIVITY_TASKS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.permission.READ_FRAME_BUFFER_IGNORE_POLICY: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.permission.READ_KNOX_NOTIFICATION: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      com.sec.android.emergencymode.permission.LAUNCH_EMERGENCYMODE_SERVICE: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.samsung.android.permission.BIND_CLOCK_FACE: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.WATCH_APPOPS: granted=true
+      android.permission.ACCESS_SURFACE_FLINGER: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BIND_RESOLVER_RANKER_SERVICE: granted=true
+      com.samsung.permission.CHANGE_POWER_MODE: granted=true
+      com.samsung.android.app.clockpack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.samsung.android.stickercenter.service.ACCESS: granted=true
+      com.android.quickstep.tasklock.READ: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.READ_PRECISE_PHONE_STATE: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS: granted=true
+      android.permission.ROTATE_SURFACE_FLINGER: granted=true
+      android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      com.sec.android.phone.permission.WRITE_CALL_SETTINGS: granted=true
+      android.permission.MANAGE_ACCESSIBILITY: granted=true
+      com.samsung.android.bio.face.permission.USE_FACE: granted=true
+      android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS: granted=true
+      com.samsung.android.knoxguard.STATUS: granted=true
+      android.permission.MODIFY_THEME_OVERLAY: granted=true
+      com.samsung.systemui.permission.WIFI_STATE_CHANGE: granted=true
+      android.permission.TRUST_LISTENER: granted=true
+      com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.CHANGE_ACCESSIBILITY_VOLUME: granted=true
+      android.permission.BIND_APPWIDGET: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.RECEIVE_MEDIA_RESOURCE_USAGE: granted=true
+      com.sec.android.app.servicemodeapp.permission.KEYSTRING: granted=true
+      com.samsung.android.providers.media.WRITE: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      com.samsung.android.permission.RETURN_REMOTE_INPUT: granted=true
+      com.samsung.systemui.SEC_MEDIA_PLAYER_MEDIA_OUTPUT: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED: granted=true
+      android.permission.CAPTURE_AUDIO_OUTPUT: granted=true
+      android.permission.MONITOR_KEYBOARD_BACKLIGHT: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      android.permission.BROADCAST_OPTION_INTERACTIVE: granted=true
+      android.permission.STATUS_BAR_SERVICE: granted=true
+      com.samsung.systemui.permission.BLUETOOTH_STATE_CHANGE: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      android.permission.CONTROL_DEVICE_STATE: granted=true
+      android.permission.LOG_COMPAT_CHANGE: granted=true
+      com.samsung.android.permission.MULTI_WINDOW_MONITOR: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.android.stickercenter.permission.sticker.READ: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.OBSERVE_SENSOR_PRIVACY: granted=true, flags=[ GRANTED_BY_ROLE]
+      com.samsung.permission.CAPTURE: granted=true
+      android.permission.SET_SYSTEM_AUDIO_CAPTION: granted=true
+      android.permission.CONTROL_DISPLAY_BRIGHTNESS: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE: granted=true
+      android.permission.OBSERVE_ROLE_HOLDERS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.CAMERA_OPEN_CLOSE_LISTENER: granted=true
+      com.samsung.android.app.routines.permission.ROUTINE_HOST: granted=true
+      android.permission.MODIFY_DAY_NIGHT_MODE: granted=true
+      com.sec.android.app.launcher.permission.OVERLAY_APPS: granted=true
+      android.permission.INPUT_CONSUMER: granted=true
+      android.permission.MANAGE_BIOMETRIC: granted=true
+      android.permission.SET_ORIENTATION: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.SET_WALLPAPER_COMPONENT: granted=true
+      com.samsung.android.permission.REQUEST_REMOTE_INPUT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.OBSERVE_NETWORK_POLICY: granted=true
+      com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      com.sec.android.phone.permission.READ_CALL_SETTINGS: granted=true
+      android.permission.MANAGE_CONTENT_SUGGESTIONS: granted=true
+      com.samsung.android.mobileservice.sasettings.permission.SET_LOCATION: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL: granted=true
+      android.permission.WAKEUP_SURFACE_FLINGER: granted=true
+      com.samsung.android.permission.WRITE_SCPM: granted=true
+      com.samsung.android.app.scrollcapture.permission.ACCESS_REMOTE_SVC: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      com.sec.imsservice.WRITE_IMS_PERMISSION: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      android.permission.READ_NETWORK_USAGE_HISTORY: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.ACCESS_VOICE_INTERACTION_SERVICE: granted=true
+      android.permission.MANAGE_SENSOR_PRIVACY: granted=true, flags=[ GRANTED_BY_ROLE]
+      com.samsung.android.settings.permission.ACCESS_EPISODE: granted=true
+      com.samsung.accessibility.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.samsungaccount.permission.ACCESS_SASETTINGS: granted=true
+      android.permission.WRITE_DREAM_STATE: granted=true
+      android.permission.ACCESS_SHORTCUTS: granted=true
+      com.samsung.android.permission.EDGE_LIGHTING_HOST: granted=true
+      com.samsung.android.settings.directaction.DIRECTACTION_PROVIDER: granted=true
+      android.permission.READ_PEOPLE_DATA: granted=true
+      com.samsung.android.bio.face.permission.MANAGE_FACE: granted=true
+      com.samsung.permission.WRITE_SM_DATA: granted=true
+      android.permission.SUSPEND_APPS: granted=true
+      android.permission.BIND_CONTROLS: granted=true
+      android.permission.MANAGE_NETWORK_POLICY: granted=true
+      com.samsung.android.permission.EDGELIGHTING_RESTORE: granted=true
+      com.samsung.android.permission.CHANGE_DISPLAY_COLOR: granted=true
+      android.permission.ADD_TRUSTED_DISPLAY: granted=true
+      android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON: granted=true
+      com.samsung.android.permission.LOCK_SECURITY_MONITOR: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      com.android.systemui.permission.SELF: granted=true
+      com.samsung.android.permission.RETURN_REMOTE_INPUT_VOICE: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      com.samsung.android.scs.ai.search.permission.READ: granted=true
+      com.samsung.android.app.galaxyfinder.permission.ACCESS_APPLICATION_PROVIDER: granted=true
+      android.permission.MANAGE_MEDIA_PROJECTION: granted=true
+      android.permission.ALLOW_SLIPPERY_TOUCHES: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.android.app.aodservice.permission.SERVICEBOX_REMOTEVIEWS: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION: granted=true
+      android.permission.READ_COMPAT_CHANGE_CONFIG: granted=true
+      com.sec.android.fotaclient.permission.FOTA: granted=true
+      android.permission.SET_WALLPAPER_DIM_AMOUNT: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      com.samsung.android.holiday.permission.READ_HOLIDAY: granted=true
+      com.sec.android.app.clockpackage.permission.READ_ALARM: granted=true
+      android.permission.MODIFY_TOUCH_MODE_STATE: granted=true
+      com.samsung.android.app.routines.permission.READ_ROUTINE_INFO: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      com.samsung.android.mdec.provider.setting.CMC_ES_PERMISSION: granted=true
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL: granted=true
+      com.android.quickstep.tasklock.WRITE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.CAPTURE_BLACKOUT_CONTENT: granted=true
+      com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      android.permission.MODIFY_ACCESSIBILITY_DATA: granted=true
+      android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST: granted=true
+      com.samsung.systemui.permission.SPLUGIN: granted=true
+      android.permission.SET_CLIP_SOURCE: granted=true
+      com.sec.android.diagmonagent.permission.PROVIDER: granted=true
+      android.permission.MANAGE_SLICE_PERMISSIONS: granted=true
+      android.permission.READ_CLIPBOARD_IN_BACKGROUND: granted=true
+      android.permission.GET_DETAILED_TASKS: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.GET_RUNTIME_PERMISSIONS: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_SMARTSPACE: granted=true
+      android.permission.ACT_AS_PACKAGE_FOR_ACCESSIBILITY: granted=true
+      com.samsung.android.permission.sdk.command.ACCESS_COMMANDS: granted=true
+      com.samsung.android.knox.permission.KNOX_SECURITY: granted=true
+      com.android.systemui.permission.PLUGIN: granted=true
+      com.samsung.android.mobileservice.profile.WRITE: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.ACCESS_VR_MANAGER: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.READ_FRAME_BUFFER: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.permission.HQM_NOTIFICATION_PERMISSION: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.SUPPRESS_CLIPBOARD_ACCESS_NOTIFICATION: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      com.samsung.permission.SSENSOR: granted=true
+      android.permission.QUERY_ADMIN_POLICY: granted=true
+      android.permission.MODIFY_SETTINGS_OVERRIDEABLE_BY_RESTORE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS: granted=true
+      com.samsung.permission.READ_DW_DATA: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      com.samsung.android.permission.SEND_SPLIT_STATE_CHANGED: granted=true
+      com.samsung.android.app.aodservice.permission.BROADCAST_RECEIVER: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS: granted=true
+      android.permission.ACCESS_AMBIENT_CONTEXT_EVENT: granted=true
+      com.samsung.android.permission.EXTRACT_SMARTCLIP_DATA: granted=true
+      android.permission.SET_SCREEN_COMPATIBILITY: granted=true
+      com.samsung.systemui.permission.KEYGUARD_IMAGE: granted=true
+      com.sec.android.app.clockpackage.permission.ACCESS_WCCITY: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      com.samsung.permission.READ_SM_DATA: granted=true
+      com.samsung.android.app.clockpack.LOCK_PROVIDER: granted=true
+    User 0: ceDataInode=5054 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      installReason=0
+      firstInstallTime=2008-12-31 13:00:00
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      disabledComponents:
+        com.samsung.android.app.routines.ui.main.RoutineLaunchActivityDummy
+        com.samsung.android.app.routines.ui.appwidget.RoutineAppWidgetProvider
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+      enabledComponents:
+        com.samsung.android.app.routines.appwidget.RoutineAppWidgetProvider
+        com.samsung.android.app.routines.LifestyleModeTile
+        com.samsung.android.app.routines.ui.main.RoutineFinderActivity
+        com.samsung.android.app.routines.domainmodel.receiver.RunestoneReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  forceQueryable:
+    [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+  queries via package name:
+    [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]:
+      com.google.android.apps.maps
+  queries via component:
+  queryable via interaction:
+    User 0:
+      [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      [com.mediatek.gbaservice,com.sec.android.RilServiceModeApp,com.android.stk,com.samsung.android.callbgprovider,com.samsung.android.app.telephonyui,com.samsung.android.incallui,com.sec.phone,com.android.phone,com.samsung.android.cidmanager,com.samsung.sec.android.application.csc,com.android.providers.telephony,com.android.mms.service,com.android.ons]:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      [com.samsung.android.knox.app.networkfilter,com.sec.android.app.bluetoothagent,com.knox.vpn.proxyhandler,com.android.bluetooth]:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      [com.google.android.networkstack,com.google.android.cellbroadcastservice,com.google.android.networkstack.tethering]:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.sec.android.app.safetyassurance:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.rubin.app:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.app.sharelive:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.sec.android.app.soundalive:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]:
+        [com.samsung.android.stickercenter,com.samsung.android.themecenter,com.sec.android.app.quicktool,com.sec.android.sdhms,android,com.sec.android.diagmonagent,com.sec.android.app.SecSetupWizard,com.android.location.fused,com.sec.imsservice,com.sec.automation,com.sec.enterprise.mdm.services.simpin,com.sec.bcservice,com.skms.android.agent,com.sec.android.soagent,com.sec.android.iaft,com.android.dynsystem,com.sec.android.app.parser,com.android.wallpaperbackup,com.sem.factoryapp,com.sec.app.RilErrorNotifier,com.samsung.android.app.settings.bixby,com.sec.sve,com.val.hardware,com.sec.android.app.personalization,com.samsung.android.dqagent,com.sec.imslogger,com.samsung.android.emergency,com.sec.epdg,com.samsung.android.app.dressroom,com.samsung.android.mdecservice,com.android.localtransport,com.samsung.android.bbc.bbcagent,com.samsung.aasaservice,com.sec.android.app.factorykeystring,com.samsung.android.biometrics.app.setting,com.samsung.android.forest,com.sec.android.app.servicemodeapp,com.android.inputdevices,com.android.keychain,com.samsung.android.smartswitchassistant,com.sec.mhs.smarttethering,com.android.providers.settings,com.samsung.android.knox.attestation,com.sec.usbsettings,com.samsung.SMT,com.samsung.accessibility,com.samsung.android.keycustomizationinfobackupservice,com.samsung.android.fmm,com.samsung.android.app.omcagent,com.samsung.android.peripheral.framework,com.sec.android.smartfpsadjuster,com.samsung.android.lool,com.android.settings,com.wssyncmldm,com.android.server.telecom,com.sec.android.emergencylauncher]
+        com.sec.android.app.launcher
+        com.osp.app.signin
+        com.samsung.android.calendar
+        com.sec.android.app.clockpackage
+        com.google.android.apps.messaging
+        com.google.android.googlequicksearchbox
+        [com.google.android.gsf,com.google.android.gms]
+      com.sec.android.app.launcher:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.scs:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.sec.android.app.camera:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.dynamiclock:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.android.providers.calendar:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.app.smartcapture:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.fast:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.honeyboard:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.samsung.android.calendar:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.sec.android.daemonapp:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.sec.android.app.clockpackage:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.google.android.googlequicksearchbox:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      [com.google.android.gsf,com.google.android.gms]:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.google.android.ext.services:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+      com.google.android.providers.media.module:
+        [com.samsung.android.app.routines,com.samsung.android.app.clockpack,com.android.systemui]
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.systemui] (2c03b15):
+    appId=10067
+    Packages
+      PackageSetting{2e0fab0 com.samsung.android.app.routines/10067}
+      PackageSetting{520f6fc com.samsung.android.app.clockpack/10067}
+      PackageSetting{94e6bef com.android.systemui/10067}
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.REMOTE_AUDIO_PLAYBACK: granted=true
+      android.permission.REGISTER_WINDOW_MANAGER_LISTENERS: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONTROL_KEYGUARD: granted=true
+      android.permission.READ_WALLPAPER_INTERNAL: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      com.samsung.android.permisson.DOUBLE_CLICK: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.android.systemui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.SET_PROCESS_LIMIT: granted=true
+      android.permission.TABLET_MODE: granted=true
+      com.samsung.android.scs.ai.search.permission.WRITE: granted=true
+      com.samsung.android.permission.MODIFY_THEME: granted=true
+      android.permission.BIND_DEVICE_ADMIN: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      com.samsung.systemui.permission.FACE_WIDGET: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      com.sec.android.app.calendar.permission.READ_CALENDAR_SETTINGS: granted=true
+      com.samsung.android.scs.ai.search.permission.UPDATE_INDEX: granted=true
+      com.samsung.android.permission.READ_SCPM: granted=true
+      android.permission.GET_APP_OPS_STATS: granted=true
+      android.permission.READ_SAFETY_CENTER_STATUS: granted=true
+      com.samsung.android.app.parentalcare.permission.READ_CARE: granted=true
+      android.permission.CONTROL_KEYGUARD_SECURE_NOTIFICATIONS: granted=true
+      com.samsung.android.permission.LOCK_TASK_MODE: granted=true
+      com.samsung.android.permission.ADD_PAIR_APP_SHORTCUT: granted=true
+      android.permission.READ_WIFI_CREDENTIAL: granted=true
+      android.permission.QUERY_AUDIO_STATE: granted=true
+      com.samsung.android.rubin.context.permission.READ_CONTEXT_MANAGER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      com.samsung.android.mobileservice.profile.READ: granted=true
+      android.permission.START_ACTIVITY_AS_CALLER: granted=true
+      com.samsung.android.provider.indexing.permission.ACCESS_PROVIDER: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      com.sec.imsservice.PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.samsung.permission.dc.INVOKE_DC_METHOD: granted=true
+      android.permission.START_TASKS_FROM_RECENTS: granted=true
+      com.samsung.systemui.permission.AIRPLANE_STATE_CHANGE: granted=true
+      android.permission.GET_TOP_ACTIVITY_INFO: granted=true
+      android.permission.PROVIDE_TRUST_AGENT: granted=true
+      android.permission.MONITOR_INPUT: granted=true
+      android.permission.CHANGE_COMPONENT_ENABLED_STATE: granted=true
+      android.permission.BIND_QUICK_SETTINGS_TILE: granted=true
+      com.samsung.android.app.routines.permission.READ_MODE_INFO: granted=true
+      android.permission.NFC: granted=true
+      android.permission.INTERNAL_SYSTEM_WINDOW: granted=true
+      android.permission.PROCESS_PHONE_ACCOUNT_REGISTRATION: granted=true
+      com.samsung.android.honeyboard.permission.KEYBOARD_SETTING: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.CHANGE_OVERLAY_PACKAGES: granted=true
+      android.permission.BIND_WALLPAPER: granted=true
+      com.sec.android.provider.badge.permission.READ: granted=true
+      android.permission.START_ANY_ACTIVITY: granted=true
+      android.permission.MANAGE_APP_TOKENS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      com.samsung.systemui.permission.SEC_UPDATE_CUSTOMTILE_VISIBILITY: granted=true
+      com.sec.imsservice.READ_IMS_PERMISSION: granted=true
+      android.permission.RESET_SHORTCUT_MANAGER_THROTTLING: granted=true
+      android.permission.RESET_FINGERPRINT_LOCKOUT: granted=true
+      android.permission.MANAGE_ACTIVITY_TASKS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.wssnps.permission.COM_WSSNPS: granted=true
+      com.samsung.android.permission.READ_FRAME_BUFFER_IGNORE_POLICY: granted=true
+      com.sec.android.settings.permission.SOFT_RESET: granted=true
+      com.samsung.permission.READ_KNOX_NOTIFICATION: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      com.sec.android.diagmonagent.permission.DIAGMON: granted=true
+      com.sec.android.emergencymode.permission.LAUNCH_EMERGENCYMODE_SERVICE: granted=true
+      android.permission.REMOVE_TASKS: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.samsung.android.permission.BIND_CLOCK_FACE: granted=true
+      com.android.alarm.permission.SET_ALARM: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.WATCH_APPOPS: granted=true
+      android.permission.ACCESS_SURFACE_FLINGER: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BIND_RESOLVER_RANKER_SERVICE: granted=true
+      com.samsung.permission.CHANGE_POWER_MODE: granted=true
+      com.samsung.android.app.clockpack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.GET_INTENT_SENDER_INTENT: granted=true
+      com.samsung.android.rubin.persona.permission.READ_PERSONA_MANAGER: granted=true
+      com.samsung.android.stickercenter.service.ACCESS: granted=true
+      com.android.quickstep.tasklock.READ: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.READ_PRECISE_PHONE_STATE: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS: granted=true
+      android.permission.ROTATE_SURFACE_FLINGER: granted=true
+      android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      com.sec.android.phone.permission.WRITE_CALL_SETTINGS: granted=true
+      android.permission.MANAGE_ACCESSIBILITY: granted=true
+      com.samsung.android.bio.face.permission.USE_FACE: granted=true
+      android.permission.CONTROL_REMOTE_APP_TRANSITION_ANIMATIONS: granted=true
+      com.samsung.android.knoxguard.STATUS: granted=true
+      android.permission.MODIFY_THEME_OVERLAY: granted=true
+      com.samsung.systemui.permission.WIFI_STATE_CHANGE: granted=true
+      android.permission.TRUST_LISTENER: granted=true
+      com.samsung.android.permission.sdk.routines.v3.ACCESS_ROUTINES: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.CHANGE_ACCESSIBILITY_VOLUME: granted=true
+      android.permission.BIND_APPWIDGET: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.RECEIVE_MEDIA_RESOURCE_USAGE: granted=true
+      com.sec.android.app.servicemodeapp.permission.KEYSTRING: granted=true
+      com.samsung.android.providers.media.WRITE: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      com.samsung.android.permission.RETURN_REMOTE_INPUT: granted=true
+      com.samsung.systemui.SEC_MEDIA_PLAYER_MEDIA_OUTPUT: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.FOREGROUND_SERVICE_SYSTEM_EXEMPTED: granted=true
+      android.permission.CAPTURE_AUDIO_OUTPUT: granted=true
+      android.permission.MONITOR_KEYBOARD_BACKLIGHT: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.SET_ACTIVITY_WATCHER: granted=true
+      android.permission.BROADCAST_OPTION_INTERACTIVE: granted=true
+      android.permission.STATUS_BAR_SERVICE: granted=true
+      com.samsung.systemui.permission.BLUETOOTH_STATE_CHANGE: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      android.permission.CONTROL_DEVICE_STATE: granted=true
+      android.permission.LOG_COMPAT_CHANGE: granted=true
+      com.samsung.android.permission.MULTI_WINDOW_MONITOR: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      com.samsung.android.stickercenter.permission.sticker.READ: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.OBSERVE_SENSOR_PRIVACY: granted=true, flags=[ GRANTED_BY_ROLE]
+      com.samsung.permission.CAPTURE: granted=true
+      android.permission.SET_SYSTEM_AUDIO_CAPTION: granted=true
+      android.permission.CONTROL_DISPLAY_BRIGHTNESS: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.permission.ACCESS_KEYGUARD_SECURE_STORAGE: granted=true
+      android.permission.OBSERVE_ROLE_HOLDERS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.CAMERA_OPEN_CLOSE_LISTENER: granted=true
+      com.samsung.android.app.routines.permission.ROUTINE_HOST: granted=true
+      android.permission.MODIFY_DAY_NIGHT_MODE: granted=true
+      com.sec.android.app.launcher.permission.OVERLAY_APPS: granted=true
+      android.permission.INPUT_CONSUMER: granted=true
+      android.permission.MANAGE_BIOMETRIC: granted=true
+      android.permission.SET_ORIENTATION: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.SET_PREFERRED_APPLICATIONS: granted=true
+      android.permission.SET_WALLPAPER_COMPONENT: granted=true
+      com.samsung.android.permission.REQUEST_REMOTE_INPUT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.sec.android.app.samsungapps.accesspermission.UPDATE_EXISTS: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.OBSERVE_NETWORK_POLICY: granted=true
+      com.samsung.android.weather.permission.READ_SYSTEM_PROVIDER: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      com.sec.android.phone.permission.READ_CALL_SETTINGS: granted=true
+      android.permission.MANAGE_CONTENT_SUGGESTIONS: granted=true
+      com.samsung.android.mobileservice.sasettings.permission.SET_LOCATION: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      com.samsung.android.permission.SEM_WRITE_CAPTURED_URL: granted=true
+      android.permission.WAKEUP_SURFACE_FLINGER: granted=true
+      com.samsung.android.permission.WRITE_SCPM: granted=true
+      com.samsung.android.app.scrollcapture.permission.ACCESS_REMOTE_SVC: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      com.sec.imsservice.WRITE_IMS_PERMISSION: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      android.permission.READ_NETWORK_USAGE_HISTORY: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.ACCESS_VOICE_INTERACTION_SERVICE: granted=true
+      android.permission.MANAGE_SENSOR_PRIVACY: granted=true, flags=[ GRANTED_BY_ROLE]
+      com.samsung.android.settings.permission.ACCESS_EPISODE: granted=true
+      com.samsung.accessibility.permission.WRITE_SETTINGS: granted=true
+      com.samsung.android.samsungaccount.permission.ACCESS_SASETTINGS: granted=true
+      android.permission.WRITE_DREAM_STATE: granted=true
+      android.permission.ACCESS_SHORTCUTS: granted=true
+      com.samsung.android.permission.EDGE_LIGHTING_HOST: granted=true
+      com.samsung.android.settings.directaction.DIRECTACTION_PROVIDER: granted=true
+      android.permission.READ_PEOPLE_DATA: granted=true
+      com.samsung.android.bio.face.permission.MANAGE_FACE: granted=true
+      com.samsung.permission.WRITE_SM_DATA: granted=true
+      android.permission.SUSPEND_APPS: granted=true
+      android.permission.BIND_CONTROLS: granted=true
+      android.permission.MANAGE_NETWORK_POLICY: granted=true
+      com.samsung.android.permission.EDGELIGHTING_RESTORE: granted=true
+      com.samsung.android.permission.CHANGE_DISPLAY_COLOR: granted=true
+      android.permission.ADD_TRUSTED_DISPLAY: granted=true
+      android.permission.SUBSTITUTE_SHARE_TARGET_APP_NAME_AND_ICON: granted=true
+      com.samsung.android.permission.LOCK_SECURITY_MONITOR: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      com.android.systemui.permission.SELF: granted=true
+      com.samsung.android.permission.RETURN_REMOTE_INPUT_VOICE: granted=true
+      android.permission.CONNECTIVITY_INTERNAL: granted=true
+      com.samsung.android.scs.ai.search.permission.READ: granted=true
+      com.samsung.android.app.galaxyfinder.permission.ACCESS_APPLICATION_PROVIDER: granted=true
+      android.permission.MANAGE_MEDIA_PROJECTION: granted=true
+      android.permission.ALLOW_SLIPPERY_TOUCHES: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      com.samsung.android.app.aodservice.permission.SERVICEBOX_REMOTEVIEWS: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      com.samsung.android.permission.SSRM_NOTIFICATION_PERMISSION: granted=true
+      android.permission.READ_COMPAT_CHANGE_CONFIG: granted=true
+      com.sec.android.fotaclient.permission.FOTA: granted=true
+      android.permission.SET_WALLPAPER_DIM_AMOUNT: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      com.samsung.android.holiday.permission.READ_HOLIDAY: granted=true
+      com.sec.android.app.clockpackage.permission.READ_ALARM: granted=true
+      android.permission.MODIFY_TOUCH_MODE_STATE: granted=true
+      com.samsung.android.app.routines.permission.READ_ROUTINE_INFO: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      com.samsung.android.mdec.provider.setting.CMC_ES_PERMISSION: granted=true
+      com.samsung.android.app.cocktailbarservice.permission.ACCESS_PANEL: granted=true
+      com.android.quickstep.tasklock.WRITE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.CAPTURE_BLACKOUT_CONTENT: granted=true
+      com.samsung.android.app.routines.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      com.samsung.systemui.POPUP_UI_PERMISSION: granted=true
+      android.permission.MODIFY_ACCESSIBILITY_DATA: granted=true
+      android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST: granted=true
+      com.samsung.systemui.permission.SPLUGIN: granted=true
+      android.permission.SET_CLIP_SOURCE: granted=true
+      com.sec.android.diagmonagent.permission.PROVIDER: granted=true
+      android.permission.MANAGE_SLICE_PERMISSIONS: granted=true
+      android.permission.READ_CLIPBOARD_IN_BACKGROUND: granted=true
+      android.permission.GET_DETAILED_TASKS: granted=true
+      com.samsung.android.providers.media.READ: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.GET_RUNTIME_PERMISSIONS: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_SMARTSPACE: granted=true
+      android.permission.ACT_AS_PACKAGE_FOR_ACCESSIBILITY: granted=true
+      com.samsung.android.permission.sdk.command.ACCESS_COMMANDS: granted=true
+      com.samsung.android.knox.permission.KNOX_SECURITY: granted=true
+      com.android.systemui.permission.PLUGIN: granted=true
+      com.samsung.android.mobileservice.profile.WRITE: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.ACCESS_VR_MANAGER: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.READ_FRAME_BUFFER: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.samsung.permission.HQM_NOTIFICATION_PERMISSION: granted=true
+      android.permission.DUMP: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      com.samsung.android.launcher.permission.READ_SETTINGS: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.SUPPRESS_CLIPBOARD_ACCESS_NOTIFICATION: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      com.samsung.permission.SSENSOR: granted=true
+      android.permission.QUERY_ADMIN_POLICY: granted=true
+      android.permission.MODIFY_SETTINGS_OVERRIDEABLE_BY_RESTORE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS: granted=true
+      com.samsung.permission.READ_DW_DATA: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      com.samsung.android.permission.SEND_SPLIT_STATE_CHANGED: granted=true
+      com.samsung.android.app.aodservice.permission.BROADCAST_RECEIVER: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.OBSERVE_GRANT_REVOKE_PERMISSIONS: granted=true
+      android.permission.ACCESS_AMBIENT_CONTEXT_EVENT: granted=true
+      com.samsung.android.permission.EXTRACT_SMARTCLIP_DATA: granted=true
+      android.permission.SET_SCREEN_COMPATIBILITY: granted=true
+      com.samsung.systemui.permission.KEYGUARD_IMAGE: granted=true
+      com.sec.android.app.clockpackage.permission.ACCESS_WCCITY: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      com.samsung.permission.READ_SM_DATA: granted=true
+      com.samsung.android.app.clockpack.LOCK_PROVIDER: granted=true
+    User 0: 
+      gids=[1065, 3002, 3003, 3001, 3006]
+      runtime permissions:
+        android.permission.READ_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALENDAR: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ANSWER_PHONE_CALLS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.RECEIVE_MMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.SEND_SMS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_CALENDAR: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_MEDIA_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+
+Dexopt state:
+  [com.samsung.android.app.routines]
+    path: /system/priv-app/Routines/Routines.apk
+      arm64: [status=verify] [reason=vdex] [primary-abi]
+        [location is /data/dalvik-cache/arm64/system@priv-app@Routines@Routines.apk@classes.vdex]
+    known secondary dex files:
+      /data/user/0/com.samsung.android.app.routines/cache/Generated_-1791377945.jar
+        arm64: [status=verify] [reason=vdex] [primary-abi]
+          [location is /data/user/0/com.samsung.android.app.routines/cache/oat/arm64/Generated_-1791377945.vdex]
+        class loader context: PCL[];PCL[/system/priv-app/Routines/Routines.apk]{PCL[/system/framework/org.apache.http.legacy.jar]#PCL[/system_ext/framework/androidx.window.extensions.jar]#PCL[/system_ext/framework/androidx.window.sidecar.jar]}
+
+Compiler stats:
+  [com.samsung.android.app.routines]
+     Routines.apk - 6931
+
+HeimdAllFS state:
+  HeimdAllFS does not supported.
